@@ -47,6 +47,7 @@ python3 scripts/publish_blogger.py --help
 2. 공개할 원고와 사이트 기본 정보를 준비합니다.
 3. 저장소 Actions 변수 `PAGES_ENABLED`를 `true`로 설정하면 Pages 워크플로가 활성화됩니다.
 4. 워크플로는 GitHub가 반환한 실제 `base_url`로 canonical과 사이트맵을 생성합니다.
+5. 첫 배포는 Actions → Publish GitHub Pages → Run workflow로 실행합니다. 변수 변경만으로는 실행되지 않습니다.
 
 Pages 워크플로에는 한국시간 09:17 / 18:17 재빌드 일정이 준비되어 있습니다. 현재 변수의 활성화 전에는 배포 작업이 생략됩니다. 예약 실행은 지연될 수 있고, 비활성 공개 저장소의 예약 작업은 GitHub 조건에 따라 중지될 수 있습니다. 새로운 AI 원고를 작성하는 작업은 이 재빌드 일정과 별도로 연결해야 합니다.
 

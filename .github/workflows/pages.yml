@@ -1,0 +1,60 @@
+name: Publish GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'assets/**', 'build.py', 'config.json', '.github/workflows/pages.yml']
+  workflow_dispatch:
+  schedule:
+    # 09:17 and 18:17 Asia/Seoul. Scheduled runs can be delayed by GitHub.
+    - cron: '17 0,9 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Enable after Pages has been configured and public content is ready.
+    if: vars.PAGES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read configured Pages URL
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Use the actual deployment URL
+        env:
+          PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          config = json.loads(Path('config.json').read_text(encoding='utf-8'))
+          config['github_base_url'] = os.environ['PAGES_BASE_URL']
+          Path('config.runtime.json').write_text(json.dumps(config, ensure_ascii=False), encoding='utf-8')
+          PY
+      - name: Validate and build scheduled content
+        run: |
+          python -m unittest discover -s tests -v
+          python build.py --config config.runtime.json --content content --out dist
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
