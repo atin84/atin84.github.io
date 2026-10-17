@@ -90,7 +90,9 @@ Google 계정 로그인과 Blogger API OAuth 권한은 별도의 연결입니다
 
 ## AdSense와 측정
 
-Blogger에는 기존 AdSense 계정을 연결했습니다. 현재 새 Iris 블로그는 AdSense에서 승인되지 않은 상태이며 자동 광고도 꺼져 있습니다. GitHub 사이트는 AdSense에 등록하고 `google-adsense-account` 확인용 메타태그를 설정한 단계입니다. 광고는 계속 비활성화되어 있으며 사이트 승인 결과는 별도로 확인해야 합니다.
+Blogger에는 기존 AdSense 계정을 연결하고 `quickiris.blogspot.com`을 사이트 목록에 등록했습니다. Blogger 플랫폼 연결을 확인했으며, 수익 배분·데이터 공유 약관이 있는 최종 검토 요청은 사용자 동의를 기다리고 있습니다. 아직 심사 제출 또는 승인이 완료된 상태가 아닙니다. 자동 광고는 꺼져 있습니다.
+
+GitHub 사이트 `atin84.github.io`는 소유권 확인을 완료하고 검토 요청을 제출했습니다. AdSense 화면에서 `준비 중`과 `리뷰가 요청됨`을 확인했습니다. 사이트에는 소유권 확인용 meta만 반영되어 있으며 실제 광고 script는 비활성화 상태입니다. 승인 완료 여부와 광고·동의 관리 설정은 이후 별도로 확인해야 합니다.
 
 `adsense_client_id`에 본인의 `ca-pub-` ID를 설정하고 사이트·동의 관리·개인정보 안내를 확인한 뒤 `adsense_enabled`를 활성화합니다. 공개 원고가 없는 기본 상태에는 광고를 넣지 않습니다. 각 사이트를 Search Console에 연결해 동일 기간과 조건으로 측정합니다.
 
