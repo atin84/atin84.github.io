@@ -276,6 +276,8 @@ def json_script(data: dict) -> str:
 def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None, site_pages: list[dict] | None = None) -> str:
     canonical = absolute_url(config, path)
     metadata = [f'<meta name="description" content="{esc(description)}">']
+    if config["adsense_client_id"]:
+        metadata.append(f'<meta name="google-adsense-account" content="{esc(config["adsense_client_id"])}">')
     if canonical:
         metadata.append(f'<link rel="canonical" href="{esc(canonical)}">')
         metadata.append(f'<meta property="og:url" content="{esc(canonical)}">')

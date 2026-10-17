@@ -19,7 +19,7 @@ Blogger와 GitHub Pages의 콘텐츠 발행을 한 형식으로 관리하는 운
 - AdSense ID 연결을 위한 설정
 - 두 사이트의 30일 비교 규칙
 
-이번 릴리스는 GitHub 첫 공개 배포를 준비한 상태입니다. Chrome 안내 글 1편은 `ready`이며 `published_at`에 준비 시점의 실제 UTC 시각을 기록했습니다. 소개·개인정보 안내도 함께 빌드합니다. 광고는 비활성화되어 있고 AdSense ID는 비어 있습니다.
+GitHub 첫 공개 배포를 완료했고 실제 글 본문을 확인했습니다. Chrome 안내 글 1편과 소개·개인정보 안내가 공개되어 있습니다. 두 원고는 `ready`이며 Blogger 원고의 `published_at`은 공개 페이지의 게시 시각에 맞췄습니다. AdSense 계정 ID와 사이트 소유권 확인용 메타태그를 설정했으며 광고는 계속 비활성화되어 있습니다.
 
 `content/`의 첫 원고 2편은 공식 Google·Microsoft 도움말을 검토해 작성했습니다. Blogger 첫 Edge 글은 웹 편집기로 공개 발행했고 본문과 중복 확인용 식별표식을 확인했습니다. 초기 두 글은 연결 확인용이며 검색 수요가 검증된 주제나 플랫폼 비교 표본으로 간주하지 않습니다.
 
@@ -59,9 +59,9 @@ python3 scripts/publish_blogger.py --help
 
 1. 저장소의 Settings → Pages에서 배포 소스가 GitHub Actions인지 확인합니다.
 2. 공개할 원고와 사이트 기본 정보를 준비합니다.
-3. 저장소 Actions 변수 `PAGES_ENABLED`를 `true`로 설정하면 Pages 워크플로가 활성화됩니다.
+3. 저장소 Actions 변수 `PAGES_ENABLED=true`를 설정했습니다.
 4. 워크플로는 GitHub가 반환한 실제 `base_url`로 canonical과 사이트맵을 생성합니다.
-5. 첫 배포는 Actions → Publish GitHub Pages → Run workflow로 실행합니다. 변수 변경만으로는 실행되지 않습니다.
+5. 첫 배포는 준비된 원고를 main에 push해 실행했습니다. 수동 재실행은 Actions → Publish GitHub Pages → Run workflow에서 가능합니다. 변수 변경만으로는 실행되지 않습니다.
 
 Pages 워크플로에는 한국시간 09:17 / 18:17 재빌드 일정이 준비되어 있습니다. `PAGES_ENABLED=true`일 때 배포 작업이 실행됩니다. `content/` 또는 `site_pages/`를 변경한 push도 배포 대상입니다. 예약 실행은 지연될 수 있고, 비활성 공개 저장소의 예약 작업은 GitHub 조건에 따라 중지될 수 있습니다. 새로운 AI 원고를 작성하는 작업은 이 재빌드 일정과 별도로 연결해야 합니다.
 
@@ -90,7 +90,7 @@ Google 계정 로그인과 Blogger API OAuth 권한은 별도의 연결입니다
 
 ## AdSense와 측정
 
-Blogger에는 기존 AdSense 계정을 연결했습니다. 현재 새 Iris 블로그는 AdSense에서 승인되지 않은 상태이며 자동 광고도 꺼져 있습니다. GitHub의 이번 릴리스도 광고를 비활성화한 상태로 준비합니다. GitHub 사이트의 AdSense 등록·승인은 별도로 확인해야 합니다.
+Blogger에는 기존 AdSense 계정을 연결했습니다. 현재 새 Iris 블로그는 AdSense에서 승인되지 않은 상태이며 자동 광고도 꺼져 있습니다. GitHub 사이트는 AdSense에 등록하고 `google-adsense-account` 확인용 메타태그를 설정한 단계입니다. 광고는 계속 비활성화되어 있으며 사이트 승인 결과는 별도로 확인해야 합니다.
 
 `adsense_client_id`에 본인의 `ca-pub-` ID를 설정하고 사이트·동의 관리·개인정보 안내를 확인한 뒤 `adsense_enabled`를 활성화합니다. 공개 원고가 없는 기본 상태에는 광고를 넣지 않습니다. 각 사이트를 Search Console에 연결해 동일 기간과 조건으로 측정합니다.
 
