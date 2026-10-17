@@ -1,18 +1,18 @@
 {
   "id": "about",
-  "title": "소개",
-  "description": "QuickIris는 일상에서 마주치는 디지털 문제의 해결 방법을 정리합니다.",
+  "title": "About",
+  "description": "QuickIris explains practical changes and everyday problems in consumer software.",
   "sections": [
     {
-      "heading": "다루는 내용",
+      "heading": "What we cover",
       "paragraphs": [
-        "개인 사용자가 디지털 도구와 웹 서비스를 이용하면서 겪는 문제를 다룹니다. 사용 방법과 설정의 차이를 정리해 필요한 선택을 할 수 있도록 설명합니다."
+        "QuickIris publishes English-language guides for people using browsers, apps, and everyday digital tools. We explain what changed, who is affected, and which steps or settings apply."
       ]
     },
     {
-      "heading": "작성 방식",
+      "heading": "How articles are prepared",
       "paragraphs": [
-        "자료 정리와 초안 작성에 AI의 도움을 받습니다. 공개 전에는 공식 문서와 출처를 검토하고, 확인에 사용한 근거를 글에 연결합니다."
+        "AI assists with research organization and drafting. Official documentation and source links are reviewed before publication. Articles distinguish documented behavior from independently tested results; we do not claim testing that has not taken place."
       ]
     }
   ],

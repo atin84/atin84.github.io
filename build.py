@@ -96,7 +96,7 @@ def load_config(path: Path) -> dict:
         "blogger_base_url": http_url(raw.get("blogger_base_url", ""), "blogger_base_url", base=True),
         "adsense_enabled": raw.get("adsense_enabled", False),
         "adsense_client_id": text("" if raw.get("adsense_client_id") is None else raw["adsense_client_id"], "adsense_client_id", empty=True),
-        "language": text(raw.get("language", "ko"), "language"),
+        "language": text(raw.get("language", "en"), "language"),
     }
     if not re.fullmatch(r"[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*", config["language"]):
         raise ValueError("language must be a valid language tag such as ko or en")

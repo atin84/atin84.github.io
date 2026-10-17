@@ -25,6 +25,12 @@ GitHub 첫 공개 배포를 완료했고 실제 글 본문을 확인했습니다
 
 자동 자료 조사, AI 원고 생성, 검색·수익 데이터 수집은 아직 연결 전입니다. 현재 일정은 준비된 원고의 예약 시각을 확인해 사이트를 다시 빌드하는 작업입니다.
 
+## 독자 언어와 편집 방향
+
+2026년 10월 17일 독자용 기본 언어를 영어로 수정했습니다. `config.json`의 언어, 사이트 소개, 초기 Chrome·Edge 원고, GitHub 소개·개인정보 안내가 영어입니다. Blogger 콘텐츠 언어·소개·검색 설명을 영어로 저장하고 기존 Edge 글을 같은 URL에서 영어로 업데이트했습니다. 한국어로 보이는 운영 문서는 관리용이며 독자용 웹 페이지에 배포하지 않습니다.
+
+편집 실험은 최근 7~14일 소비자용 소프트웨어 변화에서 생기는 질문을 대상으로 합니다. 최근 사건이 확인됐다는 사실과 검색 수요가 증가했다는 관측을 구분합니다. 시장·질문 선정·플랫폼 배정·측정 규칙은 `experiment/protocol.md`를 따릅니다. 자동 자료 조사와 AI 원고 생성, Blogger API 무인 발행은 아직 연결 전입니다.
+
 ## 로컬 확인
 
 ```bash
@@ -71,7 +77,7 @@ Pages 워크플로에는 한국시간 09:17 / 18:17 재빌드 일정이 준비�
 
 Blogger의 Iris 블로그는 `https://quickiris.blogspot.com`이며 블로그 ID는 `6780211422264222342`입니다. 최초 Edge 글은 Blogger 웹 편집기로 공개했으며 저장소 원고의 발행 정보도 이 공개 기록에 맞춰 관리합니다.
 
-첫 공개 글: [Edge를 닫았는데도 사이트 알림이 올 때](https://quickiris.blogspot.com/2026/10/edge-notifications-after-closing-browser.html)
+첫 공개 글: [Edge Notifications Keep Appearing After Closing the Browser](https://quickiris.blogspot.com/2026/10/edge-notifications-after-closing-browser.html)
 
 웹 로그인을 통한 초기 설정과 별개로 Blogger API OAuth 연결 및 정기 발행 구성은 아직 완료하지 않았습니다.
 
