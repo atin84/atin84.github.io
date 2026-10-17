@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-fr",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "fr",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "Bucks 128–127 Pacers après prolongation : Les points de Herro et Siakam expliqués",
+  "description": "Retour accessible sur le match de présaison du 16 octobre, à partir des 25 points de Tyler Herro et des 24 de Pascal Siakam.",
+  "sections": [
+    {
+      "heading": "Le résultat",
+      "paragraphs": [
+        "Milwaukee a battu Indiana 128–127 après prolongation le 16 octobre 2026. Il s'agissait d'un match de présaison. Tyler Herro a inscrit 25 points pour les Bucks et Pascal Siakam 24 pour les Pacers. Leurs lignes statistiques offrent une entrée simple dans la feuille de match."
+      ]
+    },
+    {
+      "heading": "Un point d'écart, deux constructions différentes",
+      "paragraphs": [
+        "Herro a réussi 10 de ses 16 tirs, dont 5 sur 7 à trois points, sans tenter de lancer franc. Siakam a réussi 8 tirs sur 10, également 5 sur 7 à trois points, et ses 3 lancers francs. Le graphique distingue les points apportés par chaque catégorie."
+      ],
+      "bullets": [
+        "Herro : cinq paniers à deux points rapportent 10 points ; cinq paniers à trois points, 15 ; lancers francs, 0. Total : 25.",
+        "Siakam : trois paniers à deux points rapportent 6 points ; cinq paniers à trois points, 15 ; lancers francs, 3. Total : 24."
+      ]
+    },
+    {
+      "heading": "Comment les tirs de champ deviennent des points",
+      "paragraphs": [
+        "Les tirs de champ comprennent les paniers à deux et à trois points. Pour trouver les paniers à deux points, on soustrait les réussites à trois points du total de tirs réussis. On multiplie ensuite les premiers par deux, les seconds par trois, puis on ajoute les lancers francs réussis. Voilà pourquoi l'axe du graphique représente des points, pas le nombre de tirs convertis."
+      ]
+    },
+    {
+      "heading": "Ce que montre cette comparaison",
+      "paragraphs": [
+        "Les deux joueurs ont produit 15 points derrière l'arc. Herro a obtenu quatre points de plus sur les paniers à deux points, tandis que Siakam en a ajouté trois aux lancers francs. Cela explique l'écart d'un point entre leurs totaux personnels. Cela n'explique pas la victoire de Milwaukee d'un point : les autres joueurs et l'ordre des possessions font aussi partie du match."
+      ]
+    },
+    {
+      "heading": "L'adresse n'est qu'une partie du tableau",
+      "paragraphs": [
+        "Le 8 sur 10 de Siakam correspond à 80 %, et le 10 sur 16 de Herro à 62,5 %. Ces pourcentages décrivent leurs tirs de champ dans ce match. Ils ne mesurent ni la difficulté de chaque tentative, ni l'apport défensif, ni toutes les occasions créées pour les partenaires. Meilleur pourcentage et plus grand total de points répondent à des questions différentes."
+      ]
+    },
+    {
+      "heading": "Que regarder dans les images ?",
+      "paragraphs": [
+        "Les résumés officiels permettent d'associer une action au chiffre : panier après une passe, après un dribble ou sur une seconde chance après un échec ? Suivez le joueur qui lance le mouvement autant que celui qui le termine."
+      ]
+    },
+    {
+      "heading": "Le nouveau départ de la saison régulière",
+      "paragraphs": [
+        "Le calendrier NBA prévoit Milwaukee à Washington et Indiana à La Nouvelle-Orléans le 21 octobre pour leurs premiers matches de saison régulière. Les tirs de Herro et Siakam dans cette rencontre de présaison donnent des prestations concrètes à revoir au début de la nouvelle saison."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-fr.svg",
+      "alt": "Herro : 10 points à deux points, 15 à trois points, aucun lancer franc. Siakam : 6, 15 et 3.",
+      "caption": "Points par type de tir, calculés d'après les relevés NBA du 16 octobre 2026. Deux joueurs seulement : ni les totaux des équipes, ni une chronologie."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "nba-thunder-spurs-2026-10-20-preview-fr",
+  "platform": "github",
+  "status": "ready",
+  "language": "fr",
+  "league": "NBA",
+  "match_id": "0022600003",
+  "article_kind": "preview",
+  "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Oklahoma City Thunder",
+    "San Antonio Spurs",
+    "Preview"
+  ],
+  "title": "Thunder chez les Spurs, le 20 octobre : Trois repères pour suivre l'ouverture",
+  "description": "Horaire, contexte et trois questions accessibles pour comprendre Oklahoma City–San Antonio au-delà du tableau d'affichage.",
+  "sections": [
+    {
+      "heading": "Quand et où ?",
+      "paragraphs": [
+        "Oklahoma City se rend à San Antonio au Frost Bank Center le mardi 20 octobre 2026. L'entre-deux est prévu à 20 h 30 à San Antonio, 21 h 30 sur la côte Est américaine, soit le 21 octobre à 01 h 30 UTC. Il s'agit d'un match de la soirée d'ouverture de la saison régulière. Le programme américain de la NBA indique NBC et Peacock ; ailleurs, la disponibilité dépend du pays."
+      ]
+    },
+    {
+      "heading": "Une affiche qui a déjà une histoire",
+      "paragraphs": [
+        "Les Spurs ont éliminé le Thunder en sept matches lors de la finale de conférence Ouest 2026. Cette ouverture permet de retrouver le duel, avec Shai Gilgeous-Alexander et Victor Wembanyama parmi les joueurs à observer s'ils sont disponibles. La série précédente donne du contexte, sans fixer le résultat de cette rencontre. Voici trois questions pour mieux lire l'action."
+      ]
+    },
+    {
+      "heading": "1. Comment se crée le premier bon tir ?",
+      "paragraphs": [
+        "Quand Gilgeous-Alexander porte le ballon, observez les défenseurs autant que son dribble. Un seul reste-t-il face à lui ou un autre vient-il aider ? Si l'aide arrive, suivez la passe suivante pour voir si un partenaire gagne de l'espace. De l'autre côté, regardez où Wembanyama reçoit le ballon et comment la défense réagit. Ce sont des repères d'observation, pas l'annonce d'une tactique que les équipes utiliseraient systématiquement."
+      ]
+    },
+    {
+      "heading": "2. Qui termine la possession après un tir manqué ?",
+      "paragraphs": [
+        "Ne détournez pas les yeux dès que le ballon touche l'arceau. Le rebond détermine si l'attaque obtient une nouvelle chance ou si la défense peut repartir dans l'autre sens. Repérez aussi le joueur qui libère de l'espace pour qu'un partenaire récupère le ballon, même s'il n'obtient pas le rebond dans les statistiques. Un échec suivi d'un rebond offensif diffère d'un échec qui lance immédiatement l'adversaire."
+      ]
+    },
+    {
+      "heading": "3. Comment commence l'attaque suivante ?",
+      "paragraphs": [
+        "Après un rebond ou une perte de balle, regardez vers l'avant. Y a-t-il une passe immédiate, un dribble dans un espace libre ou une pause pour laisser chacun se placer ? Ce réflexe aide à distinguer la transition de l'attaque face à une défense organisée. Si une équipe enchaîne les paniers, revenez au début des possessions avant d'attribuer toute la série à une cause unique."
+      ]
+    },
+    {
+      "heading": "Prenez une possession comme unité d'observation",
+      "paragraphs": [
+        "Essayez ces trois questions pendant quelques minutes : création du tir, récupération après l'échec, puis début de l'attaque suivante. Vous pourrez apprécier le duel des vedettes et remarquer les partenaires qui relient ces actions. Les cinq de départ et les disponibilités restent à vérifier près de l'entre-deux ; ce guide ne les considère pas comme confirmés."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA Communications: 2026-27 regular-season schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA: Thunder at Spurs, October 20, 2026",
+      "url": "https://www.nba.com/game/okc-vs-sas-0022600003"
+    },
+    {
+      "title": "NBA Starting 5: Opening-week guide, October 13, 2026",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-fr.svg",
+      "alt": "Guide en trois étapes : création du tir, rebond et possession suivante.",
+      "caption": "Repères pour le 20 octobre 2026. Schéma d'observation, sans pronostic ni composition confirmée."
+    }
+  ]
+}

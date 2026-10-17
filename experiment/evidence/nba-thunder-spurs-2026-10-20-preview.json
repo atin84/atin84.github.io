@@ -1,0 +1,84 @@
+{
+  "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+  "league": "NBA",
+  "article_kind": "preview",
+  "match_id": "0022600003",
+  "checked_at": "2026-10-17T15:24:23Z",
+  "status": "scheduled",
+  "away_team": "Oklahoma City Thunder",
+  "home_team": "San Antonio Spurs",
+  "starts_at_utc": "2026-10-21T01:30:00Z",
+  "local_time": "2026-10-20 20:30 America/Chicago",
+  "eastern_time": "2026-10-20 21:30 America/New_York",
+  "korean_time": "2026-10-21 10:30 Asia/Seoul",
+  "venue": "Frost Bank Center",
+  "season_phase": "2026-27 regular-season opening night",
+  "facts": [
+    {
+      "claim": "The NBA fixture is Oklahoma City at San Antonio on October 20 at 9:30 p.m. Eastern.",
+      "source_ids": [
+        "nba-schedule",
+        "nba-game"
+      ]
+    },
+    {
+      "claim": "The venue is Frost Bank Center.",
+      "source_ids": [
+        "nba-schedule"
+      ]
+    },
+    {
+      "claim": "San Antonio defeated Oklahoma City in the seven-game 2026 Western Conference finals.",
+      "source_ids": [
+        "nba-oct13"
+      ]
+    }
+  ],
+  "chart": {
+    "type": "watch_points_diagram",
+    "is_schematic": true,
+    "prediction": false,
+    "stages": [
+      "shot_creation",
+      "defensive_rebound",
+      "next_possession"
+    ],
+    "numbers": [],
+    "instruction": "Three editorial questions about where the first shot comes from, who collects a miss, and how the next possession starts. Do not invent lineups, player positions or expected performance."
+  },
+  "sources": [
+    {
+      "id": "nba-schedule",
+      "title": "NBA Communications — 2026-27 regular-season schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule",
+      "ref": "turn296view0",
+      "locator": "opening-night paragraph; venue and 9:30 p.m. ET"
+    },
+    {
+      "id": "nba-date-pdf",
+      "title": "NBA official schedule by date, page 1",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf",
+      "ref": "turn298view2",
+      "locator": "page 1 game 3: October 20, Oklahoma City at San Antonio, 8:30 p.m. local, 9:30 p.m. ET"
+    },
+    {
+      "id": "nba-game",
+      "title": "NBA — Oklahoma City at San Antonio, October 20, 2026",
+      "url": "https://www.nba.com/game/okc-vs-sas-0022600003",
+      "ref": "turn303view2",
+      "locator": "heading and timestamp"
+    },
+    {
+      "id": "nba-oct13",
+      "title": "NBA Starting 5 — October 13, 2026",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026",
+      "ref": "turn291view0",
+      "locator": "Thunder at Spurs opening-week paragraph, seven-game Western Conference finals"
+    }
+  ],
+  "limitations": [
+    "No opening-night starting lineup has been verified.",
+    "Viewing diagram is editorial guidance, not a statistical forecast.",
+    "Broadcast availability must be checked for the viewer's country."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "epl-2026-10-17-everton-chelsea-recap-de",
+  "slug": "epl-2026-10-17-everton-chelsea-recap-de",
+  "platform": "github",
+  "status": "ready",
+  "title": "Everton 0–2 Chelsea: Warum der Zeitpunkt von Netos Toren zählt",
+  "description": "Pedro Neto traf in der 46. und 90. Minute. Chelseas Sieg erklärt: die lange Phase mit nur einem Tor Vorsprung und das Ende einer Gegentorserie.",
+  "sections": [
+    {
+      "heading": "Schnell nach der Pause vorn, spät nachgelegt",
+      "paragraphs": [
+        "Chelsea gewann am 17. Oktober 2026 im Hill Dickinson Stadium mit 2–0 gegen Everton. Beide Treffer erzielte Pedro Neto. Die Zeitpunkte erklären den Weg zum Ergebnis: 0–0 zur Pause, Chelseas Führung in der 46. Minute und das zweite Tor erst in der 90.",
+        "Die Grafik trennt diese Abschnitte. Sie zeigt Tore und Spielstand, misst aber nicht, welches Team jede einzelne Phase kontrollierte."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "46. Minute: Ein Angriff findet seinen Abschluss",
+      "paragraphs": [
+        "Laut Chelseas offiziellem Spielbericht setzte Morgan Rogers Jorrel Hato ein, dessen Hereingabe Neto zum Führungstor erreichte. Seit Beginn der zweiten Halbzeit waren 43 Sekunden vergangen.",
+        "In der Wiederholung lohnt auch der Blick auf den Pass vor der Hereingabe, nicht nur auf den Abschluss. Der Torschütze steht am Ende einer Kette: Ein Mitspieler muss eine nützliche Position erreichen, der Ball anschließend verwertbar beim Empfänger ankommen. Das erklärt den Angriff besser als der isolierte Schuss."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Warum 0–0 zur Pause nicht ereignislos bedeutet",
+      "paragraphs": [
+        "Vor der Pause traf Moises Caicedo die Latte; ein Kopfball von Maxence Lacroix wurde auf der Linie geklärt, berichtet der Klub. Beide Szenen änderten den Spielstand nicht, gehören aber zur Erklärung der ersten Hälfte.",
+        "Sehr unterschiedliche Spiele können mit 0–0 in die Pause gehen. Chancen und Tore auseinanderzuhalten hilft: Ein Schuss ans Gestänge oder eine Rettung auf der Linie lässt die Anzeige unverändert."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Torwartwechsel und kein Gegentor",
+      "paragraphs": [
+        "Mike Penders ersetzte den verletzten Emiliano Martinez in der 70. Minute. Chelsea beendete das Spiel ohne Gegentor."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "90. Minute: Aus einem Tor Vorsprung werden zwei",
+      "paragraphs": [
+        "Netos zweites Tor entstand aus dem freien Ball nach einem geblockten Freistoß von Jordan Henderson. Der Vorsprung wuchs von einem auf zwei Tore.",
+        "Bis dahin hätte Everton mit einem Treffer ausgeglichen. Danach waren zwei nötig. Diese einfache Veränderung erklärt den Wert des späten Tores, obwohl weiterhin dieselbe Mannschaft führte."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Das Ergebnis im Zusammenhang",
+      "paragraphs": [
+        "Chelseas Statistikvorschau vermerkte zuvor 22 Premier-League-Spiele in Folge mit Gegentor. Dieser Sieg beendete die Serie. Everton war seinerseits in den ersten sechs Ligaspielen der Saison ungeschlagen geblieben.",
+        "Bei den Höhepunkten lohnt es sich, die Entstehung beider Tore und die lange Zeit dazwischen zu verfolgen."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-17T15:33:39Z",
+  "updated_at": "2026-10-17T15:33:39Z",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "epl-2026-10-17-everton-chelsea",
+  "article_kind": "recap",
+  "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:de"
+  ],
+  "sources": [
+    {
+      "title": "Chelsea official match report: Everton 0–2 Chelsea",
+      "url": "https://www.chelseafc.com/en/news/article/match-report-everton-0-2-chelsea"
+    },
+    {
+      "title": "Chelsea: Xabi Alonso's post-match assessment",
+      "url": "https://www.chelseafc.com/en/news/article/alonso-reflects-on-a-serious-solid-very-good-away-win"
+    },
+    {
+      "title": "Chelsea: pre-match statistics and historical context",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-key-statistics-and-facts-26-27"
+    },
+    {
+      "title": "Chelsea: confirmed match date and stadium",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-preview-tv-channel-kick-off-time-and-how-to-watch-141026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-de.svg",
+      "alt": "Everton und Chelsea lagen zur Pause 0–0. Neto erzielte in der 46. Minute das 0–1 und in der 90. das 0–2. Endstand: 0–2.",
+      "caption": "Offizielle Torminuten: 46 und 90. Halbzeit und Abpfiff markieren Spielabschnitte; die Nachspielzeit ist nicht maßstabsgetreu. Quelle: Chelseas offizieller Spielbericht."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+  "league": "EPL",
+  "article_kind": "preview",
+  "match_id": "pl-2645263",
+  "home": "Nottingham Forest",
+  "away": "Arsenal",
+  "venue": "The City Ground, Nottingham",
+  "scheduled_start_utc": "2026-10-18T15:30:00Z",
+  "scheduled_start_local": "2026-10-18T16:30:00+01:00",
+  "status_at_verification": "scheduled",
+  "verified_at": "2026-10-17T15:28:39Z",
+  "sources": [
+    {
+      "id": "fixture",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "reference_id": "turn293view0",
+      "checked": "Official body read; Sunday 18 October, 16:30 Nott'm Forest v Arsenal; all times BST through 24 October."
+    },
+    {
+      "id": "club_preview",
+      "url": "https://www.premierleague.com/es/news/4737684/forest-preview-reds-host-gunners-on-trentside",
+      "reference_id": "turn306view3",
+      "published_date": "2026-10-16",
+      "checked": "Official club preview syndicated on the Premier League site. Full body read; original club URL returned no text. These are the club's reported Opta figures, not independently recomputed xG."
+    },
+    {
+      "id": "history",
+      "url": "https://www.premierleague.com/en/news/4536818/nottingham-forest-0-arsenal-0-match-report-17-january-2026",
+      "reference_id": "turn306view4",
+      "checked": "Official January 2026 report read. Final 0-0 and Sels save from Saka header."
+    },
+    {
+      "id": "xg_glossary",
+      "url": "https://www.premierleague.com/en/news/2683145/fpl-glossary",
+      "checked": "Official glossary body read. xG concerns scoring-opportunity quality."
+    }
+  ],
+  "facts": {
+    "comparison_team": "Nottingham Forest",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "window": "First six league matches, as reported 16 October 2026",
+    "matches": 6,
+    "goals": 5,
+    "xg": 10.3,
+    "goals_minus_xg": -5.3,
+    "home_matches": 3,
+    "home_goals": 0,
+    "previous_city_ground_league_meetings": [
+      {
+        "date": "2026-01-17",
+        "home_goals": 0,
+        "away_goals": 0
+      },
+      {
+        "date": "2025-02-26",
+        "home_goals": 0,
+        "away_goals": 0
+      }
+    ],
+    "uk_broadcaster": "Sky Sports"
+  },
+  "chart": {
+    "type": "bar_comparison",
+    "metrics": [
+      {
+        "key": "goals",
+        "value": 5
+      },
+      {
+        "key": "xg",
+        "value": 10.3
+      }
+    ],
+    "same_team": true,
+    "source_id": "club_preview",
+    "xg_model": "Opta, as attributed by the club preview",
+    "must_label": "Six Premier League matches; as reported 16 October 2026; actual goals vs expected goals",
+    "not_a_prediction": true
+  },
+  "editorial_notes": [
+    "No forecast score, player availability claim, starting XI or observed tactic is asserted.",
+    "Watch points are questions to observe, not inferred accounts of future play.",
+    "No native-speaker or human review is claimed; publisher review remains separate.",
+    "Do not replace actual goals with xG or call the -5.3 gap goals owed."
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://www.premierleague.com/resources/templates/matches.html",
+      "reason": "Returned older-season results and was not used."
+    }
+  ]
+}

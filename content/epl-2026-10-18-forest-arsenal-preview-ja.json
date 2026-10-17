@@ -1,0 +1,96 @@
+{
+  "id": "epl-2026-10-18-forest-arsenal-preview-ja",
+  "slug": "epl-2026-10-18-forest-arsenal-preview-ja",
+  "platform": "blogger",
+  "status": "ready",
+  "title": "フォレスト対アーセナル：チャンスと得点の差に注目",
+  "description": "最初の6試合で5得点、期待得点は10.3。10月18日のフォレスト対アーセナルを楽しむための見どころと試合時間。",
+  "sections": [
+    {
+      "heading": "この試合で確かめたいこと",
+      "paragraphs": [
+        "ノッティンガム・フォレストには、作ったチャンスと実際の得点との間に差がある。10月18日のアーセナル戦に向けたクラブ公式プレビューによると、今季プレミアリーグ最初の6試合は5得点、期待得点は10.3。ホームでは3試合を終えて、まだリーグ戦の得点がない。",
+        "だからこそ、単にどちらが強いかだけでなく、攻撃がどう完結するかを見たい。フォレストは好機をゴールに変えられるのか。アーセナルは、その好機が生まれる過程から防げるのか。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "グラフの読み方",
+      "paragraphs": [
+        "グラフはフォレストの実得点と、シュートの機会の質をモデルで推定した期待得点（xG）の累計を比べている。差は5.3だが、アーセナル戦でそれだけ得点するという予測ではない。",
+        "xGは、良い位置からシュートを打てているかを考える手がかりになる。ただし勝ち点を与える数字でも、すべてのミスの理由を説明する数字でもない。得点が少なかったから次に必ず決まるわけでもない。6試合という標本の小ささも踏まえ、今回はこの相手にどんな好機を作れるかを見よう。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "注目したい三つの場面",
+      "paragraphs": [],
+      "bullets": [
+        "シュートの直前。受け手はゴールに体を向けて準備できるのか。それとも体を伸ばしたり、守備者の間を狙って急いで蹴ったりしているのか。単なるシュート数以上に、この違いが参考になる。",
+        "フォレストがボールを奪った直後。最初の前向きのパスは味方に届くか。別の選手がサポートに走るか。決定力だけの問題と判断する前に、攻撃の作られ方を見たい。",
+        "アーセナルの保持時。フォレストの中盤の背後にいる味方へパスが入るか。受け手が囲まれる前に前を向いたり、次のパスを出したりできるかにも注目しよう。"
+      ]
+    },
+    {
+      "heading": "先制点の後は見るべき点が変わる",
+      "paragraphs": [
+        "フォレストが先制したら、アーセナルが相手に進みやすいルートを与えずに同点を狙えるか。アーセナルが先に得点したら、フォレストがより明確な好機を作るのか、それとも難しいシュートを増やすのか。いずれも観察のための問いで、布陣や先発メンバーを断定するものではない。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "過去の結果は背景として読む",
+      "paragraphs": [
+        "シティ・グラウンドでの直近2回のリーグ対戦は、どちらも0–0だった。2026年1月の一戦では、プレミアリーグ公式レポートがブカヨ・サカのヘディングを防いだマッツ・セルスのセーブを取り上げている。無得点でも重要な場面はある。",
+        "だからといって今回も引き分けになるとは限らない。今度は誰がチャンスを先制点につなげるのか、そこを追いたい。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "キックオフ",
+      "paragraphs": [],
+      "bullets": [
+        "2026年10月18日（日）16:30 BST、ノッティンガムのシティ・グラウンド。",
+        "UTCでは15:30。韓国時間では10月19日（月）00:30。",
+        "英国の公表済み放送予定はSky Sports。ほかの国では現地の放映権を持つサービスを確認し、試合前の正式なチーム情報もチェックしよう。"
+      ]
+    }
+  ],
+  "published_at": "2026-10-17T15:28:39Z",
+  "updated_at": "2026-10-17T15:28:39Z",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "pl-2645263",
+  "article_kind": "preview",
+  "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ja"
+  ],
+  "sources": [
+    {
+      "title": "Premier League: revised October and November fixtures",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+    },
+    {
+      "title": "Nottingham Forest official preview, carried by the Premier League (16 October 2026)",
+      "url": "https://www.premierleague.com/es/news/4737684/forest-preview-reds-host-gunners-on-trentside"
+    },
+    {
+      "title": "Premier League: Forest–Arsenal match report, 17 January 2026",
+      "url": "https://www.premierleague.com/en/news/4536818/nottingham-forest-0-arsenal-0-match-report-17-january-2026"
+    },
+    {
+      "title": "Premier League: FPL glossary, expected goals definition",
+      "url": "https://www.premierleague.com/en/news/2683145/fpl-glossary"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-ja.svg",
+      "alt": "ノッティンガム・フォレストのリーグ最初の6試合。5得点と期待得点10.3の比較。",
+      "caption": "2026/27プレミアリーグ最初の6試合。10月16日公表の数値。xGは機会の質の推定であり、アーセナル戦の得点予測ではない。"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-es",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "es",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "Bucks 128–127 Pacers en la prórroga: Así anotaron Herro y Siakam",
+  "description": "Una lectura sencilla del triunfo de pretemporada del 16 de octubre, con los 25 puntos de Tyler Herro y los 24 de Pascal Siakam desglosados.",
+  "sections": [
+    {
+      "heading": "El resultado",
+      "paragraphs": [
+        "Milwaukee venció a Indiana 128–127 tras la prórroga el 16 de octubre de 2026. Fue un partido de pretemporada. Tyler Herro sumó 25 puntos para los Bucks y Pascal Siakam 24 para los Pacers. Sus registros ofrecen una forma sencilla de entender la estadística del partido."
+      ]
+    },
+    {
+      "heading": "Un punto de diferencia, caminos distintos",
+      "paragraphs": [
+        "Herro convirtió 10 de 16 tiros de campo, incluidos 5 de 7 triples, y no lanzó tiros libres. Siakam anotó 8 de 10 tiros de campo, también 5 de 7 triples, y sus 3 tiros libres. El gráfico separa los puntos aportados por cada tipo de lanzamiento."
+      ],
+      "bullets": [
+        "Herro: cinco canastas de dos aportaron 10 puntos; cinco triples, 15; tiros libres, 0. Total: 25.",
+        "Siakam: tres canastas de dos aportaron 6 puntos; cinco triples, 15; tiros libres, 3. Total: 24."
+      ]
+    },
+    {
+      "heading": "Cómo convertir los tiros de campo en puntos",
+      "paragraphs": [
+        "Los tiros de campo incluyen tanto las canastas de dos como los triples. Para obtener los aciertos de dos, se restan los triples anotados del total de tiros de campo convertidos. Después se multiplican las canastas de dos por dos, los triples por tres y se añaden los tiros libres anotados. Por eso el eje del gráfico muestra puntos, no el número de lanzamientos acertados."
+      ]
+    },
+    {
+      "heading": "Qué explica la comparación",
+      "paragraphs": [
+        "Ambos produjeron 15 puntos desde fuera del arco. Herro obtuvo cuatro puntos más en canastas de dos, mientras que Siakam añadió tres desde la línea de libres. Así se explica el punto de diferencia entre sus registros personales. No explica la victoria de Milwaukee por un punto: también cuentan los demás jugadores y el orden en que ocurrieron las posesiones."
+      ]
+    },
+    {
+      "heading": "El porcentaje es una parte de la historia",
+      "paragraphs": [
+        "El 8 de 10 de Siakam equivale al 80%; el 10 de 16 de Herro, al 62,5%. Son porcentajes de tiro de campo de este partido. No miden la dificultad de cada intento, la aportación defensiva ni todas las ocasiones creadas para compañeros. Un mejor porcentaje y un mayor total de puntos responden a preguntas diferentes."
+      ]
+    },
+    {
+      "heading": "Qué buscar al volver a verlo",
+      "paragraphs": [
+        "En los resúmenes oficiales, busca la acción que acompaña a cada cifra: ¿la canasta llegó tras un pase, un bote o una segunda oportunidad después de un fallo? Sigue tanto al jugador que inicia la jugada como al que la termina."
+      ]
+    },
+    {
+      "heading": "El comienzo de la temporada regular",
+      "paragraphs": [
+        "El calendario NBA sitúa a Milwaukee en Washington y a Indiana en Nueva Orleans el 21 de octubre para sus estrenos de temporada regular. Los tiros de Herro y Siakam en este partido de pretemporada dejan actuaciones concretas para volver a observar durante el inicio del nuevo curso."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-es.svg",
+      "alt": "Herro: 10 puntos en tiros de dos, 15 en triples y 0 en libres. Siakam: 6, 15 y 3.",
+      "caption": "Puntos por tipo de canasta, calculados con los registros NBA del 16 de octubre de 2026. Son dos jugadores, no los totales de equipo ni una cronología."
+    }
+  ]
+}

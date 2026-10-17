@@ -1,0 +1,142 @@
+{
+  "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+  "chart_type": "score_event_timeline",
+  "languages": {
+    "en": {
+      "title": "How Chelsea reached 2–0",
+      "alt": "Everton and Chelsea were level at half-time. Pedro Neto made it 0–1 in the 46th minute and 0–2 in the 90th; the final score was 0–2.",
+      "caption": "Official goal minutes: 46 and 90. Half-time and full-time mark match stages; added time is not shown to scale. Source: Chelsea's official match report.",
+      "labels": {
+        "home": "Everton",
+        "away": "Chelsea",
+        "kickoff": "Kick-off",
+        "halftime": "Half-time",
+        "fulltime": "Full-time",
+        "first_goal": "46′ · Neto",
+        "second_goal": "90′ · Neto",
+        "axis": "Match stage",
+        "source": "Source: Chelsea FC",
+        "goals": "Goals"
+      }
+    },
+    "ko": {
+      "title": "첼시의 2–0은 어떻게 만들어졌나",
+      "alt": "에버턴과 첼시는 전반 0–0이었다. 네투가 46분에 0–1, 90분에 0–2를 만들었고 최종 점수는 0–2였다.",
+      "caption": "공식 득점 시각은 46분과 90분. 전반 종료와 경기 종료는 구간 표시이며 추가시간 길이를 비례해 그린 것은 아니다. 출처: 첼시 공식 경기 리포트.",
+      "labels": {
+        "home": "에버턴",
+        "away": "첼시",
+        "kickoff": "경기 시작",
+        "halftime": "전반 종료",
+        "fulltime": "경기 종료",
+        "first_goal": "46′ · 네투",
+        "second_goal": "90′ · 네투",
+        "axis": "경기 구간",
+        "source": "출처: 첼시 FC",
+        "goals": "득점"
+      }
+    },
+    "es": {
+      "title": "Cómo llegó el Chelsea al 2–0",
+      "alt": "Everton y Chelsea llegaron 0–0 al descanso. Neto marcó el 0–1 en el minuto 46 y el 0–2 en el 90, que fue el resultado final.",
+      "caption": "Minutos oficiales de los goles: 46 y 90. Descanso y final indican etapas; el añadido no se representa a escala. Fuente: informe oficial del Chelsea.",
+      "labels": {
+        "home": "Everton",
+        "away": "Chelsea",
+        "kickoff": "Inicio",
+        "halftime": "Descanso",
+        "fulltime": "Final",
+        "first_goal": "46′ · Neto",
+        "second_goal": "90′ · Neto",
+        "axis": "Etapa del partido",
+        "source": "Fuente: Chelsea FC",
+        "goals": "Goles"
+      }
+    },
+    "ja": {
+      "title": "チェルシーが2–0に至るまで",
+      "alt": "前半はエバートン0–0チェルシー。ネトが46分に0–1、90分に0–2とし、そのまま終了した。",
+      "caption": "公式の得点時刻は46分と90分。前半終了と試合終了は段階を示し、追加時間の長さは縮尺に反映していない。出典：チェルシー公式レポート。",
+      "labels": {
+        "home": "エバートン",
+        "away": "チェルシー",
+        "kickoff": "開始",
+        "halftime": "前半終了",
+        "fulltime": "試合終了",
+        "first_goal": "46′ · ネト",
+        "second_goal": "90′ · ネト",
+        "axis": "試合の段階",
+        "source": "出典：チェルシーFC",
+        "goals": "得点"
+      }
+    },
+    "pt-BR": {
+      "title": "Como o Chelsea chegou ao 2–0",
+      "alt": "Everton e Chelsea foram para o intervalo em 0–0. Neto fez 0–1 aos 46 e 0–2 aos 90 minutos, o placar final.",
+      "caption": "Minutos oficiais dos gols: 46 e 90. Intervalo e fim indicam etapas; os acréscimos não estão em escala. Fonte: relato oficial do Chelsea.",
+      "labels": {
+        "home": "Everton",
+        "away": "Chelsea",
+        "kickoff": "Início",
+        "halftime": "Intervalo",
+        "fulltime": "Fim",
+        "first_goal": "46′ · Neto",
+        "second_goal": "90′ · Neto",
+        "axis": "Etapa do jogo",
+        "source": "Fonte: Chelsea FC",
+        "goals": "Gols"
+      }
+    },
+    "fr": {
+      "title": "Comment Chelsea est arrivé à 2–0",
+      "alt": "Everton et Chelsea étaient à 0–0 à la pause. Neto a inscrit le 0–1 à la 46e minute, puis le 0–2 à la 90e. Score final : 0–2.",
+      "caption": "Minutes officielles des buts : 46 et 90. La pause et la fin indiquent des étapes ; le temps additionnel n'est pas à l'échelle. Source : compte rendu officiel de Chelsea.",
+      "labels": {
+        "home": "Everton",
+        "away": "Chelsea",
+        "kickoff": "Début",
+        "halftime": "Mi-temps",
+        "fulltime": "Fin",
+        "first_goal": "46′ · Neto",
+        "second_goal": "90′ · Neto",
+        "axis": "Étape du match",
+        "source": "Source : Chelsea FC",
+        "goals": "Buts"
+      }
+    },
+    "de": {
+      "title": "Chelseas Weg zum 2–0",
+      "alt": "Everton und Chelsea lagen zur Pause 0–0. Neto erzielte in der 46. Minute das 0–1 und in der 90. das 0–2. Endstand: 0–2.",
+      "caption": "Offizielle Torminuten: 46 und 90. Halbzeit und Abpfiff markieren Spielabschnitte; die Nachspielzeit ist nicht maßstabsgetreu. Quelle: Chelseas offizieller Spielbericht.",
+      "labels": {
+        "home": "Everton",
+        "away": "Chelsea",
+        "kickoff": "Anstoß",
+        "halftime": "Halbzeit",
+        "fulltime": "Abpfiff",
+        "first_goal": "46′ · Neto",
+        "second_goal": "90′ · Neto",
+        "axis": "Spielabschnitt",
+        "source": "Quelle: Chelsea FC",
+        "goals": "Tore"
+      }
+    },
+    "hi": {
+      "title": "चेल्सी 2–0 तक कैसे पहुँचा",
+      "alt": "हाफ़ टाइम पर एवर्टन और चेल्सी 0–0 थे। नेटो ने 46वें मिनट में 0–1 और 90वें में 0–2 किया। अंतिम स्कोर 0–2 रहा।",
+      "caption": "गोलों के आधिकारिक मिनट: 46 और 90। हाफ़ टाइम और अंत मैच के चरण हैं; अतिरिक्त समय को अनुपात में नहीं दिखाया गया है। स्रोत: चेल्सी की आधिकारिक रिपोर्ट।",
+      "labels": {
+        "home": "एवर्टन",
+        "away": "चेल्सी",
+        "kickoff": "शुरुआत",
+        "halftime": "हाफ़ टाइम",
+        "fulltime": "अंत",
+        "first_goal": "46′ · नेटो",
+        "second_goal": "90′ · नेटो",
+        "axis": "मैच का चरण",
+        "source": "स्रोत: चेल्सी FC",
+        "goals": "गोल"
+      }
+    }
+  }
+}

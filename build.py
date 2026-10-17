@@ -31,6 +31,20 @@ SLUG_RE = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 ADSENSE_RE = re.compile(r"ca-pub-[0-9]{16}\Z")
 MANIFEST = ".build-manifest"
 ROOT = Path(__file__).resolve().parent
+LANGUAGES = {
+    "en": "English", "ko": "한국어", "es": "Español", "ja": "日本語",
+    "pt-BR": "Português (Brasil)", "fr": "Français", "de": "Deutsch", "hi": "हिन्दी",
+}
+UI = {
+    "en": {"articles": "Articles", "sources": "Sources", "empty": "No articles have been published yet.", "back": "All articles", "skip": "Skip to content", "published": "Published", "updated": "Updated", "language": "Language", "main": "Main navigation", "information": "Site information"},
+    "ko": {"articles": "글 목록", "sources": "참고 자료", "empty": "아직 공개된 글이 없습니다.", "back": "모든 글 보기", "skip": "본문으로 이동", "published": "게시", "updated": "수정", "language": "언어", "main": "주요 메뉴", "information": "사이트 안내"},
+    "es": {"articles": "Artículos", "sources": "Fuentes", "empty": "Todavía no hay artículos publicados.", "back": "Todos los artículos", "skip": "Ir al contenido", "published": "Publicado", "updated": "Actualizado", "language": "Idioma", "main": "Navegación principal", "information": "Información del sitio"},
+    "ja": {"articles": "記事一覧", "sources": "参考資料", "empty": "公開された記事はまだありません。", "back": "すべての記事", "skip": "本文へ移動", "published": "公開日", "updated": "更新日", "language": "言語", "main": "メインナビゲーション", "information": "サイト情報"},
+    "pt-BR": {"articles": "Artigos", "sources": "Fontes", "empty": "Ainda não há artigos publicados.", "back": "Todos os artigos", "skip": "Ir para o conteúdo", "published": "Publicado", "updated": "Atualizado", "language": "Idioma", "main": "Navegação principal", "information": "Informações do site"},
+    "fr": {"articles": "Articles", "sources": "Sources", "empty": "Aucun article n’a encore été publié.", "back": "Tous les articles", "skip": "Aller au contenu", "published": "Publié", "updated": "Mis à jour", "language": "Langue", "main": "Navigation principale", "information": "Informations du site"},
+    "de": {"articles": "Artikel", "sources": "Quellen", "empty": "Es wurden noch keine Artikel veröffentlicht.", "back": "Alle Artikel", "skip": "Zum Inhalt", "published": "Veröffentlicht", "updated": "Aktualisiert", "language": "Sprache", "main": "Hauptnavigation", "information": "Website-Informationen"},
+    "hi": {"articles": "लेख", "sources": "स्रोत", "empty": "अभी कोई लेख प्रकाशित नहीं हुआ है।", "back": "सभी लेख", "skip": "मुख्य सामग्री पर जाएँ", "published": "प्रकाशित", "updated": "अपडेट किया गया", "language": "भाषा", "main": "मुख्य नेविगेशन", "information": "वेबसाइट की जानकारी"},
+}
 
 
 def text(value: object, field: str, *, empty: bool = False) -> str:
@@ -131,6 +145,14 @@ def slug(value: object, field: str) -> str:
     return value
 
 
+def article_language(value: object, field: str) -> str:
+    value = text(value, field)
+    canonical = next((code for code in LANGUAGES if code.lower() == value.lower()), None)
+    if canonical is None:
+        raise ValueError(f"{field} must be one of {', '.join(LANGUAGES)}")
+    return canonical
+
+
 def normalize_article(raw: dict, path: Path, *, information_page: bool = False) -> dict:
     prefix = str(path)
     article_id = slug(raw.get("id"), f"{prefix}: id")
@@ -171,6 +193,33 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
             "title": text(source.get("title"), f"{prefix}: sources[{i}].title"),
             "url": http_url(source.get("url"), f"{prefix}: sources[{i}].url"),
         })
+    language = article_language(raw["language"], f"{prefix}: language") if "language" in raw else None
+    published_at = None if information_page else parse_date(raw.get("published_at"), f"{prefix}: published_at")
+    updated_at = parse_date(raw["updated_at"], f"{prefix}: updated_at") if "updated_at" in raw else published_at
+    if published_at and updated_at < published_at:
+        raise ValueError(f"{prefix}: updated_at must not precede published_at")
+    metadata = {key: text(raw[key], f"{prefix}: {key}") if key in raw else ""
+                for key in ("league", "match_id", "article_kind", "translation_group")}
+    for key, value in metadata.items():
+        if value and not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._:-]{0,159}", value):
+            raise ValueError(f"{prefix}: {key} must be a short ASCII identifier")
+    if metadata["translation_group"] and not language:
+        raise ValueError(f"{prefix}: translation_group requires an explicit language")
+    blogger_value = raw.get("blogger_url")
+    blogger_url = "" if blogger_value is None or blogger_value == "" else http_url(blogger_value, f"{prefix}: blogger_url")
+    if blogger_url and platform != "blogger":
+        raise ValueError(f"{prefix}: blogger_url is only valid for Blogger articles")
+    figures = raw.get("figures", [])
+    if not isinstance(figures, list):
+        raise ValueError(f"{prefix}: figures must be a list")
+    clean_figures = []
+    for i, figure in enumerate(figures):
+        field = f"{prefix}: figures[{i}]"
+        if not isinstance(figure, dict):
+            raise ValueError(f"{field} must be an object")
+        clean_figures.append({"src": http_url(figure.get("src"), f"{field}.src"),
+                              "alt": text(figure.get("alt"), f"{field}.alt"),
+                              "caption": text(figure.get("caption", ""), f"{field}.caption", empty=True)})
     return {
         "id": article_id,
         "slug": article_slug,
@@ -178,7 +227,12 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
         "status": status,
         "title": text(raw.get("title"), f"{prefix}: title"),
         "description": text(raw.get("description", ""), f"{prefix}: description", empty=True),
-        "published_at": None if information_page else parse_date(raw.get("published_at"), f"{prefix}: published_at"),
+        "published_at": published_at,
+        "updated_at": updated_at,
+        "language": language,
+        **metadata,
+        "figures": clean_figures,
+        "blogger_url": blogger_url,
         "labels": list(dict.fromkeys(string_list(raw.get("labels", []), f"{prefix}: labels"))),
         "sections": clean_sections,
         "sources": clean_sources,
@@ -239,15 +293,98 @@ def esc(value: str) -> str:
 
 
 def words(config: dict) -> dict:
-    if config["language"].lower().startswith("ko"):
-        return {"articles": "글 목록", "sources": "참고 자료", "blogger": "Blogger", "empty": "아직 공개된 글이 없습니다.", "back": "모든 글 보기", "skip": "본문으로 이동"}
-    return {"articles": "Articles", "sources": "Sources", "blogger": "Blogger", "empty": "No articles have been published yet.", "back": "All articles", "skip": "Skip to content"}
+    code = config["language"]
+    ui = UI.get(code, UI.get(code.split("-")[0], UI["en"]))
+    return {**ui, "blogger": "Blogger"}
+
+
+def localized_config(config: dict, article: dict) -> dict:
+    return {**config, "default_language": config.get("default_language", config["language"]),
+            "language": article.get("language") or config["language"]}
+
+
+def language_path(config: dict, language: str) -> str:
+    return "" if language == config.get("default_language", config["language"]) else f"languages/{language}/"
+
+
+def public_article_url(config: dict, article: dict) -> str:
+    if article["platform"] == "blogger":
+        return article.get("blogger_url", "")
+    return absolute_url(config, f'posts/{article["slug"]}/')
+
+
+def connect_translations(config: dict, articles: list[dict], due: list[dict]) -> None:
+    """Validate identities; link only renderable GitHub or confirmed Blogger URLs."""
+    groups: dict[str, list[dict]] = {}
+    urls: dict[str, str] = {}
+    for article in articles:
+        group = article.get("translation_group")
+        if group:
+            members = groups.setdefault(group, [])
+            for other in members:
+                if article["language"] == other["language"]:
+                    raise ValueError(f"duplicate language {article['language']} in translation_group {group}")
+                for key in ("league", "match_id", "article_kind"):
+                    if article.get(key) != other.get(key):
+                        raise ValueError(f"translation_group {group} has inconsistent {key}")
+            members.append(article)
+        blogger_url = article.get("blogger_url")
+        if blogger_url:
+            base = urlsplit(config["blogger_base_url"])
+            candidate = urlsplit(blogger_url)
+            if base.netloc and candidate.netloc != base.netloc:
+                raise ValueError(f"{article['id']}: blogger_url is outside the configured Blogger site")
+            if candidate.path in {"", "/"} or candidate.fragment:
+                raise ValueError(f"{article['id']}: blogger_url must identify a post, without a fragment")
+            if blogger_url in urls:
+                raise ValueError(f"duplicate blogger_url: {article['id']} and {urls[blogger_url]}")
+            urls[blogger_url] = article["id"]
+    public_ids = {article["id"] for article in due}
+    order = {code: i for i, code in enumerate(LANGUAGES)}
+    for article in due:
+        members = groups.get(article.get("translation_group"), [])
+        article["translations"] = [
+            {"language": member["language"], "url": public_article_url(config, member)}
+            for member in sorted(members, key=lambda item: order[item["language"]])
+            if member["id"] in public_ids and public_article_url(config, member)
+        ]
+
+
+def language_navigation(config: dict, translations: list[dict], *, current: str) -> str:
+    if not translations:
+        return ""
+    links = []
+    for translation in translations:
+        code, url = translation["language"], translation["url"]
+        active = ' aria-current="page"' if code == current else ""
+        links.append(f'<a href="{esc(url)}" hreflang="{esc(code)}" lang="{esc(code)}"{active}>{esc(LANGUAGES.get(code, code))}</a>')
+    return f'<nav class="language-nav" aria-label="{esc(words(config)["language"])}" style="display:flex;flex-wrap:wrap;gap:.45rem 1rem;margin:1.4rem 0"><span class="language-label">{esc(words(config)["language"])}</span>{" ".join(links)}</nav>'
+
+
+def index_language_navigation(config: dict, *, prefix: str = "") -> str:
+    translations = [{"language": code, "url": prefix + language_path(config, code) or "./"}
+                    for code in config.get("available_languages", [])]
+    return language_navigation(config, translations, current=config["language"])
+
+
+def article_dates(article: dict, config: dict) -> str:
+    ui = words(config)
+    dates = [(ui["published"], article["published_at"])]
+    if article.get("updated_at") and article["updated_at"] != article["published_at"]:
+        dates.append((ui["updated"], article["updated_at"]))
+    return '<p class="article-dates">' + " · ".join(
+        f'{esc(label)}: <time datetime="{esc(date.isoformat())}">{esc(date.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"))}</time>'
+        for label, date in dates) + "</p>"
 
 
 def article_body(article: dict, config: dict) -> str:
+    config = localized_config(config, article)
     blocks = []
     if article["description"]:
         blocks.append(f'<p class="article-summary">{esc(article["description"])}</p>')
+    for figure in article.get("figures", []):
+        caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
+        blocks.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
     for section in article["sections"]:
         blocks.append("<section>")
         if section["heading"]:
@@ -274,7 +411,10 @@ def json_script(data: dict) -> str:
 
 
 def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None, site_pages: list[dict] | None = None) -> str:
+    if article:
+        config = localized_config(config, article)
     canonical = absolute_url(config, path)
+    ui = words(config)
     metadata = [f'<meta name="description" content="{esc(description)}">']
     if config["adsense_client_id"]:
         metadata.append(f'<meta name="google-adsense-account" content="{esc(config["adsense_client_id"])}">')
@@ -286,19 +426,26 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
         metadata.append('<meta name="robots" content="noindex, nofollow">')
     metadata += [f'<meta property="og:title" content="{esc(title)}">', f'<meta property="og:description" content="{esc(description)}">', f'<meta property="og:type" content="{"article" if article else "website"}">']
     if article:
-        data = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "description": article["description"], "datePublished": article["published_at"].isoformat(), "inLanguage": config["language"], "keywords": article["labels"]}
+        data = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "description": article["description"], "datePublished": article["published_at"].isoformat(), "dateModified": (article.get("updated_at") or article["published_at"]).isoformat(), "inLanguage": config["language"], "keywords": article["labels"]}
         if canonical:
             data.update({"url": canonical, "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}})
+        for translation in article.get("translations", []):
+            metadata.append(f'<link rel="alternate" hreflang="{esc(translation["language"])}" href="{esc(translation["url"])}">')
+        if article.get("figures"):
+            data["image"] = [figure["src"] for figure in article["figures"]]
+            metadata.append(f'<meta property="og:image" content="{esc(article["figures"][0]["src"])}">')
+            metadata.append(f'<meta property="og:image:alt" content="{esc(article["figures"][0]["alt"])}">')
         metadata.append(f'<script type="application/ld+json">{json_script(data)}</script>')
     if config["adsense_enabled"]:
         metadata.append(f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={config["adsense_client_id"]}" crossorigin="anonymous"></script>')
-    nav = [f'<a href="{prefix or "./"}">{words(config)["articles"]}</a>']
+    home_path = prefix + language_path(config, config["language"]) or "./"
+    nav = [f'<a href="{home_path}">{ui["articles"]}</a>']
     if canonical:
         nav.append(f'<a href="{prefix}rss.xml">RSS</a>')
     if config["blogger_base_url"]:
         nav.append(f'<a href="{esc(config["blogger_base_url"])}">{words(config)["blogger"]}</a>')
     footer_links = " · ".join(f'<a href="{prefix}pages/{page["slug"]}/">{esc(page["title"])}</a>' for page in site_pages or [])
-    footer_nav = f'<nav aria-label="{"사이트 안내" if config["language"].lower().startswith("ko") else "Site information"}">{footer_links}</nav>' if footer_links else ""
+    footer_nav = f'<nav aria-label="{esc(ui["information"])}">{footer_links}</nav>' if footer_links else ""
     return f'''<!doctype html>
 <html lang="{esc(config['language'])}">
 <head>
@@ -309,8 +456,8 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
 <link rel="stylesheet" href="{prefix}assets/style.css">
 </head>
 <body>
-<a class="skip-link" href="#main">{words(config)['skip']}</a>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="{prefix or './'}">{esc(config['site_title'])}</a><nav aria-label="Main">{' '.join(nav)}</nav></div></header>
+<a class="skip-link" href="#main">{ui['skip']}</a>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="{prefix or './'}">{esc(config['site_title'])}</a><nav aria-label="{esc(ui['main'])}">{' '.join(nav)}</nav></div></header>
 <main id="main" class="container">{body}</main>
 <footer class="site-footer container"><span>{esc(config['site_title'])}</span>{footer_nav}</footer>
 </body>
@@ -324,19 +471,31 @@ def label_html(article: dict) -> str:
     return '<ul class="labels">' + "".join(f"<li>{esc(label)}</li>" for label in article["labels"]) + "</ul>"
 
 
-def build_index(config: dict, articles: list[dict], site_pages: list[dict] | None = None) -> str:
+def build_index(config: dict, articles: list[dict], site_pages: list[dict] | None = None, *, language: str | None = None) -> str:
+    config = {**config, "language": language or config["language"]}
+    path = language_path(config, config["language"])
+    prefix = "../../" if path else ""
     cards = []
     for article in articles:
+        if (article.get("language") or config.get("default_language", config["language"])) != config["language"]:
+            continue
+        if article["platform"] == "blogger" and not article.get("blogger_url"):
+            continue
         date = article["published_at"].date().isoformat()
-        cards.append(f'''<article class="post-card"><time datetime="{esc(article['published_at'].isoformat())}">{date}</time><h2><a href="posts/{article['slug']}/">{esc(article['title'])}</a></h2><p>{esc(article['description'])}</p>{label_html(article)}</article>''')
+        target = article["blogger_url"] if article["platform"] == "blogger" else f'{prefix}posts/{article["slug"]}/'
+        destination = ' <span class="post-destination">Blogger</span>' if article["platform"] == "blogger" else ""
+        cards.append(f'''<article class="post-card"><time datetime="{esc(article['published_at'].isoformat())}">{date}</time>{destination}<h2><a href="{esc(target)}">{esc(article['title'])}</a></h2><p>{esc(article['description'])}</p>{label_html(article)}</article>''')
     listing = "\n".join(cards) if cards else f'<p class="empty-state">{words(config)["empty"]}</p>'
-    body = f'<section class="intro"><h1>{esc(config["site_title"])}</h1><p>{esc(config["site_description"])}</p></section><section class="post-list" aria-label="{words(config)["articles"]}">{listing}</section>'
-    return document(config, config["site_title"], config["site_description"], body, site_pages=site_pages)
+    subtitle = config["site_description"] if not path else f'{words(config)["articles"]} · {LANGUAGES.get(config["language"], config["language"])}'
+    body = f'<section class="intro"><h1>{esc(config["site_title"])}</h1><p>{esc(subtitle)}</p>{index_language_navigation(config, prefix=prefix)}</section><section class="post-list" aria-label="{words(config)["articles"]}">{listing}</section>'
+    return document(config, config["site_title"], subtitle, body, path=path, prefix=prefix, site_pages=site_pages)
 
 
 def build_article(config: dict, article: dict, site_pages: list[dict] | None = None) -> str:
-    published = article["published_at"]
-    body = f'''<article class="article"><header class="article-header"><time datetime="{esc(published.isoformat())}">{published.date().isoformat()}</time><h1>{esc(article['title'])}</h1>{label_html(article)}</header><div class="prose">{article_body(article, config)}</div></article><p class="back-link"><a href="../../">← {words(config)['back']}</a></p>'''
+    config = localized_config(config, article)
+    translations = language_navigation(config, article.get("translations", []), current=config["language"])
+    back = "../../" + language_path(config, config["language"])
+    body = f'''<article class="article"><header class="article-header">{article_dates(article, config)}<h1>{esc(article['title'])}</h1>{label_html(article)}{translations}</header><div class="prose">{article_body(article, config)}</div></article><p class="back-link"><a href="{back}">← {words(config)['back']}</a></p>'''
     return document(config, f'{article["title"]} · {config["site_title"]}', article["description"], body, path=f'posts/{article["slug"]}/', prefix="../../", article=article, site_pages=site_pages)
 
 
@@ -358,7 +517,12 @@ def sitemap(config: dict, articles: list[dict], site_pages: list[dict] | None = 
         for article in articles:
             node = ET.SubElement(root, "url")
             ET.SubElement(node, "loc").text = absolute_url(config, f'posts/{article["slug"]}/')
-            ET.SubElement(node, "lastmod").text = article["published_at"].isoformat()
+            ET.SubElement(node, "lastmod").text = (article.get("updated_at") or article["published_at"]).isoformat()
+        for language in config.get("available_languages", []):
+            path = language_path(config, language)
+            if path:
+                node = ET.SubElement(root, "url")
+                ET.SubElement(node, "loc").text = absolute_url(config, path)
         for page in site_pages or []:
             node = ET.SubElement(root, "url")
             ET.SubElement(node, "loc").text = absolute_url(config, f'pages/{page["slug"]}/')
@@ -366,6 +530,9 @@ def sitemap(config: dict, articles: list[dict], site_pages: list[dict] | None = 
 
 
 def rss(config: dict, articles: list[dict]) -> bytes:
+    articles = [article for article in articles
+                if (article.get("language") or config["language"]) == config["language"]
+                and public_article_url(config, article)]
     root = ET.Element("rss", version="2.0")
     channel = ET.SubElement(root, "channel")
     ET.SubElement(channel, "title").text = config["site_title"]
@@ -378,7 +545,7 @@ def rss(config: dict, articles: list[dict]) -> bytes:
             ET.SubElement(channel, "lastBuildDate").text = format_datetime(articles[0]["published_at"].astimezone(timezone.utc), usegmt=True)
         for article in articles:
             item = ET.SubElement(channel, "item")
-            url = absolute_url(config, f'posts/{article["slug"]}/')
+            url = public_article_url(config, article)
             ET.SubElement(item, "title").text = article["title"]
             ET.SubElement(item, "link").text = url
             ET.SubElement(item, "guid", isPermaLink="true").text = url
@@ -387,6 +554,39 @@ def rss(config: dict, articles: list[dict]) -> bytes:
             for label in article["labels"]:
                 ET.SubElement(item, "category").text = label
     return xml_bytes(root)
+
+
+def blogger_payload(article: dict, config: dict) -> dict:
+    """Export body HTML only; Blogger owns its document head and canonical tag.
+
+    publish_blogger.py attaches the existing stable identity marker on loading.
+    Do not put that reserved marker in exports or change the export filenames.
+    """
+    config = localized_config(config, article)
+    navigation = language_navigation(config, article.get("translations", []), current=config["language"])
+    content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{article_dates(article, config)}{navigation}{article_body(article, config)}</div>'
+    return {"title": article["title"], "content": content, "labels": article["labels"]}
+
+
+def chart_assets(config: dict, articles: list[dict]) -> dict[str, bytes]:
+    """Ship shared factual graphics, including those embedded by Blogger."""
+    result = {}
+    directory = ROOT / "assets" / "charts"
+    if directory.exists():
+        for asset in sorted(directory.rglob("*")):
+            if asset.is_symlink():
+                raise ValueError(f"chart assets must not be symlinks: {asset}")
+            if asset.is_file() and asset.suffix.lower() in {".svg", ".png", ".webp", ".jpg", ".jpeg", ".gif"}:
+                result[asset.relative_to(ROOT).as_posix()] = asset.read_bytes()
+    local_prefix = absolute_url(config, "assets/charts/")
+    if local_prefix:
+        for article in articles:
+            for figure in article.get("figures", []):
+                if figure["src"].startswith(local_prefix):
+                    relative = "assets/charts/" + figure["src"][len(local_prefix):].split("?", 1)[0].split("#", 1)[0]
+                    if relative not in result:
+                        raise ValueError(f"{article['id']}: missing shared figure asset {relative}")
+    return result
 
 
 def ensure_safe_outputs(outputs: list[Path], inputs: list[Path]) -> None:
@@ -481,15 +681,24 @@ def main(argv: list[str] | None = None) -> int:
         exports = Path(args.blogger_out).resolve()
         ensure_safe_outputs([output, exports], [config_path, content_path, pages_path, ROOT])
         config = load_config(config_path)
+        config["default_language"] = config["language"]
         articles = load_articles(content_path)
         site_pages = load_site_pages(pages_path, articles)
         due = [a for a in articles if a["status"] == "ready" and a["published_at"] <= build_time]
+        connect_translations(config, articles, due)
         github = [a for a in due if a["platform"] == "github"]
         blogger = [a for a in due if a["platform"] == "blogger"]
+        config["available_languages"] = [code for code in LANGUAGES
+                                         if any((a["language"] or config["language"]) == code for a in due)]
         # Empty sites, including those with only future posts, must not show ads.
         config["adsense_enabled"] = config["adsense_enabled"] and bool(github)
         css = (ROOT / "assets" / "style.css").read_bytes()
-        files = {"index.html": build_index(config, github, site_pages).encode("utf-8"), "assets/style.css": css, "sitemap.xml": sitemap(config, github, site_pages), "rss.xml": rss(config, github)}
+        files = {"index.html": build_index(config, due, site_pages).encode("utf-8"), "assets/style.css": css, "sitemap.xml": sitemap(config, github, site_pages), "rss.xml": rss(config, due)}
+        files.update(chart_assets(config, due))
+        for language in config["available_languages"]:
+            path = language_path(config, language)
+            if path:
+                files[f"{path}index.html"] = build_index(config, due, site_pages, language=language).encode("utf-8")
         for article in github:
             files[f'posts/{article["slug"]}/index.html'] = build_article(config, article, site_pages).encode("utf-8")
         for page in site_pages:
@@ -504,7 +713,7 @@ def main(argv: list[str] | None = None) -> int:
             files["ads.txt"] = f"google.com, {publisher}, DIRECT, f08c47fec0942fa0\n".encode("utf-8")
         payloads = {}
         for article in blogger:
-            payload = {"title": article["title"], "content": article_body(article, config), "labels": article["labels"]}
+            payload = blogger_payload(article, config)
             payloads[f'{article["id"]}.json'] = (json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
         old_files = previous_files(output)
         old_payloads = previous_files(exports)

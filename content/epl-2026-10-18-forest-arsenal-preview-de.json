@@ -1,0 +1,96 @@
+{
+  "id": "epl-2026-10-18-forest-arsenal-preview-de",
+  "slug": "epl-2026-10-18-forest-arsenal-preview-de",
+  "platform": "blogger",
+  "status": "ready",
+  "title": "Forest gegen Arsenal: Was zwischen Chancen und Toren fehlt",
+  "description": "Fünf Tore bei 10,3 xG: Darauf lohnt sich am 18. Oktober bei Forest gegen Arsenal der Blick. Eine verständliche Vorschau mit Anstoßzeiten.",
+  "sections": [
+    {
+      "heading": "Die Frage hinter dieser Begegnung",
+      "paragraphs": [
+        "Bei Nottingham Forest liegen Chancen und Tore bislang auseinander. Die offizielle Klubvorschau auf das Arsenal-Spiel am 18. Oktober nennt fünf Premier-League-Tore bei 10,3 Expected Goals aus den ersten sechs Partien. Zu Hause wartet Forest nach drei Ligaspielen noch auf den ersten Treffer.",
+        "Damit bietet das Spiel mehr als die Frage nach dem Favoriten: Kann Forest vielversprechende Angriffe in Tore verwandeln? Und kann Arsenal schon verhindern, dass diese Möglichkeiten entstehen?"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "So lässt sich die Grafik lesen",
+      "paragraphs": [
+        "Verglichen werden Forests tatsächliche Tore und die aufsummierten xG, also eine modellbasierte Schätzung der Qualität seiner Abschlusschancen. Die Differenz beträgt 5,3. Sie sagt nicht voraus, wie oft Forest gegen Arsenal treffen wird.",
+        "xG hilft bei der Frage, ob ein Team in gute Schusspositionen kommt. Die Zahl bringt keine Punkte, erklärt nicht jeden Fehlschuss und bedeutet nicht, dass nun ein Tor 'fällig' ist. Sechs Spiele sind außerdem eine kleine Stichprobe. Entscheidend ist am Sonntag, welche Chancen Forest gegen genau diesen Gegner erspielt."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Drei Dinge, auf die sich der Blick lohnt",
+      "paragraphs": [],
+      "bullets": [
+        "Vor dem Abschluss: Kann sich der Empfänger zum Tor drehen und den Schuss vorbereiten, oder muss er sich strecken und durch Verteidiger hindurchschießen? Das sagt mehr aus als eine bloß steigende Schusszahl.",
+        "Nach einem Ballgewinn von Forest: Erreicht der erste Pass nach vorn einen Mitspieler? Bietet ein weiterer Läufer Unterstützung? Zuerst lohnt der Blick auf die Entstehung des Angriffs, bevor allein die Chancenverwertung kritisiert wird.",
+        "Bei Arsenals Ballbesitz: Achte auf Pässe zu einem Mitspieler hinter Forests Mittelfeld. Kann der Empfänger aufdrehen oder weiterspielen, bevor die Verteidigung den Raum schließt?"
+      ]
+    },
+    {
+      "heading": "Das erste Tor verändert die Fragen",
+      "paragraphs": [
+        "Geht Forest in Führung, wird interessant, wie Arsenal den Ausgleich sucht, ohne einfache Wege nach vorn freizugeben. Trifft Arsenal zuerst, schafft Forest dann klarere Chancen oder versucht es nur häufiger aus schwierigen Positionen? Das sind Beobachtungsfragen und keine Behauptungen über ein System oder eine bestätigte Startelf."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Vergangene Spiele geben Kontext",
+      "paragraphs": [
+        "Die beiden letzten Ligaduelle im City Ground endeten 0–0. Im Januar 2026 zeigte sich, dass auch ein torloses Spiel eine entscheidende Parade enthalten kann: Der Premier-League-Bericht hob Matz Sels' Abwehr eines Kopfballs von Bukayo Saka hervor.",
+        "Ein weiteres Unentschieden ist dadurch nicht vorgegeben. Die Frage für diesmal lautet: Wer nutzt eine Öffnung zum ersten Tor?"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Anstoß",
+      "paragraphs": [],
+      "bullets": [
+        "Sonntag, 18. Oktober 2026, 16:30 BST im City Ground in Nottingham.",
+        "15:30 UTC; in Südkorea Montag, 19. Oktober, 00:30.",
+        "Der veröffentlichte britische TV-Plan nennt Sky Sports. In anderen Ländern gelten die jeweiligen lokalen Übertragungsrechte. Vor dem Anpfiff auch die bestätigten Teamnachrichten prüfen."
+      ]
+    }
+  ],
+  "published_at": "2026-10-17T15:28:39Z",
+  "updated_at": "2026-10-17T15:28:39Z",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "pl-2645263",
+  "article_kind": "preview",
+  "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:de"
+  ],
+  "sources": [
+    {
+      "title": "Premier League: revised October and November fixtures",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+    },
+    {
+      "title": "Nottingham Forest official preview, carried by the Premier League (16 October 2026)",
+      "url": "https://www.premierleague.com/es/news/4737684/forest-preview-reds-host-gunners-on-trentside"
+    },
+    {
+      "title": "Premier League: Forest–Arsenal match report, 17 January 2026",
+      "url": "https://www.premierleague.com/en/news/4536818/nottingham-forest-0-arsenal-0-match-report-17-january-2026"
+    },
+    {
+      "title": "Premier League: FPL glossary, expected goals definition",
+      "url": "https://www.premierleague.com/en/news/2683145/fpl-glossary"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-de.svg",
+      "alt": "Nottingham Forests erste sechs Ligaspiele: fünf Tore im Vergleich zu 10,3 Expected Goals.",
+      "caption": "Premier League 2026/27, erste sechs Spiele. Zahlen vom 16. Oktober. xG schätzt die Chancenqualität und ist keine Torprognose für das Arsenal-Spiel."
+    }
+  ]
+}

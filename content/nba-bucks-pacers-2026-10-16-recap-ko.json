@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-ko",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "ko",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "밀워키 128–127 인디애나, 연장 승리: 히로와 시아캄의 득점 풀이",
+  "description": "10월 16일 NBA 프리시즌 경기. 타일러 히로의 25점과 파스칼 시아캄의 24점을 득점 유형별로 나눠 쉽게 읽어본다.",
+  "sections": [
+    {
+      "heading": "경기 결과",
+      "paragraphs": [
+        "밀워키 벅스가 현지 2026년 10월 16일 인디애나 페이서스를 연장 끝에 128–127로 이겼다. 프리시즌 경기다. 밀워키의 타일러 히로는 25점, 인디애나의 파스칼 시아캄은 24점을 기록했다. 두 선수는 3점슛을 5개씩 넣었지만 나머지 득점의 구성은 달랐다."
+      ]
+    },
+    {
+      "heading": "1점 차이지만 득점 경로는 달랐다",
+      "paragraphs": [
+        "히로는 야투 16개 중 10개를 성공했고, 그중 3점슛은 7개 중 5개였다. 자유투 시도는 없었다. 시아캄은 야투 10개 중 8개를 성공했으며 3점슛은 역시 7개 중 5개, 자유투는 3개 모두 성공했다. 그림은 각 득점 유형에서 얻은 점수를 구분한다."
+      ],
+      "bullets": [
+        "히로: 2점슛 5개로 10점, 3점슛 5개로 15점, 자유투 0점. 합계 25점.",
+        "시아캄: 2점슛 3개로 6점, 3점슛 5개로 15점, 자유투 3점. 합계 24점."
+      ]
+    },
+    {
+      "heading": "야투 기록을 득점으로 바꾸는 방법",
+      "paragraphs": [
+        "농구 기록의 야투 성공에는 2점슛과 3점슛이 모두 포함된다. 따라서 2점슛 성공 수를 구하려면 전체 야투 성공 수에서 3점슛 성공 수를 빼야 한다. 그다음 2점슛에는 2, 3점슛에는 3을 곱하고 성공한 자유투를 더하면 총득점이 된다. 그림의 축이 슛 성공 개수가 아니라 득점을 나타내는 이유다."
+      ]
+    },
+    {
+      "heading": "이 비교로 알 수 있는 것",
+      "paragraphs": [
+        "두 선수 모두 3점 라인 밖에서 15점을 얻었다. 히로는 2점슛으로 시아캄보다 4점을 더 얻었고, 시아캄은 자유투로 3점을 보탰다. 이것이 두 선수 개인 득점의 1점 차이를 설명한다. 밀워키가 1점 차로 이긴 원인을 뜻하지는 않는다. 다른 모든 선수의 득점과 공격이 진행된 순서도 실제 경기에 포함되기 때문이다."
+      ]
+    },
+    {
+      "heading": "성공률은 경기의 한 부분이다",
+      "paragraphs": [
+        "시아캄의 야투 8/10은 80%, 히로의 10/16은 62.5%다. 이 수치는 해당 경기에서 시도한 야투의 성공 비율이다. 각 슛의 난도, 수비 기여, 동료에게 만들어준 모든 기회를 함께 평가하는 지표는 아니다. 더 높은 성공률과 더 많은 총득점은 서로 다른 질문에 대한 답이다."
+      ]
+    },
+    {
+      "heading": "다시 볼 때 확인할 장면",
+      "paragraphs": [
+        "공식 하이라이트에서는 숫자 앞뒤의 동작을 보자. 패스를 받아 득점했는지, 드리블로 기회를 만들었는지, 슛이 빗나간 뒤 두 번째 기회를 얻었는지 확인하는 것이다. 공격을 마무리한 선수와 함께 그 움직임을 시작한 선수도 따라가보자."
+      ]
+    },
+    {
+      "heading": "정규시즌은 새로 시작한다",
+      "paragraphs": [
+        "NBA 일정에는 현지 10월 21일 밀워키의 워싱턴 원정, 인디애나의 뉴올리언스 원정이 두 팀의 정규시즌 첫 경기로 잡혀 있다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-ko.svg",
+      "alt": "히로: 2점슛 득점 10, 3점슛 득점 15, 자유투 0. 시아캄: 각각 6, 15, 3점.",
+      "caption": "2026년 10월 16일 NBA 공식 경기 기록으로 계산한 득점 유형별 점수입니다. 두 선수의 기록이며 팀 전체 득점이나 시간 흐름은 아닙니다."
+    }
+  ]
+}

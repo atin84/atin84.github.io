@@ -1,0 +1,94 @@
+{
+  "id": "epl-2026-10-17-everton-chelsea-recap-en",
+  "slug": "epl-2026-10-17-everton-chelsea-recap-en",
+  "platform": "github",
+  "status": "ready",
+  "title": "Everton 0–2 Chelsea: why the timing of Neto's goals mattered",
+  "description": "Pedro Neto scored in the 46th and 90th minutes at Everton. A clear guide to Chelsea's two-goal win, the long spell at 1–0 and the clean sheet.",
+  "sections": [
+    {
+      "heading": "A quick restart, then a long wait",
+      "paragraphs": [
+        "Chelsea beat Everton 2–0 at the Hill Dickinson Stadium on 17 October 2026, with Pedro Neto scoring both goals. The timing explains the shape of the result: goalless at half-time, Chelsea led in the 46th minute but did not add their second until the 90th.",
+        "The score graphic marks the two goal times and the long interval between them."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "46 minutes: an attack ends with a finish",
+      "paragraphs": [
+        "Chelsea's official report describes Morgan Rogers releasing Jorrel Hato, whose delivery reached Neto for the opener. The goal arrived 43 seconds after the second half began.",
+        "On a replay, follow the pass before the delivery as well as the finish. A teammate has to reach a useful position, and the ball then has to arrive where the scorer can use it."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Why 0–0 at the break did not mean nothing happened",
+      "paragraphs": [
+        "Before the interval, Moises Caicedo hit the crossbar and Maxence Lacroix had a header cleared off the line, according to the club report. Those incidents did not alter the score, but they belong in an explanation of the half.",
+        "The score remained level, but the crossbar and the goal-line clearance show why the first-half chances are worth revisiting."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "A goalkeeper change without conceding",
+      "paragraphs": [
+        "Mike Penders replaced the injured Emiliano Martinez in the 70th minute. Chelsea finished the match without conceding."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "90 minutes: the second goal creates a cushion",
+      "paragraphs": [
+        "Neto's second came after a blocked Jordan Henderson free-kick left a loose ball. It changed a one-goal lead into a two-goal lead.",
+        "Until then, one Everton goal would have levelled the match. After it, Everton needed two to draw. That simple change explains why the later goal mattered even though the winning side did not change."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "The result in context",
+      "paragraphs": [
+        "Chelsea's pre-match statistical guide recorded 22 consecutive Premier League matches without a clean sheet. This result ended that run. Everton, meanwhile, had entered unbeaten in their six league matches this season.",
+        "When watching the highlights, follow how the two goals were made and what happened during the long period between them."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-17T15:33:39Z",
+  "updated_at": "2026-10-17T15:33:39Z",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "epl-2026-10-17-everton-chelsea",
+  "article_kind": "recap",
+  "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:en"
+  ],
+  "sources": [
+    {
+      "title": "Chelsea official match report: Everton 0–2 Chelsea",
+      "url": "https://www.chelseafc.com/en/news/article/match-report-everton-0-2-chelsea"
+    },
+    {
+      "title": "Chelsea: Xabi Alonso's post-match assessment",
+      "url": "https://www.chelseafc.com/en/news/article/alonso-reflects-on-a-serious-solid-very-good-away-win"
+    },
+    {
+      "title": "Chelsea: pre-match statistics and historical context",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-key-statistics-and-facts-26-27"
+    },
+    {
+      "title": "Chelsea: confirmed match date and stadium",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-preview-tv-channel-kick-off-time-and-how-to-watch-141026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-en.svg",
+      "alt": "Everton and Chelsea were level at half-time. Pedro Neto made it 0–1 in the 46th minute and 0–2 in the 90th; the final score was 0–2.",
+      "caption": "Official goal minutes: 46 and 90. Half-time and full-time mark match stages; added time is not shown to scale. Source: Chelsea's official match report."
+    }
+  ]
+}

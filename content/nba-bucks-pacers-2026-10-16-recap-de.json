@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-de",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "de",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "Bucks 128–127 Pacers nach Verlängerung: Herros und Siakams Punkte erklärt",
+  "description": "Der Vorbereitungssieg vom 16. Oktober, verständlich erklärt anhand von Tyler Herros 25 und Pascal Siakams 24 Punkten.",
+  "sections": [
+    {
+      "heading": "Das Ergebnis",
+      "paragraphs": [
+        "Milwaukee besiegte Indiana am 16. Oktober 2026 nach Verlängerung mit 128–127. Es war ein Vorbereitungsspiel. Tyler Herro erzielte 25 Punkte für die Bucks, Pascal Siakam 24 für die Pacers. Ihre Werte bieten einen verständlichen Einstieg in die Spielstatistik."
+      ]
+    },
+    {
+      "heading": "Ein Punkt Abstand, unterschiedliche Wege",
+      "paragraphs": [
+        "Herro traf 10 seiner 16 Feldwürfe, darunter 5 von 7 Dreiern, und hatte keinen Freiwurfversuch. Siakam traf 8 von 10 Feldwürfen, ebenfalls 5 von 7 Dreiern, sowie alle 3 Freiwürfe. Die Grafik trennt die durch jede Wurfart erzielten Punkte."
+      ],
+      "bullets": [
+        "Herro: fünf Zweier ergaben 10 Punkte, fünf Dreier 15 und Freiwürfe 0. Gesamt: 25.",
+        "Siakam: drei Zweier ergaben 6 Punkte, fünf Dreier 15 und Freiwürfe 3. Gesamt: 24."
+      ]
+    },
+    {
+      "heading": "Wie aus Feldwürfen Punkte werden",
+      "paragraphs": [
+        "Die Feldwurfstatistik enthält sowohl Zwei- als auch Dreipunktwürfe. Für die Zahl der erfolgreichen Zweier zieht man die getroffenen Dreier von allen getroffenen Feldwürfen ab. Anschließend multipliziert man Zweier mit zwei, Dreier mit drei und addiert die getroffenen Freiwürfe. Deshalb zeigt die Achse der Grafik Punkte und nicht die Zahl erfolgreicher Würfe."
+      ]
+    },
+    {
+      "heading": "Was der Vergleich aussagt",
+      "paragraphs": [
+        "Beide Spieler erzielten 15 Punkte von jenseits der Dreierlinie. Herro holte durch Zweier vier Punkte mehr, während Siakam drei Freiwurfpunkte beisteuerte. So entsteht der Ein-Punkt-Abstand ihrer persönlichen Summen. Das erklärt nicht Milwaukees Sieg mit einem Punkt Vorsprung: Auch alle anderen Spieler und die Reihenfolge der Angriffe gehören zum Spiel."
+      ]
+    },
+    {
+      "heading": "Trefferquote ist nur ein Teil des Bildes",
+      "paragraphs": [
+        "Siakams 8 von 10 entsprechen 80 Prozent, Herros 10 von 16 ergeben 62,5 Prozent. Diese Werte beschreiben die Feldwürfe in dieser Partie. Sie messen weder die Schwierigkeit jedes Versuchs noch die Defensivleistung oder sämtliche für Mitspieler geschaffenen Chancen. Eine bessere Quote und eine höhere Punktzahl beantworten unterschiedliche Fragen."
+      ]
+    },
+    {
+      "heading": "Worauf sich beim Wiederansehen achten lässt",
+      "paragraphs": [
+        "Die offiziellen Highlights verbinden Zahlen mit Aktionen: Entstand der Korb nach einem Pass, aus einem Dribbling oder aus einer zweiten Chance nach einem Fehlwurf? Achte sowohl auf den Spieler, der die Aktion beginnt, als auch auf denjenigen, der sie abschließt."
+      ]
+    },
+    {
+      "heading": "Neustart in der regulären Saison",
+      "paragraphs": [
+        "Laut NBA-Spielplan beginnt Milwaukee am 21. Oktober auswärts in Washington, Indiana ebenfalls an diesem Tag in New Orleans. Die Würfe von Herro und Siakam aus dieser Vorbereitungspartie liefern konkrete Leistungen, auf die sich beim Start der neuen Saison zurückblicken lässt."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-de.svg",
+      "alt": "Herro: 10 Punkte durch Zweier, 15 durch Dreier, keine Freiwürfe. Siakam: 6, 15 und 3.",
+      "caption": "Punkte nach Wurfart, aus den NBA-Spielprotokollen vom 16. Oktober 2026 berechnet. Zwei Spieler, keine vollständigen Teamwerte oder Zeitverläufe."
+    }
+  ]
+}

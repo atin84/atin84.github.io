@@ -1,0 +1,79 @@
+{
+  "id": "nba-thunder-spurs-2026-10-20-preview-de",
+  "platform": "github",
+  "status": "ready",
+  "language": "de",
+  "league": "NBA",
+  "match_id": "0022600003",
+  "article_kind": "preview",
+  "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Oklahoma City Thunder",
+    "San Antonio Spurs",
+    "Preview"
+  ],
+  "title": "Thunder bei den Spurs am 20. Oktober: Drei Beobachtungstipps zum Saisonstart",
+  "description": "Spieltermin, Vorgeschichte und drei einfache Fragen zu Wurfvorbereitung, Rebounds und Umschaltspiel bei Oklahoma City gegen San Antonio.",
+  "sections": [
+    {
+      "heading": "Wann und wo?",
+      "paragraphs": [
+        "Oklahoma City gastiert am Dienstag, dem 20. Oktober 2026, im Frost Bank Center in San Antonio. Der Beginn ist für 20:30 Uhr Ortszeit beziehungsweise 21:30 Uhr US-Ostküstenzeit angesetzt. Das entspricht dem 21. Oktober um 01:30 Uhr UTC. Die Partie gehört zum Auftakt der regulären Saison. Im amerikanischen NBA-Sendeplan stehen NBC und Peacock; die Übertragung in anderen Ländern hängt vom jeweiligen Markt ab."
+      ]
+    },
+    {
+      "heading": "Ein Duell mit Vorgeschichte",
+      "paragraphs": [
+        "Die Spurs setzten sich 2026 in sieben Spielen der Western Conference Finals gegen den Thunder durch. Zum Saisonstart lässt sich diese Begegnung neu betrachten. Shai Gilgeous-Alexander und Victor Wembanyama gehören zu den interessanten Spielern, sofern sie verfügbar sind. Die frühere Serie liefert Hintergrund, entscheidet aber nicht über dieses Spiel. Drei Fragen helfen dabei, das Geschehen genauer zu verfolgen."
+      ]
+    },
+    {
+      "heading": "1. Wie entsteht der erste gute Wurf?",
+      "paragraphs": [
+        "Wenn Gilgeous-Alexander den Ball führt, achte neben dem Dribbling auch auf die Verteidiger. Bleibt einer vor ihm oder kommt ein weiterer zur Hilfe? Falls Hilfe kommt, verfolge den nächsten Pass: Entsteht dadurch Platz für einen Mitspieler? Auf der anderen Seite ist interessant, wo Wembanyama den Ball erhält und wie die Abwehr reagiert. Das sind Beobachtungsfragen, keine Ankündigung einer feststehenden Taktik."
+      ]
+    },
+    {
+      "heading": "2. Wer beendet den Angriff nach einem Fehlwurf?",
+      "paragraphs": [
+        "Schau weiter, wenn der Ball den Ring trifft. Der Rebound entscheidet, ob das angreifende Team eine weitere Chance bekommt oder die Abwehr in die Gegenrichtung starten kann. Beachte auch den Spieler, der einem Mitspieler Platz zum Einsammeln des Balls verschafft, nicht nur den statistischen Reboundgewinner. Ein Fehlwurf mit anschließendem Offensivrebound unterscheidet sich von einem Fehlwurf, der sofort einen gegnerischen Angriff ermöglicht."
+      ]
+    },
+    {
+      "heading": "3. Wie beginnt der nächste Angriff?",
+      "paragraphs": [
+        "Nach einem Rebound oder Ballverlust lohnt der Blick nach vorne. Folgt ein schneller Pass, ein Dribbling in freien Raum oder eine Pause, bis alle ihre Positionen einnehmen? So lassen sich Umschaltchancen von Angriffen gegen eine geordnete Verteidigung unterscheiden. Bei mehreren Körben in Folge schau auf den Beginn der einzelnen Angriffe zurück, statt jedem Treffer dieselbe Ursache zuzuschreiben."
+      ]
+    },
+    {
+      "heading": "Verfolge einen vollständigen Ballbesitz",
+      "paragraphs": [
+        "Probiere die drei Fragen für einige Minuten: Wie entstand der Wurf, wer bekam den Abpraller und wie begann der nächste Angriff? Dabei lassen sich sowohl das Starduell als auch die verbindenden Aktionen der Mitspieler genießen. Startformationen und Einsatzfähigkeit sollten kurz vor Spielbeginn geprüft werden; dieser Leitfaden behandelt sie nicht als bestätigt."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA Communications: 2026-27 regular-season schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA: Thunder at Spurs, October 20, 2026",
+      "url": "https://www.nba.com/game/okc-vs-sas-0022600003"
+    },
+    {
+      "title": "NBA Starting 5: Opening-week guide, October 13, 2026",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-de.svg",
+      "alt": "Dreiteiliger Leitfaden: Wurfvorbereitung, Rebound und nächster Angriff.",
+      "caption": "Beobachtungshilfe für den 20. Oktober 2026. Ein Schema, keine Prognose oder bestätigte Aufstellung."
+    }
+  ]
+}

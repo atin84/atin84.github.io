@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+  "league": "EPL",
+  "article_kind": "recap",
+  "match_id": "epl-2026-10-17-everton-chelsea",
+  "match_id_origin": "Internal date-team identity; no official numeric fixture ID was established.",
+  "home": "Everton",
+  "away": "Chelsea",
+  "venue": "Hill Dickinson Stadium, Liverpool",
+  "scheduled_start_utc": "2026-10-17T11:30:00Z",
+  "status_at_verification": "final",
+  "verified_at": "2026-10-17T15:33:39Z",
+  "sources": [
+    {
+      "id": "report",
+      "url": "https://www.chelseafc.com/en/news/article/match-report-everton-0-2-chelsea",
+      "reference_id": "turn301view0",
+      "body_read": true,
+      "exact_short_excerpt": "Scorer: Neto 46, 90",
+      "paraphrased_evidence": [
+        "Report states an away victory and Chelsea rising above Everton after the match, confirming completed status.",
+        "Opening goal 43 seconds after second-half restart; Rogers and Hato were involved in the supply.",
+        "Neto scored again from the loose ball after Henderson's free-kick was blocked.",
+        "Line-up substitution record has Martinez replaced by Penders at 70.",
+        "Report describes Caicedo hitting the crossbar and Lacroix's header cleared on the line before half-time."
+      ],
+      "relevant_lines": "2–8, 18–31, 34, 41–46",
+      "note": "A later fetch by another worker may error. This worker read the actual body and preserved the reference and factual extraction."
+    },
+    {
+      "id": "reaction",
+      "url": "https://www.chelseafc.com/en/news/article/alonso-reflects-on-a-serious-solid-very-good-away-win",
+      "reference_id": "turn301view2",
+      "body_read": true,
+      "paraphrased_evidence": [
+        "Completed 2–0 victory and Neto brace.",
+        "First league clean sheet since January. No direct quotes are reproduced in the article."
+      ]
+    },
+    {
+      "id": "pre_match_stats",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-key-statistics-and-facts-26-27",
+      "reference_id": "turn310view1",
+      "body_read": true,
+      "paraphrased_evidence": [
+        "Before kick-off Chelsea had conceded in 22 consecutive Premier League matches.",
+        "Everton began with two wins and four draws from six league matches; undefeated in those six."
+      ],
+      "relevant_lines": "3, 42, 82"
+    },
+    {
+      "id": "fixture",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-preview-tv-channel-kick-off-time-and-how-to-watch-141026",
+      "reference_id": "turn310view0",
+      "body_read": true,
+      "paraphrased_evidence": [
+        "Saturday 17 October 2026, 12:30 UK, Hill Dickinson Stadium Liverpool."
+      ],
+      "relevant_lines": "11–17"
+    }
+  ],
+  "facts": {
+    "final_score": {
+      "home": 0,
+      "away": 2
+    },
+    "halftime_score": {
+      "home": 0,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 46,
+        "scorer": "Pedro Neto",
+        "team": "Chelsea",
+        "home_score": 0,
+        "away_score": 1
+      },
+      {
+        "minute": 90,
+        "scorer": "Pedro Neto",
+        "team": "Chelsea",
+        "home_score": 0,
+        "away_score": 2
+      }
+    ],
+    "seconds_after_second_half_restart_first_goal": 43,
+    "goalkeeper_change": {
+      "minute": 70,
+      "out": "Emiliano Martinez",
+      "in": "Mike Penders",
+      "reason": "injury; diagnosis not asserted"
+    },
+    "previous_chelsea_consecutive_league_matches_conceding": 22,
+    "everton_pre_match_league_matches": 6,
+    "everton_pre_match_league_record": {
+      "wins": 2,
+      "draws": 4,
+      "losses": 0
+    },
+    "full_time_elapsed_minute": null
+  },
+  "chart": {
+    "type": "score_event_timeline",
+    "home": "Everton",
+    "away": "Chelsea",
+    "milestones": [
+      {
+        "key": "kickoff",
+        "minute": 0,
+        "home": 0,
+        "away": 0
+      },
+      {
+        "key": "halftime",
+        "minute": 45,
+        "home": 0,
+        "away": 0
+      },
+      {
+        "key": "first_goal",
+        "minute": 46,
+        "home": 0,
+        "away": 1,
+        "scorer": "Pedro Neto"
+      },
+      {
+        "key": "second_goal",
+        "minute": 90,
+        "home": 0,
+        "away": 2,
+        "scorer": "Pedro Neto"
+      },
+      {
+        "key": "fulltime",
+        "minute": null,
+        "home": 0,
+        "away": 2
+      }
+    ],
+    "source_id": "report",
+    "must_label": "Official goal minutes 46 and 90; FT is a final-status marker, not an inferred elapsed time.",
+    "not_momentum": true
+  },
+  "editorial_notes": [
+    "No precise full-time elapsed minute inferred from announced added time or substitute timestamps.",
+    "Report lists the second goal at 90; another gallery describes stoppage time. Use official scorer listing 90 without inventing seconds.",
+    "No injury diagnosis, tactical causality, eyewitness report or player emotion is asserted.",
+    "AI cross-language checks are not represented as native-speaker or human review."
+  ]
+}

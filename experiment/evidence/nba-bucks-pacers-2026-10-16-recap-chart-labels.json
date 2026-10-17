@@ -1,0 +1,106 @@
+{
+  "en": {
+    "title": "How Herro's 25 and Siakam's 24 were scored",
+    "alt": "Scoring breakdown: Herro 10 points from twos, 15 from threes, zero free throws; Siakam 6, 15 and 3.",
+    "caption": "Points by scoring type, derived from NBA game logs for October 16, 2026. These are two players' totals, not the full team scores or a timeline.",
+    "labels": {
+      "two_point_points": "Two-point baskets",
+      "three_point_points": "Three-point baskets",
+      "free_throw_points": "Free throws",
+      "points": "Points",
+      "total": "Total"
+    },
+    "footer": "NBA preseason · MIL 128–127 IND (OT) · NBA player game logs"
+  },
+  "ko": {
+    "title": "히로 25점과 시아캄 24점의 구성",
+    "alt": "히로: 2점슛 득점 10, 3점슛 득점 15, 자유투 0. 시아캄: 각각 6, 15, 3점.",
+    "caption": "2026년 10월 16일 NBA 공식 경기 기록으로 계산한 득점 유형별 점수입니다. 두 선수의 기록이며 팀 전체 득점이나 시간 흐름은 아닙니다.",
+    "labels": {
+      "two_point_points": "2점슛 득점",
+      "three_point_points": "3점슛 득점",
+      "free_throw_points": "자유투 득점",
+      "points": "득점",
+      "total": "합계"
+    },
+    "footer": "NBA 프리시즌 · MIL 128–127 IND (연장) · NBA 선수 경기 기록"
+  },
+  "es": {
+    "title": "De dónde salieron los 25 de Herro y los 24 de Siakam",
+    "alt": "Herro: 10 puntos en tiros de dos, 15 en triples y 0 en libres. Siakam: 6, 15 y 3.",
+    "caption": "Puntos por tipo de canasta, calculados con los registros NBA del 16 de octubre de 2026. Son dos jugadores, no los totales de equipo ni una cronología.",
+    "labels": {
+      "two_point_points": "Canastas de dos",
+      "three_point_points": "Triples",
+      "free_throw_points": "Tiros libres",
+      "points": "Puntos",
+      "total": "Total"
+    },
+    "footer": "Pretemporada NBA · MIL 128–127 IND (prórroga) · Registros NBA"
+  },
+  "ja": {
+    "title": "ヒーロー25得点とシアカム24得点の内訳",
+    "alt": "ヒーローは2点シュートから10得点、3点から15、フリースロー0。シアカムは順に6、15、3。",
+    "caption": "2026年10月16日のNBA公式ゲームログから計算した得点内訳。2選手の記録であり、チーム全体の得点や時系列ではありません。",
+    "labels": {
+      "two_point_points": "2点シュートの得点",
+      "three_point_points": "3点シュートの得点",
+      "free_throw_points": "フリースロー",
+      "points": "得点",
+      "total": "合計"
+    },
+    "footer": "NBAプレシーズン · MIL 128–127 IND（延長）· NBAゲームログ"
+  },
+  "pt-BR": {
+    "title": "Como vieram os 25 de Herro e os 24 de Siakam",
+    "alt": "Herro: 10 pontos em cestas de dois, 15 em bolas de três e zero em lances livres. Siakam: 6, 15 e 3.",
+    "caption": "Pontos por tipo de cesta, calculados pelos registros da NBA de 16 de outubro de 2026. São os totais de dois jogadores, não das equipes nem uma linha do tempo.",
+    "labels": {
+      "two_point_points": "Cestas de dois",
+      "three_point_points": "Bolas de três",
+      "free_throw_points": "Lances livres",
+      "points": "Pontos",
+      "total": "Total"
+    },
+    "footer": "Pré-temporada NBA · MIL 128–127 IND (prorrogação) · Registros NBA"
+  },
+  "fr": {
+    "title": "D'où viennent les 25 points de Herro et les 24 de Siakam ?",
+    "alt": "Herro : 10 points à deux points, 15 à trois points, aucun lancer franc. Siakam : 6, 15 et 3.",
+    "caption": "Points par type de tir, calculés d'après les relevés NBA du 16 octobre 2026. Deux joueurs seulement : ni les totaux des équipes, ni une chronologie.",
+    "labels": {
+      "two_point_points": "Paniers à deux points",
+      "three_point_points": "Paniers à trois points",
+      "free_throw_points": "Lancers francs",
+      "points": "Points",
+      "total": "Total"
+    },
+    "footer": "Présaison NBA · MIL 128–127 IND (prolongation) · Relevés NBA"
+  },
+  "de": {
+    "title": "So entstanden Herros 25 und Siakams 24 Punkte",
+    "alt": "Herro: 10 Punkte durch Zweier, 15 durch Dreier, keine Freiwürfe. Siakam: 6, 15 und 3.",
+    "caption": "Punkte nach Wurfart, aus den NBA-Spielprotokollen vom 16. Oktober 2026 berechnet. Zwei Spieler, keine vollständigen Teamwerte oder Zeitverläufe.",
+    "labels": {
+      "two_point_points": "Zweipunktwürfe",
+      "three_point_points": "Dreipunktwürfe",
+      "free_throw_points": "Freiwürfe",
+      "points": "Punkte",
+      "total": "Gesamt"
+    },
+    "footer": "NBA-Vorbereitung · MIL 128–127 IND (Verlängerung) · NBA-Spielprotokolle"
+  },
+  "hi": {
+    "title": "हेरो के 25 और सियाकम के 24 अंक कैसे बने",
+    "alt": "हेरो: दो अंक वाले शॉट से 10, तीन अंक वाले शॉट से 15, फ्री थ्रो से 0। सियाकम: 6, 15 और 3।",
+    "caption": "16 अक्टूबर 2026 के NBA गेम लॉग से निकाला गया अंकों का बँटवारा। यह दो खिलाड़ियों का विवरण है, पूरी टीम का स्कोर या समयरेखा नहीं।",
+    "labels": {
+      "two_point_points": "दो अंक वाले शॉट",
+      "three_point_points": "तीन अंक वाले शॉट",
+      "free_throw_points": "फ्री थ्रो",
+      "points": "अंक",
+      "total": "कुल"
+    },
+    "footer": "NBA प्रीसीज़न · MIL 128–127 IND (ओवरटाइम) · NBA गेम लॉग"
+  }
+}

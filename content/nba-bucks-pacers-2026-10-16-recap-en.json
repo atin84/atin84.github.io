@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-en",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "en",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "Bucks 128–127 Pacers in Overtime: Herro and Siakam's Scoring Explained",
+  "description": "Milwaukee's October 16 preseason win, explained through Tyler Herro's 25 points and Pascal Siakam's 24, with a clear scoring breakdown.",
+  "sections": [
+    {
+      "heading": "The result",
+      "paragraphs": [
+        "Milwaukee beat Indiana 128–127 in overtime on October 16, 2026. This was a preseason game. Tyler Herro scored 25 points for the Bucks and Pascal Siakam 24 for the Pacers. Both made five three-pointers, but reached their totals in different ways."
+      ]
+    },
+    {
+      "heading": "One point apart, different routes",
+      "paragraphs": [
+        "Herro made 10 of 16 field-goal attempts, including 5 of 7 three-pointers, and had no free-throw attempts. Siakam made 8 of 10 field-goal attempts, also hit 5 of 7 threes, and converted all 3 free throws. The chart separates the points produced by each scoring type."
+      ],
+      "bullets": [
+        "Herro: five two-point baskets produced 10 points; five threes produced 15; free throws added 0. Total: 25.",
+        "Siakam: three two-point baskets produced 6 points; five threes produced 15; free throws added 3. Total: 24."
+      ]
+    },
+    {
+      "heading": "How field goals become points",
+      "paragraphs": [
+        "In a basketball box score, field goals include both two-point and three-point baskets. To find made two-pointers, subtract made threes from total made field goals. Then multiply the two-point baskets by two, the threes by three, and add made free throws. That is why the chart uses points on its axis, rather than the number of successful shots."
+      ]
+    },
+    {
+      "heading": "What the comparison tells us",
+      "paragraphs": [
+        "Both players supplied 15 points from beyond the arc. Herro's two-point baskets added four more points than Siakam's, while Siakam added three at the free-throw line. That accounts for the one-point difference between their personal totals. It does not explain Milwaukee's one-point victory: every other player's scoring and the order of the possessions also belong to the game."
+      ]
+    },
+    {
+      "heading": "Efficiency is one piece of the picture",
+      "paragraphs": [
+        "Siakam's 8-for-10 shooting works out to 80%, and Herro's 10-for-16 to 62.5%. Those percentages describe this game's field-goal attempts. They do not measure the difficulty of each shot, defensive contribution, or everything a player created for teammates. A better shooting percentage and more total points answer different questions."
+      ]
+    },
+    {
+      "heading": "What to look for in the replay",
+      "paragraphs": [
+        "Use the official highlights to put actions around the numbers: was a basket created off a pass, a dribble, or a second opportunity after a miss? Follow the player who starts the move as well as the player who finishes it."
+      ]
+    },
+    {
+      "heading": "The regular-season reset",
+      "paragraphs": [
+        "The NBA schedule lists Milwaukee at Washington and Indiana at New Orleans on October 21 for their regular-season openers."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-en.svg",
+      "alt": "Scoring breakdown: Herro 10 points from twos, 15 from threes, zero free throws; Siakam 6, 15 and 3.",
+      "caption": "Points by scoring type, derived from NBA game logs for October 16, 2026. These are two players' totals, not the full team scores or a timeline."
+    }
+  ]
+}

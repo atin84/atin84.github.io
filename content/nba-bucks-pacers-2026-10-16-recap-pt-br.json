@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-pt-br",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "pt-BR",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "Bucks 128–127 Pacers na prorrogação: Entenda os pontos de Herro e Siakam",
+  "description": "A vitória de pré-temporada de 16 de outubro explicada pelos 25 pontos de Tyler Herro e pelos 24 de Pascal Siakam, com gráfico de composição.",
+  "sections": [
+    {
+      "heading": "O resultado",
+      "paragraphs": [
+        "Milwaukee venceu Indiana por 128–127 na prorrogação em 16 de outubro de 2026. Foi um jogo de pré-temporada. Tyler Herro marcou 25 pontos pelos Bucks e Pascal Siakam, 24 pelos Pacers. Os números dos dois oferecem uma forma simples de ler a súmula."
+      ]
+    },
+    {
+      "heading": "Um ponto de diferença, caminhos diferentes",
+      "paragraphs": [
+        "Herro acertou 10 de 16 arremessos de quadra, incluindo 5 de 7 bolas de três, e não cobrou lances livres. Siakam acertou 8 de 10 arremessos de quadra, também fez 5 de 7 de três e converteu seus 3 lances livres. O gráfico separa os pontos de cada tipo de cesta."
+      ],
+      "bullets": [
+        "Herro: cinco cestas de dois renderam 10 pontos; cinco de três, 15; lances livres, 0. Total: 25.",
+        "Siakam: três cestas de dois renderam 6 pontos; cinco de três, 15; lances livres, 3. Total: 24."
+      ]
+    },
+    {
+      "heading": "Como transformar os arremessos em pontos",
+      "paragraphs": [
+        "Na súmula, arremessos de quadra incluem cestas de dois e de três. Para encontrar as cestas de dois, subtraia as bolas de três convertidas do total de acertos de quadra. Depois multiplique as cestas de dois por dois, as de três por três e some os lances livres convertidos. É por isso que o eixo do gráfico mostra pontos, e não a quantidade de arremessos certos."
+      ]
+    },
+    {
+      "heading": "O que essa comparação mostra",
+      "paragraphs": [
+        "Os dois fizeram 15 pontos de fora do arco. Herro somou quatro pontos a mais nas cestas de dois, enquanto Siakam acrescentou três na linha de lance livre. Isso explica a diferença de um ponto nos totais individuais. Não explica a vitória de Milwaukee por um ponto: os demais jogadores e a ordem das posses também fazem parte da partida."
+      ]
+    },
+    {
+      "heading": "Aproveitamento é uma parte da análise",
+      "paragraphs": [
+        "Os 8 acertos em 10 de Siakam correspondem a 80%; os 10 em 16 de Herro, a 62,5%. Esses percentuais descrevem os arremessos de quadra deste jogo. Não medem a dificuldade de cada tentativa, a contribuição defensiva ou todas as chances criadas para colegas. Melhor aproveitamento e maior pontuação total respondem a perguntas diferentes."
+      ]
+    },
+    {
+      "heading": "O que observar nos melhores momentos",
+      "paragraphs": [
+        "Use os vídeos oficiais para ligar as ações aos números: a cesta surgiu de um passe, de um drible ou de uma segunda chance após um erro? Acompanhe tanto o jogador que inicia a jogada quanto aquele que a conclui."
+      ]
+    },
+    {
+      "heading": "A temporada regular começa do zero",
+      "paragraphs": [
+        "O calendário da NBA prevê Milwaukee em Washington e Indiana em Nova Orleans em 21 de outubro, nas estreias de temporada regular das equipes. Os arremessos de Herro e Siakam neste encontro de pré-temporada deixam atuações concretas para rever no começo da nova temporada."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-pt-br.svg",
+      "alt": "Herro: 10 pontos em cestas de dois, 15 em bolas de três e zero em lances livres. Siakam: 6, 15 e 3.",
+      "caption": "Pontos por tipo de cesta, calculados pelos registros da NBA de 16 de outubro de 2026. São os totais de dois jogadores, não das equipes nem uma linha do tempo."
+    }
+  ]
+}

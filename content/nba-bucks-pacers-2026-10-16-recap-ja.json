@@ -1,0 +1,102 @@
+{
+  "id": "nba-bucks-pacers-2026-10-16-recap-ja",
+  "platform": "blogger",
+  "status": "ready",
+  "language": "ja",
+  "league": "NBA",
+  "match_id": "0012600057",
+  "article_kind": "recap",
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Milwaukee Bucks",
+    "Indiana Pacers",
+    "Preseason",
+    "Recap"
+  ],
+  "title": "バックスが延長で128–127：ヒーローとシアカムの得点を読み解く",
+  "description": "10月16日のプレシーズン戦を、タイラー・ヒーローの25得点とパスカル・シアカムの24得点の内訳からわかりやすく解説。",
+  "sections": [
+    {
+      "heading": "試合結果",
+      "paragraphs": [
+        "ミルウォーキー・バックスは現地2026年10月16日、延長の末にインディアナ・ペイサーズを128–127で破った。プレシーズンの一戦だ。バックスのタイラー・ヒーローは25得点、ペイサーズのパスカル・シアカムは24得点。2人の記録を比べると、ボックススコアの読み方をわかりやすく学べる。"
+      ]
+    },
+    {
+      "heading": "1点差でも得点の作り方は違う",
+      "paragraphs": [
+        "ヒーローはフィールドゴール16本中10本を成功させ、そのうち3点シュートは7本中5本。フリースローの試投はなかった。シアカムはフィールドゴール10本中8本、3点シュートは同じく7本中5本、フリースローは3本すべて成功した。図は各種類のシュートで得た点数を分けている。"
+      ],
+      "bullets": [
+        "ヒーロー：2点シュート5本で10得点、3点シュート5本で15得点、フリースロー0得点。合計25得点。",
+        "シアカム：2点シュート3本で6得点、3点シュート5本で15得点、フリースロー3得点。合計24得点。"
+      ]
+    },
+    {
+      "heading": "フィールドゴールから得点を計算する",
+      "paragraphs": [
+        "フィールドゴールには、2点と3点の両方のシュートが含まれる。2点シュートの成功数は、フィールドゴール成功数から3点シュート成功数を引いて求める。そのうえで2点シュートを2倍、3点シュートを3倍し、成功したフリースローを足すと総得点になる。図の軸が成功本数ではなく得点を示すのはこのためだ。"
+      ]
+    },
+    {
+      "heading": "この比較でわかること",
+      "paragraphs": [
+        "両選手とも3点ラインの外から15得点を挙げた。2点シュートによる得点はヒーローが4点多く、シアカムはフリースローで3点を加えた。これが個人得点の1点差を説明する。ただし、バックスが1点差で勝った理由を示すわけではない。他の全選手の得点と、各ポゼッションの順序も試合には含まれる。"
+      ]
+    },
+    {
+      "heading": "成功率は一つの側面",
+      "paragraphs": [
+        "シアカムの8/10は80%、ヒーローの10/16は62.5%となる。これはこの試合でのフィールドゴール成功率だ。個々のシュートの難しさ、守備の貢献、味方に作ったすべての機会を評価する数字ではない。成功率が高いことと総得点が多いことは、別々の問いへの答えになる。"
+      ]
+    },
+    {
+      "heading": "映像で確かめたいこと",
+      "paragraphs": [
+        "公式ハイライトでは数字の前後の動きを見よう。パスからの得点なのか、ドリブルで作ったのか、外れた後の2度目の機会だったのか。シュートを決めた選手とともに、その動きを始めた選手も追ってみたい。"
+      ]
+    },
+    {
+      "heading": "レギュラーシーズンは別のスタート",
+      "paragraphs": [
+        "NBAの日程では、両チームのレギュラーシーズン初戦は現地10月21日で、バックスはワシントン、ペイサーズはニューオーリンズに遠征する。今回のプレシーズン戦でのヒーローとシアカムのシュートは、新シーズンを見ながら振り返る具体的な材料になる。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA: Game Recap — Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127"
+    },
+    {
+      "title": "NBA: Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057"
+    },
+    {
+      "title": "NBA: Tyler Herro — October 16 game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro"
+    },
+    {
+      "title": "NBA: Pascal Siakam — October 16 game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam"
+    },
+    {
+      "title": "NBA Official: Rule No. 5 — Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/"
+    },
+    {
+      "title": "NBA: Official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-ja.svg",
+      "alt": "ヒーローは2点シュートから10得点、3点から15、フリースロー0。シアカムは順に6、15、3。",
+      "caption": "2026年10月16日のNBA公式ゲームログから計算した得点内訳。2選手の記録であり、チーム全体の得点や時系列ではありません。"
+    }
+  ]
+}

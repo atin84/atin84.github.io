@@ -1,0 +1,79 @@
+{
+  "id": "nba-thunder-spurs-2026-10-20-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "NBA",
+  "match_id": "0022600003",
+  "article_kind": "preview",
+  "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+  "published_at": "2026-10-17T15:24:23Z",
+  "updated_at": "2026-10-17T15:24:23Z",
+  "labels": [
+    "NBA",
+    "Oklahoma City Thunder",
+    "San Antonio Spurs",
+    "Preview"
+  ],
+  "title": "Thunder en casa de los Spurs, 20 de octubre: Tres claves para seguir el estreno",
+  "description": "Horario, contexto y tres preguntas sencillas para entender el Oklahoma City–San Antonio de la primera jornada.",
+  "sections": [
+    {
+      "heading": "Cuándo y dónde se juega",
+      "paragraphs": [
+        "Oklahoma City visita a San Antonio en el Frost Bank Center el martes 20 de octubre de 2026. El inicio está previsto para las 20:30 en San Antonio, 21:30 del este de Estados Unidos, o 01:30 UTC del 21 de octubre. Es un partido de la jornada inaugural de la temporada regular. La programación estadounidense de la NBA incluye NBC y Peacock; la disponibilidad en otros países depende del mercado local."
+      ]
+    },
+    {
+      "heading": "Un cruce que ya tiene historia",
+      "paragraphs": [
+        "Los Spurs eliminaron a los Thunder en siete partidos en la final de la Conferencia Oeste de 2026. El estreno permite volver a observar ese enfrentamiento, con Shai Gilgeous-Alexander y Victor Wembanyama como protagonistas a seguir si están disponibles. Aquella serie aporta contexto, pero no determina este resultado. Estas tres preguntas ayudan a leer lo que sucede más allá del marcador."
+      ]
+    },
+    {
+      "heading": "1. ¿De dónde sale el primer buen tiro?",
+      "paragraphs": [
+        "Cuando Gilgeous-Alexander lleve el balón, observa a los defensores además del bote. ¿Uno permanece delante o llega otro para ayudar? Si aparece la ayuda, sigue el siguiente pase y comprueba si libera espacio para un compañero. En el otro lado, fíjate en dónde recibe Wembanyama y cómo responde la defensa. Son aspectos que observar, no una predicción de que los equipos utilizarán siempre una táctica concreta."
+      ]
+    },
+    {
+      "heading": "2. ¿Quién cierra la posesión después de un fallo?",
+      "paragraphs": [
+        "No dejes de mirar cuando el tiro toque el aro. El rebote decide si el ataque dispone de otra oportunidad o si la defensa puede salir hacia la otra canasta. Observa también al jugador que gana espacio para que un compañero recoja el balón, aunque no figure como autor del rebote. Un fallo seguido de rebote ofensivo tiene un desenlace distinto al que permite atacar inmediatamente al rival."
+      ]
+    },
+    {
+      "heading": "3. ¿Cómo comienza el siguiente ataque?",
+      "paragraphs": [
+        "Después de un rebote o una pérdida, mira hacia delante. ¿Hay un pase inmediato, un avance por un espacio libre o una pausa para que todos se coloquen? Esta comprobación permite distinguir las oportunidades de transición de los ataques contra una defensa organizada. Si un equipo encadena varias canastas, vuelve al inicio de cada posesión antes de atribuirlas todas al mismo problema."
+      ]
+    },
+    {
+      "heading": "Sigue una posesión completa",
+      "paragraphs": [
+        "Prueba la lista durante unos minutos: cómo se creó el tiro, quién recogió el fallo y cómo arrancó el siguiente ataque. Puedes disfrutar del duelo entre figuras y reconocer a los compañeros que unen esas acciones. Conviene revisar las alineaciones y la disponibilidad cerca del inicio; esta guía no las presenta como confirmadas."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA Communications: 2026-27 regular-season schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA: Thunder at Spurs, October 20, 2026",
+      "url": "https://www.nba.com/game/okc-vs-sas-0022600003"
+    },
+    {
+      "title": "NBA Starting 5: Opening-week guide, October 13, 2026",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-es.svg",
+      "alt": "Guía en tres pasos: creación del tiro, rebote e inicio del siguiente ataque.",
+      "caption": "Lista de observación para el 20 de octubre de 2026. Es un esquema, no un pronóstico ni una alineación confirmada."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+  "league": "NBA",
+  "article_kind": "recap",
+  "match_id": "0012600057",
+  "checked_at": "2026-10-17T15:24:23Z",
+  "status": "final",
+  "game_date_local": "2026-10-16",
+  "away_team": "Milwaukee Bucks",
+  "home_team": "Indiana Pacers",
+  "away_score": 128,
+  "home_score": 127,
+  "overtime": true,
+  "season_phase": "2026 preseason",
+  "chart": {
+    "type": "stacked_bar",
+    "unit": "points",
+    "categories": [
+      "two_point_points",
+      "three_point_points",
+      "free_throw_points"
+    ],
+    "players": [
+      {
+        "id": 1629639,
+        "name": "Tyler Herro",
+        "team": "Milwaukee Bucks",
+        "fgm": 10,
+        "fga": 16,
+        "tpm": 5,
+        "tpa": 7,
+        "ftm": 0,
+        "fta": 0,
+        "points": 25,
+        "two_point_points": 10,
+        "three_point_points": 15,
+        "free_throw_points": 0,
+        "source_id": "herro-log"
+      },
+      {
+        "id": 1627783,
+        "name": "Pascal Siakam",
+        "team": "Indiana Pacers",
+        "fgm": 8,
+        "fga": 10,
+        "tpm": 5,
+        "tpa": 7,
+        "ftm": 3,
+        "fta": 3,
+        "points": 24,
+        "two_point_points": 6,
+        "three_point_points": 15,
+        "free_throw_points": 3,
+        "source_id": "siakam-log"
+      }
+    ],
+    "formula": "2-point points = 2 * (FGM - 3PM); 3-point points = 3 * 3PM; free-throw points = FTM.",
+    "scope": "Individual scoring composition for two players, not the teams' full scoring breakdown or a game-flow timeline."
+  },
+  "sources": [
+    {
+      "id": "nba-result",
+      "title": "NBA — Game Recap: Bucks 128, Pacers 127",
+      "url": "https://www.nba.com/watch/video/game-recap-bucks-128-pacers-127",
+      "ref": "turn296news7",
+      "locator": "title, October 16, 2026, preseason conclusion"
+    },
+    {
+      "id": "nba-game",
+      "title": "NBA — Bucks at Pacers, October 16, 2026",
+      "url": "https://www.nba.com/game/mil-vs-ind-0012600057",
+      "ref": "turn307view3",
+      "locator": "October 16 fixture; official image alt states Bucks beat Pacers in OT"
+    },
+    {
+      "id": "herro-log",
+      "title": "NBA — Tyler Herro official game log",
+      "url": "https://www.nba.com/player/1629639/tyler-herro",
+      "ref": "turn307view0",
+      "locator": "October 16, 2026 MIL @ IND row: 25 points, FG 10/16, 3P 5/7, FT 0/0"
+    },
+    {
+      "id": "siakam-log",
+      "title": "NBA — Pascal Siakam official game log",
+      "url": "https://www.nba.com/player/1627783/pascal-siakam",
+      "ref": "turn307view1",
+      "locator": "October 16, 2026 IND vs. MIL row: 24 points, FG 8/10, 3P 5/7, FT 3/3"
+    },
+    {
+      "id": "nba-rules",
+      "title": "NBA Official — Rule No. 5, Scoring and Timing",
+      "url": "https://official.nba.com/rule-no-5-scoring-and-timing/",
+      "ref": "turn307view2",
+      "locator": "Section I scoring and Section II timing"
+    },
+    {
+      "id": "nba-schedule",
+      "title": "NBA official 2026-27 schedule by date",
+      "url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/46/2026/08/2026-27-NBA-Regular-Season-Schedule-By-Date.pdf",
+      "ref": "turn298view2",
+      "locator": "page 1: Milwaukee at Washington October 21; Indiana at New Orleans October 21"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://pacers.com/news/rewind-pacers-bucks-261016",
+      "reason": "Search result was found, but the article body could not be retrieved. No body claims used."
+    }
+  ],
+  "limitations": [
+    "Quarter-by-quarter scoring and a complete play sequence were not retrieved; none are invented.",
+    "The comparison does not establish why Milwaukee won or identify a decisive possession.",
+    "The article concerns preseason, not the regular season."
+  ]
+}

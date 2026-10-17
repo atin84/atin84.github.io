@@ -1,0 +1,102 @@
+{
+  "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+  "chart_type": "bar_comparison",
+  "languages": {
+    "en": {
+      "title": "Forest: chances and goals",
+      "alt": "Nottingham Forest's first six league matches: five goals compared with 10.3 expected goals.",
+      "caption": "Premier League, first six matches of 2026/27. Figures reported on 16 October. xG estimates chance quality; it is not a forecast for the Arsenal match.",
+      "labels": {
+        "goals": "Goals",
+        "xg": "Expected goals (xG)",
+        "axis": "Goals / expected goals",
+        "period": "First 6 league matches",
+        "source": "Source: Forest / Premier League"
+      }
+    },
+    "ko": {
+      "title": "포리스트: 기회와 득점",
+      "alt": "노팅엄 포리스트의 이번 시즌 첫 리그 6경기. 실제 득점 5골과 기대득점 10.3을 비교한 그래프.",
+      "caption": "2026/27 프리미어리그 첫 6경기, 10월 16일 발표 수치. xG는 찬스의 질을 추정한 값이며 아스널전 예상 득점이 아니다.",
+      "labels": {
+        "goals": "실제 득점",
+        "xg": "기대득점(xG)",
+        "axis": "득점 / 기대득점",
+        "period": "첫 리그 6경기",
+        "source": "출처: 포리스트 / 프리미어리그"
+      }
+    },
+    "es": {
+      "title": "Forest: ocasiones y goles",
+      "alt": "Primeros seis partidos de liga del Nottingham Forest: cinco goles frente a 10,3 goles esperados.",
+      "caption": "Premier League 2026/27, seis primeros partidos. Cifras publicadas el 16 de octubre. El xG estima la calidad de las ocasiones; no predice los goles contra el Arsenal.",
+      "labels": {
+        "goals": "Goles",
+        "xg": "Goles esperados (xG)",
+        "axis": "Goles / goles esperados",
+        "period": "Primeros 6 partidos de liga",
+        "source": "Fuente: Forest / Premier League"
+      }
+    },
+    "ja": {
+      "title": "フォレスト：好機と得点",
+      "alt": "ノッティンガム・フォレストのリーグ最初の6試合。5得点と期待得点10.3の比較。",
+      "caption": "2026/27プレミアリーグ最初の6試合。10月16日公表の数値。xGは機会の質の推定であり、アーセナル戦の得点予測ではない。",
+      "labels": {
+        "goals": "得点",
+        "xg": "期待得点（xG）",
+        "axis": "得点 / 期待得点",
+        "period": "リーグ最初の6試合",
+        "source": "出典：フォレスト / プレミアリーグ"
+      }
+    },
+    "pt-BR": {
+      "title": "Forest: chances e gols",
+      "alt": "Primeiros seis jogos do Nottingham Forest na liga: cinco gols e 10,3 gols esperados.",
+      "caption": "Premier League 2026/27, seis primeiros jogos. Dados publicados em 16 de outubro. O xG estima a qualidade das chances; não prevê gols contra o Arsenal.",
+      "labels": {
+        "goals": "Gols",
+        "xg": "Gols esperados (xG)",
+        "axis": "Gols / gols esperados",
+        "period": "Primeiros 6 jogos da liga",
+        "source": "Fonte: Forest / Premier League"
+      }
+    },
+    "fr": {
+      "title": "Forest : occasions et buts",
+      "alt": "Les six premiers matches de championnat de Nottingham Forest : cinq buts contre 10,3 buts attendus.",
+      "caption": "Premier League 2026/27, six premiers matches. Chiffres publiés le 16 octobre. Le xG estime la qualité des occasions ; il ne prédit pas les buts contre Arsenal.",
+      "labels": {
+        "goals": "Buts",
+        "xg": "Buts attendus (xG)",
+        "axis": "Buts / buts attendus",
+        "period": "6 premiers matches de ligue",
+        "source": "Source : Forest / Premier League"
+      }
+    },
+    "de": {
+      "title": "Forest: Chancen und Tore",
+      "alt": "Nottingham Forests erste sechs Ligaspiele: fünf Tore im Vergleich zu 10,3 Expected Goals.",
+      "caption": "Premier League 2026/27, erste sechs Spiele. Zahlen vom 16. Oktober. xG schätzt die Chancenqualität und ist keine Torprognose für das Arsenal-Spiel.",
+      "labels": {
+        "goals": "Tore",
+        "xg": "Expected Goals (xG)",
+        "axis": "Tore / Expected Goals",
+        "period": "Erste 6 Ligaspiele",
+        "source": "Quelle: Forest / Premier League"
+      }
+    },
+    "hi": {
+      "title": "फ़ॉरेस्ट: मौक़े और गोल",
+      "alt": "नॉटिंघम फ़ॉरेस्ट के पहले छह लीग मैच: पाँच वास्तविक गोल और 10.3 अपेक्षित गोल।",
+      "caption": "प्रीमियर लीग 2026/27 के पहले छह मैच। आँकड़े 16 अक्टूबर को प्रकाशित। xG मौक़ों की गुणवत्ता का अनुमान है, आर्सेनल के ख़िलाफ़ गोलों की भविष्यवाणी नहीं।",
+      "labels": {
+        "goals": "गोल",
+        "xg": "अपेक्षित गोल (xG)",
+        "axis": "गोल / अपेक्षित गोल",
+        "period": "पहले 6 लीग मैच",
+        "source": "स्रोत: फ़ॉरेस्ट / प्रीमियर लीग"
+      }
+    }
+  }
+}

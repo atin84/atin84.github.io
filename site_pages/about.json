@@ -1,18 +1,26 @@
 {
   "id": "about",
   "title": "About",
-  "description": "QuickIris explains practical changes and everyday problems in consumer software.",
+  "description": "QuickIris helps fans understand NBA and Premier League games through sourced previews, recaps and informative graphics.",
   "sections": [
     {
       "heading": "What we cover",
       "paragraphs": [
-        "QuickIris publishes English-language guides for people using browsers, apps, and everyday digital tools. We explain what changed, who is affected, and which steps or settings apply."
+        "QuickIris explains NBA and English Premier League games for curious fans, including people learning the sport. Previews focus on useful things to watch. Recaps explain confirmed results and the details that help make sense of them. Each selected sports article is available in English, Korean, Spanish, Japanese, Brazilian Portuguese, French, German and Hindi.",
+        "Our earlier browser guides remain available as part of the site archive."
       ]
     },
     {
       "heading": "How articles are prepared",
       "paragraphs": [
-        "AI assists with research organization and drafting. Official documentation and source links are reviewed before publication. Articles distinguish documented behavior from independently tested results; we do not claim testing that has not taken place."
+        "AI assists with research, writing, translation and checks against linked sources. We use league and club information for fixtures and results, distinguish confirmed facts from our own explanation, and create graphics from the stated data. We do not claim to have attended matches or interviewed people unless an article explicitly documents that work.",
+        "Each article lists its sources and publication or update time. Player availability and fixtures can change after publication. Expected goals and other model outputs are estimates; they are not promises about a future result."
+      ]
+    },
+    {
+      "heading": "Two connected publications",
+      "paragraphs": [
+        "QuickIris publishes on GitHub Pages and on the Iris Blogger site. Each match is assigned to one publication, and its language editions stay together there. Our language indexes link to the available editions."
       ]
     }
   ],

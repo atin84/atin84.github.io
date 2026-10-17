@@ -1,0 +1,94 @@
+{
+  "id": "epl-2026-10-17-everton-chelsea-recap-ja",
+  "slug": "epl-2026-10-17-everton-chelsea-recap-ja",
+  "platform": "github",
+  "status": "ready",
+  "title": "エバートン0–2チェルシー：ネトの2得点は時間帯に注目",
+  "description": "ペドロ・ネトが46分と90分に得点。長く続いた1点差と無失点の意味から、チェルシーの勝利を分かりやすく読む。",
+  "sections": [
+    {
+      "heading": "再開直後の先制、追加点までの長い時間",
+      "paragraphs": [
+        "チェルシーは2026年10月17日、ヒル・ディキンソン・スタジアムでエバートンを2–0で破った。2得点はいずれもペドロ・ネト。時間帯を見ると試合の経過が分かる。前半は0–0、46分にチェルシーが先制し、2点目は90分だった。",
+        "得点グラフはその段階を分けて示している。表すのはゴールとスコアの変化であり、各時間帯の支配力を測るものではない。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "46分：つながった攻撃を仕上げる",
+      "paragraphs": [
+        "チェルシー公式レポートによると、モーガン・ロジャーズのつなぎからヨレル・ハトが前進し、そのボールをネトが先制点に結びつけた。後半開始から43秒後だった。",
+        "リプレーでは、最後のシュートだけでなく、その前にボールを運んだパスも追ってみたい。得点者は連係の最後にいる。味方が効果的な位置に進み、受け手が扱える場所へボールが届く必要がある。一つのシュートだけとして見るより、攻撃を理解しやすくなる。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "前半0–0でも、何もなかったわけではない",
+      "paragraphs": [
+        "公式レポートには、前半にモイセス・カイセドのシュートがクロスバーをたたき、マクサンス・ラクロワのヘディングがゴールライン上でクリアされた場面が記されている。スコアは動かなかったが、前半を説明するうえで大切な好機だ。",
+        "同じ無得点でも内容は違う。ここではチャンスとゴールを分けて考えるとよい。枠に当たったシュートやライン上で防がれたボールは、スコアを変えない。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "GK交代後も無失点",
+      "paragraphs": [
+        "70分、負傷したエミリアーノ・マルティネスに代わりマイク・ペンダースが入った。チェルシーは最後まで失点しなかった。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "90分：1点差から2点差へ",
+      "paragraphs": [
+        "ネトの2点目は、ジョーダン・ヘンダーソンのFKがブロックされた後のこぼれ球から生まれた。これで1点差が2点差に広がった。",
+        "それまではエバートンが1点取れば同点だった。その後は追いつくために2点が必要になった。リードするチームは変わらなくても、終盤の追加点が重要だった理由だ。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "結果の持つ意味",
+      "paragraphs": [
+        "チェルシーの試合前の統計資料では、プレミアリーグで22試合連続失点中だった。この無失点でその記録が終わった。一方、エバートンは今季最初のリーグ6試合を無敗で終えて、この試合を迎えていた。",
+        "ハイライトでは、2得点がどう生まれたかと、その間の長い時間に何が起きたかを追ってみたい。"
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-17T15:33:39Z",
+  "updated_at": "2026-10-17T15:33:39Z",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "epl-2026-10-17-everton-chelsea",
+  "article_kind": "recap",
+  "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:ja"
+  ],
+  "sources": [
+    {
+      "title": "Chelsea official match report: Everton 0–2 Chelsea",
+      "url": "https://www.chelseafc.com/en/news/article/match-report-everton-0-2-chelsea"
+    },
+    {
+      "title": "Chelsea: Xabi Alonso's post-match assessment",
+      "url": "https://www.chelseafc.com/en/news/article/alonso-reflects-on-a-serious-solid-very-good-away-win"
+    },
+    {
+      "title": "Chelsea: pre-match statistics and historical context",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-key-statistics-and-facts-26-27"
+    },
+    {
+      "title": "Chelsea: confirmed match date and stadium",
+      "url": "https://www.chelseafc.com/en/news/article/everton-vs-chelsea-preview-tv-channel-kick-off-time-and-how-to-watch-141026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-ja.svg",
+      "alt": "前半はエバートン0–0チェルシー。ネトが46分に0–1、90分に0–2とし、そのまま終了した。",
+      "caption": "公式の得点時刻は46分と90分。前半終了と試合終了は段階を示し、追加時間の長さは縮尺に反映していない。出典：チェルシー公式レポート。"
+    }
+  ]
+}

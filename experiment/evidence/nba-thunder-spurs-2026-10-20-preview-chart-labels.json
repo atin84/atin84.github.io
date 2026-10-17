@@ -1,0 +1,130 @@
+{
+  "en": {
+    "title": "Three questions for Thunder at Spurs",
+    "alt": "A three-step viewing guide: shot creation, the rebound, and the next possession.",
+    "caption": "A viewing checklist for October 20, 2026. This is a schematic guide, not a prediction or a confirmed lineup.",
+    "labels": {
+      "shot_creation": "Create the shot",
+      "defensive_rebound": "Secure the rebound",
+      "next_possession": "Start the next attack"
+    },
+    "questions": [
+      "Where does the first good shot come from?",
+      "Who gets the ball after a miss?",
+      "Does the next attack begin quickly or against a set defense?"
+    ],
+    "footer": "OKC at SAS · Oct 20 · 8:30 p.m. CDT / 9:30 p.m. EDT"
+  },
+  "ko": {
+    "title": "썬더–스퍼스전에서 볼 세 가지",
+    "alt": "슛 기회 만들기, 리바운드, 다음 공격으로 이어지는 세 단계 관전 안내.",
+    "caption": "2026년 10월 20일 현지 경기의 관전 체크리스트. 경기 예측이나 확정 선발 명단이 아닌 개념도입니다.",
+    "labels": {
+      "shot_creation": "슛 기회 만들기",
+      "defensive_rebound": "리바운드 확보",
+      "next_possession": "다음 공격 시작"
+    },
+    "questions": [
+      "첫 좋은 슛 기회는 어디서 나올까?",
+      "슛이 빗나가면 누가 공을 잡을까?",
+      "다음 공격은 속공일까, 정돈된 수비 상대일까?"
+    ],
+    "footer": "OKC 원정 · SAS 홈 · 한국 10월 21일 오전 10:30"
+  },
+  "es": {
+    "title": "Tres preguntas para Thunder–Spurs",
+    "alt": "Guía en tres pasos: creación del tiro, rebote e inicio del siguiente ataque.",
+    "caption": "Lista de observación para el 20 de octubre de 2026. Es un esquema, no un pronóstico ni una alineación confirmada.",
+    "labels": {
+      "shot_creation": "Crear el tiro",
+      "defensive_rebound": "Asegurar el rebote",
+      "next_possession": "Iniciar otro ataque"
+    },
+    "questions": [
+      "¿De dónde sale el primer buen tiro?",
+      "¿Quién recoge el balón tras un fallo?",
+      "¿El siguiente ataque es rápido o ante una defensa colocada?"
+    ],
+    "footer": "OKC visita a SAS · 20 oct · 20:30 CDT / 21:30 EDT"
+  },
+  "ja": {
+    "title": "サンダー対スパーズ：3つの観戦ポイント",
+    "alt": "シュート機会、リバウンド、次の攻撃という3段階の観戦ガイド。",
+    "caption": "現地2026年10月20日の試合を見るための概念図。結果予測や確定した先発配置ではありません。",
+    "labels": {
+      "shot_creation": "シュート機会を作る",
+      "defensive_rebound": "リバウンドを取る",
+      "next_possession": "次の攻撃を始める"
+    },
+    "questions": [
+      "最初の良いシュート機会はどこから生まれる？",
+      "シュートが外れた後、誰がボールを取る？",
+      "次は速攻か、整った守備への攻撃か？"
+    ],
+    "footer": "OKCがSASを訪問 · 日本時間10月21日10:30"
+  },
+  "pt-BR": {
+    "title": "Três perguntas para Thunder x Spurs",
+    "alt": "Guia em três etapas: criação do arremesso, rebote e próxima posse.",
+    "caption": "Roteiro de observação para 20 de outubro de 2026. É um esquema, não uma previsão nem uma escalação confirmada.",
+    "labels": {
+      "shot_creation": "Criar o arremesso",
+      "defensive_rebound": "Garantir o rebote",
+      "next_possession": "Iniciar novo ataque"
+    },
+    "questions": [
+      "De onde vem o primeiro bom arremesso?",
+      "Quem fica com a bola depois do erro?",
+      "O ataque seguinte é rápido ou enfrenta uma defesa organizada?"
+    ],
+    "footer": "OKC visita SAS · 20 out · 20h30 CDT / 21h30 EDT"
+  },
+  "fr": {
+    "title": "Trois questions pour Thunder–Spurs",
+    "alt": "Guide en trois étapes : création du tir, rebond et possession suivante.",
+    "caption": "Repères pour le 20 octobre 2026. Schéma d'observation, sans pronostic ni composition confirmée.",
+    "labels": {
+      "shot_creation": "Créer le tir",
+      "defensive_rebound": "Prendre le rebond",
+      "next_possession": "Relancer l'attaque"
+    },
+    "questions": [
+      "D'où vient le premier bon tir ?",
+      "Qui récupère le ballon après un tir manqué ?",
+      "L'attaque suivante part-elle vite ou face à une défense placée ?"
+    ],
+    "footer": "OKC à SAS · 20 oct. · 20 h 30 CDT / 21 h 30 EDT"
+  },
+  "de": {
+    "title": "Drei Fragen zu Thunder gegen Spurs",
+    "alt": "Dreiteiliger Leitfaden: Wurfvorbereitung, Rebound und nächster Angriff.",
+    "caption": "Beobachtungshilfe für den 20. Oktober 2026. Ein Schema, keine Prognose oder bestätigte Aufstellung.",
+    "labels": {
+      "shot_creation": "Den Wurf vorbereiten",
+      "defensive_rebound": "Rebound sichern",
+      "next_possession": "Neuen Angriff starten"
+    },
+    "questions": [
+      "Wie entsteht der erste gute Wurf?",
+      "Wer bekommt nach einem Fehlwurf den Ball?",
+      "Beginnt der nächste Angriff schnell oder gegen eine geordnete Abwehr?"
+    ],
+    "footer": "OKC zu Gast bei SAS · 20. Okt. · 20:30 CDT / 21:30 EDT"
+  },
+  "hi": {
+    "title": "थंडर–स्पर्स: देखने की तीन बातें",
+    "alt": "तीन चरणों में मैच देखने की गाइड: शॉट बनाना, रिबाउंड और अगला आक्रमण।",
+    "caption": "20 अक्टूबर 2026 के स्थानीय मैच के लिए देखने की सूची। यह समझाने वाला चित्र है, भविष्यवाणी या पक्की शुरुआती टीम नहीं।",
+    "labels": {
+      "shot_creation": "शॉट का मौका बनाना",
+      "defensive_rebound": "रिबाउंड हासिल करना",
+      "next_possession": "अगला आक्रमण शुरू करना"
+    },
+    "questions": [
+      "पहला अच्छा शॉट कहाँ से बनता है?",
+      "शॉट चूकने पर गेंद किसे मिलती है?",
+      "अगला हमला तेज है या तैयार डिफेंस के सामने?"
+    ],
+    "footer": "OKC का SAS दौरा · भारत: 21 अक्टूबर, सुबह 7:00"
+  }
+}
