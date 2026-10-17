@@ -1,11 +1,15 @@
 {
   "id": "edge-notifications-after-closing-browser",
   "platform": "blogger",
-  "status": "draft",
+  "status": "ready",
   "title": "Edge를 닫았는데도 사이트 알림이 올 때: 특정 사이트만 차단하는 방법",
   "description": "Windows에 반복해서 나타나는 사이트 알림을 Edge 설정에서 차단합니다. 브라우저를 닫는 것, 사이트 권한을 바꾸는 것, Windows의 알림을 끄는 것의 차이를 설명합니다.",
-  "published_at": "2026-10-17T16:00:00+09:00",
-  "labels": ["Microsoft Edge", "Windows 11", "알림 설정"],
+  "published_at": "2026-10-17T07:16:00Z",
+  "labels": [
+    "Microsoft Edge",
+    "Windows 11",
+    "알림 설정"
+  ],
   "sections": [
     {
       "heading": "Edge 창을 닫았어도 사이트 알림은 올 수 있습니다",
@@ -64,9 +68,21 @@
     }
   ],
   "sources": [
-    {"title": "Microsoft 지원: Edge의 사이트별 알림 관리", "url": "https://support.microsoft.com/ko-kr/edge/manage-website-notifications-in-microsoft-edge"},
-    {"title": "Microsoft 지원: Windows 알림과 방해 금지", "url": "https://support.microsoft.com/ko-kr/windows/experience/notifications-and-do-not-disturb-in-windows"},
-    {"title": "Microsoft Edge 개발팀: 사이트 알림 스팸 사례", "url": "https://blogs.windows.com/msedgedev/2023/07/06/fighting-notification-spam-microsoft-edge/"},
-    {"title": "Microsoft 지원: 기술 지원 사기로부터 보호", "url": "https://support.microsoft.com/en-us/office/protect-yourself-from-tech-support-scams"}
+    {
+      "title": "Microsoft 지원: Edge의 사이트별 알림 관리",
+      "url": "https://support.microsoft.com/ko-kr/edge/manage-website-notifications-in-microsoft-edge"
+    },
+    {
+      "title": "Microsoft 지원: Windows 알림과 방해 금지",
+      "url": "https://support.microsoft.com/ko-kr/windows/experience/notifications-and-do-not-disturb-in-windows"
+    },
+    {
+      "title": "Microsoft Edge 개발팀: 사이트 알림 스팸 사례",
+      "url": "https://blogs.windows.com/msedgedev/2023/07/06/fighting-notification-spam-microsoft-edge/"
+    },
+    {
+      "title": "Microsoft 지원: 기술 지원 사기로부터 보호",
+      "url": "https://support.microsoft.com/en-us/office/protect-yourself-from-tech-support-scams"
+    }
   ]
 }

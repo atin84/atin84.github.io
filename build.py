@@ -5,6 +5,7 @@ Usage: python build.py --out dist --config config.json --content content
 Only status=ready articles whose published_at is at or before the build time
 are emitted. Use --now ISO8601 to set a reproducible cutoff instead of current
 UTC. Blogger payloads go to exports/blogger, outside the GitHub Pages output.
+Optional --pages JSON files provide undated, ad-free information pages.
 """
 
 from __future__ import annotations
@@ -130,14 +131,16 @@ def slug(value: object, field: str) -> str:
     return value
 
 
-def normalize_article(raw: dict, path: Path) -> dict:
+def normalize_article(raw: dict, path: Path, *, information_page: bool = False) -> dict:
     prefix = str(path)
     article_id = slug(raw.get("id"), f"{prefix}: id")
     article_slug = slug(raw.get("slug", article_id), f"{prefix}: slug")
-    platform = raw.get("platform")
-    status = raw.get("status", "draft")
+    platform = raw.get("platform", "github" if information_page else None)
+    status = raw.get("status", "ready" if information_page else "draft")
     if platform not in {"github", "blogger"}:
         raise ValueError(f"{prefix}: platform must be github or blogger")
+    if information_page and platform != "github":
+        raise ValueError(f"{prefix}: information pages are only supported on GitHub")
     if status not in {"draft", "ready"}:
         raise ValueError(f"{prefix}: status must be draft or ready")
     sections = raw.get("sections")
@@ -175,7 +178,7 @@ def normalize_article(raw: dict, path: Path) -> dict:
         "status": status,
         "title": text(raw.get("title"), f"{prefix}: title"),
         "description": text(raw.get("description", ""), f"{prefix}: description", empty=True),
-        "published_at": parse_date(raw.get("published_at"), f"{prefix}: published_at"),
+        "published_at": None if information_page else parse_date(raw.get("published_at"), f"{prefix}: published_at"),
         "labels": list(dict.fromkeys(string_list(raw.get("labels", []), f"{prefix}: labels"))),
         "sections": clean_sections,
         "sources": clean_sources,
@@ -209,6 +212,26 @@ def load_articles(directory: Path) -> list[dict]:
         bodies[fingerprint] = article
         articles.append(article)
     return sorted(articles, key=lambda a: (a["published_at"], a["id"]), reverse=True)
+
+
+def load_site_pages(directory: Path, articles: list[dict]) -> list[dict]:
+    if not directory.exists():
+        return []
+    if not directory.is_dir():
+        raise ValueError(f"information page directory is not a directory: {directory}")
+    seen = {field: {article[field] for article in articles} for field in ("id", "slug")}
+    pages = []
+    for path in sorted(directory.glob("*.json")):
+        if not path.is_file():
+            continue
+        page = normalize_article(load_json(path), path, information_page=True)
+        for field in seen:
+            if page[field] in seen[field]:
+                raise ValueError(f"{path}: duplicate {field} '{page[field]}'")
+            seen[field].add(page[field])
+        if page["status"] == "ready":
+            pages.append(page)
+    return pages
 
 
 def esc(value: str) -> str:
@@ -250,7 +273,7 @@ def json_script(data: dict) -> str:
             .replace("\u2028", "\\u2028").replace("\u2029", "\\u2029"))
 
 
-def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None) -> str:
+def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None, site_pages: list[dict] | None = None) -> str:
     canonical = absolute_url(config, path)
     metadata = [f'<meta name="description" content="{esc(description)}">']
     if canonical:
@@ -272,6 +295,8 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
         nav.append(f'<a href="{prefix}rss.xml">RSS</a>')
     if config["blogger_base_url"]:
         nav.append(f'<a href="{esc(config["blogger_base_url"])}">{words(config)["blogger"]}</a>')
+    footer_links = " · ".join(f'<a href="{prefix}pages/{page["slug"]}/">{esc(page["title"])}</a>' for page in site_pages or [])
+    footer_nav = f'<nav aria-label="{"사이트 안내" if config["language"].lower().startswith("ko") else "Site information"}">{footer_links}</nav>' if footer_links else ""
     return f'''<!doctype html>
 <html lang="{esc(config['language'])}">
 <head>
@@ -285,7 +310,7 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
 <a class="skip-link" href="#main">{words(config)['skip']}</a>
 <header class="site-header"><div class="container header-inner"><a class="brand" href="{prefix or './'}">{esc(config['site_title'])}</a><nav aria-label="Main">{' '.join(nav)}</nav></div></header>
 <main id="main" class="container">{body}</main>
-<footer class="site-footer container"><span>{esc(config['site_title'])}</span></footer>
+<footer class="site-footer container"><span>{esc(config['site_title'])}</span>{footer_nav}</footer>
 </body>
 </html>
 '''
@@ -297,20 +322,25 @@ def label_html(article: dict) -> str:
     return '<ul class="labels">' + "".join(f"<li>{esc(label)}</li>" for label in article["labels"]) + "</ul>"
 
 
-def build_index(config: dict, articles: list[dict]) -> str:
+def build_index(config: dict, articles: list[dict], site_pages: list[dict] | None = None) -> str:
     cards = []
     for article in articles:
         date = article["published_at"].date().isoformat()
         cards.append(f'''<article class="post-card"><time datetime="{esc(article['published_at'].isoformat())}">{date}</time><h2><a href="posts/{article['slug']}/">{esc(article['title'])}</a></h2><p>{esc(article['description'])}</p>{label_html(article)}</article>''')
     listing = "\n".join(cards) if cards else f'<p class="empty-state">{words(config)["empty"]}</p>'
     body = f'<section class="intro"><h1>{esc(config["site_title"])}</h1><p>{esc(config["site_description"])}</p></section><section class="post-list" aria-label="{words(config)["articles"]}">{listing}</section>'
-    return document(config, config["site_title"], config["site_description"], body)
+    return document(config, config["site_title"], config["site_description"], body, site_pages=site_pages)
 
 
-def build_article(config: dict, article: dict) -> str:
+def build_article(config: dict, article: dict, site_pages: list[dict] | None = None) -> str:
     published = article["published_at"]
     body = f'''<article class="article"><header class="article-header"><time datetime="{esc(published.isoformat())}">{published.date().isoformat()}</time><h1>{esc(article['title'])}</h1>{label_html(article)}</header><div class="prose">{article_body(article, config)}</div></article><p class="back-link"><a href="../../">← {words(config)['back']}</a></p>'''
-    return document(config, f'{article["title"]} · {config["site_title"]}', article["description"], body, path=f'posts/{article["slug"]}/', prefix="../../", article=article)
+    return document(config, f'{article["title"]} · {config["site_title"]}', article["description"], body, path=f'posts/{article["slug"]}/', prefix="../../", article=article, site_pages=site_pages)
+
+
+def build_site_page(config: dict, page: dict, site_pages: list[dict]) -> str:
+    body = f'''<article class="article"><header class="article-header"><h1>{esc(page['title'])}</h1></header><div class="prose">{article_body(page, config)}</div></article>'''
+    return document({**config, "adsense_enabled": False}, f'{page["title"]} · {config["site_title"]}', page["description"], body, path=f'pages/{page["slug"]}/', prefix="../../", site_pages=site_pages)
 
 
 def xml_bytes(root: ET.Element) -> bytes:
@@ -318,7 +348,7 @@ def xml_bytes(root: ET.Element) -> bytes:
     return ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n"
 
 
-def sitemap(config: dict, articles: list[dict]) -> bytes:
+def sitemap(config: dict, articles: list[dict], site_pages: list[dict] | None = None) -> bytes:
     root = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     if config["github_base_url"]:
         home = ET.SubElement(root, "url")
@@ -327,6 +357,9 @@ def sitemap(config: dict, articles: list[dict]) -> bytes:
             node = ET.SubElement(root, "url")
             ET.SubElement(node, "loc").text = absolute_url(config, f'posts/{article["slug"]}/')
             ET.SubElement(node, "lastmod").text = article["published_at"].isoformat()
+        for page in site_pages or []:
+            node = ET.SubElement(root, "url")
+            ET.SubElement(node, "loc").text = absolute_url(config, f'pages/{page["slug"]}/')
     return xml_bytes(root)
 
 
@@ -433,6 +466,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out", default="dist", help="GitHub Pages static output directory")
     parser.add_argument("--config", default="config.json", help="site configuration JSON")
     parser.add_argument("--content", default="content", help="directory of article JSON files")
+    parser.add_argument("--pages", default="site_pages", help="optional directory of undated information page JSON files")
     parser.add_argument("--blogger-out", default="exports/blogger", help="Blogger API payload output directory")
     parser.add_argument("--now", help="publication cutoff in ISO 8601 (default: current UTC)")
     args = parser.parse_args(argv)
@@ -440,20 +474,24 @@ def main(argv: list[str] | None = None) -> int:
         build_time = parse_date(args.now, "--now") if args.now is not None else datetime.now(timezone.utc)
         config_path = Path(args.config).resolve()
         content_path = Path(args.content).resolve()
+        pages_path = Path(args.pages).resolve()
         output = Path(args.out).resolve()
         exports = Path(args.blogger_out).resolve()
-        ensure_safe_outputs([output, exports], [config_path, content_path, ROOT])
+        ensure_safe_outputs([output, exports], [config_path, content_path, pages_path, ROOT])
         config = load_config(config_path)
         articles = load_articles(content_path)
+        site_pages = load_site_pages(pages_path, articles)
         due = [a for a in articles if a["status"] == "ready" and a["published_at"] <= build_time]
         github = [a for a in due if a["platform"] == "github"]
         blogger = [a for a in due if a["platform"] == "blogger"]
         # Empty sites, including those with only future posts, must not show ads.
         config["adsense_enabled"] = config["adsense_enabled"] and bool(github)
         css = (ROOT / "assets" / "style.css").read_bytes()
-        files = {"index.html": build_index(config, github).encode("utf-8"), "assets/style.css": css, "sitemap.xml": sitemap(config, github), "rss.xml": rss(config, github)}
+        files = {"index.html": build_index(config, github, site_pages).encode("utf-8"), "assets/style.css": css, "sitemap.xml": sitemap(config, github, site_pages), "rss.xml": rss(config, github)}
         for article in github:
-            files[f'posts/{article["slug"]}/index.html'] = build_article(config, article).encode("utf-8")
+            files[f'posts/{article["slug"]}/index.html'] = build_article(config, article, site_pages).encode("utf-8")
+        for page in site_pages:
+            files[f'pages/{page["slug"]}/index.html'] = build_site_page(config, page, site_pages).encode("utf-8")
         if config["github_base_url"]:
             robots = f'User-agent: *\nAllow: /\nSitemap: {absolute_url(config, "sitemap.xml")}\n'
         else:
@@ -473,6 +511,7 @@ def main(argv: list[str] | None = None) -> int:
     except (OSError, ValueError) as exc:
         parser.error(str(exc))
     print(f"Built {len(github)} GitHub article(s) in {output}")
+    print(f"Built {len(site_pages)} information page(s) without publication dates or ads")
     print(f"Exported {len(blogger)} Blogger payload(s) to {exports}; no posts were uploaded")
     print(f"Skipped {sum(a['status'] == 'draft' for a in articles)} draft article(s)")
     print(f"Deferred {sum(a['status'] == 'ready' and a['published_at'] > build_time for a in articles)} future article(s); cutoff {build_time.astimezone(timezone.utc).isoformat()}")

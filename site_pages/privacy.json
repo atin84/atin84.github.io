@@ -1,0 +1,30 @@
+{
+  "id": "privacy",
+  "title": "개인정보 안내",
+  "description": "현재 GitHub Pages에서 제공하는 QuickIris 사이트의 기능과 호스팅에 관한 안내입니다.",
+  "sections": [
+    {
+      "heading": "현재 사이트 설정",
+      "paragraphs": [
+        "현재 광고를 표시하지 않으며, 별도의 방문 통계 분석 스크립트를 설치하지 않았습니다. 회원가입 기능이나 개인정보 입력 양식을 제공하지 않습니다."
+      ]
+    },
+    {
+      "heading": "GitHub Pages 호스팅",
+      "paragraphs": [
+        "이 사이트는 GitHub Pages에서 제공됩니다. GitHub의 공식 문서에 따르면, 방문자가 GitHub에 로그인했는지와 관계없이 방문자의 IP 주소를 보안 목적으로 기록하고 저장합니다.",
+        "GitHub의 개인정보 처리에 관한 자세한 내용은 아래 공식 문서와 개인정보처리방침에서 확인할 수 있습니다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "GitHub Pages 소개 및 데이터 수집 안내",
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages"
+    },
+    {
+      "title": "GitHub 개인정보처리방침",
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+    }
+  ]
+}
