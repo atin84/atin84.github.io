@@ -1,0 +1,1661 @@
+{
+  "test_id": "sports-test-2026-10-17",
+  "status": "published-and-publicly-verified",
+  "verified_at": "2026-10-17T23:56:23.305030+00:00",
+  "unique_matches": 4,
+  "original_articles": 4,
+  "translations": 28,
+  "public_articles": 32,
+  "languages": [
+    "en",
+    "ko",
+    "es",
+    "ja",
+    "pt-BR",
+    "fr",
+    "de",
+    "hi"
+  ],
+  "platform_counts": {
+    "github": 16,
+    "blogger": 16
+  },
+  "github_initial_deployment_commit": "b518673171ca8f30f95f8bd548a08d31988efc9e",
+  "github_initial_deployed_at": "2026-10-17T23:25:31Z",
+  "blogger_publication_method": "Blogger web editor",
+  "hourly_automation_enabled": false,
+  "articles": [
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-en",
+      "platform": "blogger",
+      "language": "en",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "Forest vs Arsenal: the finishing gap to watch at the City Ground",
+      "published_at": "2026-10-17T16:32:08.648-07:00",
+      "updated_at": "2026-10-17T16:49:38.788-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html",
+      "public_verified_at": "2026-10-17T23:50:49.601Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-en.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-ko",
+      "platform": "blogger",
+      "language": "ko",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "노팅엄 포리스트 vs 아스널: 기회와 득점의 간격을 볼 경기",
+      "published_at": "2026-10-17T16:34:14.742-07:00",
+      "updated_at": "2026-10-17T16:50:55.466-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html",
+      "public_verified_at": "2026-10-17T23:50:58.386Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-ko.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-es",
+      "platform": "blogger",
+      "language": "es",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "Forest contra Arsenal: de las ocasiones a los goles en el City Ground",
+      "published_at": "2026-10-17T16:36:32.985-07:00",
+      "updated_at": "2026-10-17T16:51:02.515-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post.html",
+      "public_verified_at": "2026-10-17T23:51:04.313Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-es.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-ja",
+      "platform": "blogger",
+      "language": "ja",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "フォレスト対アーセナル：チャンスと得点の差に注目",
+      "published_at": "2026-10-17T16:41:15.511-07:00",
+      "updated_at": "2026-10-17T16:51:20.443-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html",
+      "public_verified_at": "2026-10-17T23:51:22.039Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-ja.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-pt-br",
+      "platform": "blogger",
+      "language": "pt-BR",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "Forest x Arsenal: a distância entre criar chances e fazer gols",
+      "published_at": "2026-10-17T16:42:29.850-07:00",
+      "updated_at": "2026-10-17T16:51:25.730-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html",
+      "public_verified_at": "2026-10-17T23:51:27.462Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-pt-br.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-fr",
+      "platform": "blogger",
+      "language": "fr",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "Forest–Arsenal : transformer les occasions en buts au City Ground",
+      "published_at": "2026-10-17T16:42:49.719-07:00",
+      "updated_at": "2026-10-17T16:51:31.085-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html",
+      "public_verified_at": "2026-10-17T23:51:32.536Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-fr.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-de",
+      "platform": "blogger",
+      "language": "de",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "Forest gegen Arsenal: Was zwischen Chancen und Toren fehlt",
+      "published_at": "2026-10-17T16:43:01.190-07:00",
+      "updated_at": "2026-10-17T16:51:45.684-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html",
+      "public_verified_at": "2026-10-17T23:51:47.225Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-de.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-18-forest-arsenal-preview-hi",
+      "platform": "blogger",
+      "language": "hi",
+      "league": "EPL",
+      "match_id": "pl-2645263",
+      "article_kind": "preview",
+      "translation_group": "epl-2026-10-18-forest-arsenal-preview",
+      "title": "फ़ॉरेस्ट बनाम आर्सेनल: मौक़ों को गोल में बदलने की परीक्षा",
+      "published_at": "2026-10-17T16:43:40.344-07:00",
+      "updated_at": "2026-10-17T16:51:50.969-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html",
+      "public_verified_at": "2026-10-17T23:51:53.425Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-18-forest-arsenal-preview-hi.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-ko.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_17.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_733.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_934.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_980.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_363.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-en",
+      "platform": "blogger",
+      "language": "en",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "Bucks 128–127 Pacers in Overtime: Herro and Siakam's Scoring Explained",
+      "published_at": "2026-10-17T16:43:54.365-07:00",
+      "updated_at": "2026-10-17T16:52:00.037-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html",
+      "public_verified_at": "2026-10-17T23:52:01.883Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-en.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-ko",
+      "platform": "blogger",
+      "language": "ko",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "밀워키 128–127 인디애나, 연장 승리: 히로와 시아캄의 득점 풀이",
+      "published_at": "2026-10-17T16:44:24.266-07:00",
+      "updated_at": "2026-10-17T16:52:26.556-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html",
+      "public_verified_at": "2026-10-17T23:52:27.910Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-ko.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-es",
+      "platform": "blogger",
+      "language": "es",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "Bucks 128–127 Pacers en la prórroga: Así anotaron Herro y Siakam",
+      "published_at": "2026-10-17T16:44:50.058-07:00",
+      "updated_at": "2026-10-17T16:52:30.480-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html",
+      "public_verified_at": "2026-10-17T23:52:32.059Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-es.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-ja",
+      "platform": "blogger",
+      "language": "ja",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "バックスが延長で128–127：ヒーローとシアカムの得点を読み解く",
+      "published_at": "2026-10-17T16:45:04.895-07:00",
+      "updated_at": "2026-10-17T16:52:35.825-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html",
+      "public_verified_at": "2026-10-17T23:52:38.160Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-ja.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-pt-br",
+      "platform": "blogger",
+      "language": "pt-BR",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "Bucks 128–127 Pacers na prorrogação: Entenda os pontos de Herro e Siakam",
+      "published_at": "2026-10-17T16:45:34.971-07:00",
+      "updated_at": "2026-10-17T16:52:51.433-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html",
+      "public_verified_at": "2026-10-17T23:52:53.203Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-pt-br.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-fr",
+      "platform": "blogger",
+      "language": "fr",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "Bucks 128–127 Pacers après prolongation : Les points de Herro et Siakam expliqués",
+      "published_at": "2026-10-17T16:45:56.605-07:00",
+      "updated_at": "2026-10-17T16:52:56.788-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html",
+      "public_verified_at": "2026-10-17T23:52:58.562Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-fr.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-de",
+      "platform": "blogger",
+      "language": "de",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "Bucks 128–127 Pacers nach Verlängerung: Herros und Siakams Punkte erklärt",
+      "published_at": "2026-10-17T16:46:08.400-07:00",
+      "updated_at": "2026-10-17T16:53:01.149-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html",
+      "public_verified_at": "2026-10-17T23:53:02.630Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-de.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-bucks-pacers-2026-10-16-recap-hi",
+      "platform": "blogger",
+      "language": "hi",
+      "league": "NBA",
+      "match_id": "0012600057",
+      "article_kind": "recap",
+      "translation_group": "nba-bucks-pacers-2026-10-16-recap",
+      "title": "ओवरटाइम में बक्स 128–127 पेसर्स: हेरो और सियाकम के अंकों को समझें",
+      "published_at": "2026-10-17T16:46:34.405-07:00",
+      "updated_at": "2026-10-17T16:53:21.659-07:00",
+      "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html",
+      "public_verified_at": "2026-10-17T23:53:29.781Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-bucks-pacers-2026-10-16-recap-hi.svg",
+      "figure_loaded": true,
+      "source_count": 6,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_793.html"
+        },
+        {
+          "language": "ko",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_998.html"
+        },
+        {
+          "language": "es",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_222.html"
+        },
+        {
+          "language": "ja",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_218.html"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_493.html"
+        },
+        {
+          "language": "fr",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_437.html"
+        },
+        {
+          "language": "de",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_193.html"
+        },
+        {
+          "language": "hi",
+          "url": "https://quickiris.blogspot.com/2026/10/blog-post_532.html"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-en",
+      "platform": "github",
+      "language": "en",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "Thunder at Spurs, October 20: Three Things to Watch on Opening Night",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/",
+      "public_verified_at": "2026-10-17T23:54:00.373Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-en.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-ko",
+      "platform": "github",
+      "language": "ko",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "10월 21일 썬더–스퍼스 개막전: 경기에서 볼 세 가지",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/",
+      "public_verified_at": "2026-10-17T23:54:01.117Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-ko.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-es",
+      "platform": "github",
+      "language": "es",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "Thunder en casa de los Spurs, 20 de octubre: Tres claves para seguir el estreno",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/",
+      "public_verified_at": "2026-10-17T23:54:01.671Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-es.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-ja",
+      "platform": "github",
+      "language": "ja",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "10月21日サンダー対スパーズ：開幕戦で見る3つのポイント",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/",
+      "public_verified_at": "2026-10-17T23:54:02.126Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-ja.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-pt-br",
+      "platform": "github",
+      "language": "pt-BR",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "Thunder visita os Spurs em 20 de outubro: Três pontos para acompanhar na estreia",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/",
+      "public_verified_at": "2026-10-17T23:54:12.443Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-pt-br.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-fr",
+      "platform": "github",
+      "language": "fr",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "Thunder chez les Spurs, le 20 octobre : Trois repères pour suivre l'ouverture",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/",
+      "public_verified_at": "2026-10-17T23:54:12.911Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-fr.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-de",
+      "platform": "github",
+      "language": "de",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "Thunder bei den Spurs am 20. Oktober: Drei Beobachtungstipps zum Saisonstart",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/",
+      "public_verified_at": "2026-10-17T23:54:13.591Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-de.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "nba-thunder-spurs-2026-10-20-preview-hi",
+      "platform": "github",
+      "language": "hi",
+      "league": "NBA",
+      "match_id": "0022600003",
+      "article_kind": "preview",
+      "translation_group": "nba-thunder-spurs-2026-10-20-preview",
+      "title": "20 अक्टूबर को थंडर बनाम स्पर्स: सीज़न के पहले मैच में देखने की तीन बातें",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/",
+      "public_verified_at": "2026-10-17T23:54:14.024Z",
+      "figure_url": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-hi.svg",
+      "figure_loaded": true,
+      "source_count": 3,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/nba-thunder-spurs-2026-10-20-preview-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-en",
+      "platform": "github",
+      "language": "en",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "Everton 0–2 Chelsea: why the timing of Neto's goals mattered",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/",
+      "public_verified_at": "2026-10-17T23:54:29.646Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-en.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-ko",
+      "platform": "github",
+      "language": "ko",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "에버턴 0–2 첼시: 네투의 두 골은 왜 서로 다른 의미였을까",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/",
+      "public_verified_at": "2026-10-17T23:54:30.581Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-ko.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-es",
+      "platform": "github",
+      "language": "es",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "Everton 0–2 Chelsea: por qué importó el momento de los goles de Neto",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/",
+      "public_verified_at": "2026-10-17T23:54:31.227Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-es.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-ja",
+      "platform": "github",
+      "language": "ja",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "エバートン0–2チェルシー：ネトの2得点は時間帯に注目",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/",
+      "public_verified_at": "2026-10-17T23:54:32.002Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-ja.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-pt-br",
+      "platform": "github",
+      "language": "pt-BR",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "Everton 0–2 Chelsea: por que os minutos dos gols de Neto importam",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/",
+      "public_verified_at": "2026-10-17T23:54:39.040Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-pt-br.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-fr",
+      "platform": "github",
+      "language": "fr",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "Everton 0–2 Chelsea : pourquoi le moment des buts de Neto compte",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/",
+      "public_verified_at": "2026-10-17T23:54:39.894Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-fr.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-de",
+      "platform": "github",
+      "language": "de",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "Everton 0–2 Chelsea: Warum der Zeitpunkt von Netos Toren zählt",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/",
+      "public_verified_at": "2026-10-17T23:54:40.723Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-de.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    },
+    {
+      "id": "epl-2026-10-17-everton-chelsea-recap-hi",
+      "platform": "github",
+      "language": "hi",
+      "league": "EPL",
+      "match_id": "epl-2026-10-17-everton-chelsea",
+      "article_kind": "recap",
+      "translation_group": "epl-2026-10-17-everton-chelsea-recap",
+      "title": "एवर्टन 0–2 चेल्सी: नेटो के गोलों का समय क्यों अहम था",
+      "published_at": "2026-10-17T23:25:31Z",
+      "updated_at": "2026-10-17T23:25:31Z",
+      "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/",
+      "public_verified_at": "2026-10-17T23:54:41.879Z",
+      "figure_url": "https://atin84.github.io/assets/charts/epl-2026-10-17-everton-chelsea-recap-hi.svg",
+      "figure_loaded": true,
+      "source_count": 4,
+      "language_links": [
+        {
+          "language": "en",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-en/"
+        },
+        {
+          "language": "ko",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ko/"
+        },
+        {
+          "language": "es",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-es/"
+        },
+        {
+          "language": "ja",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-ja/"
+        },
+        {
+          "language": "pt-BR",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-pt-br/"
+        },
+        {
+          "language": "fr",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-fr/"
+        },
+        {
+          "language": "de",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-de/"
+        },
+        {
+          "language": "hi",
+          "url": "https://atin84.github.io/posts/epl-2026-10-17-everton-chelsea-recap-hi/"
+        }
+      ]
+    }
+  ]
+}

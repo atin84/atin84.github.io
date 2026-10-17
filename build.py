@@ -347,6 +347,8 @@ def connect_translations(config: dict, articles: list[dict], due: list[dict]) ->
             {"language": member["language"], "url": public_article_url(config, member)}
             for member in sorted(members, key=lambda item: order[item["language"]])
             if member["id"] in public_ids and public_article_url(config, member)
+            and (article["platform"] != "blogger" or
+                 (member["platform"] == "blogger" and member.get("blogger_url")))
         ]
 
 
@@ -561,10 +563,13 @@ def blogger_payload(article: dict, config: dict) -> dict:
 
     publish_blogger.py attaches the existing stable identity marker on loading.
     Do not put that reserved marker in exports or change the export filenames.
+    connect_translations supplies only confirmed URLs from this article's group.
+    Blogger's outer template owns the visible publication date; duplicating a
+    source preparation timestamp in the body can misstate the actual post date.
     """
     config = localized_config(config, article)
     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
-    content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{article_dates(article, config)}{navigation}{article_body(article, config)}</div>'
+    content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{navigation}{article_body(article, config)}</div>'
     return {"title": article["title"], "content": content, "labels": article["labels"]}
 
 
@@ -578,6 +583,14 @@ def chart_assets(config: dict, articles: list[dict]) -> dict[str, bytes]:
                 raise ValueError(f"chart assets must not be symlinks: {asset}")
             if asset.is_file() and asset.suffix.lower() in {".svg", ".png", ".webp", ".jpg", ".jpeg", ".gif"}:
                 result[asset.relative_to(ROOT).as_posix()] = asset.read_bytes()
+    # Embedded font subsets are distributed with their full license notices.
+    licenses = ROOT / "assets" / "chart-font-licenses"
+    if licenses.exists():
+        for notice in sorted(licenses.glob("*.txt")):
+            if notice.is_symlink():
+                raise ValueError(f"font license notices must not be symlinks: {notice}")
+            if notice.is_file():
+                result[notice.relative_to(ROOT).as_posix()] = notice.read_bytes()
     local_prefix = absolute_url(config, "assets/charts/")
     if local_prefix:
         for article in articles:

@@ -18,7 +18,7 @@
       "heading": "How to read the comparison",
       "paragraphs": [
         "The graphic compares Forest's actual goals with their accumulated xG, a model's estimate of the scoring quality of their shots. The difference is 5.3; it is not a prediction that Forest will score that many against Arsenal.",
-        "xG helps assess the quality of a team's shooting chances. It cannot explain every miss, and six matches are a limited sample. On Sunday, watch what kinds of chances Forest create against Arsenal."
+        "Think of xG as a way of asking whether a side is reaching useful shooting positions. It does not award points, explain every miss or make a team 'due' a goal. Six matches are also a limited sample. The useful test on Sunday is what kind of chances Forest produce against this particular opponent."
       ],
       "bullets": []
     },
@@ -39,10 +39,10 @@
       "bullets": []
     },
     {
-      "heading": "Recent meetings at the City Ground",
+      "heading": "History gives context, not a score prediction",
       "paragraphs": [
         "The last two league meetings at the City Ground finished 0–0. The January 2026 game is a useful reminder that a goalless result can still contain a decisive save: the Premier League report highlighted Matz Sels keeping out Bukayo Saka's header.",
-        "The question this time is who can turn an opening into the breakthrough."
+        "Those past results do not make another draw inevitable. They give this meeting a straightforward question: who can turn an opening into the breakthrough?"
       ],
       "bullets": []
     },
@@ -56,8 +56,8 @@
       ]
     }
   ],
-  "published_at": "2026-10-17T15:28:39Z",
-  "updated_at": "2026-10-17T15:28:39Z",
+  "published_at": "2026-10-17T16:32:08.648-07:00",
+  "updated_at": "2026-10-17T16:49:38.788-07:00",
   "language": "en",
   "league": "EPL",
   "match_id": "pl-2645263",
@@ -92,5 +92,6 @@
       "alt": "Nottingham Forest's first six league matches: five goals compared with 10.3 expected goals.",
       "caption": "Premier League, first six matches of 2026/27. Figures reported on 16 October. xG estimates chance quality; it is not a forecast for the Arsenal match."
     }
-  ]
+  ],
+  "blogger_url": "https://quickiris.blogspot.com/2026/10/epl-2026-10-18-forest-arsenal-preview-en.html"
 }

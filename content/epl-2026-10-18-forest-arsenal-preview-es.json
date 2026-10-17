@@ -56,8 +56,8 @@
       ]
     }
   ],
-  "published_at": "2026-10-17T15:28:39Z",
-  "updated_at": "2026-10-17T15:28:39Z",
+  "published_at": "2026-10-17T16:36:32.985-07:00",
+  "updated_at": "2026-10-17T16:51:02.515-07:00",
   "language": "es",
   "league": "EPL",
   "match_id": "pl-2645263",
@@ -92,5 +92,6 @@
       "alt": "Primeros seis partidos de liga del Nottingham Forest: cinco goles frente a 10,3 goles esperados.",
       "caption": "Premier League 2026/27, seis primeros partidos. Cifras publicadas el 16 de octubre. El xG estima la calidad de las ocasiones; no predice los goles contra el Arsenal."
     }
-  ]
+  ],
+  "blogger_url": "https://quickiris.blogspot.com/2026/10/blog-post.html"
 }

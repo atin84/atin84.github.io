@@ -50,10 +50,12 @@ def main():
     assert len(posts) == 16, f'Expected the authorized 16-post test batch; got {len(posts)}'
     now = datetime.now(timezone.utc).isoformat()
     feed = ET.Element(f'{{{ATOM}}}feed')
-    child(feed, 'id', 'urn:quickiris:sports-publishing-test:2026-10-17')
+    child(feed, 'id', 'tag:blogger.com,1999:blog-6780211422264222342')
     child(feed, 'updated', now)
-    child(feed, 'title', 'QuickIris sports publishing test', type='text')
-    child(feed, 'generator', 'Blogger', version='7.00', uri='https://www.blogger.com')
+    child(feed, 'title', 'Iris', type='text')
+    child(feed, 'subtitle', 'QuickIris sports publishing test', type='html')
+    child(feed, 'link', rel='alternate', type='text/html', href='https://quickiris.blogspot.com/')
+    child(feed, 'generator', 'Blogger', version='7.00', uri='http://www.blogger.com')
     author = child(feed, 'author')
     child(author, 'name', 'QuickIris')
     manifest = []
@@ -77,6 +79,9 @@ def main():
         # The import can preserve the requested permalink; verify, never assume.
         child(entry, 'link', rel='alternate', type='text/html', href=requested_url)
         child(entry, 'content', body['content'], type='html')
+        entry_author = child(entry, 'author')
+        child(entry_author, 'name', 'QuickIris')
+        child(entry_author, 'email', 'noreply@blogger.com')
         control = ET.SubElement(entry, f'{{{APP}}}control')
         ET.SubElement(control, f'{{{APP}}}draft').text = 'yes'
         manifest.append({'id': post['id'], 'language': post['language'],

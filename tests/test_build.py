@@ -112,9 +112,49 @@ class MultilingualBuildTests(unittest.TestCase):
             payload = json.loads((self.root / "exports" / f"epl-recap-{code.lower()}.json").read_text())
             tags = Tags(payload["content"])
             self.assertEqual(tags.select("div", **{"class": "quickiris-article"})[0]["lang"], code)
-            self.assertEqual(len([tag for tag in tags.select("a") if "hreflang" in tag]), 8)
+            links = {(tag["hreflang"], tag["href"]) for tag in tags.select("a") if "hreflang" in tag}
+            expected = {(language, f"https://blog.example.test/2026/10/epl-recap-{language.lower()}.html")
+                        for language in builder.LANGUAGES}
+            self.assertEqual(links, expected)
+            self.assertEqual(tags.select("nav")[0]["aria-label"], builder.UI[code]["language"])
+            self.assertEqual(tags.select("a", **{"aria-current": "page"})[0]["hreflang"], code)
+            self.assertEqual(tags.select("time"), [])  # Blogger's outer template owns the post date.
+            self.assertNotIn("article-dates", payload["content"])
             self.assertEqual(tags.select("link"), [])  # This body cannot claim to configure Blogger's head.
             self.assertIn("width:100%", tags.select("img")[0]["style"])
+
+    def test_blogger_navigation_excludes_unconfirmed_urls_and_other_groups(self):
+        expected = set()
+        for code in builder.LANGUAGES:
+            article = self.raw(code, "blogger", "epl-recap")
+            if code != "hi":
+                article["blogger_url"] = f"https://blog.example.test/2026/10/actual-{code.lower()}.html"
+                expected.add((code, article["blogger_url"]))
+            self.write(article)
+        unrelated = self.raw("hi", "blogger", "other-match")
+        unrelated["match_id"] = "002-other-match"
+        unrelated["blogger_url"] = "https://blog.example.test/2026/10/other-match-hi.html"
+        self.write(unrelated)
+        # A mixed-platform input must not insert a GitHub URL into Blogger's nav.
+        mixed_en = self.raw("en", "blogger", "mixed-group")
+        mixed_en["blogger_url"] = "https://blog.example.test/2026/10/mixed-en.html"
+        mixed_ko = self.raw("ko", "github", "mixed-group")
+        self.write(mixed_en)
+        self.write(mixed_ko)
+        self.build()
+        for code in builder.LANGUAGES:
+            payload = json.loads((self.root / "exports" / f"epl-recap-{code.lower()}.json").read_text())
+            tags = Tags(payload["content"])
+            links = {(tag["hreflang"], tag["href"]) for tag in tags.select("a") if "hreflang" in tag}
+            self.assertEqual(links, expected)
+            self.assertNotIn(unrelated["blogger_url"], payload["content"])
+            self.assertNotIn("/epl-recap-hi.html", payload["content"])
+        mixed_payload = json.loads((self.root / "exports" / "mixed-group-en.json").read_text())
+        links = {(tag["hreflang"], tag["href"]) for tag in Tags(mixed_payload["content"]).select("a") if "hreflang" in tag}
+        self.assertEqual(links, {("en", mixed_en["blogger_url"])})
+        github_body = (self.root / "dist" / "posts" / "mixed-group-ko" / "index.html").read_text()
+        github_alternates = {tag["hreflang"] for tag in Tags(github_body).select("link", rel="alternate") if "hreflang" in tag}
+        self.assertEqual(github_alternates, {"en", "ko"})  # Existing GitHub behavior remains unchanged.
 
     def test_unconfirmed_and_future_urls_are_never_invented(self):
         english = self.raw()
