@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645255-preview-hi",
+  "slug": "epl-2645255-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645255",
+  "article_kind": "preview",
+  "translation_group": "epl-2645255-preview",
+  "published_at": "2026-10-18T07:50:00Z",
+  "updated_at": "2026-10-18T07:50:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:hi"
+  ],
+  "title": "बोर्नमाउथ बनाम संडरलैंड: खराब सिलसिला कौन रोकेगा?",
+  "description": "Bournemouth vs Sunderland 18 Oct 2026 — form, real goals for/against, head-to-head and uncalibrated forecast.",
+  "sections": [
+    {
+      "heading": "यह मैच क्यों महत्वपूर्ण है",
+      "paragraphs": [
+        "बोर्नमाउथ पहले छह लीग मैचों में जीत नहीं पाया, जबकि संडरलैंड लगातार तीन लीग मैच हार चुका है। दोनों टीमें औसतन दो या अधिक गोल खा रही हैं। इसलिए असली सवाल है कि किसकी रक्षा पहले सुधरेगी।"
+      ]
+    },
+    {
+      "heading": "प्रमाणित आंकड़ों से टीम तुलना",
+      "paragraphs": [
+        "बोर्नमाउथ ने छह मैचों में 7 गोल किए और 13 खाए (औसत 1.17 और 2.17)। संडरलैंड के छह गोल और 12 खाए (1.00 और 2.00)। बोर्नमाउथ ने थोड़ा अधिक स्कोर किया, लेकिन अधिक गोल भी खाए। छह मैचों का आंकड़ा सीमित है।"
+      ]
+    },
+    {
+      "heading": "पिछले पांच मैच और आपसी रिकॉर्ड",
+      "paragraphs": [
+        "बोर्नमाउथ ने एवर्टन, न्यूकैसल और ब्रेंटफोर्ड से ड्रॉ किया तथा लिवरपूल और चेल्सी से हारा। संडरलैंड ने फुलहम को हराया, ब्रेंटफोर्ड से ड्रॉ किया और आर्सेनल, मैनचेस्टर सिटी और ब्राइटन से हारा। पिछले पांच मुकाबलों में संडरलैंड दो बार, बोर्नमाउथ एक बार जीता और दो ड्रॉ हुए; तीन मुकाबले 2016–17 के हैं।"
+      ],
+      "bullets": [
+        "2026-02-28: Bournemouth 1–1 Sunderland",
+        "2025-11-29: Sunderland 3–2 Bournemouth",
+        "2017-04-29: Sunderland 0–1 Bournemouth",
+        "2016-11-05: Bournemouth 1–2 Sunderland",
+        "2016-01-23: Sunderland 1–1 Bournemouth"
+      ]
+    },
+    {
+      "heading": "अनुमान और सीमाएं",
+      "paragraphs": [
+        "बनाए और खाए गए गोल प्रति मैच के आधार पर अप्रमाणित पॉइसन मॉडल दोनों के लगभग समान संभावित गोल दिखाता है। घरेलू लाभ, चोट और यूरोपीय मैचों की थकान शामिल नहीं है। यह सट्टे का भाव नहीं है। गेंद खोने पर बोर्नमाउथ की रक्षा और संडरलैंड के तेज आक्रमण पर नजर रखें।"
+      ],
+      "bullets": [
+        "Reference model (Poisson): Bournemouth 38.2%, Draw 23.6%, Sunderland 38.2%. λhome=1.583, λaway=1.583."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Premier League match centre",
+      "url": "https://www.premierleague.com/en/match/2645255/bournemouth-vs-sunderland/overview"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/4ba7cbea/2026-2027/matchlogs/c9/schedule/Bournemouth-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/8ef52968/2026-2027/matchlogs/c9/schedule/Sunderland-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Verified official meeting history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645255-preview-hi.svg",
+      "alt": "Bournemouth versus Sunderland: six-game season GF GA, last-five league forms, last-five head-to-head and uncalibrated match probabilities.",
+      "caption": "Bournemouth and Sunderland both played six completed league fixtures. Prior meetings include 2016–17; forecast uncalibrated."
+    }
+  ]
+}

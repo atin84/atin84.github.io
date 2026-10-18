@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645255-preview-pt-br",
+  "slug": "epl-2645255-preview-pt-br",
+  "platform": "github",
+  "status": "ready",
+  "language": "pt-BR",
+  "league": "EPL",
+  "match_id": "2645255",
+  "article_kind": "preview",
+  "translation_group": "epl-2645255-preview",
+  "published_at": "2026-10-18T07:50:00Z",
+  "updated_at": "2026-10-18T07:50:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:pt-BR"
+  ],
+  "title": "Bournemouth x Sunderland: quem encerra a má fase?",
+  "description": "Bournemouth vs Sunderland 18 Oct 2026 — form, real goals for/against, head-to-head and uncalibrated forecast.",
+  "sections": [
+    {
+      "heading": "Por que assistir",
+      "paragraphs": [
+        "Bournemouth ainda não venceu nas seis primeiras rodadas, enquanto Sunderland perdeu seus últimos três jogos de liga. Ambos sofrem ao menos dois gols por partida. O foco é a capacidade de defender melhor."
+      ]
+    },
+    {
+      "heading": "Comparação de forças em números",
+      "paragraphs": [
+        "Em seis jogos Bournemouth marcou 7 e sofreu 13 (1,17 e 2,17 por jogo). Sunderland marcou 6 e sofreu 12 (1,00 e 2,00 por jogo). Bournemouth ataca um pouco melhor mas concede mais. É uma amostra de apenas seis partidas."
+      ]
+    },
+    {
+      "heading": "Últimos cinco e confronto direto",
+      "paragraphs": [
+        "Bournemouth empatou com Everton, Newcastle e Brentford e perdeu para Liverpool e Chelsea. Sunderland venceu Fulham, empatou com Brentford e perdeu para Arsenal, Manchester City e Brighton. Nos cinco confrontos diretos Sunderland venceu dois, Bournemouth um e houve dois empates. Três jogos remontam a 2016–17."
+      ],
+      "bullets": [
+        "2026-02-28: Bournemouth 1–1 Sunderland",
+        "2025-11-29: Sunderland 3–2 Bournemouth",
+        "2017-04-29: Sunderland 0–1 Bournemouth",
+        "2016-11-05: Bournemouth 1–2 Sunderland",
+        "2016-01-23: Sunderland 1–1 Bournemouth"
+      ]
+    },
+    {
+      "heading": "Previsão e limites",
+      "paragraphs": [
+        "A base Poisson não calibrada utiliza gols marcados e sofridos por jogo e aponta médias esperadas semelhantes. Ela não contempla mando, lesões ou fadiga das competições europeias. Não é uma cotação. Observe a recomposição defensiva do Bournemouth e as chances de transição do Sunderland."
+      ],
+      "bullets": [
+        "Reference model (Poisson): Bournemouth 38.2%, Draw 23.6%, Sunderland 38.2%. λhome=1.583, λaway=1.583."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Premier League match centre",
+      "url": "https://www.premierleague.com/en/match/2645255/bournemouth-vs-sunderland/overview"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/4ba7cbea/2026-2027/matchlogs/c9/schedule/Bournemouth-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/8ef52968/2026-2027/matchlogs/c9/schedule/Sunderland-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Verified official meeting history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645255-preview-pt-br.svg",
+      "alt": "Bournemouth versus Sunderland: six-game season GF GA, last-five league forms, last-five head-to-head and uncalibrated match probabilities.",
+      "caption": "Bournemouth and Sunderland both played six completed league fixtures. Prior meetings include 2016–17; forecast uncalibrated."
+    }
+  ]
+}

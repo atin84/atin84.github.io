@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645255-preview-ko",
+  "slug": "epl-2645255-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645255",
+  "article_kind": "preview",
+  "translation_group": "epl-2645255-preview",
+  "published_at": "2026-10-18T07:50:00Z",
+  "updated_at": "2026-10-18T07:50:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ko"
+  ],
+  "title": "본머스–선덜랜드: 6경기 무승 팀과 3연패 팀, 누가 흐름을 바꿀까?",
+  "description": "Bournemouth vs Sunderland 18 Oct 2026 — form, real goals for/against, head-to-head and uncalibrated forecast.",
+  "sections": [
+    {
+      "heading": "이 경기를 봐야 하는 이유",
+      "paragraphs": [
+        "본머스는 리그 개막 6경기에서 아직 승리가 없고, 선덜랜드는 리그 3연패 중이다. 두 팀 모두 경기당 2실점 이상을 기록했다. 따라서 이번 경기는 일반적인 '투지 대결'이 아니라 실제 수비 문제를 어느 쪽이 먼저 개선할 수 있는지 확인하는 경기다."
+      ]
+    },
+    {
+      "heading": "실제 수치로 비교하는 전력",
+      "paragraphs": [
+        "본머스는 리그 6경기 7득점·13실점(경기당 1.17득점·2.17실점), 선덜랜드는 6득점·12실점(1.00득점·2.00실점)이다. 본머스가 공격에서는 조금 앞서지만 실점 억제에서는 더 불안하다. 표본이 아직 6경기이므로 장기적인 전력 서열로 단정할 수 없다."
+      ]
+    },
+    {
+      "heading": "최근 5경기 흐름과 양 팀 맞대결",
+      "paragraphs": [
+        "본머스의 직전 리그 5경기는 에버턴 1–1, 뉴캐슬 2–2, 브렌트퍼드 2–2, 리버풀 0–1, 첼시 1–5로 3무 2패다. 선덜랜드는 풀럼 1–0, 브렌트퍼드 1–1, 아스널 0–2, 맨체스터 시티 3–5, 브라이턴 0–2로 1승 1무 3패다. 최근 맞대결 5경기는 선덜랜드 2승, 본머스 1승, 무승부 2회이며 그중 3경기는 2016~17년 기록이라 현재 전력 예측에 큰 비중을 두기 어렵다."
+      ],
+      "bullets": [
+        "2026-02-28: Bournemouth 1–1 Sunderland",
+        "2025-11-29: Sunderland 3–2 Bournemouth",
+        "2017-04-29: Sunderland 0–1 Bournemouth",
+        "2016-11-05: Bournemouth 1–2 Sunderland",
+        "2016-01-23: Sunderland 1–1 Bournemouth"
+      ]
+    },
+    {
+      "heading": "승무패 전망과 실제 관전 포인트",
+      "paragraphs": [
+        "양 팀의 경기당 득점과 상대 실점 평균만 결합한 독립 포아송 기준 모델은 양 팀의 예상 득점이 비슷하게 나온다. 다만 이 수치는 홈 이점·부상·유럽대항전 피로·현재 출전 명단을 반영하지 않은 비보정 참고치이며 실제 승률이나 베팅 배당이 아니다. 본머스가 공을 잃은 뒤 상대 첫 슈팅을 얼마나 빨리 막는지, 선덜랜드가 상대 수비 정렬 전에 기회를 만드는지 살펴보자."
+      ],
+      "bullets": [
+        "Reference model (Poisson): Bournemouth 38.2%, Draw 23.6%, Sunderland 38.2%. λhome=1.583, λaway=1.583."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Premier League match centre",
+      "url": "https://www.premierleague.com/en/match/2645255/bournemouth-vs-sunderland/overview"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/4ba7cbea/2026-2027/matchlogs/c9/schedule/Bournemouth-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/8ef52968/2026-2027/matchlogs/c9/schedule/Sunderland-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Verified official meeting history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645255-preview-ko.svg",
+      "alt": "Bournemouth versus Sunderland: six-game season GF GA, last-five league forms, last-five head-to-head and uncalibrated match probabilities.",
+      "caption": "Bournemouth and Sunderland both played six completed league fixtures. Prior meetings include 2016–17; forecast uncalibrated."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645255-preview-es",
+  "slug": "epl-2645255-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645255",
+  "article_kind": "preview",
+  "translation_group": "epl-2645255-preview",
+  "published_at": "2026-10-18T07:50:00Z",
+  "updated_at": "2026-10-18T07:50:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:es"
+  ],
+  "title": "Bournemouth–Sunderland: ¿quién corta su mala racha?",
+  "description": "Bournemouth vs Sunderland 18 Oct 2026 — form, real goals for/against, head-to-head and uncalibrated forecast.",
+  "sections": [
+    {
+      "heading": "Por qué merece la pena verlo",
+      "paragraphs": [
+        "Bournemouth todavía no ha ganado en seis jornadas; Sunderland acumula tres derrotas consecutivas de liga. Ambos han encajado al menos dos goles por partido. Más que una cuestión de actitud, es una prueba concreta para sus defensas."
+      ]
+    },
+    {
+      "heading": "Comparación estadística verificable",
+      "paragraphs": [
+        "Bournemouth lleva 7 goles a favor y 13 en contra en seis partidos: 1,17 marcados y 2,17 recibidos por juego. Sunderland suma 6 marcados y 12 encajados: 1,00 y 2,00. Bournemouth anota algo más pero también concede más. Seis encuentros constituyen una muestra pequeña."
+      ]
+    },
+    {
+      "heading": "Últimos cinco partidos y enfrentamientos",
+      "paragraphs": [
+        "Bournemouth empató ante Everton, Newcastle y Brentford y perdió contra Liverpool y Chelsea. Sunderland ganó a Fulham, empató ante Brentford y perdió con Arsenal, Manchester City y Brighton. En los cinco duelos directos más recientes Sunderland ganó dos, Bournemouth uno y hubo dos empates. Tres son de 2016–17 y pesan poco sobre el presente."
+      ],
+      "bullets": [
+        "2026-02-28: Bournemouth 1–1 Sunderland",
+        "2025-11-29: Sunderland 3–2 Bournemouth",
+        "2017-04-29: Sunderland 0–1 Bournemouth",
+        "2016-11-05: Bournemouth 1–2 Sunderland",
+        "2016-01-23: Sunderland 1–1 Bournemouth"
+      ]
+    },
+    {
+      "heading": "Una proyección con muchas limitaciones",
+      "paragraphs": [
+        "La referencia Poisson utiliza los promedios de goles marcados y recibidos; los dos equipos muestran intensidades previstas similares. No incluye lesiones, ventaja local ni desgaste europeo. No es una probabilidad calibrada. Sigue lo que pasa cuando Bournemouth pierde el balón y cómo Sunderland inicia cada ataque."
+      ],
+      "bullets": [
+        "Reference model (Poisson): Bournemouth 38.2%, Draw 23.6%, Sunderland 38.2%. λhome=1.583, λaway=1.583."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Premier League match centre",
+      "url": "https://www.premierleague.com/en/match/2645255/bournemouth-vs-sunderland/overview"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/4ba7cbea/2026-2027/matchlogs/c9/schedule/Bournemouth-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://fbref.com/en/squads/8ef52968/2026-2027/matchlogs/c9/schedule/Sunderland-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Verified official meeting history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/8ef52968/4ba7cbea/Sunderland-vs-Bournemouth-History"
+    },
+    {
+      "title": "Published team league result records and analysis",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645255-preview-es.svg",
+      "alt": "Bournemouth versus Sunderland: six-game season GF GA, last-five league forms, last-five head-to-head and uncalibrated match probabilities.",
+      "caption": "Bournemouth and Sunderland both played six completed league fixtures. Prior meetings include 2016–17; forecast uncalibrated."
+    }
+  ]
+}
