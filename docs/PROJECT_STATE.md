@@ -11,6 +11,12 @@
 - Full hourly discovery -> facts -> article -> graphic -> all 8 translations -> publish/update is NOT deployed as an autonomous pipeline. Blogger OAuth publishing and persistent status tracking have not been confirmed as connected.
 - AdSense applications were submitted previously; approval/current advertising must be freshly checked (do not infer approval).
 
+## Active GitHub Issues
+- [#1 NBA/EPL categories and Blogger labels](https://github.com/atin84/atin84.github.io/issues/1)
+- [#2 Historical completed-fixture inventory](https://github.com/atin84/atin84.github.io/issues/2)
+- [#3 Future scheduled-fixture inventory](https://github.com/atin84/atin84.github.io/issues/3)
+- [#4 Eight-language batch publisher and hourly monitor](https://github.com/atin84/atin84.github.io/issues/4)
+
 ## Active milestone sequence (small resumable units)
 - [ ] **M1: Category navigation audit** — verify GitHub NBA/EPL category listings deployed and correct across languages; inspect Blogger NBA/EPL labels and menu; add/fix missing Blogger category links and classify earlier posts. Save screenshots/URLs & test result.
 - [ ] **M2: Historical match inventory** — as-of date 2026-10-18, compile all officially completed EPL league and NBA competition-specific matches from 2026-09-18 to 2026-10-18 inclusive; preserve IDs, dates, statuses, source URL, category (NBA preseason versus regular season). Count before publication.
