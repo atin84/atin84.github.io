@@ -1,0 +1,86 @@
+{
+  "id": "epl-2645267-preview-en",
+  "slug": "epl-2645267-preview-en",
+  "platform": "github",
+  "status": "ready",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "2645267",
+  "article_kind": "preview",
+  "translation_group": "epl-2645267-preview",
+  "title": "Chelsea v Tottenham: can Spurs end five straight league defeats in this derby?",
+  "description": "Chelsea versus Tottenham 24 October 2026: verified season goals, shots on target, last five derby results and uncalibrated prediction.",
+  "published_at": "2026-10-18T09:15:00Z",
+  "updated_at": "2026-10-18T09:15:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:en"
+  ],
+  "sections": [
+    {
+      "heading": "Why this derby is worth watching",
+      "paragraphs": [
+        "Chelsea won all five latest Premier League encounters with Tottenham. The historical streak is substantial, but the current comparison has another story: Chelsea scored 10 goals in their first five league games while Spurs scored just three in six. Can Spurs produce better chances than their early-season return suggests?"
+      ]
+    },
+    {
+      "heading": "What the current stats say",
+      "paragraphs": [
+        "In the accessible official 2026–27 snapshots Chelsea had 10 scored and 12 conceded after five league games (2.00 and 2.40 per match), xG 7.29 and 26 shots on target. Tottenham had 3 scored and 9 conceded after six (0.50 and 1.50 per match), xG 6.62 and 22 shots on target. Totals use different denominators, so the chart shows per-match averages."
+      ]
+    },
+    {
+      "heading": "Recent form and derby results",
+      "paragraphs": [
+        "Chelsea beat Everton 2–0 on 17 October. Tottenham’s last confirmed league outing in the checked sources was a 1–1 draw at Manchester United on 10 October; Spurs face Coventry on 19 October, which may change the form guide. Chelsea's five prior league victories against Spurs were 2–1, 1–0, 1–0, 4–3 and 2–0 in reverse date order."
+      ],
+      "bullets": [
+        "2026-05-19 · Chelsea 2–1 Spurs",
+        "2025-11-01 · Spurs 0–1 Chelsea",
+        "2025-04-03 · Chelsea 1–0 Spurs",
+        "2024-12-08 · Spurs 3–4 Chelsea",
+        "2024-05-02 · Chelsea 2–0 Spurs"
+      ]
+    },
+    {
+      "heading": "Forecast — model is not calibrated",
+      "paragraphs": [
+        "Our reference model uses averages of each team's goals scored per game and the opponent's goals allowed, then an independent Poisson calculation. It is not adjusted for home advantage, confirmed starting lineups, transfers, injuries or matches on 18–19 October. No statistical calibration has been validated; do not mistake its percentages for betting odds."
+      ],
+      "bullets": [
+        "Chelsea 44.8%, Draw 23.2%, Spurs 32.0%",
+        "Poisson baseline λhome 1.750, λaway 1.450; unequal 5- vs 6-match samples"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League October fixture updates",
+      "url": "https://www.premierleague.com/en/news/4688862"
+    },
+    {
+      "title": "Chelsea 2026–27 official club stats (five matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/8/chelsea/stats"
+    },
+    {
+      "title": "Tottenham 2026–27 official club stats (six matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/6/tottenham-hotspur/stats"
+    },
+    {
+      "title": "Premier League official recent Chelsea–Spurs match history",
+      "url": "https://www.premierleague.com/en/match/2645544/tottenham-hotspur-vs-chelsea/stats"
+    },
+    {
+      "title": "Chelsea–Spurs full-time results",
+      "url": "https://www.tntsports.co.uk/football/premier-league/2026-2027/chelsea-tottenham-hotspur_mtc21883300/live-stats.shtml"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645267-preview-en.svg",
+      "alt": "Chelsea versus Tottenham goals, conceded, xG and shots on target per game, last five derby results and an uncalibrated Poisson model.",
+      "caption": "Chelsea 5 games, Tottenham 6 in available official statistics; no home advantage or line-up adjustment. Not betting odds."
+    }
+  ]
+}

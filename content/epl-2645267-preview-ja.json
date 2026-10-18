@@ -1,0 +1,86 @@
+{
+  "id": "epl-2645267-preview-ja",
+  "slug": "epl-2645267-preview-ja",
+  "platform": "github",
+  "status": "ready",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645267",
+  "article_kind": "preview",
+  "translation_group": "epl-2645267-preview",
+  "title": "チェルシー対トッテナム：ロンドン・ダービー5連勝は続くか",
+  "description": "Chelsea versus Tottenham 24 October 2026: verified season goals, shots on target, last five derby results and uncalibrated prediction.",
+  "published_at": "2026-10-18T09:15:00Z",
+  "updated_at": "2026-10-18T09:15:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ja"
+  ],
+  "sections": [
+    {
+      "heading": "ダービーの注目点",
+      "paragraphs": [
+        "チェルシーはトッテナムとの直近のプレミアリーグ5戦をすべて制した。今季序盤もチェルシーは5試合10得点、トッテナムは6試合3得点と差がある。スパーズが攻撃機会を得点に変えられるかが焦点だ。"
+      ]
+    },
+    {
+      "heading": "公式データによる戦力比較",
+      "paragraphs": [
+        "確認できた資料ではチェルシーは5試合10得点12失点（平均2.00得点・2.40失点）、xG 7.29、枠内シュート26本。トッテナムは6試合3得点9失点（平均0.50得点・1.50失点）、xG 6.62、枠内シュート22本。試合数が異なるため1試合当たりの数字で示した。"
+      ]
+    },
+    {
+      "heading": "最近の結果と過去のダービー",
+      "paragraphs": [
+        "チェルシーは10月17日にエヴァートンに2–0で勝利。スパーズの確認済み直近リーグ戦は10月10日のマンチェスター・ユナイテッド戦1–1だ。19日にコヴェントリー戦があるため情報更新が必要。過去5回のリーグ対戦はチェルシーの5勝（2–1、1–0、1–0、4–3、2–0）。"
+      ],
+      "bullets": [
+        "2026-05-19 · Chelsea 2–1 Spurs",
+        "2025-11-01 · Spurs 0–1 Chelsea",
+        "2025-04-03 · Chelsea 1–0 Spurs",
+        "2024-12-08 · Spurs 3–4 Chelsea",
+        "2024-05-02 · Chelsea 2–0 Spurs"
+      ]
+    },
+    {
+      "heading": "予測の前提と限界",
+      "paragraphs": [
+        "両チームの得点・失点の1試合平均を独立ポアソンで試算した未調整の参考値。ホーム効果、負傷、先発、移籍、直近の追加試合は考慮していない。賭け率ではない。"
+      ],
+      "bullets": [
+        "Chelsea 44.8%, Draw 23.2%, Spurs 32.0%",
+        "Poisson baseline λhome 1.750, λaway 1.450; unequal 5- vs 6-match samples"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League October fixture updates",
+      "url": "https://www.premierleague.com/en/news/4688862"
+    },
+    {
+      "title": "Chelsea 2026–27 official club stats (five matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/8/chelsea/stats"
+    },
+    {
+      "title": "Tottenham 2026–27 official club stats (six matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/6/tottenham-hotspur/stats"
+    },
+    {
+      "title": "Premier League official recent Chelsea–Spurs match history",
+      "url": "https://www.premierleague.com/en/match/2645544/tottenham-hotspur-vs-chelsea/stats"
+    },
+    {
+      "title": "Chelsea–Spurs full-time results",
+      "url": "https://www.tntsports.co.uk/football/premier-league/2026-2027/chelsea-tottenham-hotspur_mtc21883300/live-stats.shtml"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645267-preview-ja.svg",
+      "alt": "Chelsea versus Tottenham goals, conceded, xG and shots on target per game, last five derby results and an uncalibrated Poisson model.",
+      "caption": "Chelsea 5 games, Tottenham 6 in available official statistics; no home advantage or line-up adjustment. Not betting odds."
+    }
+  ]
+}

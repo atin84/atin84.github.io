@@ -1,0 +1,86 @@
+{
+  "id": "epl-2645267-preview-hi",
+  "slug": "epl-2645267-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645267",
+  "article_kind": "preview",
+  "translation_group": "epl-2645267-preview",
+  "title": "चेल्सी बनाम टोटेनहम: क्या स्पर्स लगातार पांच हार का सिलसिला तोड़ेंगे?",
+  "description": "Chelsea versus Tottenham 24 October 2026: verified season goals, shots on target, last five derby results and uncalibrated prediction.",
+  "published_at": "2026-10-18T09:15:00Z",
+  "updated_at": "2026-10-18T09:15:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:hi"
+  ],
+  "sections": [
+    {
+      "heading": "यह डर्बी क्यों देखें",
+      "paragraphs": [
+        "चेल्सी ने टोटेनहम के खिलाफ पिछले पांच प्रीमियर लीग मैच जीते हैं। नए सीज़न में चेल्सी ने पांच मैचों में दस गोल किए, जबकि स्पर्स ने छह में सिर्फ तीन। क्या टोटेनहम अपने आक्रमण में सुधार कर पाएगा?"
+      ]
+    },
+    {
+      "heading": "आधिकारिक टीम आंकड़े",
+      "paragraphs": [
+        "पुष्ट आंकड़ों में चेल्सी के पांच मैचों में दस गोल और बारह गोल खाए (औसतन 2.00 और 2.40), xG 7.29 और लक्ष्य पर 26 शॉट थे। टोटेनहम ने छह मैचों में तीन गोल किए और नौ खाए (0.50 और 1.50), xG 6.62 तथा लक्ष्य पर 22 शॉट। नमूनों में मैचों की संख्या अलग है, इसलिए चार्ट प्रति मैच औसत दिखाता है।"
+      ]
+    },
+    {
+      "heading": "हालिया नतीजे और डर्बी इतिहास",
+      "paragraphs": [
+        "चेल्सी ने 17 अक्टूबर को एवर्टन को 2–0 से हराया। जांचे गए स्रोतों में स्पर्स का पिछला मैच 10 अक्टूबर को मैनचेस्टर यूनाइटेड से 1–1 ड्रॉ था। 19 अक्टूबर को कोवेंट्री मैच के बाद विवरण अपडेट करना होगा। चेल्सी ने पिछले पांच डर्बी 2–1, 1–0, 1–0, 4–3 और 2–0 से जीते।"
+      ],
+      "bullets": [
+        "2026-05-19 · Chelsea 2–1 Spurs",
+        "2025-11-01 · Spurs 0–1 Chelsea",
+        "2025-04-03 · Chelsea 1–0 Spurs",
+        "2024-12-08 · Spurs 3–4 Chelsea",
+        "2024-05-02 · Chelsea 2–0 Spurs"
+      ]
+    },
+    {
+      "heading": "पूर्वानुमान की सीमाएं",
+      "paragraphs": [
+        "असत्यापित स्वतंत्र पॉइसन मॉडल प्रति मैच गोल किए और खाए जाने के औसत से अनुमान लगाता है। घरेलू लाभ, चोट, शुरुआती खिलाड़ी, ट्रांसफर और नए मैच शामिल नहीं हैं। यह सट्टेबाज़ी की दर नहीं है।"
+      ],
+      "bullets": [
+        "Chelsea 44.8%, Draw 23.2%, Spurs 32.0%",
+        "Poisson baseline λhome 1.750, λaway 1.450; unequal 5- vs 6-match samples"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League October fixture updates",
+      "url": "https://www.premierleague.com/en/news/4688862"
+    },
+    {
+      "title": "Chelsea 2026–27 official club stats (five matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/8/chelsea/stats"
+    },
+    {
+      "title": "Tottenham 2026–27 official club stats (six matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/6/tottenham-hotspur/stats"
+    },
+    {
+      "title": "Premier League official recent Chelsea–Spurs match history",
+      "url": "https://www.premierleague.com/en/match/2645544/tottenham-hotspur-vs-chelsea/stats"
+    },
+    {
+      "title": "Chelsea–Spurs full-time results",
+      "url": "https://www.tntsports.co.uk/football/premier-league/2026-2027/chelsea-tottenham-hotspur_mtc21883300/live-stats.shtml"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645267-preview-hi.svg",
+      "alt": "Chelsea versus Tottenham goals, conceded, xG and shots on target per game, last five derby results and an uncalibrated Poisson model.",
+      "caption": "Chelsea 5 games, Tottenham 6 in available official statistics; no home advantage or line-up adjustment. Not betting odds."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "epl-2645267-preview-es",
+  "slug": "epl-2645267-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645267",
+  "article_kind": "preview",
+  "translation_group": "epl-2645267-preview",
+  "title": "Chelsea–Tottenham: ¿podrán los Spurs romper cinco derrotas seguidas?",
+  "description": "Chelsea versus Tottenham 24 October 2026: verified season goals, shots on target, last five derby results and uncalibrated prediction.",
+  "published_at": "2026-10-18T09:15:00Z",
+  "updated_at": "2026-10-18T09:15:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:es"
+  ],
+  "sections": [
+    {
+      "heading": "Por qué importa el derbi",
+      "paragraphs": [
+        "El Chelsea ganó sus cinco enfrentamientos más recientes de Premier League contra Tottenham. La situación actual añade otro contraste: Chelsea marcó diez goles en sus primeros cinco partidos, mientras Spurs solo anotó tres en seis."
+      ]
+    },
+    {
+      "heading": "Comparación de fuerzas",
+      "paragraphs": [
+        "En la instantánea oficial el Chelsea llevaba diez goles a favor y doce recibidos en cinco encuentros (2,00 y 2,40 por partido), xG 7,29 y 26 tiros a puerta. Tottenham tenía tres goles a favor y nueve recibidos en seis (0,50 y 1,50), xG 6,62 y 22 tiros a puerta. Las barras se muestran por partido para corregir las diferentes muestras."
+      ]
+    },
+    {
+      "heading": "Forma y cinco duelos",
+      "paragraphs": [
+        "Chelsea ganó 2–0 en Everton el 17 de octubre. El último partido liguero confirmado de Tottenham en las fuentes consultadas fue el 1–1 en Manchester United, el 10 de octubre. Spurs juega contra Coventry el 19, por lo que esa información puede cambiar. Chelsea ganó los cinco derbis anteriores por 2–1, 1–0, 1–0, 4–3 y 2–0."
+      ],
+      "bullets": [
+        "2026-05-19 · Chelsea 2–1 Spurs",
+        "2025-11-01 · Spurs 0–1 Chelsea",
+        "2025-04-03 · Chelsea 1–0 Spurs",
+        "2024-12-08 · Spurs 3–4 Chelsea",
+        "2024-05-02 · Chelsea 2–0 Spurs"
+      ]
+    },
+    {
+      "heading": "Pronóstico sin calibrar",
+      "paragraphs": [
+        "La referencia Poisson cruza el promedio de goles marcados y recibidos. No ajusta por localía, bajas, titulares, fichajes ni nuevos resultados. No son cuotas calibradas."
+      ],
+      "bullets": [
+        "Chelsea 44.8%, Draw 23.2%, Spurs 32.0%",
+        "Poisson baseline λhome 1.750, λaway 1.450; unequal 5- vs 6-match samples"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League October fixture updates",
+      "url": "https://www.premierleague.com/en/news/4688862"
+    },
+    {
+      "title": "Chelsea 2026–27 official club stats (five matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/8/chelsea/stats"
+    },
+    {
+      "title": "Tottenham 2026–27 official club stats (six matches snapshot)",
+      "url": "https://www.premierleague.com/en/clubs/6/tottenham-hotspur/stats"
+    },
+    {
+      "title": "Premier League official recent Chelsea–Spurs match history",
+      "url": "https://www.premierleague.com/en/match/2645544/tottenham-hotspur-vs-chelsea/stats"
+    },
+    {
+      "title": "Chelsea–Spurs full-time results",
+      "url": "https://www.tntsports.co.uk/football/premier-league/2026-2027/chelsea-tottenham-hotspur_mtc21883300/live-stats.shtml"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645267-preview-es.svg",
+      "alt": "Chelsea versus Tottenham goals, conceded, xG and shots on target per game, last five derby results and an uncalibrated Poisson model.",
+      "caption": "Chelsea 5 games, Tottenham 6 in available official statistics; no home advantage or line-up adjustment. Not betting odds."
+    }
+  ]
+}
