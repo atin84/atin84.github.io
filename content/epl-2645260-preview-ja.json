@@ -1,0 +1,83 @@
+{
+  "id": "epl-2645260-preview-ja",
+  "slug": "epl-2645260-preview-ja",
+  "platform": "github",
+  "status": "ready",
+  "title": "リーズ対マンチェスター・ユナイテッド：堅守と得点力の対決",
+  "description": "戦力比較、直近の調子、対戦履歴、未較正の確率基準をデータで確認する試合プレビュー。",
+  "sections": [
+    {
+      "heading": "見る理由",
+      "paragraphs": [
+        "リーズはリーグ6試合で5失点、ユナイテッドは9得点。リーズの守備が相手の攻撃を抑えられるか、ユナイテッドがボール保持を決定機につなげられるかが注目点です。"
+      ],
+      "bullets": [
+        "一言でいえば、6試合5失点のリーズ守備と9得点のユナイテッド攻撃がぶつかる、明快な力比べです。"
+      ]
+    },
+    {
+      "heading": "レーダーで見る今季の数字",
+      "paragraphs": [
+        "6試合終了時点でリーズは8得点・5失点・勝点9・無失点2試合。ユナイテッドは9得点・9失点・勝点6・無失点なしです。レーダーは得点、失点抑制、勝点、無失点数を0〜1に正規化した短期比較で、固定的なチーム評価ではありません。",
+        "1試合平均はリーズが1.33得点・0.83失点、ユナイテッドが1.50得点・1.50失点。守備面ではリーズ、得点数ではユナイテッドがわずかに上回ります。6試合の数字を長期予測とみなすことはできません。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "再現可能な確率の基準",
+      "paragraphs": [
+        "6試合の得点・失点率だけを使う独立ポアソン基礎モデルでは、リーズ勝利42.7%、引き分け26.3%、ユナイテッド勝利31.0%。モデル上の期待得点は1.42対1.17です。ホーム補正、先発、負傷、選手個々の力、市場情報は含みません。未較正の参考値であり、検証済み予測や賭けの助言ではありません。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "直近の調子と対戦履歴",
+      "paragraphs": [
+        "リーズの直近5試合（古い順）はブレントフォード1–1、ブライトン1–1、ニューカッスル4–1、クリスタル・パレス0–0、アーセナル1–2。1勝3分1敗です。ユナイテッドはイプスウィッチ5–2、エヴァートン2–2、シティ0–1、フラム1–1、トッテナム1–1で同じく1勝3分1敗。ただしリーグ戦4試合勝利がありません。",
+        "直近2回のリーグ対戦は1月がリーズ1–1ユナイテッド、4月がユナイテッド1–2リーズ。2試合は参考情報で、日曜の結果を決める材料ではありません。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "エランド・ロードで見る場面",
+      "paragraphs": [
+        "公式日程ではキックオフは10月18日14時BST（13時UTC）、エランド・ロードです。ボールを奪われた直後、ユナイテッドがリーズの中盤を越えてシュートまで運べるか、リーズ守備が外側へ追いやるかを見てください。リーズはニューカッスルに4–1で勝ち、直近の強豪相手だったアーセナル戦は1–2でした。",
+        "リーズの公式プレビューでは、直近の得点者ジェームズ・ジャスティン、出場が不透明なダニエル・ジェームズ、欠場予定のジョー・ロドンが伝えられました。先発確定情報ではないため、試合前に最新ニュースを確認してください。"
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-18T04:38:00Z",
+  "updated_at": "2026-10-18T04:38:00Z",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645260",
+  "article_kind": "preview",
+  "translation_group": "epl-2645260-preview",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ja"
+  ],
+  "sources": [
+    {
+      "title": "Premier League fixture and match centre",
+      "url": "https://www.premierleague.com/en/match/2645260"
+    },
+    {
+      "title": "Leeds United official preview: team news and key statistics",
+      "url": "https://www.leedsunited.com/en/news/leeds-united-vs-manchester-united-team-news-key-stats-and-everything-you-need-to-know"
+    },
+    {
+      "title": "Prematchstats: form and head-to-head reference",
+      "url": "https://prematchstats.com/england/premier-league/leeds-united-vs-manchester-united-stats/16363886"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645260-preview-ja.svg",
+      "alt": "リーズ対マンチェスター・ユナイテッド：堅守と得点力の対決; team radar, model probability, last-five form and season comparison.",
+      "caption": "2026年10月18日の試合前時点。未較正のポアソン基準で、オッズではありません。"
+    }
+  ]
+}

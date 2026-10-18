@@ -1,0 +1,195 @@
+{
+  "preview": {
+    "translation_group": "epl-2645260-preview",
+    "league": "EPL",
+    "home": "Leeds United",
+    "away": "Manchester United",
+    "date": "2026-10-18 13:00 UTC / 14:00 BST",
+    "venue": "Elland Road",
+    "sample": 6,
+    "season": {
+      "home": {
+        "gf": 8,
+        "ga": 5,
+        "points": 9,
+        "clean": 2
+      },
+      "away": {
+        "gf": 9,
+        "ga": 9,
+        "points": 6,
+        "clean": 0
+      }
+    },
+    "form": {
+      "home": [
+        [
+          "08-30",
+          "BRE",
+          "1–1",
+          "D"
+        ],
+        [
+          "09-05",
+          "BHA",
+          "1–1",
+          "D"
+        ],
+        [
+          "09-14",
+          "NEW",
+          "4–1",
+          "W"
+        ],
+        [
+          "09-20",
+          "CRY",
+          "0–0",
+          "D"
+        ],
+        [
+          "10-10",
+          "ARS",
+          "1–2",
+          "L"
+        ]
+      ],
+      "away": [
+        [
+          "08-30",
+          "IPS",
+          "5–2",
+          "W"
+        ],
+        [
+          "09-06",
+          "EVE",
+          "2–2",
+          "D"
+        ],
+        [
+          "09-13",
+          "MCI",
+          "0–1",
+          "L"
+        ],
+        [
+          "09-20",
+          "FUL",
+          "1–1",
+          "D"
+        ],
+        [
+          "10-10",
+          "TOT",
+          "1–1",
+          "D"
+        ]
+      ]
+    },
+    "h2h": [
+      [
+        "2026-01-04",
+        "LEE 1–1 MUN"
+      ],
+      [
+        "2026-04-13",
+        "MUN 1–2 LEE"
+      ]
+    ],
+    "sources": [
+      {
+        "url": "https://www.premierleague.com/en/match/2645260"
+      },
+      {
+        "url": "https://www.leedsunited.com/en/news/leeds-united-vs-manchester-united-team-news-key-stats-and-everything-you-need-to-know"
+      },
+      {
+        "url": "https://prematchstats.com/england/premier-league/leeds-united-vs-manchester-united-stats/16363886"
+      }
+    ]
+  },
+  "recap": {
+    "translation_group": "epl-2645252-recap",
+    "league": "EPL",
+    "home": "Liverpool",
+    "away": "Manchester City",
+    "date": "2026-10-11 / Anfield",
+    "score": [
+      0,
+      3
+    ],
+    "stats": {
+      "possession": [
+        35.4,
+        64.6
+      ],
+      "shots": [
+        13,
+        15
+      ],
+      "sot": [
+        6,
+        4
+      ],
+      "xg": [
+        0.94,
+        1.28
+      ],
+      "passing": [
+        79.7,
+        88.4
+      ],
+      "fouls": [
+        19,
+        14
+      ]
+    },
+    "incidents": [
+      [
+        56,
+        "Doku",
+        "sub"
+      ],
+      [
+        62,
+        "Gravenberch",
+        "red"
+      ],
+      [
+        65,
+        "Haaland",
+        "goal"
+      ],
+      [
+        68,
+        "Doku",
+        "goal"
+      ],
+      [
+        78,
+        "Cherki",
+        "goal"
+      ]
+    ],
+    "xg_phases": {
+      "team": "Manchester City",
+      "before_red": 0.16,
+      "fulltime": 1.28,
+      "after_red": 1.12,
+      "cutoff_minute": 62,
+      "granularity": "two phases; no shot-by-shot interpolation"
+    },
+    "sources": [
+      {
+        "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+      },
+      {
+        "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+      },
+      {
+        "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "epl-2645252-recap-ko",
+  "slug": "epl-2645252-recap-ko",
+  "platform": "github",
+  "status": "ready",
+  "title": "리버풀 0–3 맨체스터 시티: 퇴장 뒤 세 골과 경기 수치로 본 흐름",
+  "description": "안필드 리버풀–맨시티전 리캡. 스코어 타임라인, 주요 사건, xG 구간, 슈팅·점유율과 골키퍼 기록을 정리했습니다.",
+  "sections": [
+    {
+      "heading": "스코어보드와 흐름을 바꾼 장면",
+      "paragraphs": [
+        "10월 11일 안필드에서 리버풀은 맨체스터 시티에 0–3으로 졌습니다. 62분 라이언 흐라번베르흐가 퇴장당할 때까지 0–0이었고, 엘링 홀란이 65분, 제레미 도쿠가 68분, 라얀 셰르키가 78분 골을 넣었습니다. 퇴장 3분 뒤 선제골, 다시 3분 뒤 추가골이 나왔습니다. 접전 스코어가 원정팀의 완승으로 바뀐 과정을 가장 잘 보여주는 연속 장면입니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "퇴장 뒤 달라진 xG",
+      "paragraphs": [
+        "Sky 경기 리포트 기준 맨시티의 xG는 퇴장 전 0.16, 경기 종료 시 1.28이었습니다. 두 시점의 차를 계산하면 퇴장 뒤 구간은 1.12 xG입니다. 이는 전후 두 구간의 비교이지 분 단위 연속 곡선은 아니며, 퇴장 하나가 이후 모든 기회를 만들었다는 증거도 아닙니다. 다만 마지막 구간에 기록된 기회 가치가 크게 쌓였다는 점은 보여줍니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "주요 수치가 말하는 것",
+      "paragraphs": [
+        "리버풀은 점유율 35.4%에도 슈팅 13회·유효슈팅 6회를 기록했습니다. 맨시티는 점유율 64.6%, 슈팅 15회, 유효슈팅 4회였습니다. xG는 0.94 대 1.28, 패스 성공률은 리버풀 79.7%·맨시티 88.4%, 파울은 19 대 14였습니다. 점유율은 공을 가진 시간을 말해줄 뿐 더 좋은 기회를 누가 만들었는지 단독으로 설명하지 않습니다.",
+        "공개 경기 기록에서 알리송의 선방은 1회, 잔루이지 돈나룸마는 6회였습니다. 맨시티가 유효슈팅을 더 많이 한 경기는 아니었다는 점까지 함께 봐야 0–3 스코어를 이해할 수 있습니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "스코어 진행",
+      "paragraphs": [
+        "하프타임 0–0. 홀란의 65분 골로 0–1, 도쿠의 68분 골로 0–2, 셰르키의 78분 골로 최종 0–3이 됐습니다. 그래프는 확인된 득점으로 바뀐 점수만 표시합니다. 가로 간격은 경기 시간을 따르며 점유나 경기 주도권 지표가 아닙니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "키 퍼포머와 데이터의 한계",
+      "paragraphs": [
+        "돈나룸마의 6세이브가 경기 기록에서 두드러집니다. 홀란, 도쿠, 셰르키가 득점했지만 사건의 순서도 중요합니다. 세 골은 퇴장 이후 나왔고, 첫 두 골은 3분 간격이었습니다. 이 자료는 전환점과 마무리 구간을 설명해주지만, 경기 전체를 한 사건 하나로만 축약하지는 않습니다."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-11T18:30:00Z",
+  "updated_at": "2026-10-11T18:30:00Z",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645252",
+  "article_kind": "recap",
+  "translation_group": "epl-2645252-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:ko"
+  ],
+  "sources": [
+    {
+      "title": "Sky Sports: Liverpool v Manchester City match statistics",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+    },
+    {
+      "title": "Sky Sports: Liverpool v Manchester City report",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+    },
+    {
+      "title": "Manchester City official match report",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645252-recap-ko.svg",
+      "alt": "리버풀 0–3 맨체스터 시티: 퇴장 뒤 세 골과 경기 수치로 본 흐름; final score 0–3, incident timeline, match stats, xG checkpoints and score progression.",
+      "caption": "Sky Sports 경기 데이터. xG 그림은 두 시점 비교이며 슈팅별 연속 곡선이 아닙니다."
+    }
+  ]
+}

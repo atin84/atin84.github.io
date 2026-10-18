@@ -1,0 +1,83 @@
+{
+  "id": "epl-2645260-preview-ko",
+  "slug": "epl-2645260-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "title": "리즈 vs 맨체스터 유나이티드: 단단한 수비와 더 많은 득점의 맞대결",
+  "description": "리즈–맨유 프리뷰: 전력 비교, 최근 폼, 맞대결과 재현 가능한 미보정 승률 기준선을 데이터로 살펴봅니다.",
+  "sections": [
+    {
+      "heading": "왜 이 경기를 봐야 할까",
+      "paragraphs": [
+        "리즈는 6경기에서 5실점에 그쳤고, 맨유는 9골을 넣었습니다. 리즈의 수비가 맨유의 공격을 견딜지, 맨유가 점유를 실제 슈팅으로 바꿀지가 순위표보다 더 분명한 관전 포인트입니다."
+      ],
+      "bullets": [
+        "한 줄 관전 이유: 6경기 5실점의 리즈 수비와 9득점의 맨유 공격이 맞붙어, 리즈의 안정적인 출발이 맨유의 공격을 버텨낼지 확인할 수 있습니다."
+      ]
+    },
+    {
+      "heading": "레이더에 담긴 시즌 비교",
+      "paragraphs": [
+        "리그 6경기 기준 리즈는 8득점·5실점·승점 9·무실점 2회, 맨유는 9득점·9실점·승점 6·무실점 0회입니다. 레이더는 득점, 실점 억제, 승점, 무실점을 0~1로 환산해 비교합니다. 짧은 시즌 표본을 보여줄 뿐, 팀의 고정된 실력 등급은 아닙니다.",
+        "경기당 득점과 실점은 리즈 1.33·0.83, 맨유 1.50·1.50입니다. 원자료상 리즈의 수비가 더 안정적이고, 맨유의 득점이 조금 더 많습니다. 6경기 평균만으로 장기적인 흐름을 단정할 수는 없습니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "계산 과정을 공개한 승률 기준선",
+      "paragraphs": [
+        "각 팀의 6경기 득·실점률만 넣은 독립 포아송 기초 모델은 리즈 승 42.7%, 무승부 26.3%, 맨유 승 31.0%를 냅니다. 예상 득점은 1.42 대 1.17입니다. 홈 이점, 선발 명단, 부상, 선수별 전력, 시장 정보가 빠진 미보정 기준선입니다. 재현 가능한 참고값이며 베팅 조언이나 보정된 예측이 아닙니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "최근 폼과 맞대결",
+      "paragraphs": [
+        "리즈의 최근 리그 5경기(오래된 순)는 브렌트퍼드 1–1, 브라이턴 1–1, 뉴캐슬 4–1, 크리스털 팰리스 0–0, 아스널 1–2입니다. 1승 3무 1패, 5득점 5실점입니다. 맨유는 입스위치 5–2, 에버턴 2–2, 맨시티 0–1, 풀럼 1–1, 토트넘 1–1로 1승 3무 1패입니다. 득점력은 앞섰지만 최근 리그 4경기에서 승리가 없었습니다.",
+        "최근 두 리그 맞대결은 1월 리즈 1–1 맨유, 4월 맨유 1–2 리즈였습니다. 두 경기만으로 이번 결과를 예측할 수는 없습니다."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "엘런드 로드에서 볼 장면",
+      "paragraphs": [
+        "공식 일정상 킥오프는 10월 18일 14:00 BST(13:00 UTC), 엘런드 로드입니다. 공을 빼앗긴 직후 맨유가 리즈 중원을 넘어 슈팅까지 연결하는지, 아니면 리즈 수비가 측면으로 몰아내는지 살펴보세요. 리즈의 최근 최고 득점 사례는 뉴캐슬전 4–1, 강팀을 상대로 한 최신 시험은 아스널전 1–2였습니다.",
+        "리즈 구단 프리뷰는 최근 득점자 제임스 저스틴, 출전 여부가 불투명한 대니얼 제임스, 결장 예정인 조 로든을 전했습니다. 확정 선발 명단은 아니므로 경기 직전 팀 뉴스를 확인해야 합니다."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-18T04:38:00Z",
+  "updated_at": "2026-10-18T04:38:00Z",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645260",
+  "article_kind": "preview",
+  "translation_group": "epl-2645260-preview",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ko"
+  ],
+  "sources": [
+    {
+      "title": "Premier League fixture and match centre",
+      "url": "https://www.premierleague.com/en/match/2645260"
+    },
+    {
+      "title": "Leeds United official preview: team news and key statistics",
+      "url": "https://www.leedsunited.com/en/news/leeds-united-vs-manchester-united-team-news-key-stats-and-everything-you-need-to-know"
+    },
+    {
+      "title": "Prematchstats: form and head-to-head reference",
+      "url": "https://prematchstats.com/england/premier-league/leeds-united-vs-manchester-united-stats/16363886"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645260-preview-ko.svg",
+      "alt": "리즈 vs 맨체스터 유나이티드: 단단한 수비와 더 많은 득점의 맞대결; team radar, model probability, last-five form and season comparison.",
+      "caption": "킥오프 전 2026-10-18 기준. 포아송 기준선은 미보정 수치이며 배당률이 아닙니다. 아래 출처 참조."
+    }
+  ]
+}

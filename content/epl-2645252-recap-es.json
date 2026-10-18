@@ -1,0 +1,79 @@
+{
+  "id": "epl-2645252-recap-es",
+  "slug": "epl-2645252-recap-es",
+  "platform": "github",
+  "status": "ready",
+  "title": "Liverpool 0–3 Manchester City: la roja, tres goles y las cifras del cambio",
+  "description": "Resumen basado en datos: marcador, cronología, xG por fases, tiros, posesión y actuación de los porteros en Anfield.",
+  "sections": [
+    {
+      "heading": "Marcador y momento decisivo",
+      "paragraphs": [
+        "Liverpool perdió 0–3 ante Manchester City en Anfield el 11 de octubre. El 0–0 se mantuvo hasta la expulsión de Ryan Gravenberch en el minuto 62. Erling Haaland marcó en el 65, Jérémy Doku en el 68 y Rayan Cherki en el 78. El primer gol llegó tres minutos después de la roja y el segundo, tres minutos más tarde. Esa secuencia explica cómo un marcador igualado se convirtió en una victoria visitante amplia."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "El xG después de la expulsión",
+      "paragraphs": [
+        "Sky registró 0,16 xG de City antes de la roja y 1,28 al final. La diferencia calculada entre ambos puntos es 1,12 xG después de la expulsión. Son dos fases, no una curva continua minuto a minuto, y no demuestra que la roja causara por sí sola cada ocasión. Sí muestra cuánto valor de ocasión acumuló City en la fase final."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Las estadísticas en contexto",
+      "paragraphs": [
+        "Liverpool tuvo 35,4% de posesión, 13 tiros y seis a puerta; City, 64,6%, 15 tiros y cuatro a puerta. El xG fue 0,94–1,28. La precisión de pase: 79,7%–88,4%; las faltas: 19–14. La posesión mide quién tuvo el balón, no quién creó automáticamente las mejores ocasiones.",
+        "Alisson hizo una parada según la estadística publicada; Gianluigi Donnarumma, seis. Esa diferencia ayuda a leer el 0–3 más allá del número de tiros a puerta."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Evolución del marcador",
+      "paragraphs": [
+        "Descanso: 0–0. Haaland puso el 0–1 en el 65; Doku amplió al 0–2 en el 68 y Cherki fijó el 0–3 en el 78. El gráfico solo marca cambios de marcador verificados. El espacio horizontal sigue los minutos y no representa posesión ni impulso."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Protagonistas y límites",
+      "paragraphs": [
+        "Las seis paradas de Donnarumma destacan en los datos individuales. Haaland, Doku y Cherki marcaron, pero el orden también importa: los tres goles llegaron tras la expulsión y los dos primeros en un lapso de tres minutos. Los datos explican el giro y la eficacia final sin reducir todo el partido a un solo incidente."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-11T18:30:00Z",
+  "updated_at": "2026-10-11T18:30:00Z",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645252",
+  "article_kind": "recap",
+  "translation_group": "epl-2645252-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:es"
+  ],
+  "sources": [
+    {
+      "title": "Sky Sports: Liverpool v Manchester City match statistics",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+    },
+    {
+      "title": "Sky Sports: Liverpool v Manchester City report",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+    },
+    {
+      "title": "Manchester City official match report",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645252-recap-es.svg",
+      "alt": "Liverpool 0–3 Manchester City: la roja, tres goles y las cifras del cambio; final score 0–3, incident timeline, match stats, xG checkpoints and score progression.",
+      "caption": "Datos de Sky Sports; el xG compara dos puntos, no una curva continua por tiro."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "epl-2645260-preview-pt-br",
+  "slug": "epl-2645260-preview-pt-br",
+  "platform": "github",
+  "status": "ready",
+  "title": "Leeds x Manchester United: defesa sólida contra um ataque mais produtivo",
+  "description": "Prévia baseada em dados com comparação, forma recente, confrontos diretos e uma probabilidade-base transparente e não calibrada.",
+  "sections": [
+    {
+      "heading": "Por que vale assistir",
+      "paragraphs": [
+        "O Leeds sofreu apenas cinco gols em seis rodadas; o United marcou nove. O duelo mostra se a defesa do Leeds consegue conter esse ataque e se o United transforma posse de bola em chances claras."
+      ],
+      "bullets": [
+        "Em uma frase: a defesa do Leeds, com cinco gols sofridos em seis jogos, enfrenta o ataque do United, que marcou nove."
+      ]
+    },
+    {
+      "heading": "A comparação da temporada",
+      "paragraphs": [
+        "Após seis partidas, o Leeds tem 8 gols marcados, 5 sofridos, 9 pontos e dois jogos sem sofrer gol. O United tem 9, 9, 6 pontos e nenhum jogo sem sofrer. O radar normaliza gols, defesa, pontos e jogos sem sofrer entre 0 e 1; é uma amostra curta, não uma nota permanente.",
+        "Por jogo, o Leeds marca 1,33 e sofre 0,83; o United marca 1,50 e sofre 1,50. Os totais mostram uma defesa mais sólida do Leeds e ligeira vantagem ofensiva do United. Seis jogos não definem uma tendência estável."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Uma probabilidade-base transparente",
+      "paragraphs": [
+        "Com as taxas de gols feitos e sofridos nesses seis jogos, um modelo Poisson independente estima 42,7% de vitória do Leeds, 26,3% de empate e 31,0% do United; gols esperados: 1,42–1,17. Não considera mando, escalação, lesões, qualidade individual nem mercado. É uma referência básica não calibrada, não uma previsão validada ou recomendação de aposta."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Forma recente e confrontos",
+      "paragraphs": [
+        "Os últimos cinco jogos do Leeds, do mais antigo: Brentford 1–1, Brighton 1–1, Newcastle 4–1, Crystal Palace 0–0 e Arsenal 1–2: uma vitória, três empates e uma derrota. O United: Ipswich 5–2, Everton 2–2, City 0–1, Fulham 1–1 e Tottenham 1–1. Também tem uma vitória, três empates e uma derrota, mas está há quatro jogos de liga sem vencer.",
+        "Os dois encontros recentes terminaram Leeds 1–1 United em janeiro e United 1–2 Leeds em abril. Dois resultados dão contexto, não uma previsão."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "O que observar em Elland Road",
+      "paragraphs": [
+        "O horário oficial é 14h BST (13h UTC), em Elland Road. Depois de recuperar a bola, veja se o United atravessa o meio-campo do Leeds e finaliza, ou se a defesa força o ataque para os lados. A vitória do Leeds por 4–1 sobre o Newcastle mostra seu melhor resultado recente; a derrota por 2–1 para o Arsenal foi o teste mais recente contra um rival forte.",
+        "A prévia oficial do Leeds citou James Justin entre os goleadores recentes, Daniel James como dúvida e Joe Rodon fora. Não é uma escalação confirmada; confira as notícias antes do início."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-18T04:38:00Z",
+  "updated_at": "2026-10-18T04:38:00Z",
+  "language": "pt-BR",
+  "league": "EPL",
+  "match_id": "2645260",
+  "article_kind": "preview",
+  "translation_group": "epl-2645260-preview",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:pt-BR"
+  ],
+  "sources": [
+    {
+      "title": "Premier League fixture and match centre",
+      "url": "https://www.premierleague.com/en/match/2645260"
+    },
+    {
+      "title": "Leeds United official preview: team news and key statistics",
+      "url": "https://www.leedsunited.com/en/news/leeds-united-vs-manchester-united-team-news-key-stats-and-everything-you-need-to-know"
+    },
+    {
+      "title": "Prematchstats: form and head-to-head reference",
+      "url": "https://prematchstats.com/england/premier-league/leeds-united-vs-manchester-united-stats/16363886"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645260-preview-pt-br.svg",
+      "alt": "Leeds x Manchester United: defesa sólida contra um ataque mais produtivo; team radar, model probability, last-five form and season comparison.",
+      "caption": "Retrato antes do jogo, 18 out 2026. Poisson não calibrado; não são odds."
+    }
+  ]
+}

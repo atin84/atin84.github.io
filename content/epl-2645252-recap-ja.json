@@ -1,0 +1,79 @@
+{
+  "id": "epl-2645252-recap-ja",
+  "slug": "epl-2645252-recap-ja",
+  "platform": "github",
+  "status": "ready",
+  "title": "リヴァプール0–3マンチェスター・シティ：退場、3得点、数字で追う転換点",
+  "description": "アンフィールドの一戦をデータで振り返ります。スコア推移、重要場面、xGの区間比較、シュートとGK記録を掲載。",
+  "sections": [
+    {
+      "heading": "スコアと転換点",
+      "paragraphs": [
+        "10月11日、アンフィールドでリヴァプールはマンチェスター・シティに0–3で敗れました。62分にライアン・フラーフェンベルフが退場するまでスコアは0–0。アーリング・ハーランドが65分、ジェレミー・ドクが68分、ラヤン・シェルキが78分に得点しました。退場から3分後に先制し、さらに3分後に追加点。この連続が接戦から大差に変わった流れを示します。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "退場後のxG",
+      "paragraphs": [
+        "Skyの記録ではシティのxGは退場前0.16、試合終了時1.28でした。差し引きで退場後の区間は1.12 xGです。これは2時点を比べたもので、分ごとの連続曲線ではありません。また退場だけが以降の全チャンスを生んだと証明する数字でもありません。終盤に記録されたチャンス価値が大きく積み上がったことを表します。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "主要スタッツの読み方",
+      "paragraphs": [
+        "リヴァプールのボール保持率は35.4%でしたが、シュート13本・枠内6本。シティは保持率64.6%、シュート15本、枠内4本でした。xGは0.94対1.28、パス成功率は79.7%対88.4%、ファウルは19対14。保持率だけでは、どちらが良いチャンスを作ったかは分かりません。",
+        "公開記録上、アリソンのセーブは1回、ジャンルイジ・ドンナルンマは6回。枠内シュート数だけでは説明しきれない0–3の結果です。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "スコアの推移",
+      "paragraphs": [
+        "ハーフタイムは0–0。ハーランドが65分に0–1、ドクが68分に0–2、シェルキが78分に0–3としました。図は確認できた得点によるスコア変化のみを表示します。横軸は試合時間で、保持率や流れの強さを表すものではありません。"
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "注目選手と数字の限界",
+      "paragraphs": [
+        "ドンナルンマの6セーブが個人記録で目立ちます。得点者はハーランド、ドク、シェルキですが、順番も重要です。3得点は退場後に生まれ、最初の2点は3分差でした。データは転換点と終盤の決定力を説明しますが、試合全体を一つの出来事だけに還元することはできません。"
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-11T18:30:00Z",
+  "updated_at": "2026-10-11T18:30:00Z",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645252",
+  "article_kind": "recap",
+  "translation_group": "epl-2645252-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:ja"
+  ],
+  "sources": [
+    {
+      "title": "Sky Sports: Liverpool v Manchester City match statistics",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+    },
+    {
+      "title": "Sky Sports: Liverpool v Manchester City report",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+    },
+    {
+      "title": "Manchester City official match report",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645252-recap-ja.svg",
+      "alt": "リヴァプール0–3マンチェスター・シティ：退場、3得点、数字で追う転換点; final score 0–3, incident timeline, match stats, xG checkpoints and score progression.",
+      "caption": "Sky Sportsの試合データ。xGは2時点の比較で、連続的なシュート別曲線ではありません。"
+    }
+  ]
+}

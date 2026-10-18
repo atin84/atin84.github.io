@@ -1,0 +1,79 @@
+{
+  "id": "epl-2645252-recap-en",
+  "slug": "epl-2645252-recap-en",
+  "platform": "github",
+  "status": "ready",
+  "title": "Liverpool 0–3 Manchester City: the red card, three goals and the numbers behind the swing",
+  "description": "A match-data recap of Liverpool–Manchester City at Anfield, with the score timeline, key incidents, xG checkpoints, shot and possession figures, and the goalkeeper performance.",
+  "sections": [
+    {
+      "heading": "Scoreboard and turning point",
+      "paragraphs": [
+        "Liverpool 0–3 Manchester City at Anfield on 11 October. The score stayed 0–0 until Ryan Gravenberch was sent off in the 62nd minute. Erling Haaland scored in the 65th, Jérémy Doku in the 68th and Rayan Cherki in the 78th. City’s opener came three minutes after the dismissal; the next goal followed three minutes later. The sequence is the clearest explanation of how a close score became a decisive away win."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "What changed after the dismissal",
+      "paragraphs": [
+        "Sky’s match report recorded City at 0.16 xG before the red card and 1.28 by full time. Subtracting those two checkpoints gives 1.12 xG after the dismissal. This is a two-period comparison, not a continuous minute-by-minute xG curve, and it does not prove the card alone caused every later chance. It does show how sharply the recorded chance quality accumulated in the final phase."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "The match figures in context",
+      "paragraphs": [
+        "Liverpool had 35.4% possession to City’s 64.6%, yet Liverpool recorded 13 shots and six on target; City had 15 shots and four on target. The teams’ xG totals were 0.94 and 1.28. City completed 88.4% of passes against Liverpool’s 79.7%, while Liverpool committed 19 fouls to City’s 14. Possession describes who had the ball; it does not by itself establish who created the better chances.",
+        "Liverpool goalkeeper Alisson made one save in the published statistics, while Gianluigi Donnarumma made six. That gap helps explain why the 0–3 scoreline was not simply a story of City taking more shots on target."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "The score progression",
+      "paragraphs": [
+        "Half-time: 0–0. Haaland’s 65th-minute goal made it 0–1; Doku’s 68th-minute finish doubled the lead; Cherki’s 78th-minute goal set the final score at 0–3. The graphic plots only those verified changes in score. The horizontal spacing is proportional to match minutes; it is not a possession or momentum measure."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Key performers and a careful reading",
+      "paragraphs": [
+        "Donnarumma’s six saves are the standout individual number in the match data. Haaland, Doku and Cherki supplied the goals, but the timeline also matters: the red card preceded all three, and the first two arrived in a three-minute spell. The data support a clear account of the turning point and the finishing run; they do not support reducing the entire match to a single incident."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-11T18:30:00Z",
+  "updated_at": "2026-10-11T18:30:00Z",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "2645252",
+  "article_kind": "recap",
+  "translation_group": "epl-2645252-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:en"
+  ],
+  "sources": [
+    {
+      "title": "Sky Sports: Liverpool v Manchester City match statistics",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+    },
+    {
+      "title": "Sky Sports: Liverpool v Manchester City report",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+    },
+    {
+      "title": "Manchester City official match report",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645252-recap-en.svg",
+      "alt": "Liverpool 0–3 Manchester City: the red card, three goals and the numbers behind the swing; final score 0–3, incident timeline, match stats, xG checkpoints and score progression.",
+      "caption": "Sky Sports match data; the xG graphic compares two checkpoints, not a continuous shot-by-shot curve."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "epl-2645252-recap-de",
+  "slug": "epl-2645252-recap-de",
+  "platform": "github",
+  "status": "ready",
+  "title": "Liverpool 0:3 Manchester City: Platzverweis, drei Tore und der Umschwung in Zahlen",
+  "description": "Datengestützter Rückblick aus Anfield mit Spielstand, Ereignisfolge, xG-Phasen, Schüssen, Ballbesitz und Torhüterleistung.",
+  "sections": [
+    {
+      "heading": "Spielstand und Wendepunkt",
+      "paragraphs": [
+        "Liverpool verlor am 11. Oktober in Anfield 0:3 gegen Manchester City. Bis zum Platzverweis gegen Ryan Gravenberch in der 62. Minute stand es 0:0. Erling Haaland traf in der 65., Jérémy Doku in der 68. und Rayan Cherki in der 78. Minute. Citys Führung fiel drei Minuten nach Rot, das nächste Tor weitere drei Minuten später. Diese Folge erklärt den Umschwung vom offenen Spiel zum klaren Auswärtssieg."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Der xG-Wert nach Rot",
+      "paragraphs": [
+        "Sky wies City vor dem Platzverweis 0,16 xG und am Ende 1,28 aus. Die Differenz beträgt rechnerisch 1,12 xG nach dem Platzverweis. Das sind zwei Phasen, keine durchgehende Minutenkurve, und kein Beweis, dass die rote Karte jede Chance verursachte. Der Wert zeigt jedoch die Chancenqualität, die City im Schlussabschnitt sammelte."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Die Zahlen im Zusammenhang",
+      "paragraphs": [
+        "Liverpool hatte 35,4 % Ballbesitz, 13 Schüsse und sechs aufs Tor; City kam auf 64,6 %, 15 und vier. xG: 0,94 zu 1,28. Passquote: 79,7 zu 88,4 %; Fouls: 19 zu 14. Ballbesitz zeigt, wer den Ball hatte, aber nicht allein, wer die besseren Chancen erspielte.",
+        "Alisson kam laut veröffentlichter Statistik auf eine Parade, Gianluigi Donnarumma auf sechs. Auch dieser Unterschied erklärt das 0:3 besser als die Zahl der Schüsse aufs Tor allein."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Der Spielstand im Verlauf",
+      "paragraphs": [
+        "Halbzeit: 0:0. Haaland stellte in der 65. Minute auf 0:1, Doku erhöhte in der 68. auf 0:2 und Cherki setzte in der 78. den Endstand. Die Grafik zeigt nur bestätigte Änderungen des Spielstands. Die horizontale Achse entspricht der Spielzeit, nicht Ballbesitz oder Momentum."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Schlüsselspieler und Einordnung",
+      "paragraphs": [
+        "Donnarummas sechs Paraden sind die auffälligste Einzelzahl. Haaland, Doku und Cherki trafen; auch die Reihenfolge zählt: Alle drei Tore fielen nach dem Platzverweis, die ersten beiden innerhalb von drei Minuten. Die Daten erklären Wendepunkt und Effizienzphase, ohne das ganze Spiel auf ein Ereignis zu reduzieren."
+      ],
+      "bullets": []
+    }
+  ],
+  "published_at": "2026-10-11T18:30:00Z",
+  "updated_at": "2026-10-11T18:30:00Z",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "2645252",
+  "article_kind": "recap",
+  "translation_group": "epl-2645252-recap",
+  "labels": [
+    "Premier League",
+    "Match recap",
+    "lang:de"
+  ],
+  "sources": [
+    {
+      "title": "Sky Sports: Liverpool v Manchester City match statistics",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/stats/6930660155686911232"
+    },
+    {
+      "title": "Sky Sports: Liverpool v Manchester City report",
+      "url": "https://www.skysports.com/football/liverpool-vs-man-city/6930660155686911232"
+    },
+    {
+      "title": "Manchester City official match report",
+      "url": "https://www.mancity.com/news/mens/liverpool-v-city-premier-league-match-report-october-2026-63927325"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645252-recap-de.svg",
+      "alt": "Liverpool 0:3 Manchester City: Platzverweis, drei Tore und der Umschwung in Zahlen; final score 0–3, incident timeline, match stats, xG checkpoints and score progression.",
+      "caption": "Sky-Sports-Spieldaten; xG vergleicht zwei Zeitpunkte, keine durchgehende Schusskurve."
+    }
+  ]
+}
