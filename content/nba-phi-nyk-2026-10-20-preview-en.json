@@ -1,0 +1,78 @@
+{
+  "id": "nba-phi-nyk-2026-10-20-preview-en",
+  "slug": "nba-phi-nyk-2026-10-20-preview-en",
+  "platform": "github",
+  "status": "ready",
+  "title": "76ers at Knicks: LeBron and Brown Face the Defending Champions",
+  "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. No calibrated win probability published here.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "en",
+  "league": "NBA",
+  "match_id": "0022600002",
+  "article_kind": "preview",
+  "translation_group": "nba-phi-nyk-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Philadelphia 76ers",
+    "New York Knicks",
+    "Preview",
+    "lang:en"
+  ],
+  "sections": [
+    {
+      "heading": "Why this opener is worth watching",
+      "paragraphs": [
+        "The defending champion Knicks open their title defense against Philadelphia at Madison Square Garden. The story is unusually concrete: LeBron James and Jaylen Brown joined the 76ers, who are trying to integrate their new stars against the club that eliminated them in May.",
+        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "What the latest completed season tells us",
+      "paragraphs": [
+        "In 2025–26 New York went 53–29 (.646) and Philadelphia 45–37 (.549). The Knicks finished their last ten regular-season games 6–4, as did the Sixers. The latest listed playoff meetings on NBA.com ended in four consecutive Knicks wins. None of those older results guarantees a repeat."
+      ]
+    },
+    {
+      "heading": "What to watch on each possession",
+      "paragraphs": [
+        "Watch how often Philadelphia’s possessions involve LeBron James as creator, Tyrese Maxey as pace-setter and Joel Embiid as an interior option, if each is available. At the other end, focus on Jalen Brunson’s first pass after help arrives. Does New York force Philadelphia into late-clock shots, or does the new lineup create an early open look?"
+      ]
+    },
+    {
+      "heading": "What these numbers do not predict",
+      "paragraphs": [
+        "The 76ers’ preseason appearances showed their players together, but preseason combinations and minutes do not confirm the opening-night rotation. A calibrated win/draw style probability requires a tested model and current availability data; last year’s records are supplied as context, not as odds."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 opening night schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official 76ers at Knicks match and past meetings",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0022600002"
+    },
+    {
+      "title": "NBA Sixers preseason lineup report",
+      "url": "https://www.nba.com/news/reports-76ers-plan-to-play-starters-in-preseason-game-vs-nets"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-en.svg",
+      "alt": "PHI versus NYK: 2025–26 wins, 2025–26 record, Last 10, 2025–26; No calibrated win probability published here",
+      "caption": "Source: NBA final 2025–26 standings. Not a forecast. No calibrated win probability published here."
+    }
+  ]
+}

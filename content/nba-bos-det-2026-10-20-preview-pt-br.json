@@ -1,0 +1,74 @@
+{
+  "id": "nba-bos-det-2026-10-20-preview-pt-br",
+  "slug": "nba-bos-det-2026-10-20-preview-pt-br",
+  "platform": "github",
+  "status": "ready",
+  "title": "Boston Celtics @ Detroit Pistons | Por que vale assistir",
+  "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. Sem probabilidade calibrada de vitória.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "pt-BR",
+  "league": "NBA",
+  "match_id": "0022600001",
+  "article_kind": "preview",
+  "translation_group": "nba-bos-det-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Boston Celtics",
+    "Detroit Pistons",
+    "Preview",
+    "lang:pt-BR"
+  ],
+  "sections": [
+    {
+      "heading": "Por que vale assistir",
+      "paragraphs": [
+        "Detroit e Boston terminaram em primeiro e segundo lugar no Leste em 2025–26 e já se enfrentam na abertura da temporada, na Little Caesars Arena. É uma oportunidade de ver como duas potências da conferência começam um novo ciclo.",
+        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "Comparação da temporada passada",
+      "paragraphs": [
+        "Detroit fez 60–22 (.732) e Boston 56–26 (.683). As duas equipes venceram oito dos últimos dez jogos da temporada regular. Esses números descrevem o passado e não representam a chance de vitória nesta partida."
+      ]
+    },
+    {
+      "heading": "O que observar em cada posse",
+      "paragraphs": [
+        "Observe o passe escolhido por Cade Cunningham quando a defesa de Boston manda ajuda. Do outro lado, veja o espaçamento em torno de Jayson Tatum e se a defesa encerra a posse depois de um arremesso ou permite uma segunda chance."
+      ]
+    },
+    {
+      "heading": "O que os números não preveem",
+      "paragraphs": [
+        "O guia oficial da NBA cita Paul George no novo grupo de Boston. Escalação e minutos precisam ser checados perto da partida. Não criamos percentuais de vitória sem um modelo validado."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 schedule and opening storylines",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official Celtics at Pistons game page",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600001"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-pt-br.svg",
+      "alt": "BOS versus DET: Vitórias 2025–26, Campanha 2025–26, Últimos 10 em 2025–26; Sem probabilidade calibrada de vitória",
+      "caption": "Fonte: classificação final da NBA 2025–26. Não é previsão. Sem probabilidade calibrada de vitória."
+    }
+  ]
+}

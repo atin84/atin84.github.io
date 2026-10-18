@@ -1,0 +1,74 @@
+{
+  "id": "nba-bos-det-2026-10-20-preview-ko",
+  "slug": "nba-bos-det-2026-10-20-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "title": "보스턴 vs 디트로이트: 동부 1·2위의 개막 맞대결",
+  "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. 검증된 승리 확률 모델 없음.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "ko",
+  "league": "NBA",
+  "match_id": "0022600001",
+  "article_kind": "preview",
+  "translation_group": "nba-bos-det-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Boston Celtics",
+    "Detroit Pistons",
+    "Preview",
+    "lang:ko"
+  ],
+  "sections": [
+    {
+      "heading": "이 경기를 봐야 하는 이유",
+      "paragraphs": [
+        "2025–26시즌 동부 콘퍼런스 1위 디트로이트와 2위 보스턴이 개막 첫날부터 맞붙는다. 리틀 시저스 아레나에서 열리는 이번 경기는 지난 시즌 강팀의 현재 모습을 바로 비교할 기회다.",
+        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "지난 시즌 공식 성적 비교",
+      "paragraphs": [
+        "디트로이트는 60승 22패(승률 .732), 보스턴은 56승 26패(.683)였다. 두 팀 모두 지난 정규시즌 마지막 10경기를 8승 2패로 마쳤다. 여름 사이 선수 구성이 바뀐 만큼 이 수치를 이번 경기의 승리 확률로 받아들이면 안 된다."
+      ]
+    },
+    {
+      "heading": "경기 중 눈여겨볼 장면",
+      "paragraphs": [
+        "디트로이트의 케이드 커닝햄이 수비 도움을 끌어낼 때 다음 패스를 먼저 살펴보자. 반대편에서는 제이슨 테이텀이 공격을 시작할 때 보스턴의 외곽 공간이 어떻게 열리는지 보는 것이 좋다. 리바운드 숫자 자체보다 수비가 상대의 두 번째 슛을 막는지도 확인할 만하다."
+      ]
+    },
+    {
+      "heading": "숫자를 해석할 때 주의할 점",
+      "paragraphs": [
+        "NBA 공식 개막 가이드는 폴 조지도 보스턴의 새 전력으로 소개한다. 실제 출전과 선발 명단, 출전 시간은 경기 직전에 다시 확인해야 한다. 검증되지 않은 모델로 53% 대 47% 같은 숫자를 만들지는 않았다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 schedule and opening storylines",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official Celtics at Pistons game page",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600001"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-ko.svg",
+      "alt": "BOS versus DET: 2025–26 승수, 2025–26 성적, 지난 시즌 마지막 10경기; 검증된 승리 확률 모델 없음",
+      "caption": "출처: NBA 2025–26 최종 순위. 승률 예측이 아님. 검증된 승리 확률 모델 없음."
+    }
+  ]
+}

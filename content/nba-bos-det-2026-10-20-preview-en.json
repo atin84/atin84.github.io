@@ -1,0 +1,74 @@
+{
+  "id": "nba-bos-det-2026-10-20-preview-en",
+  "slug": "nba-bos-det-2026-10-20-preview-en",
+  "platform": "github",
+  "status": "ready",
+  "title": "Celtics at Pistons: Last Season’s East Top Two Meet on Opening Day",
+  "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. No calibrated win probability published here.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "en",
+  "league": "NBA",
+  "match_id": "0022600001",
+  "article_kind": "preview",
+  "translation_group": "nba-bos-det-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Boston Celtics",
+    "Detroit Pistons",
+    "Preview",
+    "lang:en"
+  ],
+  "sections": [
+    {
+      "heading": "Why this opener is worth watching",
+      "paragraphs": [
+        "Detroit and Boston finished first and second in the 2025–26 Eastern Conference. They meet immediately on opening day rather than waiting for a rivalry to develop: the Pistons host the Celtics at Little Caesars Arena.",
+        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "What the latest completed season tells us",
+      "paragraphs": [
+        "Detroit went 60–22 (.732), Boston 56–26 (.683). Both finished their final ten regular-season games 8–2. Those figures describe last season, not their chances of winning this opener, particularly after summer roster changes."
+      ]
+    },
+    {
+      "heading": "What to watch on each possession",
+      "paragraphs": [
+        "First, watch Cade Cunningham’s passing decisions when Boston commits a second defender. Then note who protects the paint and how Boston’s shooters are spaced when Jayson Tatum initiates. The useful question is not simply who rebounds more, but whether each defensive possession ends in one shot or gives away another chance."
+      ]
+    },
+    {
+      "heading": "What these numbers do not predict",
+      "paragraphs": [
+        "The NBA’s opening-week guide also identifies Paul George among Boston’s new-look group. Player availability, minute limits and starting fives need confirmation nearer tipoff. We do not publish a made-up 53–47 prediction just to fill a donut chart."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 schedule and opening storylines",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official Celtics at Pistons game page",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600001"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-en.svg",
+      "alt": "BOS versus DET: 2025–26 wins, 2025–26 record, Last 10, 2025–26; No calibrated win probability published here",
+      "caption": "Source: NBA final 2025–26 standings. Not a forecast. No calibrated win probability published here."
+    }
+  ]
+}

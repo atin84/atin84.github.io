@@ -1,0 +1,74 @@
+{
+  "id": "nba-bos-det-2026-10-20-preview-hi",
+  "slug": "nba-bos-det-2026-10-20-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "title": "Boston Celtics @ Detroit Pistons | यह मुकाबला क्यों देखें",
+  "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. सत्यापित जीत की संभावना उपलब्ध नहीं.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "hi",
+  "league": "NBA",
+  "match_id": "0022600001",
+  "article_kind": "preview",
+  "translation_group": "nba-bos-det-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Boston Celtics",
+    "Detroit Pistons",
+    "Preview",
+    "lang:hi"
+  ],
+  "sections": [
+    {
+      "heading": "यह मुकाबला क्यों देखें",
+      "paragraphs": [
+        "डेट्रॉइट और बॉस्टन ने 2025–26 में ईस्टर्न कॉन्फ्रेंस में पहला और दूसरा स्थान हासिल किया था। अब दोनों नए सीज़न के शुरुआती दिन लिटिल सीज़र्स एरीना में आमने-सामने हैं।",
+        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "पिछले सीज़न की तुलना",
+      "paragraphs": [
+        "डेट्रॉइट का रिकॉर्ड 60–22 (.732) और बॉस्टन का 56–26 (.683) था। दोनों टीमों ने पिछले नियमित सीज़न के अंतिम दस मैचों में 8–2 का प्रदर्शन किया। यह बीते प्रदर्शन का संदर्भ है, इस मैच की जीत की संभावना नहीं।"
+      ]
+    },
+    {
+      "heading": "मैच में किन बातों पर नज़र रखें",
+      "paragraphs": [
+        "जब बॉस्टन अतिरिक्त डिफेंडर भेजे तो देखें कि केड कनिंघम किसे पास देते हैं। दूसरी तरफ जेसन टेटम के आसपास की जगह और शॉट चूकने पर दूसरी कोशिश रोकने की क्षमता पर ध्यान दें।"
+      ]
+    },
+    {
+      "heading": "आंकड़े क्या नहीं बता सकते",
+      "paragraphs": [
+        "NBA की आधिकारिक शुरुआती सप्ताह की गाइड में पॉल जॉर्ज भी बॉस्टन के नए समूह में शामिल हैं। शुरुआती पांच खिलाड़ी और खेलने का समय मैच के करीब जांचना होगा। बिना जांचे जीत के प्रतिशत नहीं दिए गए हैं।"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 schedule and opening storylines",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official Celtics at Pistons game page",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600001"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-hi.svg",
+      "alt": "BOS versus DET: 2025–26 जीत, 2025–26 रिकॉर्ड, 2025–26 के अंतिम 10 मैच; सत्यापित जीत की संभावना उपलब्ध नहीं",
+      "caption": "स्रोत: NBA की 2025–26 अंतिम तालिका; यह भविष्यवाणी नहीं है। सत्यापित जीत की संभावना उपलब्ध नहीं."
+    }
+  ]
+}

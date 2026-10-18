@@ -1,0 +1,78 @@
+{
+  "id": "nba-phi-nyk-2026-10-20-preview-de",
+  "slug": "nba-phi-nyk-2026-10-20-preview-de",
+  "platform": "github",
+  "status": "ready",
+  "title": "Philadelphia 76ers @ New York Knicks | Warum dieses Spiel spannend ist",
+  "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. Keine kalibrierte Siegprognose.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "de",
+  "league": "NBA",
+  "match_id": "0022600002",
+  "article_kind": "preview",
+  "translation_group": "nba-phi-nyk-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Philadelphia 76ers",
+    "New York Knicks",
+    "Preview",
+    "lang:de"
+  ],
+  "sections": [
+    {
+      "heading": "Warum dieses Spiel spannend ist",
+      "paragraphs": [
+        "Titelverteidiger New York empfängt Philadelphia im Madison Square Garden. LeBron James und Jaylen Brown spielen nun für die Sixers, die auf das Team treffen, das sie im Mai aus den Playoffs warf.",
+        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "Vergleich mit der Vorsaison",
+      "paragraphs": [
+        "2025–26 stand New York bei 53–29 (.646), Philadelphia bei 45–37 (.549). Beide hatten in ihren letzten zehn Hauptrundenspielen eine Bilanz von 6–4. Die vier jüngsten von der NBA gelisteten Playoff-Duelle gewann New York; das ist keine Vorhersage."
+      ]
+    },
+    {
+      "heading": "Darauf sollte man achten",
+      "paragraphs": [
+        "Wenn sie eingesetzt werden, lohnt der Blick auf die Rollen von LeBron James, Tyrese Maxey und Joel Embiid im Angriff. Bei den Knicks ist interessant, wohin Jalen Brunson passt, wenn ihm die Defense zusätzliche Aufmerksamkeit widmet."
+      ]
+    },
+    {
+      "heading": "Was die Zahlen nicht vorhersagen",
+      "paragraphs": [
+        "Testspiele bestätigen weder die Startformation noch die Einsatzzeiten des Saisonauftakts. Ohne geprüftes Modell und aktuelle Verfügbarkeiten veröffentlichen wir keine künstlichen Siegprozente."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 opening night schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official 76ers at Knicks match and past meetings",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0022600002"
+    },
+    {
+      "title": "NBA Sixers preseason lineup report",
+      "url": "https://www.nba.com/news/reports-76ers-plan-to-play-starters-in-preseason-game-vs-nets"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-de.svg",
+      "alt": "PHI versus NYK: Siege 2025–26, Bilanz 2025–26, Letzte 10 Spiele 2025–26; Keine kalibrierte Siegprognose",
+      "caption": "Quelle: NBA-Abschlusstabelle 2025–26. Keine Prognose. Keine kalibrierte Siegprognose."
+    }
+  ]
+}

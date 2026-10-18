@@ -1,0 +1,78 @@
+{
+  "id": "nba-phi-nyk-2026-10-20-preview-ja",
+  "slug": "nba-phi-nyk-2026-10-20-preview-ja",
+  "platform": "github",
+  "status": "ready",
+  "title": "Philadelphia 76ers @ New York Knicks | 開幕戦を見たい理由",
+  "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. 検証済みの勝率予測モデルなし.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "ja",
+  "league": "NBA",
+  "match_id": "0022600002",
+  "article_kind": "preview",
+  "translation_group": "nba-phi-nyk-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Philadelphia 76ers",
+    "New York Knicks",
+    "Preview",
+    "lang:ja"
+  ],
+  "sections": [
+    {
+      "heading": "開幕戦を見たい理由",
+      "paragraphs": [
+        "王者ニックスがマディソン・スクエア・ガーデンで76ersを迎える。レブロン・ジェームズとジェイレン・ブラウンが加わったフィラデルフィアは、5月に自分たちを敗退させた相手との開幕戦に挑む。",
+        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "昨季の公式成績を比較",
+      "paragraphs": [
+        "昨季はニューヨークが53勝29敗（.646）、フィラデルフィアが45勝37敗（.549）。両チームとも最後の10試合は6勝4敗。NBAが掲載する直近のプレーオフ4試合はすべてニックスが勝ったが、今季の結果を保証するものではない。"
+      ]
+    },
+    {
+      "heading": "各ポゼッションで注目する点",
+      "paragraphs": [
+        "出場するなら、レブロンのゲームメーク、タイリース・マクシーの速攻、ジョエル・エンビードのインサイドでの選択肢を見たい。ニックス側ではジェイレン・ブランソンへのヘルプ守備の後、誰にパスが渡るかに注目だ。"
+      ]
+    },
+    {
+      "heading": "数字だけでは予測できないこと",
+      "paragraphs": [
+        "プレシーズンで新加入選手の連係は見えたが、開幕の先発や出場時間までは確定していない。検証されたモデルと最新の出場情報なしに予想勝率は作らない。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 opening night schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official 76ers at Knicks match and past meetings",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0022600002"
+    },
+    {
+      "title": "NBA Sixers preseason lineup report",
+      "url": "https://www.nba.com/news/reports-76ers-plan-to-play-starters-in-preseason-game-vs-nets"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-ja.svg",
+      "alt": "PHI versus NYK: 2025–26 勝利数, 2025–26 戦績, 2025–26 最後の10試合; 検証済みの勝率予測モデルなし",
+      "caption": "出典：NBA 2025–26最終順位。勝敗予測ではありません。 検証済みの勝率予測モデルなし."
+    }
+  ]
+}

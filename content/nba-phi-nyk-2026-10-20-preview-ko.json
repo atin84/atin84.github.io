@@ -1,0 +1,78 @@
+{
+  "id": "nba-phi-nyk-2026-10-20-preview-ko",
+  "slug": "nba-phi-nyk-2026-10-20-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "title": "필라델피아 vs 뉴욕: 새 스타 군단과 디펜딩 챔피언의 개막전",
+  "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. 검증된 승리 확률 모델 없음.",
+  "published_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T06:00:00Z",
+  "language": "ko",
+  "league": "NBA",
+  "match_id": "0022600002",
+  "article_kind": "preview",
+  "translation_group": "nba-phi-nyk-2026-10-20-preview",
+  "labels": [
+    "NBA",
+    "Philadelphia 76ers",
+    "New York Knicks",
+    "Preview",
+    "lang:ko"
+  ],
+  "sections": [
+    {
+      "heading": "이 경기를 봐야 하는 이유",
+      "paragraphs": [
+        "디펜딩 챔피언 뉴욕 닉스가 홈 매디슨 스퀘어 가든에서 필라델피아를 맞는다. 르브론 제임스와 제일런 브라운이 새로 합류한 76ers가 지난 5월 자신들을 탈락시킨 팀을 상대로 새 조합을 보여준다는 점이 가장 큰 볼거리다.",
+        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+      ]
+    },
+    {
+      "heading": "지난 시즌 공식 성적 비교",
+      "paragraphs": [
+        "지난 정규시즌 뉴욕은 53승 29패(.646), 필라델피아는 45승 37패(.549)였다. 마지막 10경기는 두 팀 모두 6승 4패. NBA 기록에 나타나는 가장 최근 플레이오프 네 번의 맞대결은 모두 뉴욕이 승리했다. 그러나 이 기록만으로 개막전 결과를 단정할 수는 없다."
+      ]
+    },
+    {
+      "heading": "경기 중 눈여겨볼 장면",
+      "paragraphs": [
+        "출전이 확정된다면 르브론이 공격을 조율하고 타이리스 맥시가 속도를 올리며 조엘 엠비드가 골밑에서 선택지를 만드는 장면을 살펴보자. 뉴욕에서는 제일런 브런슨을 막기 위해 수비가 모인 뒤 어느 동료에게 공이 전달되는지가 관전 포인트다."
+      ]
+    },
+    {
+      "heading": "숫자를 해석할 때 주의할 점",
+      "paragraphs": [
+        "프리시즌에서 새 필라델피아 선수들의 호흡을 볼 수 있었지만 정규시즌 선발이나 출전 시간을 확정할 수는 없다. 최신 출전 정보와 검증된 모델 없이 예측 승률을 제시하지 않았다. 지난 시즌 기록은 전력 비교용 참고 자료다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NBA 2026–27 opening night schedule",
+      "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
+    },
+    {
+      "title": "NBA 2025–26 final standings",
+      "url": "https://www.nba.com/standings?Season=2025-26"
+    },
+    {
+      "title": "NBA official 76ers at Knicks match and past meetings",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0022600002"
+    },
+    {
+      "title": "NBA Sixers preseason lineup report",
+      "url": "https://www.nba.com/news/reports-76ers-plan-to-play-starters-in-preseason-game-vs-nets"
+    },
+    {
+      "title": "NBA opening week matchups",
+      "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-ko.svg",
+      "alt": "PHI versus NYK: 2025–26 승수, 2025–26 성적, 지난 시즌 마지막 10경기; 검증된 승리 확률 모델 없음",
+      "caption": "출처: NBA 2025–26 최종 순위. 승률 예측이 아님. 검증된 승리 확률 모델 없음."
+    }
+  ]
+}
