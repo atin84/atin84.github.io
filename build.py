@@ -45,6 +45,24 @@ UI = {
     "de": {"articles": "Artikel", "sources": "Quellen", "empty": "Es wurden noch keine Artikel veröffentlicht.", "back": "Alle Artikel", "skip": "Zum Inhalt", "published": "Veröffentlicht", "updated": "Aktualisiert", "language": "Sprache", "main": "Hauptnavigation", "information": "Website-Informationen"},
     "hi": {"articles": "लेख", "sources": "स्रोत", "empty": "अभी कोई लेख प्रकाशित नहीं हुआ है।", "back": "सभी लेख", "skip": "मुख्य सामग्री पर जाएँ", "published": "प्रकाशित", "updated": "अपडेट किया गया", "language": "भाषा", "main": "मुख्य नेविगेशन", "information": "वेबसाइट की जानकारी"},
 }
+LEAGUE_UI = {
+    "en": {"leagues": "Leagues", "previews": "Match previews", "recaps": "Match results", "other": "More articles", "breadcrumb": "Breadcrumb", "league_description": "Match previews, results and explanations for {league} fans."},
+    "ko": {"leagues": "리그", "previews": "경기 예정·프리뷰", "recaps": "경기 결과", "other": "관련 글", "breadcrumb": "현재 위치", "league_description": "{league} 경기 일정과 관전 포인트, 경기 결과와 해설을 모았습니다."},
+    "es": {"leagues": "Ligas", "previews": "Previas de partidos", "recaps": "Resultados de partidos", "other": "Más artículos", "breadcrumb": "Ruta de navegación", "league_description": "Previas, resultados y explicaciones para los aficionados a {league}."},
+    "ja": {"leagues": "リーグ", "previews": "試合予定・プレビュー", "recaps": "試合結果", "other": "関連記事", "breadcrumb": "現在位置", "league_description": "{league}の試合予定、観戦ポイント、試合結果と解説をまとめています。"},
+    "pt-BR": {"leagues": "Ligas", "previews": "Prévias dos jogos", "recaps": "Resultados dos jogos", "other": "Mais artigos", "breadcrumb": "Caminho de navegação", "league_description": "Prévias, resultados e explicações para os fãs de {league}."},
+    "fr": {"leagues": "Ligues", "previews": "Avant-matchs", "recaps": "Résultats des matchs", "other": "Autres articles", "breadcrumb": "Fil d’Ariane", "league_description": "Avant-matchs, résultats et explications pour les fans de {league}."},
+    "de": {"leagues": "Ligen", "previews": "Spielvorschauen", "recaps": "Spielergebnisse", "other": "Weitere Artikel", "breadcrumb": "Navigationspfad", "league_description": "Spielvorschauen, Ergebnisse und Erklärungen für Fans von {league}."},
+    "hi": {"leagues": "लीग", "previews": "मैच पूर्वावलोकन", "recaps": "मैच परिणाम", "other": "और लेख", "breadcrumb": "नेविगेशन पथ", "league_description": "{league} के प्रशंसकों के लिए मैच पूर्वावलोकन, परिणाम और सरल व्याख्याएँ।"},
+}
+DEFAULT_LEAGUES = {
+    "NBA": {"slug": "nba", "names": {code: "NBA" for code in LANGUAGES}},
+    "EPL": {"slug": "premier-league", "names": {
+        "en": "English Premier League", "ko": "영국 프리미어리그", "es": "Premier League inglesa",
+        "ja": "イングランド・プレミアリーグ", "pt-BR": "Premier League inglesa", "fr": "Premier League anglaise",
+        "de": "Englische Premier League", "hi": "इंग्लिश प्रीमियर लीग",
+    }},
+}
 
 
 def text(value: object, field: str, *, empty: bool = False) -> str:
@@ -111,6 +129,7 @@ def load_config(path: Path) -> dict:
         "adsense_enabled": raw.get("adsense_enabled", False),
         "adsense_client_id": text("" if raw.get("adsense_client_id") is None else raw["adsense_client_id"], "adsense_client_id", empty=True),
         "language": text(raw.get("language", "en"), "language"),
+        "leagues": normalize_leagues(raw.get("leagues", {})),
     }
     if not re.fullmatch(r"[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*", config["language"]):
         raise ValueError("language must be a valid language tag such as ko or en")
@@ -151,6 +170,31 @@ def article_language(value: object, field: str) -> str:
     if canonical is None:
         raise ValueError(f"{field} must be one of {', '.join(LANGUAGES)}")
     return canonical
+
+
+def normalize_leagues(raw: object) -> dict:
+    """Optional config entries extend the built-in league names and stable paths."""
+    if not isinstance(raw, dict):
+        raise ValueError("leagues must be an object keyed by article league identifiers")
+    result = {key: {"slug": value["slug"], "names": dict(value["names"])}
+              for key, value in DEFAULT_LEAGUES.items()}
+    for key, value in raw.items():
+        if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._:-]{0,159}", key) or not isinstance(value, dict):
+            raise ValueError("each leagues entry needs an ASCII identifier and an object")
+        previous = result.get(key, {})
+        names = value.get("names", {})
+        if not isinstance(names, dict):
+            raise ValueError(f"leagues.{key}.names must be a language-to-name object")
+        names = {**previous.get("names", {}),
+                 **{article_language(code, f"leagues.{key}.names language"): text(name, f"leagues.{key}.names.{code}")
+                    for code, name in names.items()}}
+        if "en" not in names:
+            raise ValueError(f"leagues.{key}.names requires an English fallback name")
+        result[key] = {"slug": slug(value.get("slug", previous.get("slug")), f"leagues.{key}.slug"), "names": names}
+    paths = [entry["slug"] for entry in result.values()]
+    if len(paths) != len(set(paths)):
+        raise ValueError("league slugs must be unique")
+    return result
 
 
 def normalize_article(raw: dict, path: Path, *, information_page: bool = False) -> dict:
@@ -295,7 +339,8 @@ def esc(value: str) -> str:
 def words(config: dict) -> dict:
     code = config["language"]
     ui = UI.get(code, UI.get(code.split("-")[0], UI["en"]))
-    return {**ui, "blogger": "Blogger"}
+    league_ui = LEAGUE_UI.get(code, LEAGUE_UI.get(code.split("-")[0], LEAGUE_UI["en"]))
+    return {**ui, **league_ui, "blogger": "Blogger"}
 
 
 def localized_config(config: dict, article: dict) -> dict:
@@ -305,6 +350,45 @@ def localized_config(config: dict, article: dict) -> dict:
 
 def language_path(config: dict, language: str) -> str:
     return "" if language == config.get("default_language", config["language"]) else f"languages/{language}/"
+
+
+def league_name(config: dict, league: str) -> str:
+    names = config.get("leagues", DEFAULT_LEAGUES)[league]["names"]
+    return names.get(config["language"], names["en"])
+
+
+def league_path(config: dict, league: str, language: str | None = None) -> str:
+    entry = config.get("leagues", DEFAULT_LEAGUES)[league]
+    return f'{language_path(config, language or config["language"])}leagues/{entry["slug"]}/'
+
+
+def connect_leagues(config: dict, due: list[dict]) -> None:
+    """Expose categories only where a language has an actual public article."""
+    available: dict[str, set[str]] = {}
+    for article in due:
+        league = article.get("league")
+        if not league or (article["platform"] == "blogger" and not article.get("blogger_url")):
+            continue
+        if league not in config["leagues"]:
+            raise ValueError(f"{article['id']}: configure league {league!r} in config.json leagues")
+        available.setdefault(league, set()).add(article.get("language") or config["default_language"])
+    config["league_languages"] = {
+        league: [code for code in LANGUAGES if code in available[league]]
+        for league in config["leagues"] if league in available
+    }
+
+
+def league_navigation(config: dict, *, prefix: str = "", current: str = "", category_page: bool = False) -> str:
+    links = []
+    for league, languages in config.get("league_languages", {}).items():
+        if config["language"] not in languages:
+            continue
+        active = f' aria-current="{"page" if category_page else "location"}"' if league == current else ""
+        links.append(f'<a href="{esc(prefix + league_path(config, league))}"{active}>{esc(league_name(config, league))}</a>')
+    if not links:
+        return ""
+    label = esc(words(config)["leagues"])
+    return f'<div class="container league-menu"><span class="league-menu-label">{label}</span><nav aria-label="{label}">{" ".join(links)}</nav></div>'
 
 
 def public_article_url(config: dict, article: dict) -> str:
@@ -363,9 +447,10 @@ def language_navigation(config: dict, translations: list[dict], *, current: str)
     return f'<nav class="language-nav" aria-label="{esc(words(config)["language"])}" style="display:flex;flex-wrap:wrap;gap:.45rem 1rem;margin:1.4rem 0"><span class="language-label">{esc(words(config)["language"])}</span>{" ".join(links)}</nav>'
 
 
-def index_language_navigation(config: dict, *, prefix: str = "") -> str:
-    translations = [{"language": code, "url": prefix + language_path(config, code) or "./"}
-                    for code in config.get("available_languages", [])]
+def index_language_navigation(config: dict, *, prefix: str = "", league: str = "") -> str:
+    languages = config.get("league_languages", {}).get(league, []) if league else config.get("available_languages", [])
+    translations = [{"language": code, "url": prefix + (league_path(config, league, code) if league else language_path(config, code)) or "./"}
+                    for code in languages]
     return language_navigation(config, translations, current=config["language"])
 
 
@@ -412,7 +497,7 @@ def json_script(data: dict) -> str:
             .replace("\u2028", "\\u2028").replace("\u2029", "\\u2029"))
 
 
-def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None, site_pages: list[dict] | None = None) -> str:
+def document(config: dict, title: str, description: str, body: str, *, path: str = "", prefix: str = "", article: dict | None = None, site_pages: list[dict] | None = None, league: str = "") -> str:
     if article:
         config = localized_config(config, article)
     canonical = absolute_url(config, path)
@@ -427,8 +512,13 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
     else:
         metadata.append('<meta name="robots" content="noindex, nofollow">')
     metadata += [f'<meta property="og:title" content="{esc(title)}">', f'<meta property="og:description" content="{esc(description)}">', f'<meta property="og:type" content="{"article" if article else "website"}">']
+    if league and canonical:
+        for language in config.get("league_languages", {}).get(league, []):
+            metadata.append(f'<link rel="alternate" hreflang="{esc(language)}" href="{esc(absolute_url(config, league_path(config, league, language)))}">')
     if article:
         data = {"@context": "https://schema.org", "@type": "Article", "headline": article["title"], "description": article["description"], "datePublished": article["published_at"].isoformat(), "dateModified": (article.get("updated_at") or article["published_at"]).isoformat(), "inLanguage": config["language"], "keywords": article["labels"]}
+        if article.get("league") in config.get("leagues", DEFAULT_LEAGUES):
+            data["articleSection"] = league_name(config, article["league"])
         if canonical:
             data.update({"url": canonical, "mainEntityOfPage": {"@type": "WebPage", "@id": canonical}})
         for translation in article.get("translations", []):
@@ -448,6 +538,7 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
         nav.append(f'<a href="{esc(config["blogger_base_url"])}">{words(config)["blogger"]}</a>')
     footer_links = " · ".join(f'<a href="{prefix}pages/{page["slug"]}/">{esc(page["title"])}</a>' for page in site_pages or [])
     footer_nav = f'<nav aria-label="{esc(ui["information"])}">{footer_links}</nav>' if footer_links else ""
+    league_nav = league_navigation(config, prefix=prefix, current=league or (article or {}).get("league", ""), category_page=bool(league))
     return f'''<!doctype html>
 <html lang="{esc(config['language'])}">
 <head>
@@ -459,7 +550,7 @@ def document(config: dict, title: str, description: str, body: str, *, path: str
 </head>
 <body>
 <a class="skip-link" href="#main">{ui['skip']}</a>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="{prefix or './'}">{esc(config['site_title'])}</a><nav aria-label="{esc(ui['main'])}">{' '.join(nav)}</nav></div></header>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="{esc(home_path)}">{esc(config['site_title'])}</a><nav aria-label="{esc(ui['main'])}">{' '.join(nav)}</nav></div>{league_nav}</header>
 <main id="main" class="container">{body}</main>
 <footer class="site-footer container"><span>{esc(config['site_title'])}</span>{footer_nav}</footer>
 </body>
@@ -473,31 +564,77 @@ def label_html(article: dict) -> str:
     return '<ul class="labels">' + "".join(f"<li>{esc(label)}</li>" for label in article["labels"]) + "</ul>"
 
 
+def index_articles(config: dict, articles: list[dict], *, league: str = "") -> list[dict]:
+    return [article for article in articles
+            if (article.get("language") or config.get("default_language", config["language"])) == config["language"]
+            and (article["platform"] != "blogger" or article.get("blogger_url"))
+            and (not league or article.get("league") == league)]
+
+
+def article_cards(config: dict, articles: list[dict], *, prefix: str = "", heading_level: int = 2) -> str:
+    cards = []
+    for article in articles:
+        date = article["published_at"].date().isoformat()
+        target = article["blogger_url"] if article["platform"] == "blogger" else f'{prefix}posts/{article["slug"]}/'
+        destination = ' <span class="post-destination">Blogger</span>' if article["platform"] == "blogger" else ""
+        category = ""
+        league = article.get("league")
+        if league in config.get("league_languages", {}):
+            category = f'<a class="post-league" href="{esc(prefix + league_path(config, league))}">{esc(league_name(config, league))}</a>'
+        kind = {"preview": "previews", "recap": "recaps"}.get(article.get("article_kind"))
+        kind_label = f'<span class="post-kind">{esc(words(config)[kind])}</span>' if kind else ""
+        context = f'<div class="post-context">{category}{kind_label}</div>' if category or kind_label else ""
+        cards.append(f'''<article class="post-card">{context}<time datetime="{esc(article['published_at'].isoformat())}">{date}</time>{destination}<h{heading_level}><a href="{esc(target)}">{esc(article['title'])}</a></h{heading_level}><p>{esc(article['description'])}</p>{label_html(article)}</article>''')
+    return "\n".join(cards) if cards else f'<p class="empty-state">{words(config)["empty"]}</p>'
+
+
 def build_index(config: dict, articles: list[dict], site_pages: list[dict] | None = None, *, language: str | None = None) -> str:
     config = {**config, "language": language or config["language"]}
     path = language_path(config, config["language"])
     prefix = "../../" if path else ""
-    cards = []
-    for article in articles:
-        if (article.get("language") or config.get("default_language", config["language"])) != config["language"]:
-            continue
-        if article["platform"] == "blogger" and not article.get("blogger_url"):
-            continue
-        date = article["published_at"].date().isoformat()
-        target = article["blogger_url"] if article["platform"] == "blogger" else f'{prefix}posts/{article["slug"]}/'
-        destination = ' <span class="post-destination">Blogger</span>' if article["platform"] == "blogger" else ""
-        cards.append(f'''<article class="post-card"><time datetime="{esc(article['published_at'].isoformat())}">{date}</time>{destination}<h2><a href="{esc(target)}">{esc(article['title'])}</a></h2><p>{esc(article['description'])}</p>{label_html(article)}</article>''')
-    listing = "\n".join(cards) if cards else f'<p class="empty-state">{words(config)["empty"]}</p>'
+    listing = article_cards(config, index_articles(config, articles), prefix=prefix)
     subtitle = config["site_description"] if not path else f'{words(config)["articles"]} · {LANGUAGES.get(config["language"], config["language"])}'
     body = f'<section class="intro"><h1>{esc(config["site_title"])}</h1><p>{esc(subtitle)}</p>{index_language_navigation(config, prefix=prefix)}</section><section class="post-list" aria-label="{words(config)["articles"]}">{listing}</section>'
     return document(config, config["site_title"], subtitle, body, path=path, prefix=prefix, site_pages=site_pages)
+
+
+def build_league_index(config: dict, articles: list[dict], league: str, language: str, site_pages: list[dict] | None = None) -> str:
+    config = {**config, "language": language}
+    path = league_path(config, league)
+    prefix = "../" * len(PurePosixPath(path).parts)
+    ui = words(config)
+    name = league_name(config, league)
+    description = ui["league_description"].format(league=name)
+    selected = index_articles(config, articles, league=league)
+    filters, sections = [], []
+    for key, label, kinds in (("previews", ui["previews"], {"preview"}),
+                              ("results", ui["recaps"], {"recap"}),
+                              ("more", ui["other"], None)):
+        entries = [article for article in selected
+                   if article.get("article_kind") in kinds] if kinds else [
+                       article for article in selected if article.get("article_kind") not in {"preview", "recap"}]
+        if not entries:
+            continue
+        filters.append(f'<a href="#{key}">{esc(label)} <span class="article-count">{len(entries)}</span></a>')
+        listing = article_cards(config, entries, prefix=prefix, heading_level=3)
+        sections.append(f'<section class="league-section" aria-labelledby="{key}"><h2 id="{key}">{esc(label)}</h2><div class="post-list">{listing}</div></section>')
+    home = prefix + language_path(config, language)
+    breadcrumb = f'<nav class="breadcrumbs" aria-label="{esc(ui["breadcrumb"])}"><a href="{esc(home)}">{esc(ui["back"])}</a><span aria-hidden="true">/</span><span>{esc(name)}</span></nav>'
+    body = (f'{breadcrumb}<section class="intro league-intro"><p class="eyebrow">{esc(ui["leagues"])}</p>'
+            f'<h1>{esc(name)}</h1><p>{esc(description)}</p>{index_language_navigation(config, prefix=prefix, league=league)}</section>'
+            f'<nav class="article-filters" aria-label="{esc(ui["articles"])}">{" ".join(filters)}</nav>{"".join(sections)}')
+    return document(config, f'{name} · {config["site_title"]}', description, body, path=path, prefix=prefix, site_pages=site_pages, league=league)
 
 
 def build_article(config: dict, article: dict, site_pages: list[dict] | None = None) -> str:
     config = localized_config(config, article)
     translations = language_navigation(config, article.get("translations", []), current=config["language"])
     back = "../../" + language_path(config, config["language"])
-    body = f'''<article class="article"><header class="article-header">{article_dates(article, config)}<h1>{esc(article['title'])}</h1>{label_html(article)}{translations}</header><div class="prose">{article_body(article, config)}</div></article><p class="back-link"><a href="{back}">← {words(config)['back']}</a></p>'''
+    breadcrumb = ""
+    if article.get("league") in config.get("league_languages", {}):
+        league = article["league"]
+        breadcrumb = f'<nav class="breadcrumbs" aria-label="{esc(words(config)["breadcrumb"])}"><a href="{esc(back)}">{esc(words(config)["back"])}</a><span aria-hidden="true">/</span><a href="{esc("../../" + league_path(config, league))}">{esc(league_name(config, league))}</a></nav>'
+    body = f'''<article class="article">{breadcrumb}<header class="article-header">{article_dates(article, config)}<h1>{esc(article['title'])}</h1>{label_html(article)}{translations}</header><div class="prose">{article_body(article, config)}</div></article><p class="back-link"><a href="{back}">← {words(config)['back']}</a></p>'''
     return document(config, f'{article["title"]} · {config["site_title"]}', article["description"], body, path=f'posts/{article["slug"]}/', prefix="../../", article=article, site_pages=site_pages)
 
 
@@ -525,6 +662,10 @@ def sitemap(config: dict, articles: list[dict], site_pages: list[dict] | None = 
             if path:
                 node = ET.SubElement(root, "url")
                 ET.SubElement(node, "loc").text = absolute_url(config, path)
+        for league, languages in config.get("league_languages", {}).items():
+            for language in languages:
+                node = ET.SubElement(root, "url")
+                ET.SubElement(node, "loc").text = absolute_url(config, league_path(config, league, language))
         for page in site_pages or []:
             node = ET.SubElement(root, "url")
             ET.SubElement(node, "loc").text = absolute_url(config, f'pages/{page["slug"]}/')
@@ -699,6 +840,7 @@ def main(argv: list[str] | None = None) -> int:
         site_pages = load_site_pages(pages_path, articles)
         due = [a for a in articles if a["status"] == "ready" and a["published_at"] <= build_time]
         connect_translations(config, articles, due)
+        connect_leagues(config, due)
         github = [a for a in due if a["platform"] == "github"]
         blogger = [a for a in due if a["platform"] == "blogger"]
         config["available_languages"] = [code for code in LANGUAGES
@@ -712,6 +854,10 @@ def main(argv: list[str] | None = None) -> int:
             path = language_path(config, language)
             if path:
                 files[f"{path}index.html"] = build_index(config, due, site_pages, language=language).encode("utf-8")
+        for league, languages in config.get("league_languages", {}).items():
+            for language in languages:
+                path = league_path(config, league, language)
+                files[f"{path}index.html"] = build_league_index(config, due, league, language, site_pages).encode("utf-8")
         for article in github:
             files[f'posts/{article["slug"]}/index.html'] = build_article(config, article, site_pages).encode("utf-8")
         for page in site_pages:
@@ -735,6 +881,7 @@ def main(argv: list[str] | None = None) -> int:
     except (OSError, ValueError) as exc:
         parser.error(str(exc))
     print(f"Built {len(github)} GitHub article(s) in {output}")
+    print(f"Built {sum(len(languages) for languages in config['league_languages'].values())} league index page(s)")
     print(f"Built {len(site_pages)} information page(s) without publication dates or ads")
     print(f"Exported {len(blogger)} Blogger payload(s) to {exports}; no posts were uploaded")
     print(f"Skipped {sum(a['status'] == 'draft' for a in articles)} draft article(s)")

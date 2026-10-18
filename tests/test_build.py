@@ -123,6 +123,82 @@ class MultilingualBuildTests(unittest.TestCase):
             self.assertEqual(tags.select("link"), [])  # This body cannot claim to configure Blogger's head.
             self.assertIn("width:100%", tags.select("img")[0]["style"])
 
+    def test_league_indexes_filter_language_and_league_and_link_both_platforms(self):
+        for code in builder.LANGUAGES:
+            self.write(self.raw(code))
+            recap = self.raw(code, "blogger", "nba-recap")
+            recap["article_kind"] = "recap"
+            recap["blogger_url"] = f"https://blog.example.test/2026/10/nba-recap-{code.lower()}.html"
+            self.write(recap)
+            epl = self.raw(code, "github", "epl-preview")
+            epl["league"] = "EPL"
+            self.write(epl)
+        unconfirmed = self.raw("en", "blogger", "nba-unconfirmed")
+        future = self.raw("en", "github", "nba-future")
+        future["published_at"] = future["updated_at"] = "2026-10-18T00:00:00Z"
+        draft = self.raw("en", "github", "nba-draft")
+        draft["status"] = "draft"
+        for article in (unconfirmed, future, draft):
+            self.write(article)
+        self.build()
+        expected = {(code, "https://example.test/" + ("" if code == "en" else f"languages/{code}/") + "leagues/nba/")
+                    for code in builder.LANGUAGES}
+        sitemap = ET.parse(self.root / "dist" / "sitemap.xml")
+        ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        sitemap_urls = {node.text for node in sitemap.findall("s:url/s:loc", ns)}
+        for code in builder.LANGUAGES:
+            path = "leagues/nba/" if code == "en" else f"languages/{code}/leagues/nba/"
+            body = (self.root / "dist" / path / "index.html").read_text()
+            tags = Tags(body)
+            with self.subTest(language=code):
+                self.assertEqual(tags.select("html")[0]["lang"], code)
+                self.assertEqual(tags.select("link", rel="canonical")[0]["href"], "https://example.test/" + path)
+                alternates = {(tag["hreflang"], tag["href"]) for tag in tags.select("link", rel="alternate") if "hreflang" in tag}
+                self.assertEqual(alternates, expected)
+                self.assertEqual(len(tags.select("article", **{"class": "post-card"})), 2)
+                self.assertIn(f"nba-preview title {code}", body)
+                self.assertIn(f"nba-recap title {code}", body)
+                self.assertNotIn("epl-preview title", body)
+                self.assertNotIn("nba-unconfirmed title", body)
+                self.assertNotIn("nba-future title", body)
+                self.assertNotIn("nba-draft title", body)
+                self.assertNotIn("Verified nba-recap text", body)
+                self.assertIn(f'href="https://blog.example.test/2026/10/nba-recap-{code.lower()}.html"', body)
+                self.assertTrue(tags.select("h2", id="previews"))
+                self.assertTrue(tags.select("h2", id="results"))
+                self.assertIn("https://example.test/" + path, sitemap_urls)
+                self.assertFalse((self.root / "dist" / "posts" / f"nba-recap-{code.lower()}").exists())
+                prefix = "../../" if code == "en" else "../../../../"
+                self.assertIn(f'href="{prefix}posts/nba-preview-{code.lower()}/"', body)
+                self.assertIn(f'href="{prefix}{path}" aria-current="page"', body)
+        korean = (self.root / "dist" / "languages/ko/leagues/nba/index.html").read_text()
+        self.assertNotIn("nba-preview title en", korean)
+        self.assertIn('href="../../../../languages/ko/leagues/premier-league/"', korean)
+        article_body = (self.root / "dist" / "posts/nba-preview-ko/index.html").read_text()
+        self.assertIn('href="../../languages/ko/leagues/nba/" aria-current="location"', article_body)
+        self.assertIn('"articleSection":"NBA"', article_body)
+
+    def test_new_league_configuration_creates_categories_with_name_fallback(self):
+        self.config["leagues"] = {"MLB": {"slug": "mlb", "names": {"en": "Major League Baseball", "ko": "메이저리그"}}}
+        (self.root / "config.json").write_text(json.dumps(self.config), encoding="utf-8")
+        for code in ("ko", "hi"):
+            article = self.raw(code, "github", "mlb-recap")
+            article["league"] = "MLB"
+            article["article_kind"] = "recap"
+            self.write(article)
+        self.build()
+        korean = (self.root / "dist" / "languages/ko/leagues/mlb/index.html").read_text()
+        hindi = (self.root / "dist" / "languages/hi/leagues/mlb/index.html").read_text()
+        self.assertIn("<h1>메이저리그</h1>", korean)
+        self.assertIn("<h1>Major League Baseball</h1>", hindi)
+        self.assertFalse((self.root / "dist" / "leagues/nba").exists())
+        self.assertFalse((self.root / "dist" / "leagues/mlb").exists())  # No empty English category.
+        self.assertNotIn('href="../../../../leagues/nba/"', hindi)
+        with self.assertRaisesRegex(ValueError, "league slugs must be unique"):
+            builder.normalize_leagues({"MLB": {"slug": "nba", "names": {"en": "Major League Baseball"}}})
+        with self.assertRaisesRegex(ValueError, "requires an English fallback"):
+            builder.normalize_leagues({"MLB": {"slug": "mlb", "names": {"ko": "메이저리그"}}})
+
     def test_blogger_navigation_excludes_unconfirmed_urls_and_other_groups(self):
         expected = set()
         for code in builder.LANGUAGES:
