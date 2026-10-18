@@ -6,7 +6,7 @@
   "title": "Philadelphia 76ers @ New York Knicks | यह मुकाबला क्यों देखें",
   "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. सत्यापित जीत की संभावना उपलब्ध नहीं.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:52:00Z",
   "language": "hi",
   "league": "NBA",
   "match_id": "0022600002",
@@ -21,28 +21,44 @@
   ],
   "sections": [
     {
-      "heading": "यह मुकाबला क्यों देखें",
+      "heading": "इस मैच को क्यों देखें",
       "paragraphs": [
-        "मौजूदा चैंपियन न्यूयॉर्क निक्स मैडिसन स्क्वायर गार्डन में फिलाडेल्फिया से भिड़ेंगे। लेब्रॉन जेम्स और जायलन ब्राउन अब 76ers में हैं, जो मई के प्लेऑफ में उन्हें हराने वाली टीम के खिलाफ उतरेंगे।",
-        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Philadelphia returns to New York after being swept 4–0 in the 2026 East semifinal; the defending champion Knicks now face a changed Sixers lineup.",
+        "Oct 21 08:00 KST · NBA 2026–27 opening day."
       ]
     },
     {
-      "heading": "पिछले सीज़न की तुलना",
+      "heading": "प्रमाणित 2025–26 टीम तुलना",
       "paragraphs": [
-        "2025–26 में न्यूयॉर्क 53–29 (.646) और फिलाडेल्फिया 45–37 (.549) पर रहा। दोनों ने अंतिम दस नियमित मैचों में 6–4 का रिकॉर्ड बनाया। NBA में दर्ज पिछले चार प्लेऑफ मुकाबले निक्स ने जीते, लेकिन नया परिणाम तय नहीं है।"
+        "Last completed regular season: PHI 45–37, NYK 53–29; points scored per game 115.9 vs 116.5, points allowed 116.1 vs 110.1. Last-season records are not current-season forecasts."
+      ],
+      "bullets": [
+        "PHI: 45–37 · NYK: 53–29",
+        "प्रति मैच अंक: 115.9 / 116.5",
+        "विरोधी के प्रति मैच अंक: 116.1 / 110.1"
       ]
     },
     {
-      "heading": "मैच में किन बातों पर नज़र रखें",
+      "heading": "हालिया फॉर्म और पांच मुकाबले",
       "paragraphs": [
-        "यदि वे खेलते हैं, तो लेब्रॉन जेम्स, टायरीस मैक्सी और जोएल एम्बीड की आक्रमण में भूमिकाओं को देखें। न्यूयॉर्क की ओर जायलन ब्रनसन पर अतिरिक्त डिफेंस आने के बाद गेंद किस खिलाड़ी तक जाती है, इस पर ध्यान दें।"
+        "The five dated scores below are official NBA head-to-head results. Previous regular-season final-ten form: PHI 6–4, NYK 6–4; not 2026 preseason games."
+      ],
+      "bullets": [
+        "2026-05-10 NYK 144–114 PHI",
+        "2026-05-08 NYK 108–94 PHI",
+        "2026-05-06 NYK 108–102 PHI",
+        "2026-05-04 NYK 137–98 PHI",
+        "2026-02-11 NYK 138–89 PHI"
       ]
     },
     {
-      "heading": "आंकड़े क्या नहीं बता सकते",
+      "heading": "संदर्भ अनुमान और सीमाएं",
       "paragraphs": [
-        "प्रीसीज़न मैच नियमित सीज़न के शुरुआती पांच या मिनट तय नहीं करते। ताज़ा उपलब्धता और जांचे हुए मॉडल के बिना हम मनगढ़ंत जीत की संभावना नहीं दिखाते।"
+        "The displayed PHI 40.0% / NYK 60.0% values are a transparent but uncalibrated baseline using last season's wins alone. It omits current lineups, injuries, home-court adjustment and all roster changes. Not betting odds."
+      ],
+      "bullets": [
+        "Model: p(home) = (home historical win% × away historical loss%) / [(home win% × away loss%) + (away win% × home loss%)]",
+        "Reference: PHI 40.0% · NYK 60.0%. Not calibrated."
       ]
     }
   ],
@@ -66,13 +82,21 @@
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA final standings and per game scoring",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official playoff game results and matchup history",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0042500211"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-hi.svg",
-      "alt": "PHI versus NYK: 2025–26 जीत, 2025–26 रिकॉर्ड, 2025–26 के अंतिम 10 मैच; सत्यापित जीत की संभावना उपलब्ध नहीं",
-      "caption": "स्रोत: NBA की 2025–26 अंतिम तालिका; यह भविष्यवाणी नहीं है। सत्यापित जीत की संभावना उपलब्ध नहीं."
+      "alt": "PHI and NYK last-season team wins, points per game and allowed, last five results and transparent historical reference model",
+      "caption": "अपरीक्षित पिछले रिकॉर्ड पर आधारित अनुमान: PHI 40.0%, NYK 60.0%. Not calibrated probabilities."
     }
   ]
 }

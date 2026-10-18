@@ -6,7 +6,7 @@
   "title": "Philadelphia 76ers @ New York Knicks | 開幕戦を見たい理由",
   "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. 検証済みの勝率予測モデルなし.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:52:00Z",
   "language": "ja",
   "league": "NBA",
   "match_id": "0022600002",
@@ -21,28 +21,44 @@
   ],
   "sections": [
     {
-      "heading": "開幕戦を見たい理由",
+      "heading": "この対戦を見る理由",
       "paragraphs": [
-        "王者ニックスがマディソン・スクエア・ガーデンで76ersを迎える。レブロン・ジェームズとジェイレン・ブラウンが加わったフィラデルフィアは、5月に自分たちを敗退させた相手との開幕戦に挑む。",
-        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Philadelphia returns to New York after being swept 4–0 in the 2026 East semifinal; the defending champion Knicks now face a changed Sixers lineup.",
+        "Oct 21 08:00 KST · NBA 2026–27 opening day."
       ]
     },
     {
-      "heading": "昨季の公式成績を比較",
+      "heading": "2025–26年の戦力データ",
       "paragraphs": [
-        "昨季はニューヨークが53勝29敗（.646）、フィラデルフィアが45勝37敗（.549）。両チームとも最後の10試合は6勝4敗。NBAが掲載する直近のプレーオフ4試合はすべてニックスが勝ったが、今季の結果を保証するものではない。"
+        "Last completed regular season: PHI 45–37, NYK 53–29; points scored per game 115.9 vs 116.5, points allowed 116.1 vs 110.1. Last-season records are not current-season forecasts."
+      ],
+      "bullets": [
+        "PHI: 45–37 · NYK: 53–29",
+        "平均得点: 115.9 / 116.5",
+        "平均失点: 116.1 / 110.1"
       ]
     },
     {
-      "heading": "各ポゼッションで注目する点",
+      "heading": "最近の調子と直近5試合",
       "paragraphs": [
-        "出場するなら、レブロンのゲームメーク、タイリース・マクシーの速攻、ジョエル・エンビードのインサイドでの選択肢を見たい。ニックス側ではジェイレン・ブランソンへのヘルプ守備の後、誰にパスが渡るかに注目だ。"
+        "The five dated scores below are official NBA head-to-head results. Previous regular-season final-ten form: PHI 6–4, NYK 6–4; not 2026 preseason games."
+      ],
+      "bullets": [
+        "2026-05-10 NYK 144–114 PHI",
+        "2026-05-08 NYK 108–94 PHI",
+        "2026-05-06 NYK 108–102 PHI",
+        "2026-05-04 NYK 137–98 PHI",
+        "2026-02-11 NYK 138–89 PHI"
       ]
     },
     {
-      "heading": "数字だけでは予測できないこと",
+      "heading": "参考勝率とその限界",
       "paragraphs": [
-        "プレシーズンで新加入選手の連係は見えたが、開幕の先発や出場時間までは確定していない。検証されたモデルと最新の出場情報なしに予想勝率は作らない。"
+        "The displayed PHI 40.0% / NYK 60.0% values are a transparent but uncalibrated baseline using last season's wins alone. It omits current lineups, injuries, home-court adjustment and all roster changes. Not betting odds."
+      ],
+      "bullets": [
+        "Model: p(home) = (home historical win% × away historical loss%) / [(home win% × away loss%) + (away win% × home loss%)]",
+        "Reference: PHI 40.0% · NYK 60.0%. Not calibrated."
       ]
     }
   ],
@@ -66,13 +82,21 @@
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA final standings and per game scoring",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official playoff game results and matchup history",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0042500211"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-ja.svg",
-      "alt": "PHI versus NYK: 2025–26 勝利数, 2025–26 戦績, 2025–26 最後の10試合; 検証済みの勝率予測モデルなし",
-      "caption": "出典：NBA 2025–26最終順位。勝敗予測ではありません。 検証済みの勝率予測モデルなし."
+      "alt": "PHI and NYK last-season team wins, points per game and allowed, last five results and transparent historical reference model",
+      "caption": "未補正の参考値: PHI 40.0%, NYK 60.0%. Not calibrated probabilities."
     }
   ]
 }

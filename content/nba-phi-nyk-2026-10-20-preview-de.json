@@ -6,7 +6,7 @@
   "title": "Philadelphia 76ers @ New York Knicks | Warum dieses Spiel spannend ist",
   "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. Keine kalibrierte Siegprognose.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:52:00Z",
   "language": "de",
   "league": "NBA",
   "match_id": "0022600002",
@@ -21,28 +21,44 @@
   ],
   "sections": [
     {
-      "heading": "Warum dieses Spiel spannend ist",
+      "heading": "Warum dieses Spiel zählt",
       "paragraphs": [
-        "Titelverteidiger New York empfängt Philadelphia im Madison Square Garden. LeBron James und Jaylen Brown spielen nun für die Sixers, die auf das Team treffen, das sie im Mai aus den Playoffs warf.",
-        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Philadelphia returns to New York after being swept 4–0 in the 2026 East semifinal; the defending champion Knicks now face a changed Sixers lineup.",
+        "Oct 21 08:00 KST · NBA 2026–27 opening day."
       ]
     },
     {
-      "heading": "Vergleich mit der Vorsaison",
+      "heading": "Geprüfter Teamvergleich 2025–26",
       "paragraphs": [
-        "2025–26 stand New York bei 53–29 (.646), Philadelphia bei 45–37 (.549). Beide hatten in ihren letzten zehn Hauptrundenspielen eine Bilanz von 6–4. Die vier jüngsten von der NBA gelisteten Playoff-Duelle gewann New York; das ist keine Vorhersage."
+        "Last completed regular season: PHI 45–37, NYK 53–29; points scored per game 115.9 vs 116.5, points allowed 116.1 vs 110.1. Last-season records are not current-season forecasts."
+      ],
+      "bullets": [
+        "PHI: 45–37 · NYK: 53–29",
+        "Punkte je Spiel: 115.9 / 116.5",
+        "Gegnerpunkte je Spiel: 116.1 / 110.1"
       ]
     },
     {
-      "heading": "Darauf sollte man achten",
+      "heading": "Form und fünf direkte Duelle",
       "paragraphs": [
-        "Wenn sie eingesetzt werden, lohnt der Blick auf die Rollen von LeBron James, Tyrese Maxey und Joel Embiid im Angriff. Bei den Knicks ist interessant, wohin Jalen Brunson passt, wenn ihm die Defense zusätzliche Aufmerksamkeit widmet."
+        "The five dated scores below are official NBA head-to-head results. Previous regular-season final-ten form: PHI 6–4, NYK 6–4; not 2026 preseason games."
+      ],
+      "bullets": [
+        "2026-05-10 NYK 144–114 PHI",
+        "2026-05-08 NYK 108–94 PHI",
+        "2026-05-06 NYK 108–102 PHI",
+        "2026-05-04 NYK 137–98 PHI",
+        "2026-02-11 NYK 138–89 PHI"
       ]
     },
     {
-      "heading": "Was die Zahlen nicht vorhersagen",
+      "heading": "Schätzung und Grenzen",
       "paragraphs": [
-        "Testspiele bestätigen weder die Startformation noch die Einsatzzeiten des Saisonauftakts. Ohne geprüftes Modell und aktuelle Verfügbarkeiten veröffentlichen wir keine künstlichen Siegprozente."
+        "The displayed PHI 40.0% / NYK 60.0% values are a transparent but uncalibrated baseline using last season's wins alone. It omits current lineups, injuries, home-court adjustment and all roster changes. Not betting odds."
+      ],
+      "bullets": [
+        "Model: p(home) = (home historical win% × away historical loss%) / [(home win% × away loss%) + (away win% × home loss%)]",
+        "Reference: PHI 40.0% · NYK 60.0%. Not calibrated."
       ]
     }
   ],
@@ -66,13 +82,21 @@
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA final standings and per game scoring",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official playoff game results and matchup history",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0042500211"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-de.svg",
-      "alt": "PHI versus NYK: Siege 2025–26, Bilanz 2025–26, Letzte 10 Spiele 2025–26; Keine kalibrierte Siegprognose",
-      "caption": "Quelle: NBA-Abschlusstabelle 2025–26. Keine Prognose. Keine kalibrierte Siegprognose."
+      "alt": "PHI and NYK last-season team wins, points per game and allowed, last five results and transparent historical reference model",
+      "caption": "Nicht kalibriertes Vorjahresmodell: PHI 40.0%, NYK 60.0%. Not calibrated probabilities."
     }
   ]
 }

@@ -6,7 +6,7 @@
   "title": "76ers at Knicks: LeBron and Brown Face the Defending Champions",
   "description": "Philadelphia 76ers @ New York Knicks, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. No calibrated win probability published here.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:52:00Z",
   "language": "en",
   "league": "NBA",
   "match_id": "0022600002",
@@ -21,28 +21,44 @@
   ],
   "sections": [
     {
-      "heading": "Why this opener is worth watching",
+      "heading": "Why this matchup matters",
       "paragraphs": [
-        "The defending champion Knicks open their title defense against Philadelphia at Madison Square Garden. The story is unusually concrete: LeBron James and Jaylen Brown joined the 76ers, who are trying to integrate their new stars against the club that eliminated them in May.",
-        "October 21, 2026 — 08:00 KST; Madison Square Garden, New York. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Philadelphia returns to New York after being swept 4–0 in the 2026 East semifinal; the defending champion Knicks now face a changed Sixers lineup.",
+        "Oct 21 08:00 KST · NBA 2026–27 opening day."
       ]
     },
     {
-      "heading": "What the latest completed season tells us",
+      "heading": "Verified 2025–26 team-strength comparison",
       "paragraphs": [
-        "In 2025–26 New York went 53–29 (.646) and Philadelphia 45–37 (.549). The Knicks finished their last ten regular-season games 6–4, as did the Sixers. The latest listed playoff meetings on NBA.com ended in four consecutive Knicks wins. None of those older results guarantees a repeat."
+        "Last completed regular season: PHI 45–37, NYK 53–29; points scored per game 115.9 vs 116.5, points allowed 116.1 vs 110.1. Last-season records are not current-season forecasts."
+      ],
+      "bullets": [
+        "PHI: 45–37 · NYK: 53–29",
+        "Points scored per game: 115.9 / 116.5",
+        "Points allowed per game: 116.1 / 110.1"
       ]
     },
     {
-      "heading": "What to watch on each possession",
+      "heading": "Recent form and last five direct meetings",
       "paragraphs": [
-        "Watch how often Philadelphia’s possessions involve LeBron James as creator, Tyrese Maxey as pace-setter and Joel Embiid as an interior option, if each is available. At the other end, focus on Jalen Brunson’s first pass after help arrives. Does New York force Philadelphia into late-clock shots, or does the new lineup create an early open look?"
+        "The five dated scores below are official NBA head-to-head results. Previous regular-season final-ten form: PHI 6–4, NYK 6–4; not 2026 preseason games."
+      ],
+      "bullets": [
+        "2026-05-10 NYK 144–114 PHI",
+        "2026-05-08 NYK 108–94 PHI",
+        "2026-05-06 NYK 108–102 PHI",
+        "2026-05-04 NYK 137–98 PHI",
+        "2026-02-11 NYK 138–89 PHI"
       ]
     },
     {
-      "heading": "What these numbers do not predict",
+      "heading": "Reference-only win estimate and its limits",
       "paragraphs": [
-        "The 76ers’ preseason appearances showed their players together, but preseason combinations and minutes do not confirm the opening-night rotation. A calibrated win/draw style probability requires a tested model and current availability data; last year’s records are supplied as context, not as odds."
+        "The displayed PHI 40.0% / NYK 60.0% values are a transparent but uncalibrated baseline using last season's wins alone. It omits current lineups, injuries, home-court adjustment and all roster changes. Not betting odds."
+      ],
+      "bullets": [
+        "Model: p(home) = (home historical win% × away historical loss%) / [(home win% × away loss%) + (away win% × home loss%)]",
+        "Reference: PHI 40.0% · NYK 60.0%. Not calibrated."
       ]
     }
   ],
@@ -66,13 +82,21 @@
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA final standings and per game scoring",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official playoff game results and matchup history",
+      "url": "https://www.nba.com/game/phi-vs-nyk-0042500211"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-phi-nyk-2026-10-20-preview-en.svg",
-      "alt": "PHI versus NYK: 2025–26 wins, 2025–26 record, Last 10, 2025–26; No calibrated win probability published here",
-      "caption": "Source: NBA final 2025–26 standings. Not a forecast. No calibrated win probability published here."
+      "alt": "PHI and NYK last-season team wins, points per game and allowed, last five results and transparent historical reference model",
+      "caption": "Uncalibrated prior-record model: PHI 40.0%, NYK 60.0%. Not calibrated probabilities."
     }
   ]
 }
