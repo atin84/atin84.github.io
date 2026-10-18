@@ -1,0 +1,86 @@
+{
+  "id": "epl-2645265-preview-es",
+  "slug": "epl-2645265-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645265",
+  "article_kind": "preview",
+  "translation_group": "epl-2645265-preview",
+  "title": "Arsenal–Everton: una racha invicta y dos ataques más parecidos de lo que parece",
+  "description": "Arsenal–Everton, 24 October 2026: actual goals, xG, shots on target, direct meetings and a transparent model baseline.",
+  "published_at": "2026-10-18T09:00:00Z",
+  "updated_at": "2026-10-18T09:00:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:es"
+  ],
+  "sections": [
+    {
+      "heading": "Por qué ver este partido",
+      "paragraphs": [
+        "Arsenal ha ganado tres y empatado dos de los últimos cinco enfrentamientos ligueros contra Everton. Pero las medias goleadoras recientes están más cerca de lo que sugiere el historial: interesa comprobar si se mantiene la ventaja defensiva del Arsenal."
+      ]
+    },
+    {
+      "heading": "Comparación de fuerzas verificadas",
+      "paragraphs": [
+        "La instantánea oficial mostraba al Arsenal con ocho goles a favor y cuatro recibidos en cinco encuentros (1,60 y 0,80 por partido), xG 8,48 y 24 remates a puerta. Everton sumaba ocho a favor y cinco recibidos en seis partidos (1,33 y 0,83), xG 9,00 y 30 remates a puerta. Las barras muestran promedios por partido, no totales de muestras distintas."
+      ]
+    },
+    {
+      "heading": "Forma reciente y enfrentamientos",
+      "paragraphs": [
+        "Los cinco partidos confirmados del Arsenal fueron Aston Villa 0–1, Chelsea 2–1, Sunderland 0–2, Brighton 3–0 y Leeds 2–1: tres victorias y dos derrotas. Everton cayó 0–2 ante Chelsea el 17 de octubre; no presentamos una secuencia completa de cinco partidos que no hemos verificado. Los cinco duelos directos dejan 3V–2E para Arsenal."
+      ],
+      "bullets": [
+        "2026-03-14 · Arsenal 2–0 Everton",
+        "2025-12-20 · Everton 0–1 Arsenal",
+        "2025-04-05 · Everton 1–1 Arsenal",
+        "2024-12-14 · Arsenal 0–0 Everton",
+        "2024-05-19 · Arsenal 2–1 Everton"
+      ]
+    },
+    {
+      "heading": "Pronóstico y límites del modelo",
+      "paragraphs": [
+        "El modelo Poisson independiente sin calibrar cruza los promedios de goles marcados y recibidos. No incorpora lesiones, alineaciones, ventaja local ni el encuentro de Arsenal del 18 de octubre. Sus cifras son una referencia, no cuotas reales."
+      ],
+      "bullets": [
+        "Arsenal 39.5% · Draw 28.4% · Everton 32.1%",
+        "Uncalibrated Poisson: λhome 1.217, λaway 1.067; GF/GA per-match only"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League revised October schedule",
+      "url": "https://www.premierleague.com/en/news/4688862"
+    },
+    {
+      "title": "Arsenal v Everton official match centre",
+      "url": "https://www.premierleague.com/en/match/2645265/arsenal-vs-everton/info"
+    },
+    {
+      "title": "Arsenal club current-season statistics",
+      "url": "https://www.premierleague.com/en/clubs/3/arsenal/stats"
+    },
+    {
+      "title": "Everton club current-season statistics",
+      "url": "https://www.premierleague.com/en/clubs/11/club/stats"
+    },
+    {
+      "title": "Five previous league meetings",
+      "url": "https://www.statmuse.com/fc/ask/arsenal-last-5-games-vs-everton"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645265-preview-es.svg",
+      "alt": "Arsenal Everton per-game goals xG shots-on-target, five meetings, model probabilities with sampling limitations",
+      "caption": "Arsenal five matches and Everton six in source snapshot; uncalibrated Poisson without home, injury, or updated team news."
+    }
+  ]
+}
