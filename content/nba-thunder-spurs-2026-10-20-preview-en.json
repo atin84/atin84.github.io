@@ -8,7 +8,7 @@
   "article_kind": "preview",
   "translation_group": "nba-thunder-spurs-2026-10-20-preview",
   "published_at": "2026-10-17T23:25:31Z",
-  "updated_at": "2026-10-17T23:25:31Z",
+  "updated_at": "2026-10-18T07:55:00Z",
   "labels": [
     "NBA",
     "Oklahoma City Thunder",
@@ -19,39 +19,44 @@
   "description": "A beginner-friendly guide to Oklahoma City at San Antonio: the start time, playoff context, and three possession battles to follow.",
   "sections": [
     {
-      "heading": "When and where",
+      "heading": "Why watch this rematch",
       "paragraphs": [
-        "Oklahoma City visits San Antonio at Frost Bank Center on Tuesday, October 20, 2026. Tip-off is scheduled for 8:30 p.m. in San Antonio, 9:30 p.m. Eastern, or 01:30 UTC on October 21. It is an opening-night regular-season game. The NBA's published U.S. broadcast schedule lists NBC and Peacock; availability elsewhere depends on your country."
+        "The Spurs eliminated the 64-win Thunder 4–3 in the 2026 Western Conference finals, making this opening-night rematch more than a generic star matchup. The latest five games of that series are listed below.",
+        "10/21 10:30 KST · Frost Bank Center · 2026–27 NBA season opener."
       ]
     },
     {
-      "heading": "Why this matchup has a story already",
+      "heading": "Last season: attack and defense",
       "paragraphs": [
-        "The Spurs eliminated the Thunder in a seven-game Western Conference finals series in 2026. Opening night offers a fresh look at that matchup, with Shai Gilgeous-Alexander and Victor Wembanyama among the central players to follow if available. The previous series is useful background, but it does not decide what happens in this game. Here are three questions that make the action easier to read."
+        "OKC finished 64–18 and averaged 119.0 scored, 107.9 allowed per game; SAS finished 62–20, 119.8 scored, 111.5 allowed. San Antonio scored slightly more while Oklahoma City conceded substantially fewer. Both dimensions matter, not just an invented 'strength rating'."
+      ],
+      "bullets": [
+        "2025–26 W–L: OKC 64–18 / SAS 62–20",
+        "Points per game: OKC 119.0 / SAS 119.8",
+        "Opponent points per game: OKC 107.9 / SAS 111.5"
       ]
     },
     {
-      "heading": "1. Where does the first good shot come from?",
+      "heading": "Recent head-to-head results",
       "paragraphs": [
-        "When Gilgeous-Alexander handles the ball, watch the defenders around him as well as the dribble. Does one defender stay in front, or does another move across to help? If help arrives, follow the next pass and see whether it creates space for a teammate. At the other end, track where Wembanyama receives the ball and how the defense responds. These are things to observe, not a promise that either team will use one fixed tactic."
+        "The latest five official head-to-head matches include a 4–3 playoff series won by San Antonio. The teams' last ten 2025–26 regular-season games were OKC 7–3 and SAS 8–2. This is historic form, not current preseason form."
+      ],
+      "bullets": [
+        "May 30 SAS 111–103 OKC",
+        "May 28 SAS 118–91 OKC",
+        "May 26 OKC 127–114 SAS",
+        "May 24 SAS 103–82 OKC",
+        "May 22 OKC 123–108 SAS"
       ]
     },
     {
-      "heading": "2. Who ends the possession after a miss?",
+      "heading": "Prediction baseline and limitations",
       "paragraphs": [
-        "Do not stop watching when a shot hits the rim. The rebound determines whether the attacking team gets another opportunity or the defense can move the other way. Look for the player who makes room for a teammate to collect the ball, not only the player credited with the rebound. A missed shot followed by an offensive rebound is a different outcome from a miss that immediately sends the opponent into attack."
-      ]
-    },
-    {
-      "heading": "3. What happens in the first seconds of the next attack?",
-      "paragraphs": [
-        "After a rebound or turnover, look up the floor. Is there an immediate pass forward, a dribble into open space, or a pause while everyone takes their positions? This simple check helps distinguish transition opportunities from attacks against a defense that is already set. If one team strings together several scores, rewind to how those possessions began instead of assuming every basket came from the same problem."
-      ]
-    },
-    {
-      "heading": "Use one possession as your viewing unit",
-      "paragraphs": [
-        "Try the three-question checklist for a short stretch: how was the shot created, who collected the miss, and how did the next attack start? You can enjoy the star matchup while noticing the teammates who connect those moments. Starting lineups and player availability still need a check close to tip-off; this guide does not treat either as confirmed."
+        "Reference probabilities are calculated only from prior-season win fractions. Injuries, lineups, transfers, home-court advantage and current form are excluded. The numbers are not calibrated forecasts or betting odds."
+      ],
+      "bullets": [
+        "OKC 53.4% / SAS 46.6% (uncalibrated prior-season baseline)",
+        "P(home) = [home win% × away loss%] / ([home win% × away loss%] + [away win% × home loss%])"
       ]
     }
   ],
@@ -67,13 +72,21 @@
     {
       "title": "NBA Starting 5: Opening-week guide, October 13, 2026",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA scoring and final league standings",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official 2026 Western Conference finals seven-game series",
+      "url": "https://www.nba.com/game/okc-vs-sas-0042500314"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-en.svg",
-      "alt": "A three-step viewing guide: shot creation, the rebound, and the next possession.",
-      "caption": "A viewing checklist for October 20, 2026. This is a schematic guide, not a prediction or a confirmed lineup."
+      "alt": "OKC SAS previous NBA season points per game, points allowed, recent five playoffs results and an uncalibrated historical baseline",
+      "caption": "2025–26 historical baseline: OKC 53.4% / SAS 46.6%. Not calibrated match odds."
     }
   ]
 }

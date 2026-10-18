@@ -8,7 +8,7 @@
   "article_kind": "preview",
   "translation_group": "nba-thunder-spurs-2026-10-20-preview",
   "published_at": "2026-10-17T23:25:31Z",
-  "updated_at": "2026-10-17T23:25:31Z",
+  "updated_at": "2026-10-18T07:55:00Z",
   "labels": [
     "NBA",
     "Oklahoma City Thunder",
@@ -19,39 +19,44 @@
   "description": "Horário, contexto e um guia simples para entender a criação das jogadas, os rebotes e a transição em Oklahoma City x San Antonio.",
   "sections": [
     {
-      "heading": "Quando e onde",
+      "heading": "Por que acompanhar a revanche",
       "paragraphs": [
-        "Oklahoma City visita San Antonio no Frost Bank Center na terça-feira, 20 de outubro de 2026. A bola sobe às 20h30 em San Antonio, 21h30 no horário do leste dos EUA, ou 01h30 UTC de 21 de outubro. É um jogo da abertura da temporada regular. A grade americana publicada pela NBA indica NBC e Peacock; em outros países, a disponibilidade depende da programação local."
+        "The Spurs eliminated the 64-win Thunder 4–3 in the 2026 Western Conference finals, making this opening-night rematch more than a generic star matchup. The latest five games of that series are listed below.",
+        "10/21 10:30 KST · Frost Bank Center · 2026–27 NBA season opener."
       ]
     },
     {
-      "heading": "Um confronto que já tem história",
+      "heading": "Ataque e defesa da última temporada",
       "paragraphs": [
-        "Os Spurs eliminaram o Thunder em sete jogos na final da Conferência Oeste de 2026. A estreia traz uma nova oportunidade de observar esse confronto, com Shai Gilgeous-Alexander e Victor Wembanyama entre os principais nomes, caso estejam disponíveis. A série anterior oferece contexto, mas não define o resultado agora. Estas três perguntas ajudam a acompanhar o que acontece além do placar."
+        "OKC finished 64–18 and averaged 119.0 scored, 107.9 allowed per game; SAS finished 62–20, 119.8 scored, 111.5 allowed. San Antonio scored slightly more while Oklahoma City conceded substantially fewer. Both dimensions matter, not just an invented 'strength rating'."
+      ],
+      "bullets": [
+        "2025–26 W–L: OKC 64–18 / SAS 62–20",
+        "Points per game: OKC 119.0 / SAS 119.8",
+        "Opponent points per game: OKC 107.9 / SAS 111.5"
       ]
     },
     {
-      "heading": "1. De onde vem o primeiro bom arremesso?",
+      "heading": "Cinco confrontos recentes",
       "paragraphs": [
-        "Quando Gilgeous-Alexander estiver com a bola, observe os defensores além do drible. Um marcador fica à frente ou outro sai para ajudar? Se chegar a ajuda, siga o passe seguinte e veja se aparece espaço para um companheiro. Do outro lado, repare onde Wembanyama recebe a bola e como a defesa reage. São pontos de observação, não uma previsão de que cada equipe seguirá sempre a mesma tática."
+        "The latest five official head-to-head matches include a 4–3 playoff series won by San Antonio. The teams' last ten 2025–26 regular-season games were OKC 7–3 and SAS 8–2. This is historic form, not current preseason form."
+      ],
+      "bullets": [
+        "May 30 SAS 111–103 OKC",
+        "May 28 SAS 118–91 OKC",
+        "May 26 OKC 127–114 SAS",
+        "May 24 SAS 103–82 OKC",
+        "May 22 OKC 123–108 SAS"
       ]
     },
     {
-      "heading": "2. Quem encerra a posse depois de um erro?",
+      "heading": "Modelo e limitações",
       "paragraphs": [
-        "Não pare de olhar quando a bola bater no aro. O rebote define se o ataque terá outra oportunidade ou se a defesa poderá partir para o outro lado. Observe também quem abre espaço para um companheiro pegar a bola, e não apenas quem recebe o rebote na estatística. Um arremesso errado seguido de rebote ofensivo é diferente de um erro que permite ao adversário atacar imediatamente."
-      ]
-    },
-    {
-      "heading": "3. Como começa o ataque seguinte?",
-      "paragraphs": [
-        "Depois de um rebote ou de uma perda de bola, olhe para a frente. Há um passe imediato, um avanço pelo espaço livre ou uma pausa enquanto todos se posicionam? Essa checagem ajuda a distinguir oportunidades de transição de ataques contra uma defesa organizada. Se uma equipe emendar várias cestas, reveja o início dessas posses antes de presumir que todas vieram do mesmo problema."
-      ]
-    },
-    {
-      "heading": "Acompanhe uma posse inteira",
-      "paragraphs": [
-        "Experimente o roteiro por alguns minutos: como o arremesso foi criado, quem pegou a bola após o erro e como começou o próximo ataque. Dá para aproveitar o duelo entre as estrelas e perceber os companheiros que conectam esses momentos. Escalações e disponibilidade precisam ser conferidas perto do início; este guia não as trata como confirmadas."
+        "Reference probabilities are calculated only from prior-season win fractions. Injuries, lineups, transfers, home-court advantage and current form are excluded. The numbers are not calibrated forecasts or betting odds."
+      ],
+      "bullets": [
+        "OKC 53.4% / SAS 46.6% (uncalibrated prior-season baseline)",
+        "P(home) = [home win% × away loss%] / ([home win% × away loss%] + [away win% × home loss%])"
       ]
     }
   ],
@@ -67,13 +72,21 @@
     {
       "title": "NBA Starting 5: Opening-week guide, October 13, 2026",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "2025–26 NBA scoring and final league standings",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official 2026 Western Conference finals seven-game series",
+      "url": "https://www.nba.com/game/okc-vs-sas-0042500314"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-thunder-spurs-2026-10-20-preview-pt-br.svg",
-      "alt": "Guia em três etapas: criação do arremesso, rebote e próxima posse.",
-      "caption": "Roteiro de observação para 20 de outubro de 2026. É um esquema, não uma previsão nem uma escalação confirmada."
+      "alt": "OKC SAS previous NBA season points per game, points allowed, recent five playoffs results and an uncalibrated historical baseline",
+      "caption": "2025–26 historical baseline: OKC 53.4% / SAS 46.6%. Not calibrated match odds."
     }
   ]
 }
