@@ -6,7 +6,7 @@
   "title": "Boston Celtics @ Detroit Pistons | 開幕戦を見たい理由",
   "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. 検証済みの勝率予測モデルなし.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:00:00Z",
   "language": "ja",
   "league": "NBA",
   "match_id": "0022600001",
@@ -21,28 +21,43 @@
   ],
   "sections": [
     {
-      "heading": "開幕戦を見たい理由",
+      "heading": "この対戦を注目したい理由",
       "paragraphs": [
-        "2025–26シーズンの東地区1位デトロイトと2位ボストンが開幕日に対戦する。会場はリトル・シーザーズ・アリーナ。昨季の強豪が新シーズンにどんな形で臨むかを見る一戦だ。",
-        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Detroit finished 60–22 and Boston 56–26, making opening day a rare immediate matchup of last season’s top two East teams. Their contrasting strengths are a more useful hook than guessing which side is more motivated."
       ]
     },
     {
-      "heading": "昨季の公式成績を比較",
+      "heading": "攻撃と守備の比較",
       "paragraphs": [
-        "デトロイトは60勝22敗（勝率.732）、ボストンは56勝26敗（.683）。両チームとも昨季レギュラーシーズン最後の10試合は8勝2敗だった。ただし、夏の戦力変更を考えると、この数字を今季初戦の勝率には置き換えられない。"
+        "Boston allowed 107.2 points per game while Detroit allowed 109.6; Detroit scored 117.8 to Boston’s 114.9. The Celtics’ defensive record and the Pistons’ scoring advantage point to a genuine clash of styles, although rosters can change."
+      ],
+      "bullets": [
+        "2025–26: BOS 56–26 · DET 60–22",
+        "PPG: BOS 114.9 · DET 117.8",
+        "Opponent PPG: BOS 107.2 · DET 109.6"
       ]
     },
     {
-      "heading": "各ポゼッションで注目する点",
+      "heading": "直近の成績と5回の対戦",
       "paragraphs": [
-        "ケイド・カニングハムにヘルプ守備が寄った際、誰へパスが出るかに注目したい。ボストンではジェイソン・テイタムが攻撃を始める時の味方の配置を見る。シュートが外れた後に相手の二度目の攻撃を防げるかも重要だ。"
+        "Detroit won four of the five meetings shown below. Both teams ended their last ten 2025–26 regular-season games at 8–2. These are official historical results, not the newest five preseason games."
+      ],
+      "bullets": [
+        "2026-01-19 · BOS 103 · DET 104",
+        "2025-12-15 · DET 112 · BOS 105",
+        "2025-11-26 · DET 114 · BOS 117",
+        "2025-10-26 · BOS 113 · DET 119",
+        "2025-02-26 · BOS 97 · DET 117"
       ]
     },
     {
-      "heading": "数字だけでは予測できないこと",
+      "heading": "参考予測と限界",
       "paragraphs": [
-        "NBAの開幕週ガイドはポール・ジョージを新たなボストンの戦力として紹介している。先発や出場時間は試合直前に再確認が必要。根拠のない勝率は表示しない。"
+        "A simple prior-season-record baseline gives Detroit a modest edge; it is uncalibrated and excludes home court, injuries, new signings and current form. It is an illustrative mathematical reference, not a trustworthy betting prediction."
+      ],
+      "bullets": [
+        "BOS 44.1% · DET 55.9% — uncalibrated baseline from 2025–26 win fractions only",
+        "Model: p(home)=home win% × (1−away win%) / [home win% × (1−away win%) + away win% × (1−home win%)]"
       ]
     }
   ],
@@ -52,23 +67,27 @@
       "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
     },
     {
-      "title": "NBA 2025–26 final standings",
-      "url": "https://www.nba.com/standings?Season=2025-26"
-    },
-    {
       "title": "NBA official Celtics at Pistons game page",
       "url": "https://www.nba.com/game/bos-vs-det-0022600001"
     },
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "Basketball-Reference 2025–26 final NBA standings and per-game points",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official Celtics–Pistons last matchups",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600911"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-ja.svg",
-      "alt": "BOS versus DET: 2025–26 勝利数, 2025–26 戦績, 2025–26 最後の10試合; 検証済みの勝率予測モデルなし",
-      "caption": "出典：NBA 2025–26最終順位。勝敗予測ではありません。 検証済みの勝率予測モデルなし."
+      "alt": "2025–26 BOS vs DET: season wins, points per game, points allowed, latest head to head and uncalibrated model baseline",
+      "caption": "BOS 44.1% / DET 55.9% uses past season win fractions only, not calibrated game odds."
     }
   ]
 }

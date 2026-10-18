@@ -6,7 +6,7 @@
   "title": "Celtics at Pistons: Last Season’s East Top Two Meet on Opening Day",
   "description": "Boston Celtics @ Detroit Pistons, Oct 20, 2026 (ET): official 2025–26 records, first possession watchpoints, and factual head-to-head context. No calibrated win probability published here.",
   "published_at": "2026-10-18T06:00:00Z",
-  "updated_at": "2026-10-18T06:00:00Z",
+  "updated_at": "2026-10-18T07:00:00Z",
   "language": "en",
   "league": "NBA",
   "match_id": "0022600001",
@@ -21,28 +21,43 @@
   ],
   "sections": [
     {
-      "heading": "Why this opener is worth watching",
+      "heading": "Why this matchup matters",
       "paragraphs": [
-        "Detroit and Boston finished first and second in the 2025–26 Eastern Conference. They meet immediately on opening day rather than waiting for a rivalry to develop: the Pistons host the Celtics at Little Caesars Arena.",
-        "October 21, 2026 — 04:00 KST; Little Caesars Arena, Detroit. U.S. TV: NBC / Peacock. Local streaming availability varies by country."
+        "Detroit finished 60–22 and Boston 56–26, making opening day a rare immediate matchup of last season’s top two East teams. Their contrasting strengths are a more useful hook than guessing which side is more motivated."
       ]
     },
     {
-      "heading": "What the latest completed season tells us",
+      "heading": "Team strength: scoring and defending",
       "paragraphs": [
-        "Detroit went 60–22 (.732), Boston 56–26 (.683). Both finished their final ten regular-season games 8–2. Those figures describe last season, not their chances of winning this opener, particularly after summer roster changes."
+        "Boston allowed 107.2 points per game while Detroit allowed 109.6; Detroit scored 117.8 to Boston’s 114.9. The Celtics’ defensive record and the Pistons’ scoring advantage point to a genuine clash of styles, although rosters can change."
+      ],
+      "bullets": [
+        "2025–26: BOS 56–26 · DET 60–22",
+        "PPG: BOS 114.9 · DET 117.8",
+        "Opponent PPG: BOS 107.2 · DET 109.6"
       ]
     },
     {
-      "heading": "What to watch on each possession",
+      "heading": "Recent form and last five head-to-head results",
       "paragraphs": [
-        "First, watch Cade Cunningham’s passing decisions when Boston commits a second defender. Then note who protects the paint and how Boston’s shooters are spaced when Jayson Tatum initiates. The useful question is not simply who rebounds more, but whether each defensive possession ends in one shot or gives away another chance."
+        "Detroit won four of the five meetings shown below. Both teams ended their last ten 2025–26 regular-season games at 8–2. These are official historical results, not the newest five preseason games."
+      ],
+      "bullets": [
+        "2026-01-19 · BOS 103 · DET 104",
+        "2025-12-15 · DET 112 · BOS 105",
+        "2025-11-26 · DET 114 · BOS 117",
+        "2025-10-26 · BOS 113 · DET 119",
+        "2025-02-26 · BOS 97 · DET 117"
       ]
     },
     {
-      "heading": "What these numbers do not predict",
+      "heading": "Reference outcome estimate and limits",
       "paragraphs": [
-        "The NBA’s opening-week guide also identifies Paul George among Boston’s new-look group. Player availability, minute limits and starting fives need confirmation nearer tipoff. We do not publish a made-up 53–47 prediction just to fill a donut chart."
+        "A simple prior-season-record baseline gives Detroit a modest edge; it is uncalibrated and excludes home court, injuries, new signings and current form. It is an illustrative mathematical reference, not a trustworthy betting prediction."
+      ],
+      "bullets": [
+        "BOS 44.1% · DET 55.9% — uncalibrated baseline from 2025–26 win fractions only",
+        "Model: p(home)=home win% × (1−away win%) / [home win% × (1−away win%) + away win% × (1−home win%)]"
       ]
     }
   ],
@@ -52,23 +67,27 @@
       "url": "https://pr.nba.com/2026-27-nba-regular-season-schedule"
     },
     {
-      "title": "NBA 2025–26 final standings",
-      "url": "https://www.nba.com/standings?Season=2025-26"
-    },
-    {
       "title": "NBA official Celtics at Pistons game page",
       "url": "https://www.nba.com/game/bos-vs-det-0022600001"
     },
     {
       "title": "NBA opening week matchups",
       "url": "https://www.nba.com/news/starting-5-october-13-2026"
+    },
+    {
+      "title": "Basketball-Reference 2025–26 final NBA standings and per-game points",
+      "url": "https://www.basketball-reference.com/leagues/NBA_2026.html"
+    },
+    {
+      "title": "NBA official Celtics–Pistons last matchups",
+      "url": "https://www.nba.com/game/bos-vs-det-0022600911"
     }
   ],
   "figures": [
     {
       "src": "https://atin84.github.io/assets/charts/nba-bos-det-2026-10-20-preview-en.svg",
-      "alt": "BOS versus DET: 2025–26 wins, 2025–26 record, Last 10, 2025–26; No calibrated win probability published here",
-      "caption": "Source: NBA final 2025–26 standings. Not a forecast. No calibrated win probability published here."
+      "alt": "2025–26 BOS vs DET: season wins, points per game, points allowed, latest head to head and uncalibrated model baseline",
+      "caption": "BOS 44.1% / DET 55.9% uses past season win fractions only, not calibrated game odds."
     }
   ]
 }
