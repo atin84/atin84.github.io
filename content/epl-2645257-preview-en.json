@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645257-preview-en",
+  "slug": "epl-2645257-preview-en",
+  "platform": "github",
+  "status": "ready",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "preview",
+  "translation_group": "epl-2645257-preview",
+  "published_at": "2026-10-18T08:00:00Z",
+  "updated_at": "2026-10-18T08:00:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:en"
+  ],
+  "title": "Brighton v Crystal Palace: can the Seagulls break Palace's derby grip?",
+  "description": "Brighton Crystal Palace M23 derby: verified six-match goals for and against, past meetings, five-game form and transparent baseline.",
+  "sections": [
+    {
+      "heading": "Why this is worth watching",
+      "paragraphs": [
+        "Brighton have scored 18 goals in six league games, including a 5–0 win at Coventry and a 3–0 win over Arsenal. Yet Palace have won three of the last five Premier League meetings between the clubs. That conflict between Brighton’s attacking form and Palace’s recent derby results gives this matchup a clear story."
+      ]
+    },
+    {
+      "heading": "Team strength from real results",
+      "paragraphs": [
+        "Brighton’s six matches produced 18 goals scored and five conceded: 3.00 and 0.83 per match. Crystal Palace’s six produced nine goals and 12 conceded: 1.50 and 2.00. These six-match samples point to a sizeable attack/defense contrast, without proving either team will repeat its early-season pace."
+      ]
+    },
+    {
+      "heading": "Recent form and matchups",
+      "paragraphs": [
+        "Brighton's latest five: Chelsea 3–4 (L), Leeds 1–1 (D), Coventry 5–0 (W), Arsenal 3–0 (W), Sunderland 2–0 (W). Palace: Man City 1–4 (L), Fulham 3–2 (W), Ipswich 2–3 (L), Leeds 0–0 (D), Nottingham Forest 3–1 (W). Most recent head-to-head: Brighton 0–1 Palace, Palace 0–0 Brighton, Palace 2–1 Brighton, Brighton 1–3 Palace, Brighton 4–1 Palace."
+      ],
+      "bullets": [
+        "2026-02-08 · Brighton 0–1 Palace",
+        "2025-11-09 · Palace 0–0 Brighton",
+        "2025-04-05 · Palace 2–1 Brighton",
+        "2024-12-15 · Brighton 1–3 Palace",
+        "2024-02-03 · Brighton 4–1 Palace"
+      ]
+    },
+    {
+      "heading": "Prediction and limitation",
+      "paragraphs": [
+        "An independent Poisson reference uses only these six-game scoring and conceding averages. It excludes home advantage, injuries, European fixture fatigue, expected lineups and model calibration. The displayed 1X2 numbers illustrate one assumption set, not verified betting odds."
+      ],
+      "bullets": [
+        "Uncalibrated reference: Brighton 66.4%; Draw 17.6%; Crystal Palace 16.0%. λ=2.500/1.167"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League official game centre",
+      "url": "https://www.premierleague.com/es/match/2645257/brighton-and-hove-albion-vs-crystal-palace/overview"
+    },
+    {
+      "title": "Crystal Palace official match centre",
+      "url": "https://www.cpfc.co.uk/match/2645257/men/premier-league/2026-27/brighton-and-hove-albion-vs-crystal-palace-2026-10-18/"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/d07537b9/2026-2027/matchlogs/c9/keeper/Brighton-and-Hove-Albion-Match-Logs-Premier-League"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/47c64c55/2026-2027/matchlogs/c9/schedule/Crystal-Palace-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Historical league head-to-head",
+      "url": "https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-preview-en.svg",
+      "alt": "Brighton Crystal Palace confirmed first six league games, recent five form, five head to head meetings and illustrative forecast.",
+      "caption": "Both clubs: six completed league matches. Poisson is uncalibrated, excludes home advantage, injuries and fatigue."
+    }
+  ]
+}

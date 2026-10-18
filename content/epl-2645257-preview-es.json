@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645257-preview-es",
+  "slug": "epl-2645257-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "preview",
+  "translation_group": "epl-2645257-preview",
+  "published_at": "2026-10-18T08:00:00Z",
+  "updated_at": "2026-10-18T08:00:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:es"
+  ],
+  "title": "Brighton–Crystal Palace: ¿puede romper la racha del derbi?",
+  "description": "Brighton Crystal Palace M23 derby: verified six-match goals for and against, past meetings, five-game form and transparent baseline.",
+  "sections": [
+    {
+      "heading": "Por qué merece la pena verlo",
+      "paragraphs": [
+        "Brighton marcó 18 goles en seis partidos, incluidos un 5–0 ante Coventry y un 3–0 frente al Arsenal. Sin embargo, Palace ganó tres de los últimos cinco derbis de liga. La forma ofensiva actual choca con un historial favorable al visitante."
+      ]
+    },
+    {
+      "heading": "Fortalezas con cifras verificadas",
+      "paragraphs": [
+        "Brighton suma 18 goles a favor y cinco en contra en seis partidos: 3,00 y 0,83 por encuentro. Palace lleva nueve a favor y doce en contra: 1,50 y 2,00 por juego. La muestra es pequeña, pero el contraste es claro."
+      ]
+    },
+    {
+      "heading": "Últimos cinco y enfrentamientos",
+      "paragraphs": [
+        "Brighton: Chelsea 3–4, Leeds 1–1, Coventry 5–0, Arsenal 3–0, Sunderland 2–0 (tres victorias, un empate y una derrota). Palace: Manchester City 1–4, Fulham 3–2, Ipswich 2–3, Leeds 0–0, Nottingham Forest 3–1 (dos victorias, un empate y dos derrotas). En cinco duelos directos Palace ganó tres, Brighton uno y hubo un empate."
+      ],
+      "bullets": [
+        "2026-02-08 · Brighton 0–1 Palace",
+        "2025-11-09 · Palace 0–0 Brighton",
+        "2025-04-05 · Palace 2–1 Brighton",
+        "2024-12-15 · Brighton 1–3 Palace",
+        "2024-02-03 · Brighton 4–1 Palace"
+      ]
+    },
+    {
+      "heading": "La previsión y su incertidumbre",
+      "paragraphs": [
+        "El modelo Poisson sin calibrar usa solo los promedios de goles anotados y recibidos. No contempla la ventaja local, lesiones, cansancio europeo ni alineaciones. No es una probabilidad validada ni una cuota."
+      ],
+      "bullets": [
+        "Uncalibrated reference: Brighton 66.4%; Draw 17.6%; Crystal Palace 16.0%. λ=2.500/1.167"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League official game centre",
+      "url": "https://www.premierleague.com/es/match/2645257/brighton-and-hove-albion-vs-crystal-palace/overview"
+    },
+    {
+      "title": "Crystal Palace official match centre",
+      "url": "https://www.cpfc.co.uk/match/2645257/men/premier-league/2026-27/brighton-and-hove-albion-vs-crystal-palace-2026-10-18/"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/d07537b9/2026-2027/matchlogs/c9/keeper/Brighton-and-Hove-Albion-Match-Logs-Premier-League"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/47c64c55/2026-2027/matchlogs/c9/schedule/Crystal-Palace-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Historical league head-to-head",
+      "url": "https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-preview-es.svg",
+      "alt": "Brighton Crystal Palace confirmed first six league games, recent five form, five head to head meetings and illustrative forecast.",
+      "caption": "Both clubs: six completed league matches. Poisson is uncalibrated, excludes home advantage, injuries and fatigue."
+    }
+  ]
+}

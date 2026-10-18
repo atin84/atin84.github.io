@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645257-preview-ko",
+  "slug": "epl-2645257-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "preview",
+  "translation_group": "epl-2645257-preview",
+  "published_at": "2026-10-18T08:00:00Z",
+  "updated_at": "2026-10-18T08:00:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:ko"
+  ],
+  "title": "브라이턴–크리스털 팰리스: 6경기 18득점, 더비 약세를 극복할까?",
+  "description": "Brighton Crystal Palace M23 derby: verified six-match goals for and against, past meetings, five-game form and transparent baseline.",
+  "sections": [
+    {
+      "heading": "이 경기를 봐야 하는 이유",
+      "paragraphs": [
+        "브라이턴은 리그 첫 6경기에서 무려 18골을 넣었고, 코번트리전 5–0과 아스널전 3–0 승리도 거뒀다. 그러나 크리스털 팰리스와의 최근 리그 맞대결 5경기는 팰리스가 3승으로 앞선다. 현재 공격력이 좋은 브라이턴이 최근 더비 열세까지 끊을 수 있는지가 이번 경기의 이야기다."
+      ]
+    },
+    {
+      "heading": "실제 성적에 기반한 전력 비교",
+      "paragraphs": [
+        "브라이턴은 6경기 18득점·5실점으로 경기당 3.00득점·0.83실점을 기록했다. 팰리스는 6경기 9득점·12실점으로 경기당 1.50득점·2.00실점이다. 여섯 경기라는 작은 표본이지만 공격과 수비에서 차이가 크다는 점은 확인된다. 이것만으로 결과가 정해지는 것은 아니다."
+      ]
+    },
+    {
+      "heading": "최근 5경기와 맞대결 기록",
+      "paragraphs": [
+        "브라이턴 최근 5경기는 첼시 3–4 패, 리즈 1–1 무, 코번트리 5–0 승, 아스널 3–0 승, 선덜랜드 2–0 승으로 3승 1무 1패다. 팰리스는 맨시티 1–4 패, 풀럼 3–2 승, 입스위치 2–3 패, 리즈 0–0 무, 노팅엄 포리스트 3–1 승으로 2승 1무 2패다. 최근 맞대결 5번은 팰리스 3승, 브라이턴 1승, 무승부 1회다."
+      ],
+      "bullets": [
+        "2026-02-08 · Brighton 0–1 Palace",
+        "2025-11-09 · Palace 0–0 Brighton",
+        "2025-04-05 · Palace 2–1 Brighton",
+        "2024-12-15 · Brighton 1–3 Palace",
+        "2024-02-03 · Brighton 4–1 Palace"
+      ]
+    },
+    {
+      "heading": "승무패 전망의 한계",
+      "paragraphs": [
+        "6경기의 득점과 실점 평균만 결합한 독립 포아송 기준치를 제공한다. 홈 이점, 부상, 유럽대항전 피로도, 확정 선발 구성은 미반영이고 과거 예측으로 보정한 모델도 아니다. 따라서 실제 경기 승률이나 배당으로 받아들여서는 안 된다."
+      ],
+      "bullets": [
+        "Uncalibrated reference: Brighton 66.4%; Draw 17.6%; Crystal Palace 16.0%. λ=2.500/1.167"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League official game centre",
+      "url": "https://www.premierleague.com/es/match/2645257/brighton-and-hove-albion-vs-crystal-palace/overview"
+    },
+    {
+      "title": "Crystal Palace official match centre",
+      "url": "https://www.cpfc.co.uk/match/2645257/men/premier-league/2026-27/brighton-and-hove-albion-vs-crystal-palace-2026-10-18/"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/d07537b9/2026-2027/matchlogs/c9/keeper/Brighton-and-Hove-Albion-Match-Logs-Premier-League"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/47c64c55/2026-2027/matchlogs/c9/schedule/Crystal-Palace-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Historical league head-to-head",
+      "url": "https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-preview-ko.svg",
+      "alt": "Brighton Crystal Palace confirmed first six league games, recent five form, five head to head meetings and illustrative forecast.",
+      "caption": "Both clubs: six completed league matches. Poisson is uncalibrated, excludes home advantage, injuries and fatigue."
+    }
+  ]
+}

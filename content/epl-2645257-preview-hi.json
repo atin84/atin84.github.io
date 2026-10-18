@@ -1,0 +1,85 @@
+{
+  "id": "epl-2645257-preview-hi",
+  "slug": "epl-2645257-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "preview",
+  "translation_group": "epl-2645257-preview",
+  "published_at": "2026-10-18T08:00:00Z",
+  "updated_at": "2026-10-18T08:00:00Z",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:hi"
+  ],
+  "title": "ब्राइटन बनाम क्रिस्टल पैलेस: शानदार आक्रमण बनाम डर्बी रिकॉर्ड",
+  "description": "Brighton Crystal Palace M23 derby: verified six-match goals for and against, past meetings, five-game form and transparent baseline.",
+  "sections": [
+    {
+      "heading": "यह मैच क्यों देखें",
+      "paragraphs": [
+        "ब्राइटन ने छह लीग मैचों में 18 गोल किए, जिनमें कोवेंट्री पर 5–0 और आर्सेनल पर 3–0 की जीत शामिल है। मगर पैलेस ने पिछली पांच लीग भिड़ंत में तीन मैच जीते हैं। क्या ब्राइटन का मौजूदा आक्रमण यह सिलसिला बदल सकेगा?"
+      ]
+    },
+    {
+      "heading": "प्रमाणित टीम तुलना",
+      "paragraphs": [
+        "ब्राइटन ने छह मैचों में 18 गोल किए और पांच खाए (प्रति मैच 3.00 और 0.83)। पैलेस ने नौ गोल किए और 12 खाए (1.50 और 2.00)। यह केवल छह मैचों का छोटा नमूना है, लेकिन आंकड़ों में बड़ा अंतर है।"
+      ]
+    },
+    {
+      "heading": "हालिया फॉर्म और आमने-सामने परिणाम",
+      "paragraphs": [
+        "ब्राइटन: चेल्सी 3–4, लीड्स 1–1, कोवेंट्री 5–0, आर्सेनल 3–0, संडरलैंड 2–0 — तीन जीत, एक ड्रॉ, एक हार। पैलेस: सिटी 1–4, फुलहम 3–2, इप्सविच 2–3, लीड्स 0–0, फॉरेस्ट 3–1 — दो जीत, एक ड्रॉ, दो हार। आपसी पांच मुकाबलों में पैलेस की तीन जीत, ब्राइटन की एक जीत और एक ड्रॉ।"
+      ],
+      "bullets": [
+        "2026-02-08 · Brighton 0–1 Palace",
+        "2025-11-09 · Palace 0–0 Brighton",
+        "2025-04-05 · Palace 2–1 Brighton",
+        "2024-12-15 · Brighton 1–3 Palace",
+        "2024-02-03 · Brighton 4–1 Palace"
+      ]
+    },
+    {
+      "heading": "पूर्वानुमान की सीमाएं",
+      "paragraphs": [
+        "अप्रमाणित स्वतंत्र पॉइसन मॉडल पिछले छह मैचों के गोल बनाए और खाए जाने का औसत इस्तेमाल करता है। इसमें घरेलू लाभ, चोट, यूरोपीय मैचों की थकान और शुरुआती खिलाड़ी शामिल नहीं हैं। यह सट्टेबाज़ी की दर नहीं है।"
+      ],
+      "bullets": [
+        "Uncalibrated reference: Brighton 66.4%; Draw 17.6%; Crystal Palace 16.0%. λ=2.500/1.167"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League official game centre",
+      "url": "https://www.premierleague.com/es/match/2645257/brighton-and-hove-albion-vs-crystal-palace/overview"
+    },
+    {
+      "title": "Crystal Palace official match centre",
+      "url": "https://www.cpfc.co.uk/match/2645257/men/premier-league/2026-27/brighton-and-hove-albion-vs-crystal-palace-2026-10-18/"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/d07537b9/2026-2027/matchlogs/c9/keeper/Brighton-and-Hove-Albion-Match-Logs-Premier-League"
+    },
+    {
+      "title": "League team results",
+      "url": "https://fbref.com/en/squads/47c64c55/2026-2027/matchlogs/c9/schedule/Crystal-Palace-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Historical league head-to-head",
+      "url": "https://fbref.com/en/stathead/matchup/teams/d07537b9/47c64c55/Brighton-and-Hove-Albion-vs-Crystal-Palace-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-preview-hi.svg",
+      "alt": "Brighton Crystal Palace confirmed first six league games, recent five form, five head to head meetings and illustrative forecast.",
+      "caption": "Both clubs: six completed league matches. Poisson is uncalibrated, excludes home advantage, injuries and fatigue."
+    }
+  ]
+}
