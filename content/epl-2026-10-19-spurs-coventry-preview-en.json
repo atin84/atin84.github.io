@@ -1,0 +1,86 @@
+{
+  "id": "epl-2026-10-19-spurs-coventry-preview-en",
+  "slug": "epl-2026-10-19-spurs-coventry-preview-en",
+  "platform": "github",
+  "status": "ready",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "2026-27-MW7-TOT-COV",
+  "article_kind": "preview",
+  "translation_group": "epl-2026-10-19-spurs-coventry-preview",
+  "published_at": "2026-10-18T08:30:00Z",
+  "updated_at": "2026-10-18T08:30:00Z",
+  "title": "Spurs v Coventry: two straight wins for the promoted side, none yet for Tottenham",
+  "description": "Tottenham v Coventry 19 Oct 2026 — six-match goals comparison, last-five form, historical league meeting timeline, transparent baseline.",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:en"
+  ],
+  "sections": [
+    {
+      "heading": "Why this game matters",
+      "paragraphs": [
+        "Tottenham have gone six league matches without a win, scoring just three times. Coventry lost their first four league games but have now won two consecutively, most recently 4–1 against Newcastle. Monday's fixture asks whether Spurs can break down a team that frequently sits deep and plays forward early."
+      ]
+    },
+    {
+      "heading": "Current strengths and pressure points",
+      "paragraphs": [
+        "Tottenham's six games produced three goals for and nine against: 0.50 scored and 1.50 allowed per match. Coventry's six produced five for and 11 against: 0.83 scored and 1.83 allowed. Coventry also completed just 76.3% of passes and held 37.9% possession, but 41.5% of their passes went forward according to the Premier League's weekly tactical analysis. This contrast is more useful than invented team ratings."
+      ]
+    },
+    {
+      "heading": "Recent five and historical meetings",
+      "paragraphs": [
+        "Spurs' last five league games were Newcastle 0–2, Forest 0–0, Everton 0–0, Aston Villa 2–3, Man United 1–1: three draws and two defeats. Coventry lost to Hull 0–1, Man City 0–1 and Brighton 0–5, then beat Forest 1–0 and Newcastle 4–1: two wins after three defeats. The last five Premier League head-to-head games were played back in 1999–2001. Coventry were outside the top flight for 25 years; treating those fixtures as recent form would be misleading."
+      ],
+      "bullets": [
+        "2001-03-17 · Tottenham 3–0 Coventry",
+        "2000-10-14 · Coventry 2–1 Tottenham",
+        "2000-02-26 · Coventry 0–1 Tottenham",
+        "1999-09-19 · Tottenham 3–2 Coventry",
+        "1999-02-06 · Tottenham 0–0 Coventry"
+      ]
+    },
+    {
+      "heading": "Reference model, not a betting prediction",
+      "paragraphs": [
+        "A simple independent Poisson baseline from the two six-game scoring and conceding averages yields equal expected goal rates. It does not reflect home advantage, current lineup and injury news, or whether Coventry's last two wins signal sustainable improvement. It is not a calibrated probability and is presented as an illustrative calculation."
+      ],
+      "bullets": [
+        "Uncalibrated Poisson: Tottenham 35.9%, draw 28.1%, Coventry 35.9%",
+        "Both teams λ=1.167, no home or current lineups"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League: tactical key questions for MW7",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    },
+    {
+      "title": "2026–27 Tottenham completed league results",
+      "url": "https://fbref.com/en/squads/361ca564/2026-2027/matchlogs/c9/schedule/Tottenham-Hotspur-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "2026–27 Coventry completed league results",
+      "url": "https://fbref.com/en/squads/f7e3dfe9/2026-2027/matchlogs/c9/schedule/Coventry-City-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Official historic Spurs vs Coventry match history",
+      "url": "https://www.premierleague.com/en/match/2645548/coventry-city-vs-tottenham-hotspur/stats"
+    },
+    {
+      "title": "League result history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/f7e3dfe9/361ca564/Coventry-City-vs-Tottenham-Hotspur-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-19-spurs-coventry-preview-en.svg",
+      "alt": "Tottenham vs Coventry: first-six-match goals and goals allowed, last five league results, historical 1999-2001 meetings and uncalibrated Poisson comparison.",
+      "caption": "H2H meetings are from 1999–2001 (not recent form). Reference model uncalibrated; injuries/home effect excluded."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "epl-2026-10-19-spurs-coventry-preview-de",
+  "slug": "epl-2026-10-19-spurs-coventry-preview-de",
+  "platform": "github",
+  "status": "ready",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "2026-27-MW7-TOT-COV",
+  "article_kind": "preview",
+  "translation_group": "epl-2026-10-19-spurs-coventry-preview",
+  "published_at": "2026-10-18T08:30:00Z",
+  "updated_at": "2026-10-18T08:30:00Z",
+  "title": "Tottenham gegen Coventry: Sechs Spiele ohne Sieg gegen zwei Siege in Folge",
+  "description": "Tottenham v Coventry 19 Oct 2026 — six-match goals comparison, last-five form, historical league meeting timeline, transparent baseline.",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:de"
+  ],
+  "sections": [
+    {
+      "heading": "Warum das Spiel zählt",
+      "paragraphs": [
+        "Tottenham ist nach sechs Ligaspielen noch ohne Sieg und erzielte nur drei Tore. Aufsteiger Coventry verlor zunächst viermal, gewann zuletzt aber zweimal – einschließlich eines 4:1 gegen Newcastle. Zwei entgegengesetzte Trends treffen aufeinander."
+      ]
+    },
+    {
+      "heading": "Statistik im Vergleich",
+      "paragraphs": [
+        "Tottenham erzielte in sechs Spielen drei Tore und kassierte neun (0,50 beziehungsweise 1,50 pro Spiel). Coventry kam auf fünf Tore und elf Gegentore (0,83 und 1,83). Laut Premier League beträgt die Coventry-Passquote 76,3%, der Ballbesitz 37,9%, aber 41,5% aller Pässe werden nach vorn gespielt."
+      ]
+    },
+    {
+      "heading": "Letzte Spiele und alte Duelle",
+      "paragraphs": [
+        "Tottenham verlor gegen Newcastle, spielte remis gegen Forest und Everton, verlor gegen Villa und spielte gegen United remis: drei Remis und zwei Niederlagen. Coventry verlor gegen Hull, City und Brighton, gewann danach gegen Forest und Newcastle. Die letzten fünf Ligaduelle stammen aus 1999–2001 und spiegeln die heutigen Teams nicht wider."
+      ],
+      "bullets": [
+        "2001-03-17 · Tottenham 3–0 Coventry",
+        "2000-10-14 · Coventry 2–1 Tottenham",
+        "2000-02-26 · Coventry 0–1 Tottenham",
+        "1999-09-19 · Tottenham 3–2 Coventry",
+        "1999-02-06 · Tottenham 0–0 Coventry"
+      ]
+    },
+    {
+      "heading": "Schätzmodell und Grenzen",
+      "paragraphs": [
+        "Das unkalibrierte Poisson-Modell nutzt die erzielten und kassierten Tore der sechs Spiele. Heimvorteil, Verletzungen und jüngste Entwicklung fehlen. Keine Wettquoten."
+      ],
+      "bullets": [
+        "Uncalibrated Poisson: Tottenham 35.9%, draw 28.1%, Coventry 35.9%",
+        "Both teams λ=1.167, no home or current lineups"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League: tactical key questions for MW7",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    },
+    {
+      "title": "2026–27 Tottenham completed league results",
+      "url": "https://fbref.com/en/squads/361ca564/2026-2027/matchlogs/c9/schedule/Tottenham-Hotspur-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "2026–27 Coventry completed league results",
+      "url": "https://fbref.com/en/squads/f7e3dfe9/2026-2027/matchlogs/c9/schedule/Coventry-City-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Official historic Spurs vs Coventry match history",
+      "url": "https://www.premierleague.com/en/match/2645548/coventry-city-vs-tottenham-hotspur/stats"
+    },
+    {
+      "title": "League result history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/f7e3dfe9/361ca564/Coventry-City-vs-Tottenham-Hotspur-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-19-spurs-coventry-preview-de.svg",
+      "alt": "Tottenham vs Coventry: first-six-match goals and goals allowed, last five league results, historical 1999-2001 meetings and uncalibrated Poisson comparison.",
+      "caption": "H2H meetings are from 1999–2001 (not recent form). Reference model uncalibrated; injuries/home effect excluded."
+    }
+  ]
+}

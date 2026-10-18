@@ -1,0 +1,86 @@
+{
+  "id": "epl-2026-10-19-spurs-coventry-preview-es",
+  "slug": "epl-2026-10-19-spurs-coventry-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2026-27-MW7-TOT-COV",
+  "article_kind": "preview",
+  "translation_group": "epl-2026-10-19-spurs-coventry-preview",
+  "published_at": "2026-10-18T08:30:00Z",
+  "updated_at": "2026-10-18T08:30:00Z",
+  "title": "Tottenham–Coventry: los Spurs siguen sin ganar, el recién ascendido suma dos triunfos",
+  "description": "Tottenham v Coventry 19 Oct 2026 — six-match goals comparison, last-five form, historical league meeting timeline, transparent baseline.",
+  "labels": [
+    "Premier League",
+    "Match preview",
+    "lang:es"
+  ],
+  "sections": [
+    {
+      "heading": "Por qué importa",
+      "paragraphs": [
+        "Tottenham lleva seis jornadas sin ganar y solo tres goles a favor. Coventry perdió los cuatro primeros partidos, pero ahora suma dos victorias consecutivas, incluida una goleada 4–1 ante Newcastle. Se enfrentan dos tendencias opuestas."
+      ]
+    },
+    {
+      "heading": "Fortalezas en cifras",
+      "paragraphs": [
+        "Tottenham marcó 3 y encajó 9 en seis jornadas (0,50 a favor y 1,50 en contra por partido). Coventry marcó 5 y recibió 11 (0,83 y 1,83). El análisis oficial de la Premier League indica que Coventry completa el 76,3% de los pases, posee el 37,9% del balón y juega hacia delante en el 41,5% de sus pases."
+      ]
+    },
+    {
+      "heading": "Forma reciente y antecedentes antiguos",
+      "paragraphs": [
+        "Los cinco últimos encuentros de Tottenham fueron Newcastle 0–2, Forest 0–0, Everton 0–0, Aston Villa 2–3 y Man United 1–1: tres empates y dos derrotas. Coventry perdió ante Hull, City y Brighton antes de vencer a Forest y Newcastle. Sus cinco últimos duelos de Premier League entre sí datan de 1999–2001: no describen las plantillas actuales."
+      ],
+      "bullets": [
+        "2001-03-17 · Tottenham 3–0 Coventry",
+        "2000-10-14 · Coventry 2–1 Tottenham",
+        "2000-02-26 · Coventry 0–1 Tottenham",
+        "1999-09-19 · Tottenham 3–2 Coventry",
+        "1999-02-06 · Tottenham 0–0 Coventry"
+      ]
+    },
+    {
+      "heading": "Estimación sin calibración",
+      "paragraphs": [
+        "El modelo Poisson compara los promedios de goles marcados y recibidos en seis jornadas y obtiene expectativas similares. Ignora localía, lesiones, titulares y evolución reciente. No son cuotas ni probabilidades validadas."
+      ],
+      "bullets": [
+        "Uncalibrated Poisson: Tottenham 35.9%, draw 28.1%, Coventry 35.9%",
+        "Both teams λ=1.167, no home or current lineups"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League: tactical key questions for MW7",
+      "url": "https://www.premierleague.com/en/news/4737266/ten-key-questions-for-matchweek-7s-fixtures"
+    },
+    {
+      "title": "2026–27 Tottenham completed league results",
+      "url": "https://fbref.com/en/squads/361ca564/2026-2027/matchlogs/c9/schedule/Tottenham-Hotspur-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "2026–27 Coventry completed league results",
+      "url": "https://fbref.com/en/squads/f7e3dfe9/2026-2027/matchlogs/c9/schedule/Coventry-City-Scores-and-Fixtures-Premier-League"
+    },
+    {
+      "title": "Official historic Spurs vs Coventry match history",
+      "url": "https://www.premierleague.com/en/match/2645548/coventry-city-vs-tottenham-hotspur/stats"
+    },
+    {
+      "title": "League result history",
+      "url": "https://fbref.com/en/stathead/matchup/teams/f7e3dfe9/361ca564/Coventry-City-vs-Tottenham-Hotspur-History"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2026-10-19-spurs-coventry-preview-es.svg",
+      "alt": "Tottenham vs Coventry: first-six-match goals and goals allowed, last five league results, historical 1999-2001 meetings and uncalibrated Poisson comparison.",
+      "caption": "H2H meetings are from 1999–2001 (not recent form). Reference model uncalibrated; injuries/home effect excluded."
+    }
+  ]
+}
