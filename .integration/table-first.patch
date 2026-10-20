@@ -1,0 +1,111 @@
+diff --git a/assets/style.css b/assets/style.css
+index 2cde287..07feab7 100644
+--- a/assets/style.css
++++ b/assets/style.css
+@@ -176,4 +176,39 @@ html:lang(hi) h1, html:lang(hi) h2, html:lang(hi) h3 { letter-spacing: normal; }
+ .qi-statistics { margin:2rem 0; padding:1rem; background:#fff; border:1px solid #d6e2e8; border-radius:14px; }
+ @media (max-width:620px) { .qi-data-table {font-size:.8rem;} .qi-data-table th,.qi-data-table td {padding:.65rem .7rem;} }
+ 
++
++/* Structured match summary: one fact per row, no prose in a bitmap. */
++.qi-match-overview { margin:1.4rem 0 2rem; padding:clamp(1rem,3vw,1.5rem); border:1px solid #d6e2e8; border-radius:16px; background:#fff; color:#172f40; box-shadow:0 8px 24px rgba(23,47,64,.05); }
++.qi-match-overview * { box-sizing:border-box; }
++.qi-match-heading { display:flex; justify-content:space-between; align-items:center; gap:.7rem; }
++.qi-match-heading h2 { margin:0; font-size:1.2rem; line-height:1.4; }
++.qi-match-status { padding:.3rem .7rem; border-radius:30px; background:#eaf2f6; color:#235467; font-size:.8rem; font-weight:700; white-space:nowrap; }
++.qi-fixture-pair { display:flex; gap:.8rem; justify-content:center; align-items:center; text-align:center; padding:.8rem 0; font-size:1.1rem; }
++.qi-fixture-pair strong { flex:1; overflow-wrap:anywhere; }
++.qi-fixture-pair span { color:#66778b; font-size:.8rem; }
++.qi-scoreboard { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:.85rem; align-items:center; margin:1.2rem 0 .4rem; text-align:center; }
++.qi-scoreboard > div { min-width:0; display:flex; flex-direction:column; gap:.3rem; }
++.qi-scoreboard strong { overflow-wrap:anywhere; font-size:1.02rem; line-height:1.4; }
++.qi-scoreboard small { color:#536c7b; font-size:.75rem; }
++.qi-scoreboard > div:first-child strong { color:#087d85; }
++.qi-scoreboard > div:last-child strong { color:#3762b4; }
++.qi-score { display:flex; gap:.35rem; font-size:clamp(2rem,7vw,3rem); line-height:1.1; font-variant-numeric:tabular-nums; }
++.qi-score span { font-weight:400; color:#81909a; }
++.qi-half-score { text-align:center; color:#536c7b; margin:.3rem 0 1.1rem; font-size:.88rem; }
++.qi-match-facts { border-collapse:collapse; width:100%; table-layout:fixed; font-size:.92rem; line-height:1.65; }
++.qi-match-facts th,.qi-match-facts td { padding:.65rem .75rem; text-align:left; vertical-align:top; border-bottom:1px solid #e2e9ed; overflow-wrap:anywhere; }
++.qi-match-facts th { width:29%; background:#f1f6f8; color:#314c5c; font-weight:650; }
++.qi-match-facts time { font-variant-numeric:tabular-nums; }
++.qi-match-source { color:#536c7b; font-size:.75rem; line-height:1.7; margin:.9rem 0 0; overflow-wrap:anywhere; }
++.qi-goal-table { min-width:0; table-layout:fixed; }
++.qi-own-goal { display:inline-block; font-size:.73rem; color:#536c7b; border:1px solid #d6e2e8; border-radius:4px; padding:0 .25rem; }
++.qi-visually-hidden { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }
++@media(max-width:620px) { .qi-match-facts { font-size:.85rem; } .qi-match-facts th { width:31%; } .qi-match-facts th,.qi-match-facts td { padding:.6rem .5rem; } .qi-scoreboard { gap:.45rem; } .qi-scoreboard strong { font-size:.87rem; } }
++
++
++.qi-goal-table { min-width:0; table-layout:fixed; }
++.qi-goal-table th:first-child { width:15%; min-width:0; }
++.qi-goal-table th:last-child { width:22%; }
++.qi-goal-table td,.qi-goal-table th { padding:.7rem .45rem; overflow-wrap:anywhere; }
++.qi-goal-side { display:block; margin-top:.15rem; color:#536c7b; font-size:.68rem; }
+ /* QI_WIDGET_END */
+diff --git a/build.py b/build.py
+index 5056723..7fc57d9 100644
+--- a/build.py
++++ b/build.py
+@@ -203,6 +203,9 @@ import importlib.util as _importlib
+ _tables_spec = _importlib.spec_from_file_location('qi_comparison_tables', Path(__file__).resolve().parent / 'scripts' / 'comparison_tables.py')
+ _tables = _importlib.module_from_spec(_tables_spec)
+ _tables_spec.loader.exec_module(_tables)
++_overview_spec = _importlib.spec_from_file_location('qi_match_overview', Path(__file__).resolve().parent / 'scripts' / 'match_overview.py')
++_overview = _importlib.module_from_spec(_overview_spec)
++_overview_spec.loader.exec_module(_overview)
+ 
+ 
+ def normalize_preview_comparison(value, league, kind):
+@@ -432,6 +435,7 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False)
+         **metadata,
+         "figures": clean_figures,
+         "preview_comparison": comparison,
++        "match_overview": _overview.normalize(raw.get("match_overview"), metadata["league"], metadata["article_kind"], metadata["match_id"]),
+         "official_comparison": _tables.normalize(raw.get("official_comparison"), metadata["league"], metadata["article_kind"], "official_comparison"),
+         "football_statistics": _tables.normalize(raw.get("football_statistics"), metadata["league"], metadata["article_kind"], "football_statistics"),
+         "blogger_url": blogger_url,
+@@ -633,7 +637,7 @@ def article_body(article: dict, config: dict) -> str:
+     for figure in article.get("figures", []):
+         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
+         pictures.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
+-    has_components = any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics"))
++    has_components = any(article.get(k) for k in ("match_overview", "preview_comparison", "official_comparison", "football_statistics"))
+     if not has_components:
+         blocks.extend(pictures)
+     for index, section in enumerate(article["sections"]):
+@@ -645,6 +649,8 @@ def article_body(article: dict, config: dict) -> str:
+             blocks.append("<ul>" + "".join(f"<li>{esc(item)}</li>" for item in section["bullets"]) + "</ul>")
+         blocks.append("</section>")
+         if index == 0 and has_components:
++            if article.get("match_overview"):
++                blocks.append(_overview.render(article["match_overview"], config["language"]))
+             if article.get("preview_comparison"):
+                 blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
+             for field in ("official_comparison", "football_statistics"):
+@@ -882,7 +888,7 @@ def blogger_payload(article: dict, config: dict) -> dict:
+     config = localized_config(config, article)
+     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
+     widget_style = ""
+-    if any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics")):
++    if any(article.get(k) for k in ("match_overview", "preview_comparison", "official_comparison", "football_statistics")):
+         style = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+         widget_style = "<style>" + style.split("/* QI_WIDGET_START */", 1)[1].split("/* QI_WIDGET_END */", 1)[0] + "</style>"
+     content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{widget_style}{navigation}{article_body(article, config)}</div>'
+diff --git a/scripts/comparison_tables.py b/scripts/comparison_tables.py
+index 00205ba..29a1a27 100644
+--- a/scripts/comparison_tables.py
++++ b/scripts/comparison_tables.py
+@@ -6,10 +6,10 @@ import math
+ from urllib.parse import urlsplit, parse_qsl
+ 
+ UI = {
+- 'en': ('Date','Opponent','Score','Result','Metric','Unit','Source','No data','Official team comparison','Match data comparison','Expected value','Defense and pressing','Creation and progression','Passing and possession','Goalkeeping','Scope'),
+- 'ko': ('날짜','상대팀','스코어','결과','지표','단위','출처','자료 없음','공식 팀 전력 비교','경기 데이터 비교','기대 가치','수비·압박','찬스 창출·전진','패스·점유','골키퍼','집계 범위'),
++ 'en': ('Date','Opponent','Score','Result','Metric','Unit','Source','No data','Team record comparison','Match data comparison','Expected value','Defense and pressing','Creation and progression','Passing and possession','Goalkeeping','Scope'),
++ 'ko': ('날짜','상대팀','스코어','결과','지표','단위','출처','자료 없음','동일 기간 팀 기록 비교','경기 데이터 비교','기대 가치','수비·압박','찬스 창출·전진','패스·점유','골키퍼','집계 범위'),
+  'es': ('Fecha','Rival','Marcador','Resultado','Métrica','Unidad','Fuente','Sin datos','Comparación de equipos','Datos del partido','Valor esperado','Defensa y presión','Creación y progresión','Pases y posesión','Portería','Periodo'),
+- 'ja': ('日付','対戦相手','スコア','結果','指標','単位','出典','データなし','公式チーム比較','試合データ比較','期待値','守備・プレス','創出・前進','パス・保持','ゴールキーパー','集計範囲'),
++ 'ja': ('日付','対戦相手','スコア','結果','指標','単位','出典','データなし','チーム成績比較','試合データ比較','期待値','守備・プレス','創出・前進','パス・保持','ゴールキーパー','集計範囲'),
+  'pt-BR': ('Data','Adversário','Placar','Resultado','Métrica','Unidade','Fonte','Sem dados','Comparação das equipes','Dados da partida','Valor esperado','Defesa e pressão','Criação e progressão','Passes e posse','Goleiros','Período'),
+  'fr': ('Date','Adversaire','Score','Résultat','Indicateur','Unité','Source','Indisponible','Comparaison des équipes','Données du match','Valeur attendue','Défense et pressing','Création et progression','Passes et possession','Gardiens','Période'),
+  'de': ('Datum','Gegner','Ergebnis','Ausgang','Kennzahl','Einheit','Quelle','Keine Daten','Teamvergleich','Spieldaten','Erwartungswerte','Abwehr und Pressing','Kreation und Fortschritt','Pässe und Ballbesitz','Torhüter','Zeitraum'),
