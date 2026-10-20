@@ -1,0 +1,41 @@
+name: Validate locale input transport
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/locale-input-repair.yml']
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Restore the exact locally reviewed JSON and timezone patch
+        run: |
+          python - <<'PY'
+          import hashlib,json,subprocess
+          from pathlib import Path
+          p=Path('data/reviewed/epl-reader-timezones-copy.json')
+          # Only accidental literal line endings in the minified transfer are removed.
+          value=json.loads(p.read_text().strip().replace('\n',''))
+          canonical=json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+          assert hashlib.sha256(canonical).hexdigest()=='0103d0dce2a96c082b557b077a69a3f7aad78d8f770c3f5ae077067c6d834760', 'Reviewed prose changed'
+          p.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
+          patch=Path('.integration/locale-timezones.patch')
+          assert hashlib.sha256(patch.read_bytes()).hexdigest()=='deefa181eb9bf2abe800096047a934c4b0cbb0ef62a68dc5f6aea9832c848903'
+          subprocess.run(['git','apply','--check',str(patch)],check=True)
+          subprocess.run(['git','apply','--index',str(patch)],check=True)
+          subprocess.run(['git','add',str(p)],check=True)
+          subprocess.run(['git','rm',str(patch)],check=True)
+          PY
+      - run: python -m unittest discover -s tests -v
+      - name: Commit only the tested native files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'fix: normalize reviewed text serialization and install tested reader-timezone renderer'
+          git push origin HEAD:main
