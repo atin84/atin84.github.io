@@ -317,7 +317,9 @@ def preview_comparison_html(c, language):
             for m in g:
                 tip = m["date"] + " " + m["opponent"] + " " + str(m["for"]) + ":" + str(m["against"])
                 out.append('<li class="qi-outcome-' + m["result"].lower() + '" title="' + esc(tip) +
-                           '"><strong>' + m["result"] + '</strong><small>' + esc(m["opponent"]) + '</small></li>')
+                           '"><strong>' + m["result"] + '</strong><small>' + esc(m["opponent"]) +
+                           '</small><small class="qi-result-score">' + str(m["for"]) + '–' +
+                           str(m["against"]) + '</small></li>')
             out.append('</ol>')
         out.append('</div>')
     out.append('</div><div class="qi-reference">' + link("recent") + '</div></section>')
@@ -629,12 +631,13 @@ def article_body(article: dict, config: dict) -> str:
     blocks = []
     if article["description"]:
         blocks.append(f'<p class="article-summary">{esc(article["description"])}</p>')
-    if article.get("preview_comparison"):
-        blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
+    pictures = []
     for figure in article.get("figures", []):
         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
-        blocks.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
-    for section in article["sections"]:
+        pictures.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
+    if not article.get("preview_comparison"):
+        blocks.extend(pictures)
+    for index, section in enumerate(article["sections"]):
         blocks.append("<section>")
         if section["heading"]:
             blocks.append(f'<h2>{esc(section["heading"])}</h2>')
@@ -642,6 +645,9 @@ def article_body(article: dict, config: dict) -> str:
         if section["bullets"]:
             blocks.append("<ul>" + "".join(f"<li>{esc(item)}</li>" for item in section["bullets"]) + "</ul>")
         blocks.append("</section>")
+        if index == 0 and article.get("preview_comparison"):
+            blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
+            blocks.extend(pictures)
     if article["sources"]:
         items = "".join(f'<li><a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"])}</a></li>' for source in article["sources"])
         blocks.append(f'<section class="sources"><h2>{words(config)["sources"]}</h2><ol>{items}</ol></section>')
