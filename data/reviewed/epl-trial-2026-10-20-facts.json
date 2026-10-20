@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-20T14:00:25+00:00",
+  "sources": {
+    "fixture": {"title":"Premier League — Aston Villa v Manchester City, match 2645266","url":"https://www.premierleague.com/en/match/2645266/aston-villa-vs-manchester-city"},
+    "schedule": {"title":"Premier League — October and November fixture amendments","url":"https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"},
+    "pre_stats": {"title":"ESPN — Aston Villa v Manchester City: season and match records","url":"https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"},
+    "city_seven": {"title":"Manchester City — Seventh league victory against Ipswich","url":"https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"},
+    "villa_forest": {"title":"Aston Villa — Villa 1–2 Nottingham Forest, 12 September 2026","url":"https://www.avfc.co.uk/news/2026/september/12/report-aston-villa-v-forest/"},
+    "villa_hull": {"title":"Premier League — Hull City 0–0 Aston Villa, 5 September 2026","url":"https://www.premierleague.com/en/match/2645220/hull-city-vs-aston-villa"},
+    "city_cov": {"title":"Manchester City — City 1–0 Coventry, 5 September 2026","url":"https://www.mancity.com/news/mens/manchester-city-v-coventry-city-match-report-63924211"},
+    "city_united": {"title":"Manchester City — Foden returns after the 1–0 derby win on 13 September","url":"https://www.mancity.com/citytv/mens/foden-post-ipswich-citytv-reaction-pl-17-oct-63927837"},
+    "h2h1": {"title":"Manchester City — City 1–2 Villa, 24 May 2026","url":"https://www.mancity.com/news/mens/city-v-aston-villa-guardiola-stones-bernardo-last-game-63915228"},
+    "h2h2": {"title":"Manchester City — Villa 1–0 City, 26 October 2025","url":"https://www.mancity.com/news/mens/aston-villa-man-city-premier-league-match-report-october-2025-63897080"},
+    "h2h3": {"title":"Manchester City — City 2–1 Villa, 22 April 2025","url":"https://www.mancity.com/news/mens/city-v-aston-villa-match-preview-pl-22-april-63880659"},
+    "h2h4": {"title":"Manchester City — Villa 2–1 City, 21 December 2024","url":"https://es.mancity.com/news/mens/previa-aston-villa-city-premier-league-1-63870220"},
+    "h2h5": {"title":"Manchester City — City 4–1 Villa, 3 April 2024","url":"https://www.mancity.com/news/mens/aston-villa-home-premier-league-match-report-63847759"},
+    "rec_fixture": {"title":"Premier League — Tottenham 3–1 Coventry, match 2645264","url":"https://www.premierleague.com/en/match/2645264/tottenham-hotspur-vs-coventry-city"},
+    "rec_stats": {"title":"ESPN — Tottenham v Coventry: match statistics and events","url":"https://www.espn.com/soccer/matchstats/_/gameId/401879257"},
+    "rec_report": {"title":"Tottenham Hotspur — Three points on memorable night against Coventry","url":"https://www.tottenhamhotspur.com/news/1179187/three-points-on-memorable-night-against-coventry"},
+    "rec_verdict": {"title":"Tottenham Hotspur — Roberto De Zerbi's verdict after Coventry","url":"https://www.tottenhamhotspur.com/news/1179214/spurs-3-1-coventry-roberto-de-zerbis-verdict"},
+    "old_preview": {"title":"QuickIris — The original Tottenham–Coventry preview","url":"https://atin84.github.io/posts/epl-2026-10-19-spurs-coventry-preview-en/"}
+  },
+  "preview": {
+    "id":"epl-2645266-preview",
+    "official_id":"2645266",
+    "provider_id":"401879256",
+    "start_utc":"2026-10-24T11:30:00Z",
+    "venue":"Villa Park",
+    "home":"Aston Villa",
+    "away":"Manchester City",
+    "status":"scheduled",
+    "season":"2026-27",
+    "source_ids":["fixture","schedule","pre_stats","city_seven","villa_forest","villa_hull","city_cov","city_united","h2h1","h2h2","h2h3","h2h4","h2h5"],
+    "season_rows":[
+      ["games_played","Matches played","games",7,7],
+      ["rank","League position","rank",12,1],
+      ["points","Points","points",8,21],
+      ["wins","Wins","games",2,7],
+      ["goals_for","Goals scored","goals",7,19],
+      ["goals_against","Goals conceded","goals",11,7],
+      ["goal_assists","Assists","count",6,15]
+    ],
+    "recent_home":[
+      ["2026-10-17","Newcastle United",1,0,"pre_stats"],
+      ["2026-10-10","Brentford",2,2,"pre_stats"],
+      ["2026-09-19","Tottenham Hotspur",3,2,"pre_stats"],
+      ["2026-09-12","Nottingham Forest",1,2,"villa_forest"],
+      ["2026-09-05","Hull City",0,0,"villa_hull"]
+    ],
+    "recent_away":[
+      ["2026-10-17","Ipswich Town",3,2,"pre_stats"],
+      ["2026-10-11","Liverpool",3,0,"pre_stats"],
+      ["2026-09-20","Sunderland",5,3,"pre_stats"],
+      ["2026-09-13","Manchester United",1,0,"city_united"],
+      ["2026-09-05","Coventry City",1,0,"city_cov"]
+    ],
+    "head_to_head":[
+      ["2026-05-24","Manchester City","Aston Villa",1,2,"h2h1"],
+      ["2025-10-26","Aston Villa","Manchester City",1,0,"h2h2"],
+      ["2025-04-22","Manchester City","Aston Villa",2,1,"h2h3"],
+      ["2024-12-21","Aston Villa","Manchester City",2,1,"h2h4"],
+      ["2024-04-03","Manchester City","Aston Villa",4,1,"h2h5"]
+    ]
+  },
+  "recap": {
+    "id":"epl-2645264-recap",
+    "official_id":"2645264",
+    "provider_id":"401879257",
+    "start_utc":"2026-10-19T19:00:00Z",
+    "venue":"Tottenham Hotspur Stadium",
+    "home":"Tottenham Hotspur",
+    "away":"Coventry City",
+    "status":"final",
+    "season":"2026-27",
+    "final_score":[3,1],
+    "halftime_score":[1,0],
+    "final_minute":99,
+    "source_ids":["rec_fixture","rec_stats","rec_report","rec_verdict","old_preview"],
+    "goals":[
+      [14,"14'","James Maddison","home",1,0],
+      [49,"49'","Jack Rudoni","away",1,1],
+      [58,"58'","Omar Marmoush","home",2,1],
+      [96,"90+6'","Ben Davies","home",3,1]
+    ],
+    "observed": {
+      "totalShots":[16,12],
+      "shotsOnTarget":[5,1],
+      "possessionPct":[65.4,34.6],
+      "accuratePasses":[499,222],
+      "totalPasses":[559,287],
+      "effectiveTackles":[8,7],
+      "totalTackles":[13,17],
+      "accurateLongBalls":[10,30],
+      "totalLongBalls":[27,62],
+      "interceptions":[6,13],
+      "foulsCommitted":[15,14],
+      "yellowCards":[1,3],
+      "saves":[0,2]
+    },
+    "unavailable_in_verified_input":["xg","npxg","xag","xa","xga","psxg","xt","ppda","opda","sca","gca","field_tilt_pct"]
+  }
+}
