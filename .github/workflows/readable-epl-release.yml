@@ -1,0 +1,168 @@
+name: Readable EPL preview and recap release
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/reviewed/epl-readable-2026-10-20-*.json'
+      - 'data/reviewed/match-summary-layout.patch'
+      - 'scripts/import_structured_stories.py'
+      - 'scripts/match_summary.py'
+      - 'tests/test_match_summary.py'
+      - '.github/workflows/readable-epl-release.yml'
+permissions:
+  contents: read
+concurrency:
+  group: readable-epl-reviewed-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'Pillow>=11,<13' 'fonttools>=4.60,<5'
+      - name: Apply only the reviewed renderer and CSS patch
+        run: |
+          python - <<'PY'
+          import hashlib,subprocess
+          from pathlib import Path
+          patch=Path('data/reviewed/match-summary-layout.patch')
+          data=patch.read_bytes()
+          assert hashlib.sha256(data).hexdigest()=='59b76fc95cdfe81b98a64f6e227a59a4912837152c8cbfc772ec9717cae934b7'
+          targets=[s[6:] for s in data.decode().splitlines() if s.startswith('+++ b/')]
+          assert targets==['build.py','assets/style.css']
+          if '"match_summary": _match.normalize' not in Path('build.py').read_text():
+              subprocess.run(['git','apply','--check',str(patch)],check=True)
+              subprocess.run(['git','apply',str(patch)],check=True)
+          PY
+      - name: Refresh sources and generate two reviewed eight-language stories
+        run: |
+          python scripts/import_structured_stories.py --facts data/reviewed/epl-readable-2026-10-20-facts.json --text data/reviewed/epl-readable-2026-10-20-text.json --out reports --refresh
+      - name: Test summaries, old posts, all generated tables and actual time conversions
+        run: |
+          python -m unittest discover -s tests -v
+          python build.py --out /tmp/readable-site --blogger-out /tmp/readable-blogger
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          assert len(r['articles'])==16 and len(r['images'])==2
+          for src in r['articles']:
+              a=json.loads(Path(src).read_text())
+              body=(Path('/tmp/readable-site/posts')/a['slug']/'index.html').read_text()
+              assert r['revision'] in body and 'qi-match-summary' in body and 'qi-match-facts' in body
+              assert '<html lang="'+a['language']+'"' in body and 'qi-data-table' in body
+              if a['language']=='ko' and a['article_kind']=='preview':
+                  assert '2026-10-25 (일)' in body and '23:00' in body and 'GMT' in body
+              if a['language']=='ko' and a['article_kind']=='recap':
+                  assert '5 – 0' in body and '3–0' in body and '자책골' in body and '득점 타임라인' in body
+          PY
+      - name: Save inspectable output and current public source
+        run: |
+          mkdir -p reports/site
+          cp -r /tmp/readable-site/assets reports/site/
+          python - <<'PY'
+          import json,shutil
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          for src in r['articles']:
+              a=json.loads(Path(src).read_text())
+              shutil.copytree(Path('/tmp/readable-site/posts')/a['slug'],Path('reports/site/posts')/a['slug'],dirs_exist_ok=True)
+          PY
+          tar --exclude='__pycache__' -czf reports/source.tgz build.py assets scripts tests config.json data/reviewed content
+      - uses: actions/upload-artifact@v4
+        with:
+          name: readable-epl-review
+          path: reports/
+          retention-days: 3
+      - name: Require the inspected content revision before publication
+        id: approval
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          p=Path('data/reviewed/epl-readable-2026-10-20-release.json')
+          publish=False
+          if p.exists():
+              decision=json.loads(p.read_text())
+              assert decision['revision']==r['revision']
+              assert decision['operation']=='publish-two-structured-stories'
+              assert decision['mode']=='supervised-publication'
+              publish=True
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('publish='+str(publish).lower()+'\n')
+          print('Publish approved revision:',publish)
+          PY
+      - name: Commit native renderer and only the new story groups
+        if: steps.approval.outputs.publish == 'true'
+        run: |
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          subprocess.run(['git','add','--','build.py','assets/style.css',*r['articles'],*r['images']],check=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'content: publish table-first Liverpool-Brighton preview and Brighton-Palace recap'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD | tee reports/published-commit.txt
+      - uses: actions/configure-pages@v5
+        if: steps.approval.outputs.publish == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.approval.outputs.publish == 'true'
+        with:
+          path: /tmp/readable-site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        if: steps.approval.outputs.publish == 'true'
+      - name: Verify all live cards, tables, languages and shared images
+        if: steps.approval.outputs.publish == 'true'
+        run: |
+          python - <<'PY'
+          import hashlib,json,time
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          r=json.loads(Path('reports/release-report.json').read_text())
+          checks=[]
+          for attempt in range(4):
+              checks=[]
+              try:
+                  for src,url in zip(r['articles'],r['urls']):
+                      a=json.loads(Path(src).read_text())
+                      with urlopen(Request(url,headers={'User-Agent':'QuickIris-Release-Verification/2'}),timeout=15) as response:body=response.read().decode()
+                      assert r['revision'] in body and '<html lang="'+a['language']+'"' in body
+                      assert 'qi-match-summary' in body and a['figures'][0]['src'] in body
+                      if a['article_kind']=='recap':assert 'qi-match-goals' in body
+                      checks.append({'url':url,'language':a['language'],'summary_verified':True})
+                  for image,expected in r['image_hashes'].items():
+                      with urlopen('https://atin84.github.io/'+image,timeout=15) as response:raw=response.read()
+                      assert hashlib.sha256(raw).hexdigest()==expected
+                  break
+              except Exception:
+                  if attempt==3:raise
+                  time.sleep(10)
+          Path('reports/live-checks.json').write_text(json.dumps({'articles':checks,'images_verified':2,'mode':'supervised-publication','model_api_calls':0},ensure_ascii=False,indent=2))
+          print('Verified',len(checks),'live cards and 2 shared images')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.approval.outputs.publish == 'true'
+        with:
+          name: readable-epl-live-verification
+          path: |
+            reports/live-checks.json
+            reports/published-commit.txt
+            reports/release-report.json
+          retention-days: 7
