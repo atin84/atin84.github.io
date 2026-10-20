@@ -1,0 +1,380 @@
+{
+  "id": "epl-2645266-preview-ja",
+  "slug": "epl-2645266-preview-ja",
+  "platform": "github",
+  "status": "ready",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645266",
+  "article_kind": "preview",
+  "translation_group": "epl-2645266-preview",
+  "canonical_group": "EPL:2026-27:league:2645266:preview",
+  "quickiris_revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "title": "アストン・ヴィラ対マンチェスター・シティ：リーグ7連勝と相性の悪さが交差",
+  "description": "10月24日の試合を、今季7試合、直近リーグ5試合、直接対決5試合で比較。過去の勝率と今回の予想確率を区別します。",
+  "published_at": "2026-10-20T14:35:50.046625+00:00",
+  "updated_at": "2026-10-20T14:35:50.046625+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "この試合を見る理由",
+      "paragraphs": [
+        "リーグ7戦全勝のシティが、直近のリーグ直接対決5試合で3度敗れたヴィラと対戦します。現在の好調さが難しい相手との過去を上回るか、ヴィラ・パークで試されます。"
+      ]
+    },
+    {
+      "heading": "日時と会場",
+      "paragraphs": [
+        "2026年10月24日土曜日、ヴィラ・パークで12:30 BSTに開始予定です。UTCは11:30、日本・韓国時間は同日20:30です。この日は英国夏時間の期間内。10月20日時点で確認した予定なので、観戦前に公式ページを再確認してください。"
+      ]
+    },
+    {
+      "heading": "両チームの目標",
+      "paragraphs": [
+        "確認時点でシティは7試合21ポイントの首位、ヴィラは8ポイントの12位です。シティは全勝継続、ヴィラは最近の持ち直しを首位相手の結果につなげたいところです。ただし順位だけでは、これまでの対戦相手の強さは補正されません。"
+      ]
+    },
+    {
+      "heading": "今季の数字が示す差",
+      "paragraphs": [
+        "シティは19得点7失点、ヴィラは7得点11失点。いずれも7試合で割ると平均得点は2.71対1.00、平均失点は1.00対1.57です。この標本ではシティの攻撃生産性が高い一方、これは実得失点の単純平均であり、相手補正済みの指標や期待得点ではありません。"
+      ]
+    },
+    {
+      "heading": "直近5試合の勝率",
+      "paragraphs": [
+        "ヴィラは直近リーグ5試合で2勝2分1敗、過去の勝率は40%。シティは5勝で100%です。ヴィラは直近3試合無敗で、最新のニューカッスル戦はアウェーで1–0。親善試合と欧州大会は除外しています。これらの割合は土曜日に勝つ確率ではありません。"
+      ]
+    },
+    {
+      "heading": "直接対決の標本ではヴィラが3勝",
+      "paragraphs": [
+        "最新のプレミアリーグ直接対決5試合はヴィラ3勝、シティ2勝、引き分けなし。割合は60%対40%です。直近は2026年5月24日、ヴィラが敵地で2–1と勝利しました。表では当時のホーム側を保持しています。複数シーズンにまたがるため、現在のチーム条件と同一視はできません。"
+      ]
+    },
+    {
+      "heading": "注目する二つの問い",
+      "paragraphs": [
+        "ヴィラは今季すでに19得点のシティに与える得点機会を抑えられるでしょうか。また守備時間が増えるだけでなく、自分たちの攻撃の脅威を作れるでしょうか。先制点は双方の課題を変えますが、合計得失点だけからプレスや布陣は断定できません。"
+      ]
+    },
+    {
+      "heading": "選手情報と不確実性",
+      "paragraphs": [
+        "確定先発と完全な最新負傷者リストは今回の資料では検証していません。そのため特定選手の先発、出場可否、欠場を確定扱いしません。試合前の起用や別日程によって条件は変わり得ます。"
+      ]
+    },
+    {
+      "heading": "見通しと予測の限界",
+      "paragraphs": [
+        "今季7試合の成績はシティ優勢の根拠になります。一方で直接対決は、ヴィラ遠征を簡単な試合と見なさない理由です。校正済み予測モデルや検証済みオッズがないため、勝敗確率や予想スコアは作成しません。"
+      ]
+    },
+    {
+      "heading": "出典と計算方法",
+      "paragraphs": [
+        "公式試合IDはプレミアリーグ2645266。10月20日に確認したESPNの記録を基に、クラブとリーグの報告でリーグ戦績を補完しました。勝率は勝利数を終了済み標本試合数で割り、試合平均は7試合で算出して丸めています。割合だけでなく対象試合を確認できるように掲載しています。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League — Aston Villa v Manchester City, match 2645266",
+      "url": "https://www.premierleague.com/en/match/2645266/aston-villa-vs-manchester-city"
+    },
+    {
+      "title": "Premier League — October and November fixture amendments",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+    },
+    {
+      "title": "ESPN — Aston Villa v Manchester City: season and match records",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+    },
+    {
+      "title": "Manchester City — Seventh league victory against Ipswich",
+      "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"
+    },
+    {
+      "title": "Aston Villa — Villa 1–2 Nottingham Forest, 12 September 2026",
+      "url": "https://www.avfc.co.uk/news/2026/september/12/report-aston-villa-v-forest/"
+    },
+    {
+      "title": "Premier League — Hull City 0–0 Aston Villa, 5 September 2026",
+      "url": "https://www.premierleague.com/en/match/2645220/hull-city-vs-aston-villa"
+    },
+    {
+      "title": "Manchester City — City 1–0 Coventry, 5 September 2026",
+      "url": "https://www.mancity.com/news/mens/manchester-city-v-coventry-city-match-report-63924211"
+    },
+    {
+      "title": "Manchester City — Foden returns after the 1–0 derby win on 13 September",
+      "url": "https://www.mancity.com/citytv/mens/foden-post-ipswich-citytv-reaction-pl-17-oct-63927837"
+    },
+    {
+      "title": "Manchester City — City 1–2 Villa, 24 May 2026",
+      "url": "https://www.mancity.com/news/mens/city-v-aston-villa-guardiola-stones-bernardo-last-game-63915228"
+    },
+    {
+      "title": "Manchester City — Villa 1–0 City, 26 October 2025",
+      "url": "https://www.mancity.com/news/mens/aston-villa-man-city-premier-league-match-report-october-2025-63897080"
+    },
+    {
+      "title": "Manchester City — City 2–1 Villa, 22 April 2025",
+      "url": "https://www.mancity.com/news/mens/city-v-aston-villa-match-preview-pl-22-april-63880659"
+    },
+    {
+      "title": "Manchester City — Villa 2–1 City, 21 December 2024",
+      "url": "https://es.mancity.com/news/mens/previa-aston-villa-city-premier-league-1-63870220"
+    },
+    {
+      "title": "Manchester City — City 4–1 Villa, 3 April 2024",
+      "url": "https://www.mancity.com/news/mens/aston-villa-home-premier-league-match-report-63847759"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645266-preview-summary-en.svg",
+      "alt": "アストン・ヴィラとマンチェスター・シティの7試合時点の勝点、得失点、アシスト、試合平均を示す共通英語図。",
+      "caption": "全言語版で同じ英語図を使用。両チームともリーグ7試合が対象で、失点は少ない方が良い指標です。詳細な戦績はHTML表に掲載。"
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "リーグ直近5試合・直接対決2024–2026",
+    "sources": {
+      "recent": {
+        "title": "ESPN — Aston Villa v Manchester City: season and match records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+      },
+      "head_to_head": {
+        "title": "Manchester City — City 1–2 Villa, 24 May 2026",
+        "url": "https://www.mancity.com/news/mens/city-v-aston-villa-guardiola-stones-bernardo-last-game-63915228"
+      }
+    },
+    "home": {
+      "name": "Aston Villa",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Newcastle United",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 2
+        },
+        {
+          "date": "2026-09-19",
+          "opponent": "Tottenham Hotspur",
+          "for": 3,
+          "against": 2
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Nottingham Forest",
+          "for": 1,
+          "against": 2
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Hull City",
+          "for": 0,
+          "against": 0
+        }
+      ]
+    },
+    "away": {
+      "name": "Manchester City",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Ipswich Town",
+          "for": 3,
+          "against": 2
+        },
+        {
+          "date": "2026-10-11",
+          "opponent": "Liverpool",
+          "for": 3,
+          "against": 0
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Sunderland",
+          "for": 5,
+          "against": 3
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Manchester United",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Coventry City",
+          "for": 1,
+          "against": 0
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-05-24",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 1,
+        "away_score": 2
+      },
+      {
+        "date": "2025-10-26",
+        "home_team": "Aston Villa",
+        "away_team": "Manchester City",
+        "home_score": 1,
+        "away_score": 0
+      },
+      {
+        "date": "2025-04-22",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2024-12-21",
+        "home_team": "Aston Villa",
+        "away_team": "Manchester City",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2024-04-03",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 4,
+        "away_score": 1
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "2026/27リーグ・各7試合",
+    "home": "Aston Villa",
+    "away": "Manchester City",
+    "sources": [
+      {
+        "id": "pre_stats",
+        "provider": "ESPN",
+        "title": "ESPN — Aston Villa v Manchester City: season and match records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "試合数",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "rank",
+        "name": "順位",
+        "unit": "rank",
+        "home": 12,
+        "away": 1,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "points",
+        "name": "勝点",
+        "unit": "points",
+        "home": 8,
+        "away": 21,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "wins",
+        "name": "勝利",
+        "unit": "games",
+        "home": 2,
+        "away": 7,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_for",
+        "name": "得点",
+        "unit": "goals",
+        "home": 7,
+        "away": 19,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_against",
+        "name": "失点",
+        "unit": "goals",
+        "home": 11,
+        "away": 7,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goal_assists",
+        "name": "アシスト",
+        "unit": "count",
+        "home": 6,
+        "away": 15,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "平均得点",
+        "unit": "/match",
+        "home": 1.0,
+        "away": 2.71,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 GF / GP",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "平均失点",
+        "unit": "/match",
+        "home": 1.57,
+        "away": 1.0,
+        "category": "strength",
+        "period": "2026/27リーグ・各7試合",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 GA / GP",
+        "source_id": "pre_stats"
+      }
+    ]
+  }
+}

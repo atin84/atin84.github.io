@@ -1,0 +1,260 @@
+{
+  "id": "epl-2645264-recap-ko",
+  "slug": "epl-2645264-recap-ko",
+  "platform": "github",
+  "status": "ready",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645264",
+  "article_kind": "recap",
+  "translation_group": "epl-2645264-recap",
+  "canonical_group": "EPL:2026-27:league:2645264:recap",
+  "quickiris_revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "title": "토트넘 3–1 코번트리: 첫 승을 만든 동점 이후의 두 골",
+  "description": "매디슨·마르무시·데이비스의 골로 토트넘이 리그 첫 승을 거뒀습니다. 득점 시간과 점유율·패스·슈팅·수비 지표를 표로 비교하고, 확인되지 않은 고급 지표는 구분합니다.",
+  "published_at": "2026-10-20T14:35:50.046625+00:00",
+  "updated_at": "2026-10-20T14:35:50.046625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "한 문장으로 보는 결과",
+      "paragraphs": [
+        "토트넘은 코번트리의 동점골 이후 9분 만에 다시 앞서 나가고 추가시간에 쐐기골을 넣어 3–1로 이기며, 이번 시즌 리그 첫 승을 거뒀습니다."
+      ]
+    },
+    {
+      "heading": "최종 결과와 경기 시각",
+      "paragraphs": [
+        "경기는 2026년 10월 19일 월요일 토트넘 홋스퍼 스타디움에서 영국시간 20:00 BST, UTC 19:00에 시작했습니다. 한국시간으로는 10월 20일 화요일 새벽 4시입니다. 전반은 토트넘의 1–0 리드, 최종 결과는 3–1입니다. 기존 경기 전 글과는 별개인 종료 경기 리포트입니다."
+      ]
+    },
+    {
+      "heading": "승부를 바꾼 네 차례 득점",
+      "paragraphs": [
+        "14분 제임스 매디슨이 선제골을 넣었고, 49분 잭 루도니가 동점을 만들었습니다. 토트넘은 58분 오마르 마르무시의 골로 다시 앞섰으며 90+6분 벤 데이비스가 세 번째 골을 추가했습니다. 최종 스코어만 보면 여유 있는 승리처럼 보일 수 있지만, 후반 동점 상황을 다시 뒤집은 뒤 추가시간까지 한 골 차였다는 흐름이 중요합니다."
+      ]
+    },
+    {
+      "heading": "점유와 패스에서 앞섰지만, 찬스의 질까지 증명되지는 않는다",
+      "paragraphs": [
+        "점유율은 토트넘 65.4%, 코번트리 34.6%였고 슈팅은 16–12, 유효슈팅은 5–1이었습니다. 토트넘은 패스 559회 중 499회, 코번트리는 287회 중 222회를 성공했습니다. 실제 횟수로 계산한 성공률은 89.27%와 77.35%입니다. 공을 더 많이 연결하고 골문 안으로 보낸 슈팅도 많았다는 근거지만, 점유율 자체가 위험 지역 지배나 개별 찬스의 질을 증명하지는 않습니다.",
+        "인터셉트는 토트넘 6회, 코번트리 13회였고 파울은 15–14였습니다. 인터셉트가 많다는 것은 수비 부담이 컸다는 신호일 수도 있어 곧바로 더 좋은 수비였다고 해석하면 안 됩니다. 공급자가 집계한 성공 태클 비율은 8/13과 7/17이며, 다른 사이트의 태클 정의와 무조건 같다고 볼 수 없습니다."
+      ]
+    },
+    {
+      "heading": "득점자와 골키퍼 수치의 맥락",
+      "paragraphs": [
+        "토트넘은 매디슨·마르무시·데이비스가 한 골씩, 코번트리는 루도니가 한 골을 기록했습니다. 골키퍼 선방은 토트넘 0회, 코번트리 2회입니다. 상대 유효슈팅을 분모로 하면 각각 0/1과 2/5, 선방률 0%와 40%가 됩니다. 그러나 표본이 매우 작고 슈팅 난도가 반영되지 않아 골키퍼 실력 순위처럼 읽어서는 안 됩니다. PSxG를 이용한 선방 평가는 하지 않았습니다."
+      ]
+    },
+    {
+      "heading": "프리뷰에서 던진 질문에 대한 답",
+      "paragraphs": [
+        "기존 프리뷰의 핵심 질문은 리그 6경기 무승의 토트넘이 충분한 공격 위협을 만들 수 있느냐였습니다. 3득점과 첫 승이라는 결과는 그 질문에 긍정적인 답입니다. 다만 특정 압박이나 밀집 수비 공략 전술이 승리의 원인이었다는 결론까지 스코어만으로 확장할 수는 없습니다. 이전의 보정되지 않은 기준 모델을 정교한 예측이 적중한 것처럼 바꾸어 쓰지도 않습니다."
+      ]
+    },
+    {
+      "heading": "이번 승리로 달라진 것",
+      "paragraphs": [
+        "가장 직접적인 변화는 토트넘의 리그 무승 출발이 끝났다는 점입니다. 다음 과제는 이 공격 성과를 반복할 수 있느냐이지, 한 경기로 모든 문제가 해결됐다고 선언하는 것이 아닙니다. 2골 차 최종 결과와 후반 한때 1–1이었다는 사실을 함께 놓고 평가해야 합니다."
+      ]
+    },
+    {
+      "heading": "확보하지 못한 지표와 출처",
+      "paragraphs": [
+        "프리미어리그 경기 2645264, 토트넘 구단 보고서, ESPN 경기 기록을 사용했습니다. 이번에 검증한 입력에는 xG·npxG·xA/xAG·PSxG·xT·PPDA가 없어 임의로 채우지 않았습니다. 파생 성공률은 실제 횟수에서 계산해 반올림했으며 공급자별 정의가 다르면 수치도 달라질 수 있습니다. 이미지의 전후반 골 비교는 기대득점이 아니라 실제 득점입니다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League — Tottenham 3–1 Coventry, match 2645264",
+      "url": "https://www.premierleague.com/en/match/2645264/tottenham-hotspur-vs-coventry-city"
+    },
+    {
+      "title": "ESPN — Tottenham v Coventry: match statistics and events",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+    },
+    {
+      "title": "Tottenham Hotspur — Three points on memorable night against Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179187/three-points-on-memorable-night-against-coventry"
+    },
+    {
+      "title": "Tottenham Hotspur — Roberto De Zerbi's verdict after Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179214/spurs-3-1-coventry-roberto-de-zerbis-verdict"
+    },
+    {
+      "title": "QuickIris — The original Tottenham–Coventry preview",
+      "url": "https://atin84.github.io/posts/epl-2026-10-19-spurs-coventry-preview-en/"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645264-recap-summary-en.svg",
+      "alt": "토트넘의 코번트리전 3–1 승리를 실제 경기 지표, 네 차례 득점, 전후반 골, 누적 스코어와 득점자로 정리한 공통 영어 이미지.",
+      "caption": "스코어 그래프는 실제 득점 시점이며 xG나 점유율 모델이 아닙니다. 전후반 비교도 실제 골 수입니다. 모든 언어가 동일한 영어 이미지를 공유합니다."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "전체 경기 · 관측 횟수와 계산한 비율",
+    "home": "Tottenham Hotspur",
+    "away": "Coventry City",
+    "sources": [
+      {
+        "id": "rec_stats",
+        "provider": "ESPN",
+        "title": "ESPN — Tottenham v Coventry: match statistics and events",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "슈팅",
+        "unit": "#",
+        "home": 16,
+        "away": 12,
+        "category": "creation",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "유효슈팅",
+        "unit": "#",
+        "home": 5,
+        "away": 1,
+        "category": "creation",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "점유율",
+        "unit": "%",
+        "home": 65.4,
+        "away": 34.6,
+        "category": "passing",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "성공 패스",
+        "unit": "#",
+        "home": 499,
+        "away": 222,
+        "category": "passing",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "시도 패스",
+        "unit": "#",
+        "home": 559,
+        "away": 287,
+        "category": "passing",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "인터셉트",
+        "unit": "#",
+        "home": 6,
+        "away": 13,
+        "category": "defensive",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "fouls",
+        "name": "파울",
+        "unit": "#",
+        "home": 15,
+        "away": 14,
+        "category": "defensive",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "경고",
+        "unit": "#",
+        "home": 1,
+        "away": 3,
+        "category": "defensive",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "saves",
+        "name": "선방",
+        "unit": "#",
+        "home": 0,
+        "away": 2,
+        "category": "goalkeeping",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "패스 성공률",
+        "unit": "%",
+        "home": 89.27,
+        "away": 77.35,
+        "category": "passing",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. 499/559; 222/287 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "long_pass_completion_pct",
+        "name": "긴 패스 성공률",
+        "unit": "%",
+        "home": 37.04,
+        "away": 48.39,
+        "category": "passing",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. 10/27; 30/62 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "성공 태클 / 시도",
+        "unit": "%",
+        "home": 61.54,
+        "away": 41.18,
+        "category": "defensive",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. 8/13; 7/17 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "선방률",
+        "unit": "%",
+        "home": 0,
+        "away": 40,
+        "category": "goalkeeping",
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. 0/1; 2/5 × 100",
+        "source_id": "rec_stats"
+      }
+    ]
+  }
+}

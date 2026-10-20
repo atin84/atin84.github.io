@@ -1,0 +1,380 @@
+{
+  "id": "epl-2645266-preview-fr",
+  "slug": "epl-2645266-preview-fr",
+  "platform": "github",
+  "status": "ready",
+  "language": "fr",
+  "league": "EPL",
+  "match_id": "2645266",
+  "article_kind": "preview",
+  "translation_group": "epl-2645266-preview",
+  "canonical_group": "EPL:2026-27:league:2645266:preview",
+  "quickiris_revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "title": "Aston Villa–Manchester City : sept victoires de suite face à un adversaire gênant",
+  "description": "Avant-match du 24 octobre : sept journées de championnat, cinq résultats récents et cinq confrontations. Les taux historiques ne sont pas des probabilités prédictives.",
+  "published_at": "2026-10-20T14:35:50.046625+00:00",
+  "updated_at": "2026-10-20T14:35:50.046625+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "Pourquoi suivre ce match",
+      "paragraphs": [
+        "City a remporté ses sept matches de championnat, mais Villa a gagné trois des cinq dernières confrontations de Premier League : Villa Park permettra de voir si la domination actuelle l'emporte sur un passé inconfortable."
+      ]
+    },
+    {
+      "heading": "Horaire et stade",
+      "paragraphs": [
+        "Coup d'envoi le samedi 24 octobre 2026 à Villa Park, à 12:30 BST, soit 11:30 UTC et 20:30 en Corée. L'heure d'été britannique est encore en vigueur. Ce programme a été vérifié le 20 octobre ; consultez de nouveau la page officielle avant le match."
+      ]
+    },
+    {
+      "heading": "Les enjeux",
+      "paragraphs": [
+        "Au moment de cette vérification, City est premier avec 21 points en sept journées et Villa 12e avec huit points. City peut prolonger son départ parfait ; Villa peut convertir son redressement récent en résultat contre le leader. Le classement ne corrige toutefois pas la difficulté des adversaires déjà rencontrés."
+      ]
+    },
+    {
+      "heading": "Ce que montrent les chiffres de saison",
+      "paragraphs": [
+        "City compte 19 buts marqués et sept encaissés, contre sept et 11 pour Villa. Avec le même dénominateur de sept matches, les moyennes offensives sont de 2.71 et 1.00 ; les moyennes de buts encaissés de 1.00 et 1.57. L'avantage offensif de City est net dans cet échantillon, mais il s'agit de buts réels, pas de xG ni d'une évaluation ajustée aux adversaires."
+      ]
+    },
+    {
+      "heading": "La forme sur cinq matches",
+      "paragraphs": [
+        "Villa affiche deux victoires, deux nuls et une défaite, soit 40% de victoires historiques. City a remporté les cinq matches, soit 100%. Villa reste invaincu sur ses trois dernières sorties de championnat, avec un succès 1–0 à Newcastle pour finir. Amicaux et compétitions européennes sont exclus. Ces pourcentages ne donnent pas les chances de gagner samedi."
+      ]
+    },
+    {
+      "heading": "Les confrontations : trois succès pour Villa",
+      "paragraphs": [
+        "Sur les cinq derniers duels de Premier League, Villa mène trois victoires à deux, sans nul : 60% contre 40%. Le dernier s'est terminé par son succès 2–1 à Manchester le 24 mai 2026. Le tableau conserve l'équipe réellement à domicile. Plusieurs saisons et contextes se succèdent : ce bilan est un éclairage, pas une preuve de favoritisme actuel."
+      ]
+    },
+    {
+      "heading": "Deux questions à observer",
+      "paragraphs": [
+        "Villa peut-il limiter les occasions d'un City déjà auteur de 19 buts ? Peut-il aussi créer sa propre menace plutôt que seulement défendre plus longtemps ? Le premier but modifierait les problèmes des deux équipes, mais les totaux ne suffisent pas à établir leur dispositif ou leur pressing."
+      ]
+    },
+    {
+      "heading": "Effectif et incertitudes",
+      "paragraphs": [
+        "Les compositions définitives et une liste complète de blessures à jour n'ont pas été vérifiées ici. Aucun joueur n'est donc annoncé comme titulaire certain, disponible ou absent confirmé. Les choix d'équipe et les rencontres intermédiaires peuvent modifier l'équilibre avant le coup d'envoi."
+      ]
+    },
+    {
+      "heading": "Notre lecture, sans fausses cotes",
+      "paragraphs": [
+        "Les sept journées actuelles apportent davantage d'arguments en faveur de City ; l'historique récent invite à ne pas banaliser le déplacement. Faute de modèle calibré ou de cotes vérifiées, nous ne fabriquons ni probabilités domicile/nul/extérieur ni score prévu."
+      ]
+    },
+    {
+      "heading": "Sources et méthode",
+      "paragraphs": [
+        "L'identifiant officiel est Premier League 2645266. Les données ESPN ont été vérifiées le 20 octobre, puis complétées par les comptes rendus des clubs et de la ligue. Le taux de victoire divise les succès par les rencontres terminées ; les moyennes utilisent sept matches et sont arrondies. L'historique permet de contrôler l'échantillon derrière chaque pourcentage."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League — Aston Villa v Manchester City, match 2645266",
+      "url": "https://www.premierleague.com/en/match/2645266/aston-villa-vs-manchester-city"
+    },
+    {
+      "title": "Premier League — October and November fixture amendments",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+    },
+    {
+      "title": "ESPN — Aston Villa v Manchester City: season and match records",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+    },
+    {
+      "title": "Manchester City — Seventh league victory against Ipswich",
+      "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"
+    },
+    {
+      "title": "Aston Villa — Villa 1–2 Nottingham Forest, 12 September 2026",
+      "url": "https://www.avfc.co.uk/news/2026/september/12/report-aston-villa-v-forest/"
+    },
+    {
+      "title": "Premier League — Hull City 0–0 Aston Villa, 5 September 2026",
+      "url": "https://www.premierleague.com/en/match/2645220/hull-city-vs-aston-villa"
+    },
+    {
+      "title": "Manchester City — City 1–0 Coventry, 5 September 2026",
+      "url": "https://www.mancity.com/news/mens/manchester-city-v-coventry-city-match-report-63924211"
+    },
+    {
+      "title": "Manchester City — Foden returns after the 1–0 derby win on 13 September",
+      "url": "https://www.mancity.com/citytv/mens/foden-post-ipswich-citytv-reaction-pl-17-oct-63927837"
+    },
+    {
+      "title": "Manchester City — City 1–2 Villa, 24 May 2026",
+      "url": "https://www.mancity.com/news/mens/city-v-aston-villa-guardiola-stones-bernardo-last-game-63915228"
+    },
+    {
+      "title": "Manchester City — Villa 1–0 City, 26 October 2025",
+      "url": "https://www.mancity.com/news/mens/aston-villa-man-city-premier-league-match-report-october-2025-63897080"
+    },
+    {
+      "title": "Manchester City — City 2–1 Villa, 22 April 2025",
+      "url": "https://www.mancity.com/news/mens/city-v-aston-villa-match-preview-pl-22-april-63880659"
+    },
+    {
+      "title": "Manchester City — Villa 2–1 City, 21 December 2024",
+      "url": "https://es.mancity.com/news/mens/previa-aston-villa-city-premier-league-1-63870220"
+    },
+    {
+      "title": "Manchester City — City 4–1 Villa, 3 April 2024",
+      "url": "https://www.mancity.com/news/mens/aston-villa-home-premier-league-match-report-63847759"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645266-preview-summary-en.svg",
+      "alt": "Infographie anglaise comparant points, buts, passes décisives et moyennes de Villa et City après sept rencontres de championnat.",
+      "caption": "Un même graphique anglais pour toutes les langues. Les chiffres portent sur sept matches par équipe ; moins de buts encaissés est préférable. Les historiques détaillés figurent en tableaux HTML."
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "Premier League seulement · 5 derniers; duels 2024–2026",
+    "sources": {
+      "recent": {
+        "title": "ESPN — Aston Villa v Manchester City: season and match records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+      },
+      "head_to_head": {
+        "title": "Manchester City — City 1–2 Villa, 24 May 2026",
+        "url": "https://www.mancity.com/news/mens/city-v-aston-villa-guardiola-stones-bernardo-last-game-63915228"
+      }
+    },
+    "home": {
+      "name": "Aston Villa",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Newcastle United",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 2
+        },
+        {
+          "date": "2026-09-19",
+          "opponent": "Tottenham Hotspur",
+          "for": 3,
+          "against": 2
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Nottingham Forest",
+          "for": 1,
+          "against": 2
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Hull City",
+          "for": 0,
+          "against": 0
+        }
+      ]
+    },
+    "away": {
+      "name": "Manchester City",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Ipswich Town",
+          "for": 3,
+          "against": 2
+        },
+        {
+          "date": "2026-10-11",
+          "opponent": "Liverpool",
+          "for": 3,
+          "against": 0
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Sunderland",
+          "for": 5,
+          "against": 3
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Manchester United",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Coventry City",
+          "for": 1,
+          "against": 0
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-05-24",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 1,
+        "away_score": 2
+      },
+      {
+        "date": "2025-10-26",
+        "home_team": "Aston Villa",
+        "away_team": "Manchester City",
+        "home_score": 1,
+        "away_score": 0
+      },
+      {
+        "date": "2025-04-22",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2024-12-21",
+        "home_team": "Aston Villa",
+        "away_team": "Manchester City",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2024-04-03",
+        "home_team": "Manchester City",
+        "away_team": "Aston Villa",
+        "home_score": 4,
+        "away_score": 1
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "Premier League 2026/27 · 7 par équipe",
+    "home": "Aston Villa",
+    "away": "Manchester City",
+    "sources": [
+      {
+        "id": "pre_stats",
+        "provider": "ESPN",
+        "title": "ESPN — Aston Villa v Manchester City: season and match records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879256/manchester-city-aston-villa"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "Matches",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "rank",
+        "name": "Classement",
+        "unit": "rank",
+        "home": 12,
+        "away": 1,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "points",
+        "name": "Points",
+        "unit": "points",
+        "home": 8,
+        "away": 21,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "wins",
+        "name": "Victoires",
+        "unit": "games",
+        "home": 2,
+        "away": 7,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_for",
+        "name": "Buts marqués",
+        "unit": "goals",
+        "home": 7,
+        "away": 19,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_against",
+        "name": "Buts encaissés",
+        "unit": "goals",
+        "home": 11,
+        "away": 7,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goal_assists",
+        "name": "Passes décisives",
+        "unit": "count",
+        "home": 6,
+        "away": 15,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions.",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "Buts par match",
+        "unit": "/match",
+        "home": 1.0,
+        "away": 2.71,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. GF / GP",
+        "source_id": "pre_stats"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "Encaissés par match",
+        "unit": "/match",
+        "home": 1.57,
+        "away": 1.0,
+        "category": "strength",
+        "period": "Premier League 2026/27 · 7 par équipe",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. GA / GP",
+        "source_id": "pre_stats"
+      }
+    ]
+  }
+}

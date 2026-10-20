@@ -1,0 +1,260 @@
+{
+  "id": "epl-2645264-recap-ja",
+  "slug": "epl-2645264-recap-ja",
+  "platform": "github",
+  "status": "ready",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645264",
+  "article_kind": "recap",
+  "translation_group": "epl-2645264-recap",
+  "canonical_group": "EPL:2026-27:league:2645264:recap",
+  "quickiris_revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "title": "トッテナム3–1コヴェントリー：同点後の2ゴールでリーグ初勝利",
+  "description": "マディソン、マルムシュ、デイヴィスが得点。得点経過、保持率、パス、シュート、守備を表で比較し、未確認の高度指標は区別します。",
+  "published_at": "2026-10-20T14:35:50.046625+00:00",
+  "updated_at": "2026-10-20T14:35:50.046625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "結果を一文で",
+      "paragraphs": [
+        "トッテナムは同点にされてから9分後に勝ち越し、追加時間に2点差としてコヴェントリーを3–1で破り、今季リーグ初勝利を挙げました。"
+      ]
+    },
+    {
+      "heading": "最終結果と日時",
+      "paragraphs": [
+        "2026年10月19日月曜日、トッテナム・ホットスパー・スタジアムで20:00 BST、19:00 UTCに開始。日本・韓国時間では10月20日火曜日04:00でした。前半は1–0、最終結果は3–1です。既存のプレビューとは別の終了試合レポートです。"
+      ]
+    },
+    {
+      "heading": "勝負を形作った四つのゴール",
+      "paragraphs": [
+        "14分にジェームズ・マディソンが先制。49分にジャック・ルドニが同点とし、58分にオマル・マルムシュが再びトッテナムを前に出しました。ベン・デイヴィスが90+6分に3点目。試合の大半が3–1だったわけではなく、後半の同点と終盤までの1点差を忘れてはいけません。"
+      ]
+    },
+    {
+      "heading": "保持とパスでは優位、機会の質は別問題",
+      "paragraphs": [
+        "保持率は65.4%対34.6%、シュート16–12、枠内5–1。パス成功はトッテナム499/559、コヴェントリー222/287で、計算上の成功率は89.27%と77.35%です。ボール循環と枠内への出力が多かった根拠にはなりますが、保持率だけで危険地帯の支配や個々の決定機の質は証明できません。",
+        "インターセプトはコヴェントリー13、トッテナム6。ファウルは14対15でした。遮断数の多さは守備負担の大きさも反映し得ます。提供元の成功タックル比率は8/13と7/17で、他社の定義と無条件に同じとは扱えません。"
+      ]
+    },
+    {
+      "heading": "得点者とGK数値の注意点",
+      "paragraphs": [
+        "トッテナムはマディソン、マルムシュ、デイヴィス、コヴェントリーはルドニが得点。セーブはトッテナム0回、相手枠内1本に対して0/1。コヴェントリーは相手枠内5本に2回で2/5、割合は0%と40%です。非常に小さな標本でシュート難度もないため、GKの能力順位にはできません。PSxGによる評価は行っていません。"
+      ]
+    },
+    {
+      "heading": "プレビューの問いへの答え",
+      "paragraphs": [
+        "既存プレビューでは、リーグ6試合未勝利のトッテナムが十分な脅威を作れるかを問いました。3得点と初勝利は結果として肯定的な答えです。ただし特定のプレスや低いブロック攻略が原因だったとスコアだけで断定はできません。過去の未校正モデルを精密予測の的中として書き換えることもしません。"
+      ]
+    },
+    {
+      "heading": "この勝利が変えるもの",
+      "paragraphs": [
+        "直接的な変化は、トッテナムのリーグ未勝利スタートが終わったことです。次の課題は攻撃成果の再現性であり、一度の勝利で全課題が解決したと考えることではありません。最終的な2点差と途中の1–1を両方評価すべきです。"
+      ]
+    },
+    {
+      "heading": "データの範囲と出典",
+      "paragraphs": [
+        "プレミアリーグ2645264、トッテナムの報告、ESPNの試合記録を使用。今回の確認入力にxG、npxG、xA/xAG、PSxG、xT、PPDAはなく、推測で埋めていません。割合は実数から計算して丸め、提供元ごとの定義差にも注意が必要です。図の前後半ゴールは期待得点ではありません。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League — Tottenham 3–1 Coventry, match 2645264",
+      "url": "https://www.premierleague.com/en/match/2645264/tottenham-hotspur-vs-coventry-city"
+    },
+    {
+      "title": "ESPN — Tottenham v Coventry: match statistics and events",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+    },
+    {
+      "title": "Tottenham Hotspur — Three points on memorable night against Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179187/three-points-on-memorable-night-against-coventry"
+    },
+    {
+      "title": "Tottenham Hotspur — Roberto De Zerbi's verdict after Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179214/spurs-3-1-coventry-roberto-de-zerbis-verdict"
+    },
+    {
+      "title": "QuickIris — The original Tottenham–Coventry preview",
+      "url": "https://atin84.github.io/posts/epl-2026-10-19-spurs-coventry-preview-en/"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645264-recap-summary-en.svg",
+      "alt": "トッテナムの3–1勝利を比較統計、4得点の経過、前後半のゴール、スコア推移、得点者で示す英語図。",
+      "caption": "スコア推移は実際の得点時点で、xGや保持率モデルではありません。前後半比較も実得点です。全言語版が同じ英語図を使用します。"
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "試合全体・観測回数と計算率",
+    "home": "Tottenham Hotspur",
+    "away": "Coventry City",
+    "sources": [
+      {
+        "id": "rec_stats",
+        "provider": "ESPN",
+        "title": "ESPN — Tottenham v Coventry: match statistics and events",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "シュート",
+        "unit": "#",
+        "home": 16,
+        "away": 12,
+        "category": "creation",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "枠内シュート",
+        "unit": "#",
+        "home": 5,
+        "away": 1,
+        "category": "creation",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "保持率",
+        "unit": "%",
+        "home": 65.4,
+        "away": 34.6,
+        "category": "passing",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "成功パス",
+        "unit": "#",
+        "home": 499,
+        "away": 222,
+        "category": "passing",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "試行パス",
+        "unit": "#",
+        "home": 559,
+        "away": 287,
+        "category": "passing",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "インターセプト",
+        "unit": "#",
+        "home": 6,
+        "away": 13,
+        "category": "defensive",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "fouls",
+        "name": "ファウル",
+        "unit": "#",
+        "home": 15,
+        "away": 14,
+        "category": "defensive",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "警告",
+        "unit": "#",
+        "home": 1,
+        "away": 3,
+        "category": "defensive",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "saves",
+        "name": "セーブ",
+        "unit": "#",
+        "home": 0,
+        "away": 2,
+        "category": "goalkeeping",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "パス成功率",
+        "unit": "%",
+        "home": 89.27,
+        "away": 77.35,
+        "category": "passing",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 499/559; 222/287 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "long_pass_completion_pct",
+        "name": "ロングパス成功率",
+        "unit": "%",
+        "home": 37.04,
+        "away": 48.39,
+        "category": "passing",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 10/27; 30/62 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "成功タックル / 試行",
+        "unit": "%",
+        "home": 61.54,
+        "away": 41.18,
+        "category": "defensive",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 8/13; 7/17 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "セーブ率",
+        "unit": "%",
+        "home": 0,
+        "away": 40,
+        "category": "goalkeeping",
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 0/1; 2/5 × 100",
+        "source_id": "rec_stats"
+      }
+    ]
+  }
+}

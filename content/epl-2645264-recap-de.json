@@ -1,0 +1,260 @@
+{
+  "id": "epl-2645264-recap-de",
+  "slug": "epl-2645264-recap-de",
+  "platform": "github",
+  "status": "ready",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "2645264",
+  "article_kind": "recap",
+  "translation_group": "epl-2645264-recap",
+  "canonical_group": "EPL:2026-27:league:2645264:recap",
+  "quickiris_revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "title": "Tottenham 3–1 Coventry: der erste Ligasieg entstand nach dem Ausgleich",
+  "description": "Maddison, Marmoush und Davies trafen beim ersten Ligasieg der Spurs. Torfolge sowie Ballbesitz-, Pass-, Schuss- und Abwehrtabellen, ohne fehlende Kennzahlen zu erfinden.",
+  "published_at": "2026-10-20T14:35:50.046625+00:00",
+  "updated_at": "2026-10-20T14:35:50.046625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "Das Ergebnis in einem Satz",
+      "paragraphs": [
+        "Tottenham gewann gegen Coventry 3–1 und holte den ersten Ligasieg, ging neun Minuten nach dem Ausgleich erneut in Führung und stellte erst in der Nachspielzeit den Zwei-Tore-Abstand her."
+      ]
+    },
+    {
+      "heading": "Endstand und Spielzeit",
+      "paragraphs": [
+        "Anpfiff im Tottenham Hotspur Stadium war am Montag, 19. Oktober 2026, um 20:00 BST beziehungsweise 19:00 UTC; in Korea war es Dienstag, 20. Oktober, 04:00. Zur Pause stand es 1–0, am Ende 3–1. Dieser Bericht betrifft das abgeschlossene Ligaspiel und ist von der vorhandenen Vorschau getrennt."
+      ]
+    },
+    {
+      "heading": "Die vier entscheidenden Treffer",
+      "paragraphs": [
+        "James Maddison traf in Minute 14 zur Führung. Jack Rudoni glich in Minute 49 aus, bevor Omar Marmoush Tottenham in Minute 58 wieder nach vorn brachte. Ben Davies erzielte bei 90+6 das dritte Tor. Der Zeitpunkt ist wichtig: 3–1 stand es nicht während des Großteils der Partie; Coventrys Ausgleich nach der Pause darf nicht verloren gehen."
+      ]
+    },
+    {
+      "heading": "Mehr Ballbesitz, aber keine vollständige Chancenbewertung",
+      "paragraphs": [
+        "Der Ballbesitz lag bei 65.4% zu 34.6%, die Schüsse bei 16–12 und die Torschüsse bei 5–1. Tottenham brachte 499 von 559 Pässen an, Coventry 222 von 287: berechnete Quoten von 89.27% und 77.35%. Das stützt mehr Ballzirkulation und mehr Abschlüsse aufs Tor, beweist aber allein weder territoriale Dominanz noch die Qualität einzelner Chancen.",
+        "Coventry verbuchte 13 Interceptions gegenüber sechs, die Fouls lagen bei 14 zu 15. Mehr abgefangene Bälle können auch höhere Defensivbelastung bedeuten. Die erfolgreichen Tacklings des Anbieters stehen bei 8/13 und 7/17; dessen Nenner ist maßgeblich, nicht eine angenommene allgemeine Definition."
+      ]
+    },
+    {
+      "heading": "Torschützen und Torhüter-Kontext",
+      "paragraphs": [
+        "Maddison, Marmoush und Davies trafen für Tottenham, Rudoni für Coventry. Erfasst wurden null Spurs-Paraden bei einem gegnerischen Torschuss und zwei Coventry-Paraden bei fünf: 0% und 40%. Ohne Schussschwierigkeit eignet sich diese winzige Stichprobe nicht für ein Torhüter-Ranking. Eine PSxG-basierte Bewertung wird nicht behauptet."
+      ]
+    },
+    {
+      "heading": "Was die Vorschaufrage beantwortet",
+      "paragraphs": [
+        "Die vorhandene Vorschau fragte, ob Tottenham nach sechs sieglosen Ligaspielen ausreichend Gefahr erzeugen könne. Drei Tore und der erste Sieg beantworten die Ergebnisfrage positiv. Sie beweisen jedoch nicht allein, dass ein bestimmtes Pressing oder das Bespielen eines tiefen Blocks ursächlich war. Eine frühere unkalibrierte Grundlage wird nicht nachträglich als treffsichere kalibrierte Prognose dargestellt."
+      ]
+    },
+    {
+      "heading": "Was sich jetzt ändert",
+      "paragraphs": [
+        "Unmittelbar endet Tottenhams siegloser Ligastart. Der nächste Test ist die Wiederholbarkeit dieser Offensivleistung, nicht die Behauptung, ein Sieg löse alle Probleme. Sowohl der Zwei-Tore-Endabstand als auch die Phase beim Stand von 1–1 gehören zur Einordnung."
+      ]
+    },
+    {
+      "heading": "Datenlücken und Quellen",
+      "paragraphs": [
+        "Verwendet wurden Premier-League-Spiel 2645264, Tottenhams Bericht und ESPN-Spielstatistiken. xG, npxG, xA/xAG, PSxG, xT und PPDA waren im hier verifizierten Datensatz nicht enthalten und wurden nicht erfunden. Abgeleitete Quoten beruhen auf echten Zählwerten und Rundung; Anbieterdefinitionen können abweichen. Tore je Halbzeit sind ausdrücklich keine xG."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Premier League — Tottenham 3–1 Coventry, match 2645264",
+      "url": "https://www.premierleague.com/en/match/2645264/tottenham-hotspur-vs-coventry-city"
+    },
+    {
+      "title": "ESPN — Tottenham v Coventry: match statistics and events",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+    },
+    {
+      "title": "Tottenham Hotspur — Three points on memorable night against Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179187/three-points-on-memorable-night-against-coventry"
+    },
+    {
+      "title": "Tottenham Hotspur — Roberto De Zerbi's verdict after Coventry",
+      "url": "https://www.tottenhamhotspur.com/news/1179214/spurs-3-1-coventry-roberto-de-zerbis-verdict"
+    },
+    {
+      "title": "QuickIris — The original Tottenham–Coventry preview",
+      "url": "https://atin84.github.io/posts/epl-2026-10-19-spurs-coventry-preview-en/"
+    }
+  ],
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645264-recap-summary-en.svg",
+      "alt": "Englischer Überblick zum 3–1 mit Statistikvergleich, vier Torereignissen, Halbzeitwerten, Spielstandverlauf und Torschützen.",
+      "caption": "Die Kurve zeigt beobachtete Tore, kein xG- oder Ballbesitzmodell. Die Halbzeitauswertung zählt echte Treffer. Alle Sprachen teilen diese englische Grafik."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T14:00:25+00:00",
+    "scope": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+    "home": "Tottenham Hotspur",
+    "away": "Coventry City",
+    "sources": [
+      {
+        "id": "rec_stats",
+        "provider": "ESPN",
+        "title": "ESPN — Tottenham v Coventry: match statistics and events",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879257"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "Schüsse",
+        "unit": "#",
+        "home": 16,
+        "away": 12,
+        "category": "creation",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "Torschüsse",
+        "unit": "#",
+        "home": 5,
+        "away": 1,
+        "category": "creation",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "Ballbesitz",
+        "unit": "%",
+        "home": 65.4,
+        "away": 34.6,
+        "category": "passing",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "Angekommene Pässe",
+        "unit": "#",
+        "home": 499,
+        "away": 222,
+        "category": "passing",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "Passversuche",
+        "unit": "#",
+        "home": 559,
+        "away": 287,
+        "category": "passing",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "Abgefangene Bälle",
+        "unit": "#",
+        "home": 6,
+        "away": 13,
+        "category": "defensive",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "fouls",
+        "name": "Fouls",
+        "unit": "#",
+        "home": 15,
+        "away": 14,
+        "category": "defensive",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "Gelbe Karten",
+        "unit": "#",
+        "home": 1,
+        "away": 3,
+        "category": "defensive",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "saves",
+        "name": "Paraden",
+        "unit": "#",
+        "home": 0,
+        "away": 2,
+        "category": "goalkeeping",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen.",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "Passquote",
+        "unit": "%",
+        "home": 89.27,
+        "away": 77.35,
+        "category": "passing",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. 499/559; 222/287 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "long_pass_completion_pct",
+        "name": "Lange Passquote",
+        "unit": "%",
+        "home": 37.04,
+        "away": 48.39,
+        "category": "passing",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. 10/27; 30/62 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "Erfolgreiche Tacklings / Versuche",
+        "unit": "%",
+        "home": 61.54,
+        "away": 41.18,
+        "category": "defensive",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. 8/13; 7/17 × 100",
+        "source_id": "rec_stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "Paradenquote",
+        "unit": "%",
+        "home": 0,
+        "away": 40,
+        "category": "goalkeeping",
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. 0/1; 2/5 × 100",
+        "source_id": "rec_stats"
+      }
+    ]
+  }
+}
