@@ -1,0 +1,8 @@
+{
+  "operation": "publish-two-reviewed-stories",
+  "mode": "supervised-publication-trial",
+  "revision": "93d051175bf25d6b068135dd15567608d4a2df2bcb1f87386b8b172d4ff0c402",
+  "story_groups": ["epl-2645266-preview", "epl-2645264-recap"],
+  "locales": ["en", "ko", "es", "ja", "pt-BR", "fr", "de", "hi"],
+  "images": 2
+}
