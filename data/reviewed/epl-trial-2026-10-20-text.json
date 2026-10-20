@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "preview": {
+    "en": {
+      "title": "Aston Villa vs Manchester City: seven straight wins meet an awkward opponent",
+      "description": "A 24 October preview comparing seven-match season records, the latest five league results and five head-to-head meetings—without turning historical win rates into a prediction.",
+      "alt": "English infographic comparing Aston Villa and Manchester City: league points, goals, assists and per-game scoring after seven matches.",
+      "caption": "One shared English graphic. Season totals use seven league matches; goals conceded are better when lower. The complete recent-results and head-to-head tables are in the article.",
+      "sections": [
+        ["Why this game is worth watching", "Manchester City have won all seven league games, but Aston Villa have won three of the last five league meetings between these clubs: Villa Park tests whether current dominance can outweigh an uncomfortable recent matchup."],
+        ["When and where", "Kick-off is Saturday 24 October 2026 at 12:30 BST at Villa Park: 11:30 UTC and 20:30 in Korea. Britain is still on summer time for this fixture. Check the official match page again before travelling or watching; this is the schedule verified on 20 October."],
+        ["What is at stake", "City enter this snapshot first with 21 points from seven games. Villa are 12th with eight points. Those standings describe the season so far, not the quality of every opponent faced. City can extend a perfect start; Villa have a chance to turn their recent recovery into a result against the leaders."],
+        ["Where the season numbers differ", "City have scored 19 and conceded seven; Villa have scored seven and conceded 11. Dividing by the same seven-game denominator gives 2.71 versus 1.00 goals scored per game, and 1.00 versus 1.57 conceded. City's attacking advantage is substantial in this sample, but these are raw averages, not opponent-adjusted ratings or expected goals."],
+        ["Recent league form: 40% is not a forecast", "Villa's latest five league results are two wins, two draws and one defeat: a 40% historical win rate. City won all five, giving 100%. Villa are unbeaten in their latest three league games, ending with a 1–0 win at Newcastle. Friendlies and European fixtures have been removed from the sample; neither percentage means the same chance of winning on Saturday."],
+        ["Head-to-head: Villa lead this five-game sample", "Villa won three of the latest five Premier League meetings and City two, with no draws: 60% versus 40%. The latest was Villa's 2–1 away win on 24 May 2026. The table preserves the actual home side in each meeting. This sample spans several seasons and different team circumstances, so it is context—not evidence that Villa are the statistical favourite now."],
+        ["Two questions to watch", "First, can Villa keep City's scoring opportunities scarce despite the visitors' 19-goal start? Second, can Villa create enough threat themselves rather than merely defend for longer? The opening goal would change the problem each team must solve, but the available totals do not establish how either side will press or which formation will be used."],
+        ["Players and uncertainty", "Confirmed line-ups and a complete, current injury list were not verified in this source snapshot. No player is labelled fit, unavailable or certain to start on that basis. Selection and any intervening matches can materially change the balance before kick-off."],
+        ["Our assessment—not betting odds", "The seven-game league record supports a stronger current case for City; Villa's recent head-to-head results argue against treating the fixture as routine. No calibrated win-probability model or verified odds feed was available for this report, so we do not invent a home/draw/away percentage or a predicted score."],
+        ["Sources and calculation notes", "Fixture identity is Premier League match 2645266. ESPN's season and match records were checked on 20 October, with club and league reports used to complete the league-only history. Win rate is wins divided by completed sampled games; per-game averages use seven matches and are rounded. Each historical result is listed so readers can inspect the denominator, not just the headline percentage."]
+      ]
+    },
+    "ko": {
+      "title": "애스턴 빌라–맨시티 프리뷰: 리그 7연승과 까다로운 맞대결의 충돌",
+      "description": "10월 24일 빌라 파크에서 만나는 두 팀. 시즌 7경기 기록, 최근 리그 5경기와 맞대결 5경기를 비교하되 과거 승률을 이번 경기의 승리 확률로 포장하지 않습니다.",
+      "alt": "애스턴 빌라와 맨체스터 시티의 리그 7경기 승점·득점·실점·도움과 경기당 득실점을 비교한 공통 영어 인포그래픽.",
+      "caption": "모든 언어판이 같은 영어 이미지를 사용합니다. 시즌 수치는 양팀 모두 리그 7경기 기준이며, 실점은 낮을수록 좋습니다. 상세 전적과 맞대결은 본문의 HTML 표에서 확인할 수 있습니다.",
+      "sections": [
+        ["이 경기를 봐야 하는 이유", "리그 7전 전승의 맨시티가 최근 리그 맞대결 5경기에서 3번 패한 애스턴 빌라를 만납니다. 현재의 압도적인 성적이 까다로웠던 상대와의 기억을 넘어설지 확인할 경기입니다."],
+        ["경기 시간과 장소", "2026년 10월 24일 토요일, 빌라 파크에서 영국 현지 12:30 BST에 시작합니다. UTC로는 11:30, 한국시간으로는 같은 날 저녁 8시 30분입니다. 이 경기는 영국 서머타임 종료 전입니다. 10월 20일 확인한 일정이므로 관람 직전 공식 경기 페이지에서 변경 여부를 다시 확인해야 합니다."],
+        ["양팀이 걸고 있는 것", "확인 시점의 맨시티는 7경기 승점 21로 1위, 빌라는 승점 8로 12위입니다. 맨시티에는 전승 행진을 이어갈 기회이고, 빌라에는 최근의 회복 흐름을 선두 팀을 상대로 증명할 기회입니다. 다만 순위만으로 지금까지 만난 상대의 난도까지 같았다고 볼 수는 없습니다."],
+        ["시즌 기록에서는 맨시티의 공격 우세", "맨시티는 19득점·7실점, 빌라는 7득점·11실점입니다. 같은 7경기로 나누면 경기당 득점은 2.71 대 1.00, 경기당 실점은 1.00 대 1.57입니다. 이번 표본에서는 맨시티의 공격 생산성이 뚜렷하게 앞섭니다. 하지만 상대 수준을 보정한 전력 지수나 기대득점이 아니라 실제 득실점의 단순 평균입니다."],
+        ["최근 5경기 승률: 빌라 40%, 맨시티 100%", "빌라는 최근 리그 5경기에서 2승 2무 1패, 맨시티는 5승을 기록했습니다. 빌라는 가장 최근 뉴캐슬 원정에서 1–0으로 이기며 최근 리그 3경기 무패를 이어갔습니다. 친선경기와 유럽대항전은 제외했습니다. 여기의 40%와 100%는 이미 끝난 경기의 승리 비율이지, 토요일에 이길 확률이 아닙니다."],
+        ["맞대결 5경기는 빌라가 3승", "최근 프리미어리그 맞대결 5경기는 빌라 3승, 맨시티 2승, 무승부 0회입니다. 같은 표본에서 계산한 승률은 60% 대 40%이며, 가장 최근인 2026년 5월 24일에는 빌라가 원정에서 2–1로 이겼습니다. 표에는 당시의 실제 홈팀을 그대로 표시했습니다. 여러 시즌에 걸친 기록이므로 현재의 선수 구성과 팀 상황을 동일하게 취급해서는 안 됩니다."],
+        ["관전 포인트 두 가지", "첫째는 빌라가 이번 시즌 이미 19골을 넣은 맨시티에 얼마나 적은 득점 기회를 허용할 수 있느냐입니다. 둘째는 수비 시간만 늘리는 데 그치지 않고 자기 공격의 위협을 만들 수 있느냐입니다. 선제골은 이후 양팀의 과제를 바꾸겠지만, 득실점 합계만으로 압박 방식이나 선발 포메이션을 단정할 수는 없습니다."],
+        ["선수 정보에서 아직 모르는 것", "이번 자료에서는 확정 선발 명단과 완전한 최신 부상 명단까지 검증하지 않았습니다. 따라서 특정 선수를 출전 확정·결장 확정으로 표시하지 않습니다. 경기 전까지의 선수 선발과 중간 일정은 실제 전력에 영향을 줄 수 있습니다."],
+        ["전망: 맨시티 우세의 근거와 단정할 수 없는 이유", "시즌 7경기의 현재 성적은 맨시티 쪽에 더 강한 근거를 제공합니다. 반면 최근 맞대결은 빌라 원정을 쉬운 경기로 취급하지 말아야 할 이유입니다. 검증된 배당 자료나 보정된 예측 모델이 없으므로 임의의 승·무·패 확률이나 예상 스코어는 제시하지 않습니다."],
+        ["출처와 계산 기준", "공식 경기 식별자는 프리미어리그 2645266입니다. 10월 20일 확인한 ESPN 기록을 바탕으로 시즌 수치를 정리하고, 구단·리그 보고서로 리그 전적을 보완했습니다. 승률은 승리 수를 실제 표본 경기 수로 나누고, 경기당 수치는 7경기로 나눠 반올림했습니다. 퍼센트만 보지 않고 어떤 경기들이 포함됐는지 확인할 수 있도록 전적을 함께 공개합니다."]
+      ]
+    },
+    "es": {
+      "title": "Aston Villa–Manchester City: siete victorias seguidas ante un rival incómodo",
+      "description": "Previa del 24 de octubre con siete partidos de temporada, los últimos cinco resultados ligueros y cinco duelos directos. Las tasas históricas no son un pronóstico.",
+      "alt": "Infografía en inglés con puntos, goles, asistencias y promedios de Aston Villa y Manchester City tras siete partidos de liga.",
+      "caption": "Gráfico inglés compartido por todas las versiones. Ambos equipos llevan siete partidos; encajar menos es mejor. El historial completo aparece en tablas HTML.",
+      "sections": [
+        ["Por qué merece la pena verlo", "El City ha ganado sus siete partidos de liga, pero el Villa venció en tres de los últimos cinco duelos ligueros entre ambos: Villa Park pondrá a prueba si el dominio actual pesa más que un historial incómodo."],
+        ["Horario y estadio", "Se juega el sábado 24 de octubre de 2026 en Villa Park a las 12:30 BST: 11:30 UTC y 20:30 en Corea. Ese día todavía rige el horario de verano británico. El horario se verificó el 20 de octubre; conviene consultar de nuevo la página oficial antes del partido."],
+        ["Lo que está en juego", "En esta consulta, el City es primero con 21 puntos en siete jornadas y el Villa ocupa la posición 12 con ocho puntos. El visitante busca prolongar su pleno; el local, convertir su recuperación reciente en un resultado ante el líder. La clasificación no corrige la dificultad de los rivales ya enfrentados."],
+        ["La diferencia en las cifras de temporada", "El City suma 19 goles a favor y siete en contra; el Villa, siete y 11. Sobre el mismo denominador de siete partidos, marcan 2.71 y 1.00 goles por encuentro y reciben 1.00 y 1.57. La ventaja ofensiva visitante es clara en esta muestra, pero son promedios de goles reales, no xG ni índices ajustados por rival."],
+        ["Forma reciente y tasas históricas", "El Villa registra dos victorias, dos empates y una derrota en sus cinco últimos partidos de Premier League: 40%. El City ganó los cinco: 100%. El Villa lleva tres encuentros ligueros invicto, culminados con un 1–0 en Newcastle. Se excluyeron amistosos y competiciones europeas; estos porcentajes no representan la probabilidad de ganar el sábado."],
+        ["Los enfrentamientos favorecen al Villa en esta muestra", "El balance de los últimos cinco duelos de Premier League es tres victorias del Villa y dos del City, sin empates: 60% y 40%. El más reciente terminó 1–2 en Manchester el 24 de mayo de 2026. La tabla conserva la localía de cada encuentro. Al abarcar varias temporadas y situaciones diferentes, el historial aporta contexto, no convierte al Villa en favorito actual."],
+        ["Dos preguntas para seguir el encuentro", "¿Podrá el Villa limitar las ocasiones de un City que ya ha marcado 19 goles? ¿Generará suficiente amenaza propia, en lugar de limitarse a defender durante más tiempo? El primer gol cambiaría las necesidades de ambos, pero los totales disponibles no permiten asegurar qué presión o formación utilizarán."],
+        ["Jugadores y datos pendientes", "No se verificaron las alineaciones definitivas ni una lista completa y actualizada de lesiones. Por ello no se presenta a ningún jugador como titular, disponible o baja confirmada. La selección y los compromisos intermedios pueden modificar el equilibrio antes del inicio."],
+        ["Valoración, sin inventar cuotas", "Los siete partidos de esta temporada ofrecen argumentos más sólidos a favor del City; los duelos recientes aconsejan no tratar la visita como un trámite. Sin un modelo calibrado ni cuotas verificadas, no asignamos porcentajes de victoria, empate y derrota ni un marcador supuesto."],
+        ["Fuentes y método", "El identificador oficial es Premier League 2645266. Se revisaron los registros de ESPN el 20 de octubre y se completó el historial liguero con informes de clubes y de la liga. La tasa de victoria divide triunfos entre partidos completados; los promedios usan siete encuentros y se redondean. Los resultados quedan visibles para que pueda comprobarse la muestra."]
+      ]
+    },
+    "ja": {
+      "title": "アストン・ヴィラ対マンチェスター・シティ：リーグ7連勝と相性の悪さが交差",
+      "description": "10月24日の試合を、今季7試合、直近リーグ5試合、直接対決5試合で比較。過去の勝率と今回の予想確率を区別します。",
+      "alt": "アストン・ヴィラとマンチェスター・シティの7試合時点の勝点、得失点、アシスト、試合平均を示す共通英語図。",
+      "caption": "全言語版で同じ英語図を使用。両チームともリーグ7試合が対象で、失点は少ない方が良い指標です。詳細な戦績はHTML表に掲載。",
+      "sections": [
+        ["この試合を見る理由", "リーグ7戦全勝のシティが、直近のリーグ直接対決5試合で3度敗れたヴィラと対戦します。現在の好調さが難しい相手との過去を上回るか、ヴィラ・パークで試されます。"],
+        ["日時と会場", "2026年10月24日土曜日、ヴィラ・パークで12:30 BSTに開始予定です。UTCは11:30、日本・韓国時間は同日20:30です。この日は英国夏時間の期間内。10月20日時点で確認した予定なので、観戦前に公式ページを再確認してください。"],
+        ["両チームの目標", "確認時点でシティは7試合21ポイントの首位、ヴィラは8ポイントの12位です。シティは全勝継続、ヴィラは最近の持ち直しを首位相手の結果につなげたいところです。ただし順位だけでは、これまでの対戦相手の強さは補正されません。"],
+        ["今季の数字が示す差", "シティは19得点7失点、ヴィラは7得点11失点。いずれも7試合で割ると平均得点は2.71対1.00、平均失点は1.00対1.57です。この標本ではシティの攻撃生産性が高い一方、これは実得失点の単純平均であり、相手補正済みの指標や期待得点ではありません。"],
+        ["直近5試合の勝率", "ヴィラは直近リーグ5試合で2勝2分1敗、過去の勝率は40%。シティは5勝で100%です。ヴィラは直近3試合無敗で、最新のニューカッスル戦はアウェーで1–0。親善試合と欧州大会は除外しています。これらの割合は土曜日に勝つ確率ではありません。"],
+        ["直接対決の標本ではヴィラが3勝", "最新のプレミアリーグ直接対決5試合はヴィラ3勝、シティ2勝、引き分けなし。割合は60%対40%です。直近は2026年5月24日、ヴィラが敵地で2–1と勝利しました。表では当時のホーム側を保持しています。複数シーズンにまたがるため、現在のチーム条件と同一視はできません。"],
+        ["注目する二つの問い", "ヴィラは今季すでに19得点のシティに与える得点機会を抑えられるでしょうか。また守備時間が増えるだけでなく、自分たちの攻撃の脅威を作れるでしょうか。先制点は双方の課題を変えますが、合計得失点だけからプレスや布陣は断定できません。"],
+        ["選手情報と不確実性", "確定先発と完全な最新負傷者リストは今回の資料では検証していません。そのため特定選手の先発、出場可否、欠場を確定扱いしません。試合前の起用や別日程によって条件は変わり得ます。"],
+        ["見通しと予測の限界", "今季7試合の成績はシティ優勢の根拠になります。一方で直接対決は、ヴィラ遠征を簡単な試合と見なさない理由です。校正済み予測モデルや検証済みオッズがないため、勝敗確率や予想スコアは作成しません。"],
+        ["出典と計算方法", "公式試合IDはプレミアリーグ2645266。10月20日に確認したESPNの記録を基に、クラブとリーグの報告でリーグ戦績を補完しました。勝率は勝利数を終了済み標本試合数で割り、試合平均は7試合で算出して丸めています。割合だけでなく対象試合を確認できるように掲載しています。"]
+      ]
+    },
+    "pt-BR": {
+      "title": "Aston Villa x Manchester City: sete vitórias seguidas contra um rival incômodo",
+      "description": "Prévia de 24 de outubro com os sete jogos da temporada, cinco resultados recentes e cinco confrontos diretos. Aproveitamento histórico não é probabilidade de vitória.",
+      "alt": "Infográfico em inglês comparando pontos, gols, assistências e médias de Villa e City após sete partidas de liga.",
+      "caption": "Todas as versões compartilham o gráfico em inglês. As duas equipes têm sete jogos; menos gols sofridos é melhor. Resultados e confrontos completos estão nas tabelas HTML.",
+      "sections": [
+        ["Por que acompanhar", "O City venceu seus sete jogos da liga, mas o Villa ganhou três dos últimos cinco confrontos entre eles na Premier League: o Villa Park testa se a força atual supera um histórico desconfortável."],
+        ["Horário e local", "A partida será no sábado, 24 de outubro de 2026, no Villa Park, às 12:30 BST: 11:30 UTC e 20:30 na Coreia. O horário britânico ainda é de verão nesse dia. A informação foi conferida em 20 de outubro; consulte novamente a página oficial antes do jogo."],
+        ["O que está em disputa", "Neste levantamento, o City lidera com 21 pontos em sete partidas; o Villa é o 12º, com oito. Os visitantes buscam manter a campanha perfeita, enquanto os mandantes querem transformar a recuperação recente em resultado contra o líder. A tabela não ajusta a dificuldade dos adversários já enfrentados."],
+        ["A diferença nos números da temporada", "O City marcou 19 gols e sofreu sete; o Villa marcou sete e sofreu 11. Dividindo pelo mesmo total de sete partidas, as médias de gols feitos são 2.71 e 1.00; as de sofridos, 1.00 e 1.57. A produção ofensiva do City é superior nessa amostra, mas são médias de gols reais, não xG nem notas ajustadas por adversário."],
+        ["Últimos cinco jogos de liga", "O Villa teve duas vitórias, dois empates e uma derrota: taxa histórica de vitórias de 40%. O City venceu os cinco: 100%. O Villa está invicto nos três jogos mais recentes, encerrando a sequência com 1–0 fora contra o Newcastle. Amistosos e torneios europeus foram excluídos. Esses números não são a chance de vencer no sábado."],
+        ["Confrontos diretos: vantagem do Villa na amostra", "Nos cinco duelos mais recentes de Premier League, o Villa venceu três e o City dois, sem empates: 60% contra 40%. O último terminou com vitória do Villa por 2–1 em Manchester, em 24 de maio de 2026. A tabela mantém o verdadeiro mandante de cada jogo. São temporadas e contextos diferentes, não uma prova de favoritismo atual do Villa."],
+        ["Duas perguntas para observar", "O Villa conseguirá limitar as oportunidades de um City que já marcou 19 gols? E poderá produzir ameaça própria, em vez de apenas passar mais tempo defendendo? O primeiro gol altera as necessidades de ambos, mas os totais disponíveis não permitem afirmar a formação ou o tipo de pressão que será usado."],
+        ["Jogadores e incertezas", "Escalações definitivas e uma lista completa e atualizada de lesões não foram verificadas neste levantamento. Nenhum atleta é apresentado como titular garantido, disponível ou desfalque confirmado. Escolhas de equipe e compromissos intermediários podem mudar o equilíbrio até o início."],
+        ["Avaliação, sem inventar probabilidades", "A campanha de sete jogos sustenta argumentos atuais mais fortes para o City. O retrospecto recente recomenda não tratar a visita ao Villa como simples formalidade. Sem modelo calibrado ou cotações verificadas, não publicamos percentuais de vitória, empate e derrota nem um placar inventado."],
+        ["Fontes e cálculo", "O ID oficial é Premier League 2645266. Os registros da ESPN foram conferidos em 20 de outubro; relatórios de clubes e da liga completaram a série exclusivamente ligueira. A taxa divide vitórias por jogos concluídos; as médias usam sete partidas e são arredondadas. Os resultados ficam visíveis para que o leitor confira a amostra."]
+      ]
+    },
+    "fr": {
+      "title": "Aston Villa–Manchester City : sept victoires de suite face à un adversaire gênant",
+      "description": "Avant-match du 24 octobre : sept journées de championnat, cinq résultats récents et cinq confrontations. Les taux historiques ne sont pas des probabilités prédictives.",
+      "alt": "Infographie anglaise comparant points, buts, passes décisives et moyennes de Villa et City après sept rencontres de championnat.",
+      "caption": "Un même graphique anglais pour toutes les langues. Les chiffres portent sur sept matches par équipe ; moins de buts encaissés est préférable. Les historiques détaillés figurent en tableaux HTML.",
+      "sections": [
+        ["Pourquoi suivre ce match", "City a remporté ses sept matches de championnat, mais Villa a gagné trois des cinq dernières confrontations de Premier League : Villa Park permettra de voir si la domination actuelle l'emporte sur un passé inconfortable."],
+        ["Horaire et stade", "Coup d'envoi le samedi 24 octobre 2026 à Villa Park, à 12:30 BST, soit 11:30 UTC et 20:30 en Corée. L'heure d'été britannique est encore en vigueur. Ce programme a été vérifié le 20 octobre ; consultez de nouveau la page officielle avant le match."],
+        ["Les enjeux", "Au moment de cette vérification, City est premier avec 21 points en sept journées et Villa 12e avec huit points. City peut prolonger son départ parfait ; Villa peut convertir son redressement récent en résultat contre le leader. Le classement ne corrige toutefois pas la difficulté des adversaires déjà rencontrés."],
+        ["Ce que montrent les chiffres de saison", "City compte 19 buts marqués et sept encaissés, contre sept et 11 pour Villa. Avec le même dénominateur de sept matches, les moyennes offensives sont de 2.71 et 1.00 ; les moyennes de buts encaissés de 1.00 et 1.57. L'avantage offensif de City est net dans cet échantillon, mais il s'agit de buts réels, pas de xG ni d'une évaluation ajustée aux adversaires."],
+        ["La forme sur cinq matches", "Villa affiche deux victoires, deux nuls et une défaite, soit 40% de victoires historiques. City a remporté les cinq matches, soit 100%. Villa reste invaincu sur ses trois dernières sorties de championnat, avec un succès 1–0 à Newcastle pour finir. Amicaux et compétitions européennes sont exclus. Ces pourcentages ne donnent pas les chances de gagner samedi."],
+        ["Les confrontations : trois succès pour Villa", "Sur les cinq derniers duels de Premier League, Villa mène trois victoires à deux, sans nul : 60% contre 40%. Le dernier s'est terminé par son succès 2–1 à Manchester le 24 mai 2026. Le tableau conserve l'équipe réellement à domicile. Plusieurs saisons et contextes se succèdent : ce bilan est un éclairage, pas une preuve de favoritisme actuel."],
+        ["Deux questions à observer", "Villa peut-il limiter les occasions d'un City déjà auteur de 19 buts ? Peut-il aussi créer sa propre menace plutôt que seulement défendre plus longtemps ? Le premier but modifierait les problèmes des deux équipes, mais les totaux ne suffisent pas à établir leur dispositif ou leur pressing."],
+        ["Effectif et incertitudes", "Les compositions définitives et une liste complète de blessures à jour n'ont pas été vérifiées ici. Aucun joueur n'est donc annoncé comme titulaire certain, disponible ou absent confirmé. Les choix d'équipe et les rencontres intermédiaires peuvent modifier l'équilibre avant le coup d'envoi."],
+        ["Notre lecture, sans fausses cotes", "Les sept journées actuelles apportent davantage d'arguments en faveur de City ; l'historique récent invite à ne pas banaliser le déplacement. Faute de modèle calibré ou de cotes vérifiées, nous ne fabriquons ni probabilités domicile/nul/extérieur ni score prévu."],
+        ["Sources et méthode", "L'identifiant officiel est Premier League 2645266. Les données ESPN ont été vérifiées le 20 octobre, puis complétées par les comptes rendus des clubs et de la ligue. Le taux de victoire divise les succès par les rencontres terminées ; les moyennes utilisent sept matches et sont arrondies. L'historique permet de contrôler l'échantillon derrière chaque pourcentage."]
+      ]
+    },
+    "de": {
+      "title": "Aston Villa gegen Manchester City: sieben Siege in Serie, ein unbequemer Gegner",
+      "description": "Vorschau auf den 24. Oktober mit sieben Saisonspielen, den letzten fünf Ligapartien und fünf direkten Duellen. Historische Siegquoten sind keine Prognosen.",
+      "alt": "Englische Infografik zu Punkten, Toren, Vorlagen und Spielmittelwerten von Villa und City nach sieben Ligaspielen.",
+      "caption": "Alle Sprachversionen nutzen dieselbe englische Grafik. Beide Teams haben sieben Ligaspiele; weniger Gegentore sind besser. Die vollständigen Ergebnisse stehen in HTML-Tabellen.",
+      "sections": [
+        ["Warum sich dieses Spiel lohnt", "City hat alle sieben Ligaspiele gewonnen, Villa jedoch drei der letzten fünf Premier-League-Duelle dieser Teams: Im Villa Park trifft aktuelle Dominanz auf eine zuletzt unbequeme Paarung."],
+        ["Termin und Spielort", "Anpfiff ist am Samstag, 24. Oktober 2026, um 12:30 BST im Villa Park: 11:30 UTC und 20:30 in Korea. Für diesen Termin gilt noch die britische Sommerzeit. Der Spielplan wurde am 20. Oktober geprüft; vor der Partie sollte die offizielle Seite erneut auf Änderungen kontrolliert werden."],
+        ["Worum es geht", "Zum Prüfzeitpunkt führt City mit 21 Punkten aus sieben Spielen. Villa ist mit acht Punkten Zwölfter. Die Gäste können ihren perfekten Start verlängern; die Gastgeber ihre jüngste Erholung gegen den Tabellenführer bestätigen. Die Rangliste berücksichtigt aber nicht automatisch die Stärke der bisherigen Gegner."],
+        ["Die Unterschiede in den Saisonwerten", "City steht bei 19 Toren und sieben Gegentoren, Villa bei sieben und 11. Über jeweils sieben Spiele ergeben sich 2.71 gegenüber 1.00 erzielten Toren pro Partie und 1.00 gegenüber 1.57 Gegentoren. Das spricht in dieser Stichprobe für Citys Angriff. Es sind jedoch einfache Mittelwerte tatsächlicher Tore, keine xG und keine gegnerbereinigten Ratings."],
+        ["Die letzten fünf Ligaspiele", "Villa verbuchte zwei Siege, zwei Remis und eine Niederlage, also 40% historische Siege. City gewann alle fünf, entsprechend 100%. Villa ist in den jüngsten drei Ligaspielen ungeschlagen und gewann zuletzt in Newcastle 1–0. Freundschafts- und Europapokalspiele wurden ausgeschlossen. Diese Quoten sind nicht die Siegchancen für Samstag."],
+        ["Direkte Duelle: Villa führt in der Fünferstichprobe", "Die letzten fünf Premier-League-Duelle brachten drei Villa-Siege, zwei City-Siege und kein Remis: 60% zu 40%. Zuletzt gewann Villa am 24. Mai 2026 in Manchester 2–1. Die Tabelle zeigt jeweils das damalige Heimteam. Weil mehrere Spielzeiten und unterschiedliche Mannschaftssituationen enthalten sind, begründet das keinen aktuellen Favoritenstatus für Villa."],
+        ["Zwei Beobachtungsfragen", "Kann Villa die Torchancen eines City-Teams begrenzen, das bereits 19 Treffer erzielt hat? Und kann Villa selbst Gefahr erzeugen, statt nur länger verteidigen zu müssen? Das erste Tor würde die Aufgaben beider Teams verändern. Aus den Summen allein lassen sich Pressing und Formation aber nicht zuverlässig ableiten."],
+        ["Personal und offene Punkte", "Bestätigte Aufstellungen und eine vollständige aktuelle Verletztenliste wurden für diesen Bericht nicht verifiziert. Deshalb wird kein Spieler als sicherer Starter, einsatzbereit oder definitiv fehlend bezeichnet. Auswahlentscheidungen und zwischenzeitliche Spiele können die Ausgangslage verändern."],
+        ["Einordnung ohne erfundene Wahrscheinlichkeiten", "Die sieben Saisonspiele liefern derzeit stärkere Argumente für City; die direkten Duelle sprechen gegen einen vermeintlichen Selbstläufer. Ohne kalibriertes Modell oder geprüfte Wettquoten vergeben wir keine Heim-/Remis-/Auswärtswahrscheinlichkeiten und keinen erfundenen Endstand."],
+        ["Quellen und Berechnung", "Die offizielle Spielkennung lautet Premier League 2645266. ESPN-Daten wurden am 20. Oktober geprüft und die reine Ligahistorie mit Club- und Ligaberichten vervollständigt. Die Siegquote ist Siege geteilt durch abgeschlossene Stichprobenspiele; Mittelwerte basieren auf sieben Partien und werden gerundet. Die Einzelresultate machen die Grundlage sichtbar."]
+      ]
+    },
+    "hi": {
+      "title": "एस्टन विला बनाम मैनचेस्टर सिटी: लगातार सात जीत और एक मुश्किल प्रतिद्वंद्वी",
+      "description": "24 अक्टूबर की प्रीव्यू रिपोर्ट: सीज़न के सात मैच, पिछले पाँच लीग परिणाम और पाँच आमने-सामने मुकाबले। पुराने जीत प्रतिशत को भविष्यवाणी नहीं माना गया है।",
+      "alt": "सात लीग मैचों के बाद विला और सिटी के अंक, गोल, असिस्ट और प्रति मैच औसत की साझा अंग्रेज़ी इन्फोग्राफिक।",
+      "caption": "सभी भाषाएँ एक अंग्रेज़ी चित्र साझा करती हैं। दोनों टीमों के सात लीग मैच शामिल हैं; कम गोल खाना बेहतर है। पूरे परिणाम HTML तालिकाओं में हैं।",
+      "sections": [
+        ["यह मुकाबला क्यों देखें", "सिटी ने अपने सातों लीग मैच जीते हैं, लेकिन दोनों के पिछले पाँच प्रीमियर लीग मुकाबलों में विला तीन बार जीता है: विला पार्क में मौजूदा दबदबे की परीक्षा एक मुश्किल पुराने प्रतिद्वंद्वी के खिलाफ होगी।"],
+        ["समय और मैदान", "मैच शनिवार, 24 अक्टूबर 2026 को विला पार्क में 12:30 BST पर शुरू होगा: 11:30 UTC और कोरिया में 20:30। उस दिन ब्रिटेन का समर टाइम लागू है। समय 20 अक्टूबर को जाँचा गया था; मैच देखने या यात्रा से पहले आधिकारिक पेज दोबारा देखें।"],
+        ["दाँव पर क्या है", "इस जाँच के समय सिटी सात मैचों में 21 अंकों के साथ पहले स्थान पर है। विला आठ अंकों के साथ 12वें स्थान पर है। सिटी अपनी पूरी जीत की शुरुआत आगे बढ़ाना चाहता है; विला हालिया सुधार को शीर्ष टीम के खिलाफ नतीजे में बदलना चाहेगा। तालिका पिछले विरोधियों की कठिनाई को समायोजित नहीं करती।"],
+        ["सीज़न के आँकड़ों में अंतर", "सिटी ने 19 गोल किए और सात खाए; विला ने सात किए और 11 खाए। समान सात मैचों से भाग देने पर प्रति मैच किए गए गोल 2.71 बनाम 1.00 और खाए गए गोल 1.00 बनाम 1.57 हैं। इस नमूने में सिटी की आक्रमण क्षमता आगे है, लेकिन ये असली गोलों के साधारण औसत हैं, xG या प्रतिद्वंद्वी के हिसाब से समायोजित रेटिंग नहीं।"],
+        ["पिछले पाँच लीग मैच", "विला के दो जीत, दो ड्रॉ और एक हार हैं: ऐतिहासिक जीत प्रतिशत 40%। सिटी ने पाँचों जीते: 100%। विला पिछले तीन लीग मैचों से अजेय है और सबसे हाल में न्यूकैसल के मैदान पर 1–0 जीता। फ्रेंडली और यूरोपीय प्रतियोगिताएँ बाहर रखी गई हैं। इन प्रतिशतों का अर्थ शनिवार को जीतने की संभावना नहीं है।"],
+        ["आमने-सामने के पाँच मैच", "पिछले पाँच प्रीमियर लीग मुकाबलों में विला की तीन और सिटी की दो जीत हैं, कोई ड्रॉ नहीं: 60% बनाम 40%। सबसे हाल में 24 मई 2026 को विला मैनचेस्टर में 2–1 जीता। तालिका में हर मुकाबले की वास्तविक घरेलू टीम रखी गई है। अलग सीज़न और परिस्थितियों वाला यह रिकॉर्ड संदर्भ है, मौजूदा मैच में विला के पसंदीदा होने का प्रमाण नहीं।"],
+        ["देखने लायक दो सवाल", "क्या विला 19 गोल कर चुके सिटी के मौके सीमित कर पाएगा? और क्या वह सिर्फ अधिक देर बचाव करने के बजाय अपना आक्रमण भी खड़ा कर सकेगा? पहला गोल दोनों टीमों की ज़रूरत बदल देगा, लेकिन कुल गोलों से उनकी प्रेसिंग या फॉर्मेशन तय नहीं की जा सकती।"],
+        ["खिलाड़ी और अनिश्चितता", "पक्की शुरुआती एकादश और पूरी ताज़ा चोट सूची इस रिपोर्ट में सत्यापित नहीं हुई है। किसी खिलाड़ी को निश्चित स्टार्टर, उपलब्ध या निश्चित रूप से बाहर नहीं बताया गया है। चयन और बीच के मुकाबले किक-ऑफ से पहले संतुलन बदल सकते हैं।"],
+        ["आकलन, काल्पनिक संभावना नहीं", "सीज़न के सात मैच फिलहाल सिटी के पक्ष में मज़बूत तर्क देते हैं; हालिया आमने-सामने रिकॉर्ड इस दौरे को आसान मानने से रोकता है। कैलिब्रेटेड मॉडल या सत्यापित ऑड्स के बिना हम घरेलू जीत, ड्रॉ और बाहरी जीत के प्रतिशत या अनुमानित स्कोर नहीं गढ़ते।"],
+        ["स्रोत और गणना", "आधिकारिक पहचान Premier League 2645266 है। ESPN रिकॉर्ड 20 अक्टूबर को जाँचे गए और क्लब तथा लीग रिपोर्टों से लीग-केवल इतिहास पूरा किया गया। जीत प्रतिशत जीतों को पूरे हुए नमूना मैचों से भाग देकर बनता है; प्रति मैच औसत सात खेलों पर आधारित और राउंड किए गए हैं। पाठक केवल प्रतिशत नहीं, उसके पीछे के मैच भी देख सकते हैं।"]
+      ]
+    }
+  },
+  "recap": {
+    "en": {
+      "title": "Tottenham 3–1 Coventry: first league win, decided after the equaliser",
+      "description": "Maddison, Marmoush and Davies scored as Spurs finally won. Compare the goal timeline, possession, passing, shooting and defensive data, with clear limits on missing advanced metrics.",
+      "alt": "English summary of Tottenham's 3–1 win: paired statistics, four goal events, goals by half, score progression and scorers.",
+      "caption": "The score graph uses verified goal checkpoints, not an xG or possession model. The half breakdown counts actual goals. The same English image serves all languages.",
+      "sections": [
+        ["The result in one sentence", "Tottenham beat Coventry 3–1 for their first league win of the season, restoring the lead nine minutes after the equaliser and only securing the two-goal margin in stoppage time."],
+        ["Final result and timing", "The match began at Tottenham Hotspur Stadium on Monday 19 October 2026 at 20:00 BST, or 19:00 UTC; in Korea that was Tuesday 20 October at 04:00. Spurs led 1–0 at half-time and finished 3–1 ahead. This was a completed league match, not the still-published pre-match preview."],
+        ["The four goals that shaped the result", "James Maddison opened the scoring on 14 minutes. Jack Rudoni equalised on 49, before Omar Marmoush restored Tottenham's lead on 58. Ben Davies added the third at 90+6. The important distinction is timing: 3–1 was not the score for most of the contest, and the final margin should not hide Coventry's second-half equaliser."],
+        ["More of the ball, but not a complete account of chance quality", "Spurs had 65.4% possession to Coventry's 34.6%, with shots 16–12 and shots on target 5–1. They completed 499 of 559 passes; Coventry completed 222 of 287. Calculated completion rates are 89.27% and 77.35%. Those numbers support greater Tottenham ball circulation and more on-target output, but possession alone does not establish territorial dominance or prove which chances were best.", "Coventry recorded 13 interceptions to Spurs' six, while fouls were 14 to 15. More interceptions can reflect defensive workload rather than a better overall defensive performance. The provider's successful-tackle ratios are 8/13 and 7/17; compare their stated denominator, not an assumed universal definition."],
+        ["Scorers and goalkeeper context", "Maddison, Marmoush and Davies supplied Tottenham's three goals; Rudoni scored Coventry's reply. The provider records no Tottenham save from one opposing shot on target, versus two Coventry saves from five. That produces 0% and 40% for this tiny sample, but it is not a fair goalkeeper-quality ranking without shot difficulty. No PSxG-based judgement is claimed."],
+        ["What the preview question now tells us", "The existing preview asked whether a Spurs side without a win in six league games could generate enough threat. Three goals and a first victory answer the outcome question positively. They do not, on their own, establish that a particular pressing or low-block tactic caused the result. Nor should an earlier uncalibrated baseline be rewritten as a successful calibrated forecast."],
+        ["What changes after this win", "The immediate change is the end of Tottenham's winless league start. The next test is whether this attacking output can be repeated rather than treating one result as proof that every problem has disappeared. The two-goal final margin and the period at 1–1 should both remain part of that assessment."],
+        ["Data limits and sources", "This report uses Premier League match 2645264, Tottenham's report and ESPN's recorded match statistics. xG, npxG, xA/xAG, PSxG, xT and PPDA were not present in the verified input used here, so none is fabricated. Derived percentages use observed counts and are rounded; differing provider definitions can produce different figures. The image's goals-by-half panel is explicitly not xG."]
+      ]
+    },
+    "ko": {
+      "title": "토트넘 3–1 코번트리: 첫 승을 만든 동점 이후의 두 골",
+      "description": "매디슨·마르무시·데이비스의 골로 토트넘이 리그 첫 승을 거뒀습니다. 득점 시간과 점유율·패스·슈팅·수비 지표를 표로 비교하고, 확인되지 않은 고급 지표는 구분합니다.",
+      "alt": "토트넘의 코번트리전 3–1 승리를 실제 경기 지표, 네 차례 득점, 전후반 골, 누적 스코어와 득점자로 정리한 공통 영어 이미지.",
+      "caption": "스코어 그래프는 실제 득점 시점이며 xG나 점유율 모델이 아닙니다. 전후반 비교도 실제 골 수입니다. 모든 언어가 동일한 영어 이미지를 공유합니다.",
+      "sections": [
+        ["한 문장으로 보는 결과", "토트넘은 코번트리의 동점골 이후 9분 만에 다시 앞서 나가고 추가시간에 쐐기골을 넣어 3–1로 이기며, 이번 시즌 리그 첫 승을 거뒀습니다."],
+        ["최종 결과와 경기 시각", "경기는 2026년 10월 19일 월요일 토트넘 홋스퍼 스타디움에서 영국시간 20:00 BST, UTC 19:00에 시작했습니다. 한국시간으로는 10월 20일 화요일 새벽 4시입니다. 전반은 토트넘의 1–0 리드, 최종 결과는 3–1입니다. 기존 경기 전 글과는 별개인 종료 경기 리포트입니다."],
+        ["승부를 바꾼 네 차례 득점", "14분 제임스 매디슨이 선제골을 넣었고, 49분 잭 루도니가 동점을 만들었습니다. 토트넘은 58분 오마르 마르무시의 골로 다시 앞섰으며 90+6분 벤 데이비스가 세 번째 골을 추가했습니다. 최종 스코어만 보면 여유 있는 승리처럼 보일 수 있지만, 후반 동점 상황을 다시 뒤집은 뒤 추가시간까지 한 골 차였다는 흐름이 중요합니다."],
+        ["점유와 패스에서 앞섰지만, 찬스의 질까지 증명되지는 않는다", "점유율은 토트넘 65.4%, 코번트리 34.6%였고 슈팅은 16–12, 유효슈팅은 5–1이었습니다. 토트넘은 패스 559회 중 499회, 코번트리는 287회 중 222회를 성공했습니다. 실제 횟수로 계산한 성공률은 89.27%와 77.35%입니다. 공을 더 많이 연결하고 골문 안으로 보낸 슈팅도 많았다는 근거지만, 점유율 자체가 위험 지역 지배나 개별 찬스의 질을 증명하지는 않습니다.", "인터셉트는 토트넘 6회, 코번트리 13회였고 파울은 15–14였습니다. 인터셉트가 많다는 것은 수비 부담이 컸다는 신호일 수도 있어 곧바로 더 좋은 수비였다고 해석하면 안 됩니다. 공급자가 집계한 성공 태클 비율은 8/13과 7/17이며, 다른 사이트의 태클 정의와 무조건 같다고 볼 수 없습니다."],
+        ["득점자와 골키퍼 수치의 맥락", "토트넘은 매디슨·마르무시·데이비스가 한 골씩, 코번트리는 루도니가 한 골을 기록했습니다. 골키퍼 선방은 토트넘 0회, 코번트리 2회입니다. 상대 유효슈팅을 분모로 하면 각각 0/1과 2/5, 선방률 0%와 40%가 됩니다. 그러나 표본이 매우 작고 슈팅 난도가 반영되지 않아 골키퍼 실력 순위처럼 읽어서는 안 됩니다. PSxG를 이용한 선방 평가는 하지 않았습니다."],
+        ["프리뷰에서 던진 질문에 대한 답", "기존 프리뷰의 핵심 질문은 리그 6경기 무승의 토트넘이 충분한 공격 위협을 만들 수 있느냐였습니다. 3득점과 첫 승이라는 결과는 그 질문에 긍정적인 답입니다. 다만 특정 압박이나 밀집 수비 공략 전술이 승리의 원인이었다는 결론까지 스코어만으로 확장할 수는 없습니다. 이전의 보정되지 않은 기준 모델을 정교한 예측이 적중한 것처럼 바꾸어 쓰지도 않습니다."],
+        ["이번 승리로 달라진 것", "가장 직접적인 변화는 토트넘의 리그 무승 출발이 끝났다는 점입니다. 다음 과제는 이 공격 성과를 반복할 수 있느냐이지, 한 경기로 모든 문제가 해결됐다고 선언하는 것이 아닙니다. 2골 차 최종 결과와 후반 한때 1–1이었다는 사실을 함께 놓고 평가해야 합니다."],
+        ["확보하지 못한 지표와 출처", "프리미어리그 경기 2645264, 토트넘 구단 보고서, ESPN 경기 기록을 사용했습니다. 이번에 검증한 입력에는 xG·npxG·xA/xAG·PSxG·xT·PPDA가 없어 임의로 채우지 않았습니다. 파생 성공률은 실제 횟수에서 계산해 반올림했으며 공급자별 정의가 다르면 수치도 달라질 수 있습니다. 이미지의 전후반 골 비교는 기대득점이 아니라 실제 득점입니다."]
+      ]
+    },
+    "es": {
+      "title": "Tottenham 3–1 Coventry: el primer triunfo se decidió después del empate",
+      "description": "Maddison, Marmoush y Davies marcaron en la primera victoria liguera de los Spurs. Cronología y tablas de posesión, pases, remates y defensa, sin inventar métricas ausentes.",
+      "alt": "Resumen inglés del 3–1: estadísticas comparadas, cuatro goles, desglose por mitades, evolución del marcador y goleadores.",
+      "caption": "La gráfica sigue goles observados, no xG ni un modelo de posesión. El desglose por mitades cuenta goles reales. Todas las versiones comparten esta imagen inglesa.",
+      "sections": [
+        ["El resultado en una frase", "Tottenham logró su primera victoria liguera al ganar 3–1 al Coventry, recuperando la ventaja nueve minutos después del empate y ampliándola a dos goles solo en el añadido."],
+        ["Resultado y horario", "El encuentro comenzó en Tottenham Hotspur Stadium el lunes 19 de octubre de 2026 a las 20:00 BST, 19:00 UTC; en Corea eran las 04:00 del martes 20. Los Spurs llegaron al descanso 1–0 y terminaron 3–1. Este informe corresponde al partido finalizado, separado de la previa existente."],
+        ["Los cuatro goles decisivos", "James Maddison abrió el marcador en el minuto 14. Jack Rudoni igualó en el 49; Omar Marmoush devolvió la ventaja a Tottenham en el 58. Ben Davies firmó el tercero en el 90+6. El momento de cada gol importa: el 3–1 no describe la mayor parte del encuentro ni debe ocultar el empate del Coventry en la segunda mitad."],
+        ["Más balón, pero no toda la calidad de las ocasiones", "La posesión fue 65.4% frente a 34.6%; los remates, 16–12, y los dirigidos a puerta, 5–1. Tottenham completó 499 de 559 pases y Coventry 222 de 287: 89.27% y 77.35% calculados. Esto respalda una mayor circulación local y más remates a puerta, pero la posesión sola no demuestra dominio territorial ni calidad de cada ocasión.", "Coventry registró 13 intercepciones por seis de los Spurs; las faltas fueron 14 frente a 15. Más intercepciones también pueden reflejar mayor carga defensiva. Los ratios de entradas exitosas del proveedor son 8/13 y 7/17: debe respetarse ese denominador, no asumir una definición universal."],
+        ["Goleadores y contexto de los porteros", "Maddison, Marmoush y Davies marcaron para Tottenham; Rudoni respondió por Coventry. Se registraron cero paradas locales ante un remate rival a puerta y dos visitantes ante cinco: 0% y 40%. Es una muestra demasiado pequeña para clasificar la calidad de los porteros sin conocer la dificultad de los tiros. No se realiza una evaluación basada en PSxG."],
+        ["Qué respondió la pregunta de la previa", "La previa preguntaba si Tottenham, sin triunfos en seis jornadas, podía generar suficiente amenaza. Tres goles y la primera victoria responden positivamente al resultado. Por sí solos no prueban que un patrón concreto de presión o ataque a un bloque bajo causara el triunfo. Tampoco convertimos una referencia anterior no calibrada en un pronóstico calibrado acertado."],
+        ["Lo que cambia", "La consecuencia inmediata es el final del arranque liguero sin victorias de Tottenham. La siguiente prueba será repetir esta producción ofensiva, no declarar resueltos todos los problemas por un solo partido. El margen final de dos goles y el tramo con 1–1 deben formar parte de la lectura."],
+        ["Límites y fuentes", "Se utilizaron el partido Premier League 2645264, el informe del Tottenham y los datos de ESPN. xG, npxG, xA/xAG, PSxG, xT y PPDA no estaban en la entrada verificada de este informe: no se inventan. Los porcentajes derivados se calculan con recuentos reales y se redondean; las definiciones de cada proveedor pueden variar. Los goles por mitad no son xG."]
+      ]
+    },
+    "ja": {
+      "title": "トッテナム3–1コヴェントリー：同点後の2ゴールでリーグ初勝利",
+      "description": "マディソン、マルムシュ、デイヴィスが得点。得点経過、保持率、パス、シュート、守備を表で比較し、未確認の高度指標は区別します。",
+      "alt": "トッテナムの3–1勝利を比較統計、4得点の経過、前後半のゴール、スコア推移、得点者で示す英語図。",
+      "caption": "スコア推移は実際の得点時点で、xGや保持率モデルではありません。前後半比較も実得点です。全言語版が同じ英語図を使用します。",
+      "sections": [
+        ["結果を一文で", "トッテナムは同点にされてから9分後に勝ち越し、追加時間に2点差としてコヴェントリーを3–1で破り、今季リーグ初勝利を挙げました。"],
+        ["最終結果と日時", "2026年10月19日月曜日、トッテナム・ホットスパー・スタジアムで20:00 BST、19:00 UTCに開始。日本・韓国時間では10月20日火曜日04:00でした。前半は1–0、最終結果は3–1です。既存のプレビューとは別の終了試合レポートです。"],
+        ["勝負を形作った四つのゴール", "14分にジェームズ・マディソンが先制。49分にジャック・ルドニが同点とし、58分にオマル・マルムシュが再びトッテナムを前に出しました。ベン・デイヴィスが90+6分に3点目。試合の大半が3–1だったわけではなく、後半の同点と終盤までの1点差を忘れてはいけません。"],
+        ["保持とパスでは優位、機会の質は別問題", "保持率は65.4%対34.6%、シュート16–12、枠内5–1。パス成功はトッテナム499/559、コヴェントリー222/287で、計算上の成功率は89.27%と77.35%です。ボール循環と枠内への出力が多かった根拠にはなりますが、保持率だけで危険地帯の支配や個々の決定機の質は証明できません。", "インターセプトはコヴェントリー13、トッテナム6。ファウルは14対15でした。遮断数の多さは守備負担の大きさも反映し得ます。提供元の成功タックル比率は8/13と7/17で、他社の定義と無条件に同じとは扱えません。"],
+        ["得点者とGK数値の注意点", "トッテナムはマディソン、マルムシュ、デイヴィス、コヴェントリーはルドニが得点。セーブはトッテナム0回、相手枠内1本に対して0/1。コヴェントリーは相手枠内5本に2回で2/5、割合は0%と40%です。非常に小さな標本でシュート難度もないため、GKの能力順位にはできません。PSxGによる評価は行っていません。"],
+        ["プレビューの問いへの答え", "既存プレビューでは、リーグ6試合未勝利のトッテナムが十分な脅威を作れるかを問いました。3得点と初勝利は結果として肯定的な答えです。ただし特定のプレスや低いブロック攻略が原因だったとスコアだけで断定はできません。過去の未校正モデルを精密予測の的中として書き換えることもしません。"],
+        ["この勝利が変えるもの", "直接的な変化は、トッテナムのリーグ未勝利スタートが終わったことです。次の課題は攻撃成果の再現性であり、一度の勝利で全課題が解決したと考えることではありません。最終的な2点差と途中の1–1を両方評価すべきです。"],
+        ["データの範囲と出典", "プレミアリーグ2645264、トッテナムの報告、ESPNの試合記録を使用。今回の確認入力にxG、npxG、xA/xAG、PSxG、xT、PPDAはなく、推測で埋めていません。割合は実数から計算して丸め、提供元ごとの定義差にも注意が必要です。図の前後半ゴールは期待得点ではありません。"]
+      ]
+    },
+    "pt-BR": {
+      "title": "Tottenham 3–1 Coventry: a primeira vitória veio depois do empate",
+      "description": "Maddison, Marmoush e Davies marcaram na primeira vitória dos Spurs na liga. Linha do tempo e tabelas de posse, passes, finalizações e defesa, sem inventar métricas ausentes.",
+      "alt": "Resumo inglês do 3–1 com estatísticas, quatro gols, divisão por tempos, evolução do placar e artilheiros da partida.",
+      "caption": "A curva usa gols observados, não xG ou um modelo de posse. A divisão por tempos conta gols reais. Todas as línguas compartilham esta imagem inglesa.",
+      "sections": [
+        ["O resultado em uma frase", "O Tottenham venceu o Coventry por 3–1 e conquistou seu primeiro triunfo na liga, retomando a frente nove minutos depois do empate e abrindo dois gols de diferença apenas nos acréscimos."],
+        ["Placar e horário", "O jogo começou no Tottenham Hotspur Stadium na segunda-feira, 19 de outubro de 2026, às 20:00 BST, ou 19:00 UTC; na Coreia, eram 04:00 da terça-feira, dia 20. Os Spurs foram ao intervalo com 1–0 e terminaram com 3–1. Este é o relatório da partida encerrada, separado da prévia já publicada."],
+        ["Os quatro gols que decidiram", "James Maddison abriu o placar aos 14 minutos. Jack Rudoni empatou aos 49, mas Omar Marmoush devolveu a vantagem ao Tottenham aos 58. Ben Davies fez o terceiro aos 90+6. O momento dos gols é essencial: o 3–1 não descreve a maior parte do confronto nem deve apagar o empate do Coventry no segundo tempo."],
+        ["Mais bola, sem medir toda a qualidade das chances", "A posse foi de 65.4% a 34.6%, as finalizações de 16–12 e as no alvo de 5–1. Tottenham completou 499 de 559 passes; Coventry, 222 de 287: taxas calculadas de 89.27% e 77.35%. Os números sustentam mais circulação e mais chutes no alvo dos mandantes, mas posse isolada não prova domínio territorial ou qualidade de cada chance.", "Coventry teve 13 interceptações contra seis dos Spurs; as faltas foram 14 a 15. Mais interceptações também podem indicar maior carga defensiva. As proporções de desarmes bem-sucedidos do fornecedor são 8/13 e 7/17; é preciso respeitar esse denominador, não presumir uma definição universal."],
+        ["Goleadores e contexto dos goleiros", "Maddison, Marmoush e Davies marcaram os gols do Tottenham; Rudoni respondeu pelo Coventry. Foram registradas zero defesas dos mandantes diante de um chute rival no alvo e duas dos visitantes diante de cinco: 0% e 40%. A amostra é pequena demais para ranquear goleiros sem a dificuldade dos chutes. Não há avaliação baseada em PSxG."],
+        ["O que a pergunta da prévia revelou", "A prévia perguntava se um Tottenham sem vitórias em seis rodadas conseguiria ameaçar o suficiente. Três gols e o primeiro triunfo respondem positivamente ao resultado. Isso não prova, por si só, que um padrão específico de pressão ou ataque ao bloco baixo causou a vitória. Uma referência anterior não calibrada também não vira retrospectivamente uma previsão calibrada correta."],
+        ["O que muda agora", "A mudança imediata é o fim da largada sem vitórias do Tottenham na liga. O próximo teste é repetir essa produção, não declarar todos os problemas resolvidos por um jogo. A diferença final de dois gols e o período em 1–1 precisam permanecer na avaliação."],
+        ["Limites dos dados e fontes", "Foram usados o jogo Premier League 2645264, o relato do Tottenham e as estatísticas da ESPN. xG, npxG, xA/xAG, PSxG, xT e PPDA não estavam no conjunto verificado: nenhum valor foi inventado. Percentuais derivados usam contagens reais e arredondamento; convenções variam entre fornecedores. Gols por tempo, no gráfico, não são xG."]
+      ]
+    },
+    "fr": {
+      "title": "Tottenham 3–1 Coventry : une première victoire construite après l'égalisation",
+      "description": "Maddison, Marmoush et Davies ont marqué lors du premier succès de championnat des Spurs. Chronologie et tableaux de possession, passes, tirs et défense, sans inventer les métriques absentes.",
+      "alt": "Résumé anglais du 3–1 avec statistiques comparées, quatre buts, répartition par mi-temps, évolution du score et buteurs.",
+      "caption": "La courbe suit les buts observés, pas les xG ou la possession. Le découpage par mi-temps compte les buts réels. Toutes les langues partagent ce graphique anglais.",
+      "sections": [
+        ["Le résultat en une phrase", "Tottenham a obtenu sa première victoire de championnat en battant Coventry 3–1, reprenant l'avantage neuf minutes après l'égalisation et ne portant l'écart à deux buts que dans le temps additionnel."],
+        ["Score et horaire", "La rencontre a débuté au Tottenham Hotspur Stadium le lundi 19 octobre 2026 à 20:00 BST, soit 19:00 UTC ; en Corée, il était 04:00 le mardi 20. Les Spurs menaient 1–0 à la pause et ont gagné 3–1. Il s'agit du compte rendu d'un match terminé, distinct de l'avant-match existant."],
+        ["Les quatre buts qui ont façonné le résultat", "James Maddison a ouvert le score à la 14e minute. Jack Rudoni a égalisé à la 49e, puis Omar Marmoush a redonné l'avantage à Tottenham à la 58e. Ben Davies a ajouté le troisième à 90+6. La chronologie compte : le 3–1 ne décrit pas l'essentiel de la rencontre et ne doit pas effacer le retour de Coventry en seconde période."],
+        ["Davantage de ballon, sans mesurer toute la qualité des occasions", "La possession est de 65.4% contre 34.6%, les tirs de 16–12 et les cadrés de 5–1. Tottenham a réussi 499 passes sur 559, Coventry 222 sur 287 : 89.27% et 77.35% calculés. Cela étaye une circulation plus importante et davantage de tirs cadrés pour les Spurs, mais la possession seule ne prouve ni domination territoriale ni qualité des occasions.", "Coventry totalise 13 interceptions contre six ; les fautes sont de 14 contre 15. Le nombre d'interceptions peut aussi refléter une charge défensive supérieure. Les ratios de tacles réussis du fournisseur sont 8/13 et 7/17 : il faut conserver cette définition plutôt que supposer une convention universelle."],
+        ["Buteurs et prudence sur les gardiens", "Maddison, Marmoush et Davies ont marqué pour Tottenham ; Rudoni pour Coventry. Le fournisseur indique zéro arrêt des Spurs face à un tir cadré adverse, contre deux arrêts de Coventry sur cinq : 0% et 40%. Cet échantillon minuscule ne permet pas de classer les gardiens sans la difficulté des tirs. Aucune évaluation fondée sur les PSxG n'est avancée."],
+        ["La réponse à la question de l'avant-match", "La prévision éditoriale demandait si Tottenham, sans victoire en six journées, pouvait créer assez de danger. Trois buts et un premier succès apportent une réponse positive sur le résultat. Ils ne démontrent pas à eux seuls qu'un pressing ou une attaque de bloc bas précis a causé la victoire. Une ancienne base non calibrée n'est pas réécrite comme une prédiction calibrée réussie."],
+        ["Ce que cette victoire change", "Le changement immédiat est la fin du départ sans victoire en championnat. La prochaine question est la répétabilité de cette production offensive, non la disparition de tous les problèmes après un seul match. L'écart final de deux buts et le passage à 1–1 doivent rester présents dans l'analyse."],
+        ["Limites et sources", "Les sources sont le match Premier League 2645264, le compte rendu de Tottenham et les statistiques ESPN. xG, npxG, xA/xAG, PSxG, xT et PPDA n'étaient pas disponibles dans l'entrée vérifiée utilisée ici : aucun chiffre n'est inventé. Les pourcentages dérivés partent de décomptes réels, avec arrondi et définitions propres au fournisseur. Les buts par mi-temps ne sont pas des xG."]
+      ]
+    },
+    "de": {
+      "title": "Tottenham 3–1 Coventry: der erste Ligasieg entstand nach dem Ausgleich",
+      "description": "Maddison, Marmoush und Davies trafen beim ersten Ligasieg der Spurs. Torfolge sowie Ballbesitz-, Pass-, Schuss- und Abwehrtabellen, ohne fehlende Kennzahlen zu erfinden.",
+      "alt": "Englischer Überblick zum 3–1 mit Statistikvergleich, vier Torereignissen, Halbzeitwerten, Spielstandverlauf und Torschützen.",
+      "caption": "Die Kurve zeigt beobachtete Tore, kein xG- oder Ballbesitzmodell. Die Halbzeitauswertung zählt echte Treffer. Alle Sprachen teilen diese englische Grafik.",
+      "sections": [
+        ["Das Ergebnis in einem Satz", "Tottenham gewann gegen Coventry 3–1 und holte den ersten Ligasieg, ging neun Minuten nach dem Ausgleich erneut in Führung und stellte erst in der Nachspielzeit den Zwei-Tore-Abstand her."],
+        ["Endstand und Spielzeit", "Anpfiff im Tottenham Hotspur Stadium war am Montag, 19. Oktober 2026, um 20:00 BST beziehungsweise 19:00 UTC; in Korea war es Dienstag, 20. Oktober, 04:00. Zur Pause stand es 1–0, am Ende 3–1. Dieser Bericht betrifft das abgeschlossene Ligaspiel und ist von der vorhandenen Vorschau getrennt."],
+        ["Die vier entscheidenden Treffer", "James Maddison traf in Minute 14 zur Führung. Jack Rudoni glich in Minute 49 aus, bevor Omar Marmoush Tottenham in Minute 58 wieder nach vorn brachte. Ben Davies erzielte bei 90+6 das dritte Tor. Der Zeitpunkt ist wichtig: 3–1 stand es nicht während des Großteils der Partie; Coventrys Ausgleich nach der Pause darf nicht verloren gehen."],
+        ["Mehr Ballbesitz, aber keine vollständige Chancenbewertung", "Der Ballbesitz lag bei 65.4% zu 34.6%, die Schüsse bei 16–12 und die Torschüsse bei 5–1. Tottenham brachte 499 von 559 Pässen an, Coventry 222 von 287: berechnete Quoten von 89.27% und 77.35%. Das stützt mehr Ballzirkulation und mehr Abschlüsse aufs Tor, beweist aber allein weder territoriale Dominanz noch die Qualität einzelner Chancen.", "Coventry verbuchte 13 Interceptions gegenüber sechs, die Fouls lagen bei 14 zu 15. Mehr abgefangene Bälle können auch höhere Defensivbelastung bedeuten. Die erfolgreichen Tacklings des Anbieters stehen bei 8/13 und 7/17; dessen Nenner ist maßgeblich, nicht eine angenommene allgemeine Definition."],
+        ["Torschützen und Torhüter-Kontext", "Maddison, Marmoush und Davies trafen für Tottenham, Rudoni für Coventry. Erfasst wurden null Spurs-Paraden bei einem gegnerischen Torschuss und zwei Coventry-Paraden bei fünf: 0% und 40%. Ohne Schussschwierigkeit eignet sich diese winzige Stichprobe nicht für ein Torhüter-Ranking. Eine PSxG-basierte Bewertung wird nicht behauptet."],
+        ["Was die Vorschaufrage beantwortet", "Die vorhandene Vorschau fragte, ob Tottenham nach sechs sieglosen Ligaspielen ausreichend Gefahr erzeugen könne. Drei Tore und der erste Sieg beantworten die Ergebnisfrage positiv. Sie beweisen jedoch nicht allein, dass ein bestimmtes Pressing oder das Bespielen eines tiefen Blocks ursächlich war. Eine frühere unkalibrierte Grundlage wird nicht nachträglich als treffsichere kalibrierte Prognose dargestellt."],
+        ["Was sich jetzt ändert", "Unmittelbar endet Tottenhams siegloser Ligastart. Der nächste Test ist die Wiederholbarkeit dieser Offensivleistung, nicht die Behauptung, ein Sieg löse alle Probleme. Sowohl der Zwei-Tore-Endabstand als auch die Phase beim Stand von 1–1 gehören zur Einordnung."],
+        ["Datenlücken und Quellen", "Verwendet wurden Premier-League-Spiel 2645264, Tottenhams Bericht und ESPN-Spielstatistiken. xG, npxG, xA/xAG, PSxG, xT und PPDA waren im hier verifizierten Datensatz nicht enthalten und wurden nicht erfunden. Abgeleitete Quoten beruhen auf echten Zählwerten und Rundung; Anbieterdefinitionen können abweichen. Tore je Halbzeit sind ausdrücklich keine xG."]
+      ]
+    },
+    "hi": {
+      "title": "टॉटनहम 3–1 कोवेंट्री: बराबरी के बाद मिली पहली लीग जीत",
+      "description": "मैडिसन, मार्मूश और डेविस के गोलों से स्पर्स की पहली लीग जीत। गोल क्रम, कब्ज़ा, पासिंग, शॉट और रक्षा की तुलना, बिना अनुपलब्ध आँकड़े गढ़े।",
+      "alt": "3–1 जीत का साझा अंग्रेज़ी सार: तुलनात्मक आँकड़े, चार गोल, हाफ के गोल, स्कोर का क्रम और गोल करने वाले खिलाड़ी।",
+      "caption": "ग्राफ वास्तविक गोल पड़ाव दिखाता है, xG या कब्ज़े का मॉडल नहीं। हाफ का विभाजन भी वास्तविक गोलों का है। सभी भाषाएँ यही अंग्रेज़ी चित्र उपयोग करती हैं।",
+      "sections": [
+        ["नतीजा एक वाक्य में", "टॉटनहम ने कोवेंट्री को 3–1 हराकर पहली लीग जीत हासिल की, बराबरी के नौ मिनट बाद फिर बढ़त ली और केवल स्टॉपेज टाइम में दो गोल का अंतर बनाया।"],
+        ["अंतिम स्कोर और समय", "मैच सोमवार, 19 अक्टूबर 2026 को टॉटनहम हॉटस्पर स्टेडियम में 20:00 BST, यानी 19:00 UTC पर शुरू हुआ; कोरिया में मंगलवार, 20 अक्टूबर के 04:00 थे। हाफ-टाइम पर स्पर्स 1–0 और अंत में 3–1 आगे थे। यह समाप्त लीग मैच की रिपोर्ट है, पहले से प्रकाशित प्रीव्यू से अलग।"],
+        ["चार गोलों का निर्णायक क्रम", "जेम्स मैडिसन ने 14वें मिनट में पहला गोल किया। जैक रुडोनी ने 49वें मिनट में बराबरी की, फिर ओमर मार्मूश ने 58वें मिनट में बढ़त लौटाई। बेन डेविस ने 90+6 पर तीसरा गोल किया। समय महत्वपूर्ण है: अधिकांश मैच में स्कोर 3–1 नहीं था और अंतिम अंतर से कोवेंट्री की दूसरे हाफ की बराबरी नहीं छिपनी चाहिए।"],
+        ["अधिक गेंद, लेकिन मौके की गुणवत्ता का पूरा माप नहीं", "कब्ज़ा 65.4% बनाम 34.6%, शॉट 16–12 और निशाने पर शॉट 5–1 रहे। टॉटनहम के 559 में 499 पास सफल थे, कोवेंट्री के 287 में 222: गणना से 89.27% और 77.35%। इससे स्पर्स का अधिक गेंद चलाना और निशाने पर उत्पादन दिखता है, लेकिन कब्ज़ा अकेले क्षेत्रीय दबदबा या हर मौके की गुणवत्ता साबित नहीं करता।", "कोवेंट्री के 13 इंटरसेप्शन और स्पर्स के छह थे; फाउल 14 बनाम 15 रहे। अधिक इंटरसेप्शन अधिक रक्षात्मक दबाव का परिणाम भी हो सकते हैं। प्रदाता के सफल टैकल अनुपात 8/13 और 7/17 हैं; इन्हें उसी परिभाषा से पढ़ना चाहिए, किसी सार्वभौमिक टैकल मानक से नहीं।"],
+        ["गोलकर्ता और गोलकीपर आँकड़ों का संदर्भ", "टॉटनहम के लिए मैडिसन, मार्मूश और डेविस ने गोल किए; कोवेंट्री के लिए रुडोनी ने। स्पर्स की विरोधी के एक निशाने वाले शॉट पर शून्य सेव और कोवेंट्री की पाँच पर दो सेव दर्ज हैं: 0% और 40%। शॉट की कठिनाई के बिना इतना छोटा नमूना गोलकीपरों की गुणवत्ता रैंक नहीं कर सकता। PSxG आधारित निष्कर्ष नहीं दिया गया है।"],
+        ["प्रीव्यू के सवाल का जवाब", "पहले प्रीव्यू का सवाल था कि छह लीग मैचों से बिना जीत वाला टॉटनहम पर्याप्त खतरा बना पाएगा या नहीं। तीन गोल और पहली जीत नतीजे के स्तर पर सकारात्मक जवाब हैं। लेकिन केवल स्कोर किसी खास प्रेसिंग या लो-ब्लॉक रणनीति को जीत का कारण साबित नहीं करता। पुराने गैर-कैलिब्रेटेड आधार को बाद में सटीक कैलिब्रेटेड भविष्यवाणी नहीं बताया गया है।"],
+        ["अब क्या बदला", "सबसे सीधा बदलाव टॉटनहम की बिना जीत वाली लीग शुरुआत का समाप्त होना है। अगला सवाल इस आक्रमण प्रदर्शन को दोहराने का है, एक नतीजे से सभी समस्याएँ खत्म मानने का नहीं। दो गोल के अंतिम अंतर और बीच के 1–1 दोनों को आकलन में रखना चाहिए।"],
+        ["स्रोत और सीमाएँ", "Premier League मैच 2645264, टॉटनहम की रिपोर्ट और ESPN के आँकड़े इस्तेमाल हुए। इस सत्यापित इनपुट में xG, npxG, xA/xAG, PSxG, xT और PPDA नहीं थे, इसलिए कोई काल्पनिक मान नहीं भरा गया। निकले प्रतिशत वास्तविक गिनती पर आधारित और राउंड किए गए हैं; प्रदाता की परिभाषा बदलने पर मान बदल सकते हैं। चित्र में हाफ के गोल, xG नहीं हैं।"]
+      ]
+    }
+  }
+}
