@@ -1,0 +1,8 @@
+{
+  "operation":"publish-two-table-first-stories",
+  "revision":"623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "mode":"supervised-reviewed-publication",
+  "groups":["epl-2645272-preview","epl-2645257-recap"],
+  "locales":["en","ko","es","ja","pt-BR","fr","de","hi"],
+  "shared_english_images":2
+}
