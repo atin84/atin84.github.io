@@ -176,4 +176,39 @@ html:lang(hi) h1, html:lang(hi) h2, html:lang(hi) h3 { letter-spacing: normal; }
 .qi-statistics { margin:2rem 0; padding:1rem; background:#fff; border:1px solid #d6e2e8; border-radius:14px; }
 @media (max-width:620px) { .qi-data-table {font-size:.8rem;} .qi-data-table th,.qi-data-table td {padding:.65rem .7rem;} }
 
+
+/* Structured match summary: one fact per row, no prose in a bitmap. */
+.qi-match-overview { margin:1.4rem 0 2rem; padding:clamp(1rem,3vw,1.5rem); border:1px solid #d6e2e8; border-radius:16px; background:#fff; color:#172f40; box-shadow:0 8px 24px rgba(23,47,64,.05); }
+.qi-match-overview * { box-sizing:border-box; }
+.qi-match-heading { display:flex; justify-content:space-between; align-items:center; gap:.7rem; }
+.qi-match-heading h2 { margin:0; font-size:1.2rem; line-height:1.4; }
+.qi-match-status { padding:.3rem .7rem; border-radius:30px; background:#eaf2f6; color:#235467; font-size:.8rem; font-weight:700; white-space:nowrap; }
+.qi-fixture-pair { display:flex; gap:.8rem; justify-content:center; align-items:center; text-align:center; padding:.8rem 0; font-size:1.1rem; }
+.qi-fixture-pair strong { flex:1; overflow-wrap:anywhere; }
+.qi-fixture-pair span { color:#66778b; font-size:.8rem; }
+.qi-scoreboard { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:.85rem; align-items:center; margin:1.2rem 0 .4rem; text-align:center; }
+.qi-scoreboard > div { min-width:0; display:flex; flex-direction:column; gap:.3rem; }
+.qi-scoreboard strong { overflow-wrap:anywhere; font-size:1.02rem; line-height:1.4; }
+.qi-scoreboard small { color:#536c7b; font-size:.75rem; }
+.qi-scoreboard > div:first-child strong { color:#087d85; }
+.qi-scoreboard > div:last-child strong { color:#3762b4; }
+.qi-score { display:flex; gap:.35rem; font-size:clamp(2rem,7vw,3rem); line-height:1.1; font-variant-numeric:tabular-nums; }
+.qi-score span { font-weight:400; color:#81909a; }
+.qi-half-score { text-align:center; color:#536c7b; margin:.3rem 0 1.1rem; font-size:.88rem; }
+.qi-match-facts { border-collapse:collapse; width:100%; table-layout:fixed; font-size:.92rem; line-height:1.65; }
+.qi-match-facts th,.qi-match-facts td { padding:.65rem .75rem; text-align:left; vertical-align:top; border-bottom:1px solid #e2e9ed; overflow-wrap:anywhere; }
+.qi-match-facts th { width:29%; background:#f1f6f8; color:#314c5c; font-weight:650; }
+.qi-match-facts time { font-variant-numeric:tabular-nums; }
+.qi-match-source { color:#536c7b; font-size:.75rem; line-height:1.7; margin:.9rem 0 0; overflow-wrap:anywhere; }
+.qi-goal-table { min-width:0; table-layout:fixed; }
+.qi-own-goal { display:inline-block; font-size:.73rem; color:#536c7b; border:1px solid #d6e2e8; border-radius:4px; padding:0 .25rem; }
+.qi-visually-hidden { position:absolute!important; width:1px!important; height:1px!important; padding:0!important; margin:-1px!important; overflow:hidden!important; clip:rect(0,0,0,0)!important; white-space:nowrap!important; border:0!important; }
+@media(max-width:620px) { .qi-match-facts { font-size:.85rem; } .qi-match-facts th { width:31%; } .qi-match-facts th,.qi-match-facts td { padding:.6rem .5rem; } .qi-scoreboard { gap:.45rem; } .qi-scoreboard strong { font-size:.87rem; } }
+
+
+.qi-goal-table { min-width:0; table-layout:fixed; }
+.qi-goal-table th:first-child { width:15%; min-width:0; }
+.qi-goal-table th:last-child { width:22%; }
+.qi-goal-table td,.qi-goal-table th { padding:.7rem .45rem; overflow-wrap:anywhere; }
+.qi-goal-side { display:block; margin-top:.15rem; color:#536c7b; font-size:.68rem; }
 /* QI_WIDGET_END */

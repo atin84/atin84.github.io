@@ -6,10 +6,10 @@ import math
 from urllib.parse import urlsplit, parse_qsl
 
 UI = {
- 'en': ('Date','Opponent','Score','Result','Metric','Unit','Source','No data','Official team comparison','Match data comparison','Expected value','Defense and pressing','Creation and progression','Passing and possession','Goalkeeping','Scope'),
- 'ko': ('날짜','상대팀','스코어','결과','지표','단위','출처','자료 없음','공식 팀 전력 비교','경기 데이터 비교','기대 가치','수비·압박','찬스 창출·전진','패스·점유','골키퍼','집계 범위'),
+ 'en': ('Date','Opponent','Score','Result','Metric','Unit','Source','No data','Team record comparison','Match data comparison','Expected value','Defense and pressing','Creation and progression','Passing and possession','Goalkeeping','Scope'),
+ 'ko': ('날짜','상대팀','스코어','결과','지표','단위','출처','자료 없음','동일 기간 팀 기록 비교','경기 데이터 비교','기대 가치','수비·압박','찬스 창출·전진','패스·점유','골키퍼','집계 범위'),
  'es': ('Fecha','Rival','Marcador','Resultado','Métrica','Unidad','Fuente','Sin datos','Comparación de equipos','Datos del partido','Valor esperado','Defensa y presión','Creación y progresión','Pases y posesión','Portería','Periodo'),
- 'ja': ('日付','対戦相手','スコア','結果','指標','単位','出典','データなし','公式チーム比較','試合データ比較','期待値','守備・プレス','創出・前進','パス・保持','ゴールキーパー','集計範囲'),
+ 'ja': ('日付','対戦相手','スコア','結果','指標','単位','出典','データなし','チーム成績比較','試合データ比較','期待値','守備・プレス','創出・前進','パス・保持','ゴールキーパー','集計範囲'),
  'pt-BR': ('Data','Adversário','Placar','Resultado','Métrica','Unidade','Fonte','Sem dados','Comparação das equipes','Dados da partida','Valor esperado','Defesa e pressão','Criação e progressão','Passes e posse','Goleiros','Período'),
  'fr': ('Date','Adversaire','Score','Résultat','Indicateur','Unité','Source','Indisponible','Comparaison des équipes','Données du match','Valeur attendue','Défense et pressing','Création et progression','Passes et possession','Gardiens','Période'),
  'de': ('Datum','Gegner','Ergebnis','Ausgang','Kennzahl','Einheit','Quelle','Keine Daten','Teamvergleich','Spieldaten','Erwartungswerte','Abwehr und Pressing','Kreation und Fortschritt','Pässe und Ballbesitz','Torhüter','Zeitraum'),

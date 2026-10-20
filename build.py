@@ -203,6 +203,9 @@ import importlib.util as _importlib
 _tables_spec = _importlib.spec_from_file_location('qi_comparison_tables', Path(__file__).resolve().parent / 'scripts' / 'comparison_tables.py')
 _tables = _importlib.module_from_spec(_tables_spec)
 _tables_spec.loader.exec_module(_tables)
+_overview_spec = _importlib.spec_from_file_location('qi_match_overview', Path(__file__).resolve().parent / 'scripts' / 'match_overview.py')
+_overview = _importlib.module_from_spec(_overview_spec)
+_overview_spec.loader.exec_module(_overview)
 
 
 def normalize_preview_comparison(value, league, kind):
@@ -432,6 +435,7 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
         **metadata,
         "figures": clean_figures,
         "preview_comparison": comparison,
+        "match_overview": _overview.normalize(raw.get("match_overview"), metadata["league"], metadata["article_kind"], metadata["match_id"]),
         "official_comparison": _tables.normalize(raw.get("official_comparison"), metadata["league"], metadata["article_kind"], "official_comparison"),
         "football_statistics": _tables.normalize(raw.get("football_statistics"), metadata["league"], metadata["article_kind"], "football_statistics"),
         "blogger_url": blogger_url,
@@ -633,7 +637,7 @@ def article_body(article: dict, config: dict) -> str:
     for figure in article.get("figures", []):
         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
         pictures.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
-    has_components = any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics"))
+    has_components = any(article.get(k) for k in ("match_overview", "preview_comparison", "official_comparison", "football_statistics"))
     if not has_components:
         blocks.extend(pictures)
     for index, section in enumerate(article["sections"]):
@@ -645,6 +649,8 @@ def article_body(article: dict, config: dict) -> str:
             blocks.append("<ul>" + "".join(f"<li>{esc(item)}</li>" for item in section["bullets"]) + "</ul>")
         blocks.append("</section>")
         if index == 0 and has_components:
+            if article.get("match_overview"):
+                blocks.append(_overview.render(article["match_overview"], config["language"]))
             if article.get("preview_comparison"):
                 blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
             for field in ("official_comparison", "football_statistics"):
@@ -882,7 +888,7 @@ def blogger_payload(article: dict, config: dict) -> dict:
     config = localized_config(config, article)
     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
     widget_style = ""
-    if any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics")):
+    if any(article.get(k) for k in ("match_overview", "preview_comparison", "official_comparison", "football_statistics")):
         style = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
         widget_style = "<style>" + style.split("/* QI_WIDGET_START */", 1)[1].split("/* QI_WIDGET_END */", 1)[0] + "</style>"
     content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{widget_style}{navigation}{article_body(article, config)}</div>'
