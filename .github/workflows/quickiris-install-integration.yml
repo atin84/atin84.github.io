@@ -1,0 +1,47 @@
+name: Install tested QuickIris integration
+on:
+  push:
+    branches: [main]
+    paths: ['.integration/ready.json']
+permissions:
+  contents: write
+concurrency:
+  group: quickiris-integration-install
+  cancel-in-progress: false
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Validate checksum, exact file allowlist and patch context
+        run: |
+          python - <<'PY'
+          import base64,gzip,hashlib,json,subprocess
+          from pathlib import Path
+          manifest=json.loads(Path('.integration/ready.json').read_text())
+          encoded=''.join(Path(p).read_text().strip() for p in manifest['parts'])
+          patch=gzip.decompress(base64.b64decode(encoded,validate=True))
+          assert hashlib.sha256(patch).hexdigest()==manifest['sha256']
+          targets=[line.split(' b/',1)[1] for line in patch.decode().splitlines() if line.startswith('diff --git ')]
+          allowed={'assets/style.css','build.py','scripts/publish_blogger.py','scripts/comparison_tables.py','scripts/render_summary_image.py','tests/test_comparison_tables.py'}
+          assert set(targets)==allowed and len(targets)==len(allowed)
+          Path('/tmp/quickiris.patch').write_bytes(patch)
+          subprocess.run(['git','apply','--check','/tmp/quickiris.patch'],check=True)
+          subprocess.run(['git','apply','--index','/tmp/quickiris.patch'],check=True)
+          PY
+      - name: Regression tests and compile
+        run: |
+          python -m unittest discover -s tests -v
+          python -m compileall -q build.py scripts
+      - name: Commit native source files only after passing tests
+        run: |
+          git rm -r .integration
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'feat: integrate sourced HTML tables, fixed summary renderer and stable Blogger corrections'
+          git push origin HEAD:main
+          echo "Installed commit: $(git rev-parse HEAD)"
