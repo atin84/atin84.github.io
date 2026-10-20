@@ -49,7 +49,7 @@ def fetch(url):
 
 def revision(input_path):
     paths=[Path(input_path),Path(__file__),ROOT/'build.py',ROOT/'assets/style.css',
-           ROOT/'scripts/match_overview.py',ROOT/'scripts/comparison_tables.py',
+           ROOT/'scripts/match_overview.py',ROOT/'scripts/reader_timezones.py',ROOT/'scripts/comparison_tables.py',
            ROOT/'scripts/render_summary_image.py',ROOT/'scripts/import_reviewed_stories.py']
     return digest(b''.join(p.read_bytes() for p in paths))
 
@@ -91,7 +91,7 @@ def localize_tables(g,locale):
         c=copy.deepcopy(g['preview_comparison'])
         samples=[len(c[side]['recent']) for side in ('home','away')]
         scope=SCOPES['recent'][idx].replace('5',str(samples[0]) if samples[0]==samples[1] else str(samples[0])+'/'+str(samples[1])).replace('4',str(len(c['head_to_head'])))
-        c['scope']=scope;out['preview_comparison']=c
+        c['scope']=g.get('recent_scope',{}).get(locale,scope);out['preview_comparison']=c
     for field in ('official_comparison','football_statistics'):
         if field not in g:continue
         c=copy.deepcopy(g[field]);c['scope']=SCOPES['season' if field=='official_comparison' else 'match'][idx]
