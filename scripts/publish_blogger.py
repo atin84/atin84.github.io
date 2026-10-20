@@ -3,7 +3,8 @@
 
 The default is an offline dry run. --apply creates drafts; --apply --publish
 publishes existing matching drafts or creates a draft and then publishes it.
-Existing post bodies are never edited, and posts are never deleted.
+The legacy CLI never edits existing bodies. The integrated pipeline can call an
+explicit hash-checked patch for an approved correction; posts are never deleted.
 
 Identity is the SHA-256 of the JSON file stem, embedded in an HTML comment.
 Keep export filenames stable. All pages of live, draft and scheduled posts are
@@ -241,7 +242,7 @@ class BloggerClient:
             data = json.dumps(body, ensure_ascii=False).encode("utf-8")
             headers["Content-Type"] = "application/json; charset=utf-8"
         return self._json_request(urllib.request.Request(url, data=data, headers=headers, method=method),
-                                  operation, mutation=(method == "POST"))
+                                  operation, mutation=(method in ("POST", "PATCH")))
 
     def existing_posts(self) -> dict[str, RemotePost]:
         """A complete AUTHOR-view inventory; fail closed on incomplete or conflicting data."""
@@ -280,6 +281,53 @@ class BloggerClient:
                 seen_tokens.add(next_token)
                 page_token = next_token
         return by_key
+
+    def inventory_details(self) -> list[dict]:
+        """AUTHOR inventory including legacy unmarked posts for cross-platform preflight."""
+        records = {}
+        for status in ("live", "draft", "scheduled"):
+            token = None
+            seen = set()
+            while True:
+                query = {"status": status, "view": "AUTHOR", "fetchBodies": "true", "maxResults": 100}
+                if token:
+                    query["pageToken"] = token
+                page = self._call("GET", "", query=query, operation="Read publication inventory")
+                if not isinstance(page.get("items", []), list):
+                    raise PublisherError("Invalid publication inventory")
+                for row in page.get("items", []):
+                    post_id = checked_id(row.get("id"), "Post ID")
+                    if not isinstance(row.get("content"), str) or post_id in records:
+                        raise PublisherError("Conflicting/incomplete publication inventory")
+                    records[post_id] = {**row, "status": status}
+                token = page.get("nextPageToken")
+                if not token:
+                    break
+                if not isinstance(token, str) or token in seen:
+                    raise PublisherError("Invalid publication pagination")
+                seen.add(token)
+        return list(records.values())
+
+    def get_post(self, post_id: str) -> dict:
+        checked_id(post_id, "Post ID")
+        return self._call("GET", f"/{post_id}", query={"view": "AUTHOR"}, operation="Read existing post")
+
+    def patch(self, post_id: str, post: PreparedPost, expected_hash: str) -> RemotePost:
+        """Explicit correction only; preserve post ID. Caller keeps one persistent writer.
+
+        Compare the live body before the write; never reinterpret a failed PATCH as
+        authorization to insert. The pipeline also binds this action to release SHA.
+        """
+        current = self.get_post(post_id)
+        material = {k: current.get(k) for k in ("title", "content", "labels")}
+        digest = hashlib.sha256(json.dumps(material, ensure_ascii=False, sort_keys=True,
+                               separators=(",", ":")).encode()).hexdigest()
+        if digest != expected_hash:
+            raise PublisherError("Existing post changed since preflight; correction held")
+        result = self._call("PATCH", f"/{post_id}", body=post.body(), operation="Update existing post")
+        if result.get("id") != post_id or set(MARKER_RE.findall(result.get("content", ""))) != {post.key}:
+            raise PublisherError("Correction response uncertain; do not insert another post", uncertain=True)
+        return RemotePost(post_id, str(result.get("status", "LIVE")).lower())
 
     def insert_draft(self, post: PreparedPost) -> RemotePost:
         result = self._call("POST", "", query={"isDraft": "true"}, body=post.body(), operation="Insert draft")

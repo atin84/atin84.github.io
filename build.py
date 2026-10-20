@@ -198,6 +198,13 @@ def normalize_leagues(raw: object) -> dict:
 
 
 
+# Load by file path to support the builder's existing importlib test harness.
+import importlib.util as _importlib
+_tables_spec = _importlib.spec_from_file_location('qi_comparison_tables', Path(__file__).resolve().parent / 'scripts' / 'comparison_tables.py')
+_tables = _importlib.module_from_spec(_tables_spec)
+_tables_spec.loader.exec_module(_tables)
+
+
 def normalize_preview_comparison(value, league, kind):
     """Produce verified-shape match records; percentages are never provider-supplied."""
     if value is None:
@@ -313,14 +320,7 @@ def preview_comparison_html(c, language):
         out.append('<p class="qi-form-record">' + (str(wins) + esc(w_label) + " · " + str(draws) +
                    esc(d_label) + " · " + str(losses) + esc(l_label) if n else esc(missing)) + '</p>')
         if n:
-            out.append('<ol class="qi-form-history">')
-            for m in g:
-                tip = m["date"] + " " + m["opponent"] + " " + str(m["for"]) + ":" + str(m["against"])
-                out.append('<li class="qi-outcome-' + m["result"].lower() + '" title="' + esc(tip) +
-                           '"><strong>' + m["result"] + '</strong><small>' + esc(m["opponent"]) +
-                           '</small><small class="qi-result-score">' + str(m["for"]) + '–' +
-                           str(m["against"]) + '</small></li>')
-            out.append('</ol>')
+            out.append(_tables.recent_table(club, language))
         out.append('</div>')
     out.append('</div><div class="qi-reference">' + link("recent") + '</div></section>')
     meetings = c["head_to_head"]
@@ -342,13 +342,7 @@ def preview_comparison_html(c, language):
                    '<span class="qi-h2h-home" style="width:' + str(round(home_w / n * 100, 3)) + '%"></span>'
                    '<span class="qi-h2h-draw" style="width:' + str(round(draws / n * 100, 3)) + '%"></span>'
                    '<span class="qi-h2h-away" style="width:' + str(round(away_w / n * 100, 3)) + '%"></span></div>')
-        out.append('<ol class="qi-h2h-games">')
-        for m in meetings:
-            out.append('<li><time datetime="' + esc(m["date"]) + '">' + esc(m["date"]) +
-                       '</time><span>' + esc(m["home_team"]) + '</span><strong>' +
-                       str(m["home_score"]) + ' – ' + str(m["away_score"]) + '</strong><span>' +
-                       esc(m["away_team"]) + '</span></li>')
-        out.append('</ol>')
+        out.append(_tables.h2h_table(c, language))
     else:
         out.append('<p>' + esc(missing) + '</p>')
     out.append('<p class="qi-caveat">' + esc(disclaimer) + ' · ' +
@@ -403,7 +397,7 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
     if published_at and updated_at < published_at:
         raise ValueError(f"{prefix}: updated_at must not precede published_at")
     metadata = {key: text(raw[key], f"{prefix}: {key}") if key in raw else ""
-                for key in ("league", "match_id", "article_kind", "translation_group")}
+                for key in ("league", "match_id", "article_kind", "translation_group", "canonical_group", "quickiris_revision")}
     for key, value in metadata.items():
         if value and not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._:-]{0,159}", value):
             raise ValueError(f"{prefix}: {key} must be a short ASCII identifier")
@@ -438,6 +432,8 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
         **metadata,
         "figures": clean_figures,
         "preview_comparison": comparison,
+        "official_comparison": _tables.normalize(raw.get("official_comparison"), metadata["league"], metadata["article_kind"], "official_comparison"),
+        "football_statistics": _tables.normalize(raw.get("football_statistics"), metadata["league"], metadata["article_kind"], "football_statistics"),
         "blogger_url": blogger_url,
         "labels": list(dict.fromkeys(string_list(raw.get("labels", []), f"{prefix}: labels"))),
         "sections": clean_sections,
@@ -629,13 +625,16 @@ def article_dates(article: dict, config: dict) -> str:
 def article_body(article: dict, config: dict) -> str:
     config = localized_config(config, article)
     blocks = []
+    if article.get("quickiris_revision"):
+        blocks.append("<!-- quickiris-content-revision:" + esc(article["quickiris_revision"]) + " -->")
     if article["description"]:
         blocks.append(f'<p class="article-summary">{esc(article["description"])}</p>')
     pictures = []
     for figure in article.get("figures", []):
         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
         pictures.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
-    if not article.get("preview_comparison"):
+    has_components = any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics"))
+    if not has_components:
         blocks.extend(pictures)
     for index, section in enumerate(article["sections"]):
         blocks.append("<section>")
@@ -645,8 +644,12 @@ def article_body(article: dict, config: dict) -> str:
         if section["bullets"]:
             blocks.append("<ul>" + "".join(f"<li>{esc(item)}</li>" for item in section["bullets"]) + "</ul>")
         blocks.append("</section>")
-        if index == 0 and article.get("preview_comparison"):
-            blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
+        if index == 0 and has_components:
+            if article.get("preview_comparison"):
+                blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
+            for field in ("official_comparison", "football_statistics"):
+                if article.get(field):
+                    blocks.append(_tables.render(article[field], config["language"], field))
             blocks.extend(pictures)
     if article["sources"]:
         items = "".join(f'<li><a href="{esc(source["url"])}" rel="noopener noreferrer">{esc(source["title"])}</a></li>' for source in article["sources"])
@@ -879,7 +882,7 @@ def blogger_payload(article: dict, config: dict) -> dict:
     config = localized_config(config, article)
     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
     widget_style = ""
-    if article.get("preview_comparison"):
+    if any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics")):
         style = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
         widget_style = "<style>" + style.split("/* QI_WIDGET_START */", 1)[1].split("/* QI_WIDGET_END */", 1)[0] + "</style>"
     content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{widget_style}{navigation}{article_body(article, config)}</div>'

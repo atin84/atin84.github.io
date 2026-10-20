@@ -156,4 +156,24 @@ html:lang(hi) h1, html:lang(hi) h2, html:lang(hi) h3 { letter-spacing: normal; }
  .qi-h2h-games li { grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); }
  .qi-h2h-games time { grid-column:1 / -1; font-size:.67rem; }
 }
+
+.qi-table-scroll { overflow-x:auto; max-width:100%; margin:1rem 0; border:1px solid #d6e2e8; border-radius:10px; background:#fff; }
+.qi-table-scroll:focus-visible { outline:3px solid #087d85; outline-offset:3px; }
+.qi-data-table { border-collapse:separate; border-spacing:0; width:100%; min-width:440px; font-size:.84rem; line-height:1.55; }
+.qi-data-table caption { text-align:left; font-weight:750; color:#172f40; padding:.85rem 1rem; background:#eaf2f6; }
+.qi-data-table th,.qi-data-table td { padding:.75rem .85rem; border-bottom:1px solid #e2e9ed; vertical-align:middle; text-align:left; }
+.qi-data-table thead th { background:#f1f6f8; color:#243e4e; font-weight:700; white-space:nowrap; }
+.qi-data-table tbody th { font-weight:650; position:sticky; left:0; background:#fff; z-index:1; min-width:125px; }
+.qi-data-table tbody tr:nth-child(even) td,.qi-data-table tbody tr:nth-child(even) th { background:#f6f9fb; }
+.qi-data-table tbody tr:hover td,.qi-data-table tbody tr:hover th { background:#edf5f7; }
+.qi-data-table .qi-number { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.qi-data-table details { min-width:100px; max-width:250px; font-size:.77rem; }
+.qi-data-table summary { cursor:pointer; color:#155d7b; }
+.qi-result-badge { display:inline-block; min-width:1.8em; text-align:center; border-radius:5px; padding:.1rem .4rem; font-weight:700; }
+.qi-result-badge.qi-outcome-w { background:#ddf4e7; color:#14683e; }
+.qi-result-badge.qi-outcome-l { background:#fce5e4; color:#a73333; }
+.qi-result-badge.qi-outcome-d { background:#edf0f3; color:#5c6672; }
+.qi-statistics { margin:2rem 0; padding:1rem; background:#fff; border:1px solid #d6e2e8; border-radius:14px; }
+@media (max-width:620px) { .qi-data-table {font-size:.8rem;} .qi-data-table th,.qi-data-table td {padding:.65rem .7rem;} }
+
 /* QI_WIDGET_END */
