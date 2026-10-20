@@ -3,7 +3,7 @@
   "mode":"supervised-reviewed-publication",
   "facts_path":"data/reviewed/epl-reader-timezones-facts.json",
   "copy_path":"data/reviewed/epl-reader-timezones-copy.json",
-  "approved_revision":null,
+  "approved_revision":"877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
   "expected_articles":16,
   "expected_images":2
 }
