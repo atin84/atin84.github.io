@@ -279,5 +279,89 @@ class MultilingualBuildTests(unittest.TestCase):
             builder.chart_assets(self.config, [normalized])
 
 
+    def sample_comparison(self):
+        return {
+            "as_of": "2026-10-17T11:00:00Z", "scope": "Last verified league games",
+            "sources": {
+                "recent": {"title": "Official form", "url": "https://source.example.test/form"},
+                "head_to_head": {"title": "Official meetings", "url": "https://source.example.test/h2h"}},
+            "home": {"name": "Blue", "recent": [
+                {"date": "2026-10-16", "opponent": "Rival <A>", "for": 102, "against": 99},
+                {"date": "2026-10-14", "opponent": "Rival B", "for": 100, "against": 110},
+                {"date": "2026-10-12", "opponent": "Rival C", "for": 110, "against": 100}]},
+            "away": {"name": "Orange", "recent": [
+                {"date": "2026-10-15", "opponent": "Other A", "for": 99, "against": 105},
+                {"date": "2026-10-13", "opponent": "Other B", "for": 111, "against": 100}]},
+            "head_to_head": [
+                {"date": "2026-10-10", "home_team": "Blue", "away_team": "Orange", "home_score": 102, "away_score": 99},
+                {"date": "2026-10-05", "home_team": "Orange", "away_team": "Blue", "home_score": 105, "away_score": 110},
+                {"date": "2026-10-01", "home_team": "Orange", "away_team": "Blue", "home_score": 108, "away_score": 100}
+            ]}
+
+    def test_preview_html_form_and_meetings_are_score_derived(self):
+        article = self.raw()
+        article["preview_comparison"] = self.sample_comparison()
+        self.write(article)
+        self.build()
+        page = (self.root / "dist" / "posts" / "nba-preview-en" / "index.html").read_text()
+        self.assertIn('class="qi-comparison"', page)
+        self.assertIn("66.7%", page)   # 2 out of 3 recent games won by Blue
+        self.assertIn("50%", page)     # Orange won 1 out of 2 recent games
+        self.assertIn("33.3%", page)   # Orange won 1 out of 3 meetings
+        self.assertIn("Rival &lt;A&gt;", page)
+        self.assertNotIn("Rival <A>", page)
+        self.assertIn('role="meter"', page)
+        self.assertIn("Historical rates, not predictions", page)
+
+    def test_preview_comparison_checks_phase_restricted_article_and_score(self):
+        raw = self.raw()
+        raw["preview_comparison"] = self.sample_comparison()
+        for key, value in (("article_kind", "recap"), ("league", "OTHER")):
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                builder.normalize_article({**raw, key: value}, Path("test.json"))
+        invalid = self.sample_comparison()
+        invalid["home"]["recent"][0]["for"] = "fake"
+        with self.assertRaises(ValueError):
+            builder.normalize_article({**raw, "preview_comparison": invalid}, Path("test.json"))
+        invalid = self.sample_comparison()
+        invalid["head_to_head"][0]["away_team"] = "Unrelated"
+        with self.assertRaises(ValueError):
+            builder.normalize_article({**raw, "preview_comparison": invalid}, Path("test.json"))
+
+    def test_epl_draw_rates_and_reversed_historical_venues(self):
+        raw = self.raw()
+        raw["league"] = "EPL"
+        data = self.sample_comparison()
+        data["home"]["recent"][0]["for"] = 99
+        data["head_to_head"][0]["away_score"] = 102
+        raw["preview_comparison"] = data
+        n = builder.normalize_article(raw, Path("test.json"))
+        output = builder.preview_comparison_html(n["preview_comparison"], "ko")
+        self.assertIn("양팀 맞대결", output)
+        self.assertIn("33.3%", output)
+        self.assertIn('class="qi-h2h-draw"', output)
+
+    def test_blogger_comparison_is_html_with_css(self):
+        raw = self.raw(platform="blogger")
+        raw["preview_comparison"] = self.sample_comparison()
+        n = builder.normalize_article(raw, Path("test.json"))
+        body = builder.blogger_payload(n, self.config)["content"]
+        self.assertIn("<style>", body)
+        self.assertIn(".qi-compare-grid", body)
+        self.assertIn("qi-h2h-bar", body)
+
+    def test_insufficient_samples_never_claim_zero_win_rate(self):
+        raw = self.raw()
+        data = self.sample_comparison()
+        data["home"]["recent"] = []
+        data["head_to_head"] = []
+        raw["preview_comparison"] = data
+        n = builder.normalize_article(raw, Path("test.json"))
+        html = builder.preview_comparison_html(n["preview_comparison"], "en")
+        self.assertIn("No verified games", html)
+        self.assertNotIn("0%", html)
+
+
+
 if __name__ == "__main__":
     unittest.main()
