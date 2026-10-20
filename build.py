@@ -197,6 +197,161 @@ def normalize_leagues(raw: object) -> dict:
     return result
 
 
+
+def normalize_preview_comparison(value, league, kind):
+    """Produce verified-shape match records; percentages are never provider-supplied."""
+    if value is None:
+        return None
+    if kind != "preview" or league not in ("NBA", "EPL") or not isinstance(value, dict):
+        raise ValueError("preview_comparison is supported only for NBA/EPL previews")
+    checked = parse_date(value.get("as_of"), "preview_comparison.as_of")
+    scope = text(value.get("scope"), "preview_comparison.scope")
+    sources = value.get("sources")
+    if not isinstance(sources, dict):
+        raise ValueError("preview_comparison needs recent and head_to_head source URLs")
+    links = {}
+    for k in ("recent", "head_to_head"):
+        src = sources.get(k)
+        if not isinstance(src, dict):
+            raise ValueError("missing comparison source " + k)
+        links[k] = {"title": text(src.get("title"), "source title"),
+                    "url": http_url(src.get("url"), "source URL")}
+
+    def game_day(raw):
+        if not isinstance(raw, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", raw):
+            raise ValueError("game date must be YYYY-MM-DD")
+        if datetime.strptime(raw, "%Y-%m-%d").date() > checked.date():
+            raise ValueError("game result after as-of date")
+        return raw
+
+    def score(raw):
+        if type(raw) is not int or not 0 <= raw <= 300:
+            raise ValueError("final score must be a nonnegative integer")
+        return raw
+
+    result = {"as_of": checked, "scope": scope, "sources": links}
+    for side in ("home", "away"):
+        team = value.get(side)
+        if not isinstance(team, dict) or not isinstance(team.get("recent"), list) or len(team["recent"]) > 5:
+            raise ValueError("recent must be a list of up to five completed games")
+        games = []
+        for g in team["recent"]:
+            day, gf, ga = game_day(g["date"]), score(g["for"]), score(g["against"])
+            if league == "NBA" and gf == ga:
+                raise ValueError("NBA final scores cannot be tied")
+            games.append({"date": day, "opponent": text(g.get("opponent"), "opponent"),
+                          "for": gf, "against": ga,
+                          "result": "W" if gf > ga else "L" if gf < ga else "D"})
+        if [g["date"] for g in games] != sorted(set(g["date"] for g in games), reverse=True):
+            raise ValueError("recent results must be unique, newest first")
+        result[side] = {"name": text(team.get("name"), "team name"), "recent": games}
+    names = {result["home"]["name"].casefold(), result["away"]["name"].casefold()}
+    if len(names) != 2:
+        raise ValueError("home and away clubs must differ")
+    h2h = value.get("head_to_head")
+    if not isinstance(h2h, list) or len(h2h) > 5:
+        raise ValueError("head_to_head must be up to five games")
+    result["head_to_head"] = []
+    for g in h2h:
+        day = game_day(g["date"])
+        ht = text(g.get("home_team"), "h2h home team")
+        at = text(g.get("away_team"), "h2h away team")
+        if {ht.casefold(), at.casefold()} != names:
+            raise ValueError("unrelated historical head-to-head game")
+        hs, aw = score(g["home_score"]), score(g["away_score"])
+        if league == "NBA" and hs == aw:
+            raise ValueError("NBA head-to-head games cannot be drawn")
+        winner = "draw" if hs == aw else ("home" if (hs > aw) == (ht.casefold() == result["home"]["name"].casefold()) else "away")
+        result["head_to_head"].append({"date": day, "home_team": ht, "away_team": at,
+                                       "home_score": hs, "away_score": aw, "winner": winner})
+    if [g["date"] for g in result["head_to_head"]] != sorted(set(g["date"] for g in result["head_to_head"]), reverse=True):
+        raise ValueError("head-to-head games must be unique, newest first")
+    return result
+
+
+PREVIEW_COMPARE_UI = {
+    "en": ("Recent form", "Head-to-head record", "Win rate", "W", "D", "L", "No verified games", "Historical rates, not predictions"),
+    "ko": ("최근 경기 성적", "양팀 맞대결", "승률", "승", "무", "패", "검증된 경기 없음", "과거 승률이며 이번 경기의 승리 예측이 아닙니다"),
+    "es": ("Forma reciente", "Enfrentamientos", "Victorias", "V", "E", "D", "Sin partidos verificados", "Datos históricos, no predicciones"),
+    "ja": ("最近の成績", "直接対決", "勝率", "勝", "分", "敗", "確認済みの試合なし", "過去の勝率であり予測ではありません"),
+    "pt-BR": ("Forma recente", "Confrontos diretos", "Vitórias", "V", "E", "D", "Sem jogos verificados", "Histórico, não previsão"),
+    "fr": ("Forme récente", "Confrontations", "Taux de victoire", "V", "N", "D", "Aucun match vérifié", "Historique, pas une prévision"),
+    "de": ("Letzte Ergebnisse", "Direkte Duelle", "Siegquote", "S", "U", "N", "Keine bestätigten Spiele", "Historische Werte, keine Prognose"),
+    "hi": ("हाल का प्रदर्शन", "आमने-सामने", "जीत प्रतिशत", "जीत", "ड्रॉ", "हार", "सत्यापित मैच नहीं", "ऐतिहासिक आँकड़े, अनुमान नहीं"),
+}
+
+
+def preview_comparison_html(c, language):
+    ui = PREVIEW_COMPARE_UI.get(language, PREVIEW_COMPARE_UI["en"])
+    form_title, h2h_title, rate_title, w_label, d_label, l_label, missing, disclaimer = ui
+
+    def rate(w, n):
+        return (f"{w * 100 / n:.1f}".rstrip("0").rstrip(".") + "%") if n else "—"
+
+    def link(key):
+        src = c["sources"][key]
+        return '<a href="' + esc(src["url"]) + '" rel="noopener noreferrer">' + esc(src["title"]) + '</a>'
+
+    out = ['<div class="qi-comparison"><section class="qi-form"><h2>' + esc(form_title) + '</h2><p>' +
+           esc(c["scope"]) + '</p><div class="qi-compare-grid">']
+    for side in ("home", "away"):
+        club = c[side]
+        g = club["recent"]
+        n = len(g)
+        wins = sum(m["result"] == "W" for m in g)
+        draws = sum(m["result"] == "D" for m in g)
+        losses = n - wins - draws
+        percent = round(wins * 100 / n, 2) if n else 0
+        out.append('<div class="qi-compare-card qi-' + side + '"><h3>' + esc(club["name"]) + '</h3>' +
+                   '<div class="qi-big-rate">' + rate(wins, n) + '</div><small>' + esc(rate_title) +
+                   ' · ' + str(n) + '</small><div class="qi-rate-track" role="meter" aria-label="' +
+                   esc(club["name"] + " " + rate_title) + '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
+                   str(percent) + '"><span style="width:' + str(percent) + '%"></span></div>')
+        out.append('<p class="qi-form-record">' + (str(wins) + esc(w_label) + " · " + str(draws) +
+                   esc(d_label) + " · " + str(losses) + esc(l_label) if n else esc(missing)) + '</p>')
+        if n:
+            out.append('<ol class="qi-form-history">')
+            for m in g:
+                tip = m["date"] + " " + m["opponent"] + " " + str(m["for"]) + ":" + str(m["against"])
+                out.append('<li class="qi-outcome-' + m["result"].lower() + '" title="' + esc(tip) +
+                           '"><strong>' + m["result"] + '</strong><small>' + esc(m["opponent"]) + '</small></li>')
+            out.append('</ol>')
+        out.append('</div>')
+    out.append('</div><div class="qi-reference">' + link("recent") + '</div></section>')
+    meetings = c["head_to_head"]
+    n = len(meetings)
+    out.append('<section class="qi-h2h"><h2>' + esc(h2h_title) + '</h2>')
+    if n:
+        home_w = sum(m["winner"] == "home" for m in meetings)
+        away_w = sum(m["winner"] == "away" for m in meetings)
+        draws = n - home_w - away_w
+        out.append('<div class="qi-h2h-scores"><div><span>' + esc(c["home"]["name"]) + '</span><strong>' +
+                   rate(home_w, n) + '</strong><small>' + str(home_w) + esc(w_label) + '</small></div>')
+        if draws:
+            out.append('<div><span>' + esc(d_label) + '</span><strong>' + rate(draws, n) + '</strong></div>')
+        out.append('<div><span>' + esc(c["away"]["name"]) + '</span><strong>' +
+                   rate(away_w, n) + '</strong><small>' + str(away_w) + esc(w_label) + '</small></div></div>')
+        out.append('<div class="qi-h2h-bar" role="img" aria-label="' +
+                   esc(c["home"]["name"] + " " + str(home_w) + ", " + d_label + " " + str(draws) +
+                       ", " + c["away"]["name"] + " " + str(away_w)) + '">'
+                   '<span class="qi-h2h-home" style="width:' + str(round(home_w / n * 100, 3)) + '%"></span>'
+                   '<span class="qi-h2h-draw" style="width:' + str(round(draws / n * 100, 3)) + '%"></span>'
+                   '<span class="qi-h2h-away" style="width:' + str(round(away_w / n * 100, 3)) + '%"></span></div>')
+        out.append('<ol class="qi-h2h-games">')
+        for m in meetings:
+            out.append('<li><time datetime="' + esc(m["date"]) + '">' + esc(m["date"]) +
+                       '</time><span>' + esc(m["home_team"]) + '</span><strong>' +
+                       str(m["home_score"]) + ' – ' + str(m["away_score"]) + '</strong><span>' +
+                       esc(m["away_team"]) + '</span></li>')
+        out.append('</ol>')
+    else:
+        out.append('<p>' + esc(missing) + '</p>')
+    out.append('<p class="qi-caveat">' + esc(disclaimer) + ' · ' +
+               esc(c["as_of"].strftime("%Y-%m-%d %H:%M UTC")) + '</p><div class="qi-reference">' +
+               link("head_to_head") + '</div></section></div>')
+    return "\n".join(out)
+
+
 def normalize_article(raw: dict, path: Path, *, information_page: bool = False) -> dict:
     prefix = str(path)
     article_id = slug(raw.get("id"), f"{prefix}: id")
@@ -264,6 +419,7 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
         clean_figures.append({"src": http_url(figure.get("src"), f"{field}.src"),
                               "alt": text(figure.get("alt"), f"{field}.alt"),
                               "caption": text(figure.get("caption", ""), f"{field}.caption", empty=True)})
+    comparison = normalize_preview_comparison(raw.get("preview_comparison"), metadata["league"], metadata["article_kind"])
     return {
         "id": article_id,
         "slug": article_slug,
@@ -276,6 +432,7 @@ def normalize_article(raw: dict, path: Path, *, information_page: bool = False) 
         "language": language,
         **metadata,
         "figures": clean_figures,
+        "preview_comparison": comparison,
         "blogger_url": blogger_url,
         "labels": list(dict.fromkeys(string_list(raw.get("labels", []), f"{prefix}: labels"))),
         "sections": clean_sections,
@@ -469,6 +626,8 @@ def article_body(article: dict, config: dict) -> str:
     blocks = []
     if article["description"]:
         blocks.append(f'<p class="article-summary">{esc(article["description"])}</p>')
+    if article.get("preview_comparison"):
+        blocks.append(preview_comparison_html(article["preview_comparison"], config["language"]))
     for figure in article.get("figures", []):
         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
         blocks.append(f'<figure class="article-figure" style="margin:2rem 0;max-width:100%"><a href="{esc(figure["src"])}"><img src="{esc(figure["src"])}" alt="{esc(figure["alt"])}" decoding="async" style="display:block;width:100%;max-width:100%;height:auto"></a>{caption}</figure>')
@@ -710,7 +869,11 @@ def blogger_payload(article: dict, config: dict) -> dict:
     """
     config = localized_config(config, article)
     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
-    content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{navigation}{article_body(article, config)}</div>'
+    widget_style = ""
+    if article.get("preview_comparison"):
+        style = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+        widget_style = "<style>" + style.split("/* QI_WIDGET_START */", 1)[1].split("/* QI_WIDGET_END */", 1)[0] + "</style>"
+    content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{widget_style}{navigation}{article_body(article, config)}</div>'
     return {"title": article["title"], "content": content, "labels": article["labels"]}
 
 
