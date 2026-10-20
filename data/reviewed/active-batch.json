@@ -1,5 +1,5 @@
 {
-  "version":1,
+  "version":2,
   "mode":"supervised-reviewed-publication",
   "facts_path":"data/reviewed/epl-reader-timezones-facts.json",
   "copy_path":"data/reviewed/epl-reader-timezones-copy.json",
