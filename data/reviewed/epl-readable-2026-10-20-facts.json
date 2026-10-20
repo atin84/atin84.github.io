@@ -1,0 +1,36 @@
+{
+ "schema_version":1,
+ "as_of":"2026-10-20T14:53:07.499520+00:00",
+ "sources":{
+  "fixture":{"title":"Premier League — Liverpool v Brighton, match 2645272","url":"https://www.premierleague.com/en/match/2645272/liverpool-vs-brighton-and-hove-albion"},
+  "kickoff":{"title":"Liverpool FC — Liverpool v Brighton at Anfield, 25 October","url":"https://www.liverpoolfc.com/tickets/match/liverpool-v-brighton-and-hove-albion-english-premier-league-20261025"},
+  "pre_stats":{"title":"ESPN — Liverpool v Brighton: season statistics and results","url":"https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"},
+  "lfc_results":{"title":"Liverpool FC — 2026/27 first-team results","url":"https://www.liverpoolfc.com/matches/mens-team/results/2026"},
+  "ipswich":{"title":"Ipswich Town — Ipswich 0–2 Liverpool, 4 September 2026","url":"https://www.itfc.co.uk/match/men/2026-27/g2645221"},
+  "h2h_old":{"title":"Liverpool FC — Liverpool 2–1 Brighton, 31 March 2024","url":"https://www.liverpoolfc.com/matches/mens-team/liverpool-v-brighton-and-hove-albion-english-premier-league-20240331"},
+  "excluded_cup":{"title":"Liverpool FC — 14 February 2026 was an FA Cup match, excluded","url":"https://www.liverpoolfc.com/matches/mens-team/liverpool-v-brighton-and-hove-albion-english-fa-cup-20260214"},
+  "rec_fixture":{"title":"Premier League — Brighton 5–0 Crystal Palace, match 2645257","url":"https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"},
+  "rec_report":{"title":"Brighton & Hove Albion — Albion 5 Crystal Palace 0","url":"https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"},
+  "palace_report":{"title":"Crystal Palace — Match report and full goal timeline","url":"https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"},
+  "rec_stats":{"title":"ESPN — Brighton v Crystal Palace: match statistics","url":"https://www.espn.com/soccer/matchstats/_/gameId/401879261"}
+ },
+ "stories":{
+  "preview":{
+   "id":"epl-2645272-preview","kind":"preview","official_id":"2645272","provider_id":"401878765",
+   "start_utc":"2026-10-25T14:00:00Z","home":"Liverpool","away":"Brighton & Hove Albion","venue":"Anfield","status":"scheduled","season":"2026-27","matchweek":8,"as_of":"2026-10-20T14:53:07.403454+00:00",
+   "source_ids":["fixture","kickoff","pre_stats","lfc_results","ipswich","h2h_old","excluded_cup","rec_fixture"],
+   "recent_home":[["2026-10-17","Brentford",2,1,"pre_stats"],["2026-10-11","Manchester City",0,3,"pre_stats"],["2026-09-20","AFC Bournemouth",1,0,"pre_stats"],["2026-09-12","Fulham",0,0,"pre_stats"],["2026-09-04","Ipswich Town",2,0,"ipswich"]],
+   "recent_away":[["2026-10-18","Crystal Palace",5,0,"pre_stats"],["2026-10-10","Sunderland",2,0,"pre_stats"],["2026-09-19","Arsenal",3,0,"pre_stats"],["2026-09-13","Coventry City",5,0,"pre_stats"],["2026-09-05","Leeds United",1,1,"pre_stats"]],
+   "head_to_head":[["2026-03-21","Brighton & Hove Albion","Liverpool",2,1,"pre_stats"],["2025-12-13","Liverpool","Brighton & Hove Albion",2,0,"pre_stats"],["2025-05-19","Brighton & Hove Albion","Liverpool",3,2,"pre_stats"],["2024-11-02","Liverpool","Brighton & Hove Albion",2,1,"pre_stats"],["2024-03-31","Liverpool","Brighton & Hove Albion",2,1,"h2h_old"]],
+   "season_rows":[["games_played","Matches played","games",7,7],["rank","League position","rank",5,3],["points","Points","points",12,16],["wins","Wins","games",3,5],["goals_for","Goals scored","goals",9,23],["goals_against","Goals conceded","goals",8,5],["goal_assists","Assists","count",7,14]]
+  },
+  "recap":{
+   "id":"epl-2645257-recap","kind":"recap","official_id":"2645257","provider_id":"401879261",
+   "start_utc":"2026-10-18T13:00:00Z","home":"Brighton & Hove Albion","away":"Crystal Palace","venue":"American Express Stadium","status":"final","season":"2026-27","matchweek":7,"as_of":"2026-10-20T14:53:07.499520+00:00",
+   "source_ids":["rec_fixture","rec_report","palace_report","rec_stats","kickoff"],
+   "final_score":[5,0],"halftime_score":[3,0],"final_minute":95,
+   "goals":[{"minute":4,"team":"home","player":"Jaydee Canvot","own_goal":true,"score":[1,0]},{"minute":7,"team":"home","player":"Diego Gómez","own_goal":false,"score":[2,0]},{"minute":10,"team":"home","player":"Yasin Ayari","own_goal":false,"score":[3,0]},{"minute":49,"team":"home","player":"Charalambos Kostoulas","own_goal":false,"score":[4,0]},{"minute":84,"team":"home","player":"Jack Hinshelwood","own_goal":false,"score":[5,0]}],
+   "observed":{"totalShots":[17,5],"shotsOnTarget":[9,1],"possessionPct":[57.2,42.8],"accuratePasses":[440,301],"totalPasses":[516,384],"interceptions":[10,9],"effectiveTackles":[5,6],"totalTackles":[12,12],"saves":[1,5],"foulsCommitted":[13,11],"wonCorners":[8,5],"yellowCards":[2,1]}
+  }
+ }
+}
