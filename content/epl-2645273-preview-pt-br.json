@@ -1,0 +1,355 @@
+{
+  "id": "epl-2645273-preview-pt-br",
+  "slug": "epl-2645273-preview-pt-br",
+  "platform": "github",
+  "status": "ready",
+  "language": "pt-BR",
+  "league": "EPL",
+  "match_id": "2645273",
+  "article_kind": "preview",
+  "translation_group": "epl-2645273-preview",
+  "canonical_group": "EPL:2026-27:league:2645273:preview",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "Manchester United x Bournemouth: quem transformará empates em vitória?",
+  "description": "Horários com região identificada, resultados recentes só da liga e comparação de sete rodadas para o jogo em Old Trafford.",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "Por que acompanhar",
+      "paragraphs": [
+        "O United empatou por 1–1 seus três jogos mais recentes de liga, enquanto o Bournemouth vem de um 2–0. A questão é quem consegue transformar equilíbrio em três pontos."
+      ]
+    },
+    {
+      "heading": "Um ponto não significa favoritismo esmagador",
+      "paragraphs": [
+        "As equipes estão separadas por um ponto após sete jogos. O United marcou dez gols e sofreu dez; o Bournemouth marcou nove e sofreu treze. A diferença defensiva merece atenção, mas as médias não ajustam adversários, mando ou qualidade das chances."
+      ]
+    },
+    {
+      "heading": "A forma recente também passa pelos empates",
+      "paragraphs": [
+        "O United tem zero vitórias, quatro empates e uma derrota nos últimos cinco jogos de liga. O Bournemouth tem uma vitória, dois empates e duas derrotas. As taxas históricas de 0% e 20% descrevem essa amostra, não uma chance nula de vitória do United agora."
+      ]
+    },
+    {
+      "heading": "Três empates em quatro encontros de liga",
+      "paragraphs": [
+        "Os quatro confrontos verificados trazem três empates e um triunfo do Bournemouth. O 4–1 do United em amistoso de verão foi excluído. Os 75% de empates pertencem a uma amostra pequena de várias temporadas, não a uma previsão para domingo."
+      ]
+    },
+    {
+      "heading": "O que observar além das médias",
+      "paragraphs": [
+        "Observe se a posse vira chances claras e como quem abrir vantagem administra a fase seguinte. A repetição do 1–1 torna relevante acompanhar a manutenção ou ampliação da vantagem, sem atribuir uma causa tática apenas pelo placar."
+      ]
+    },
+    {
+      "heading": "O que segue incerto",
+      "paragraphs": [
+        "Escalações definitivas, lista completa de lesões e modelo calibrado não foram verificados. Não inventamos odds ou placar. A tabela usa São Paulo como referência desta edição e mantém a hora do estádio e UTC."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fixture",
+      "title": "Premier League — Manchester United v Bournemouth",
+      "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth",
+      "provider": "Premier League"
+    },
+    {
+      "id": "schedule",
+      "title": "Premier League — confirmed October fixture amendments",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "provider": "Premier League"
+    },
+    {
+      "id": "venue",
+      "title": "Manchester United — match date at Old Trafford",
+      "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "season",
+      "title": "ESPN — Manchester United v Bournemouth season and recent records",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+      "provider": "ESPN"
+    },
+    {
+      "id": "everton",
+      "title": "Manchester United — Everton 2 United 2, 6 September 2026",
+      "url": "https://www.manutd.com/en/news/report-everton-v-united-6-sep-2026",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "derby",
+      "title": "Manchester City — United 0 City 1, 13 September 2026",
+      "url": "https://www.mancity.com/citytv/mens/manchester-united-premier-league-2-minute-highlights-september-2026-63924902",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "brentford",
+      "title": "Brentford — Bournemouth 2 Brentford 2, 12 September 2026",
+      "url": "https://www.brentfordfc.com/en/matches/mens/bournemouth-v-brentford-premier-league-20260912",
+      "provider": "Brentford FC"
+    },
+    {
+      "id": "newcastle",
+      "title": "Bournemouth — Newcastle 2 Bournemouth 2, 5 September 2026",
+      "url": "https://www.afcb.co.uk/news/2026/september/05/match-report-v-newcastle/",
+      "provider": "AFC Bournemouth"
+    },
+    {
+      "id": "h2h",
+      "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+      "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version",
+      "provider": "Premier League"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645273",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "scheduled",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "venue": "Old Trafford",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-25T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester United v Bournemouth",
+        "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth"
+      },
+      {
+        "title": "Premier League — confirmed October fixture amendments",
+        "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+      },
+      {
+        "title": "Manchester United — match date at Old Trafford",
+        "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645273-preview-summary-en.svg",
+      "alt": "Gráfico inglês de pontos, gols e médias de Manchester United e Bournemouth.",
+      "caption": "Sete jogos por equipe. Totais e médias observados, não probabilidades. Um gráfico inglês compartilhado."
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "Últimos 5 da liga · 4 confrontos verificados",
+    "sources": {
+      "recent": {
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united"
+      },
+      "head_to_head": {
+        "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+        "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version"
+      }
+    },
+    "home": {
+      "name": "Manchester United",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Leeds United",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Tottenham Hotspur",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Fulham",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Manchester City",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-06",
+          "opponent": "Everton",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "away": {
+      "name": "AFC Bournemouth",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Sunderland",
+          "for": 2,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Chelsea",
+          "for": 1,
+          "against": 5
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Liverpool",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 2
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Newcastle United",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-03-20",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 2,
+        "away_score": 2
+      },
+      {
+        "date": "2025-12-15",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 4,
+        "away_score": 4
+      },
+      {
+        "date": "2025-04-27",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 1
+      },
+      {
+        "date": "2024-12-22",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 0,
+        "away_score": 3
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "Premier League 2026/27 · 7 jogos por equipe",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "sources": [
+      {
+        "id": "season",
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "Jogos",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "rank",
+        "name": "Posição",
+        "unit": "rank",
+        "home": 13,
+        "away": 15,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "points",
+        "name": "Pontos",
+        "unit": "points",
+        "home": 7,
+        "away": 6,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_for",
+        "name": "Gols marcados",
+        "unit": "goals",
+        "home": 10,
+        "away": 9,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_against",
+        "name": "Gols sofridos",
+        "unit": "goals",
+        "home": 10,
+        "away": 13,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "Gols por jogo",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.29,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "Sofridos por jogo",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.86,
+        "period": "Premier League 2026/27 · 7 jogos por equipe",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      }
+    ]
+  }
+}

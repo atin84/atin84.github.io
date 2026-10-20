@@ -1,0 +1,305 @@
+{
+  "id": "epl-2645261-recap-ja",
+  "slug": "epl-2645261-recap-ja",
+  "platform": "github",
+  "status": "ready",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645261",
+  "article_kind": "recap",
+  "translation_group": "epl-2645261-recap",
+  "canonical_group": "EPL:2026-27:league:2645261:recap",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "マンチェスター・シティ3–2イプスウィッチ：ハーランド2得点、最後は1点差",
+  "description": "最終スコア、5得点の時刻表、比較統計を先に提示。各言語版の代表時間帯も明示します。",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "結果を一文で",
+      "paragraphs": [
+        "ハーランドの2得点でシティはリーグ全勝を続けましたが、イプスウィッチの終盤のPKで最後は1点差になりました。"
+      ]
+    },
+    {
+      "heading": "一つのスコアに複数の展開",
+      "paragraphs": [
+        "フォーデンの先制から2分で同点となり、シティは再びリードを作る必要がありました。ハーランドの2点目が2点差にし、フレミングのPKが終盤に差を縮めました。3–2を単純な圧勝や終始互角の証拠とは読めません。"
+      ]
+    },
+    {
+      "heading": "保持と試行だけでは機会の質は決まらない",
+      "paragraphs": [
+        "保持率はシティ69.8%、相手30.2%、シュートは19–8、枠内は6–3。ボール循環と試行の多さを示しますが、適切なモデルなしで個々のシュートの得点確率は算出できません。"
+      ]
+    },
+    {
+      "heading": "パスは実際の分母で計算",
+      "paragraphs": [
+        "シティは745本中674本、イプスウィッチは313本中253本成功。表では丸められた提供値ではなく、90.47%と80.83%を計算しています。正確さは分かっても、守備ラインを越えたパスかは成功率だけでは分かりません。"
+      ]
+    },
+    {
+      "heading": "結果が変えたもの",
+      "paragraphs": [
+        "この試合終了時点でシティはリーグ7戦7勝。素早い同点と終盤のPKは、リード管理にも目を向ける理由です。ただし未確認の布陣やプレスの説明を作り上げる根拠ではありません。"
+      ]
+    },
+    {
+      "heading": "掲載しなかった数値",
+      "paragraphs": [
+        "確認入力に信頼できるxG、xT、PPDA、PSxGの比較はありませんでした。GKやPKの一部集計も確定イベントと完全に一致せず、推測で修正せずに派生率を省略。得点時系列はクラブ報告と照合しました。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "title": "Premier League — Manchester City v Ipswich Town",
+      "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town",
+      "provider": "Premier League"
+    },
+    {
+      "id": "city-report",
+      "title": "Manchester City — 3–2 win and the five goals",
+      "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "town-report",
+      "title": "Ipswich Town — Manchester City 3 Town 2",
+      "url": "https://www.itfc.co.uk/news/2026/october/17/manchester-city-v-Ipswich-town-match-report/",
+      "provider": "Ipswich Town"
+    },
+    {
+      "id": "stats",
+      "title": "ESPN — Manchester City v Ipswich match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+      "provider": "ESPN"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645261",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "venue": "Etihad Stadium",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-17T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester City v Ipswich Town",
+        "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town"
+      },
+      {
+        "title": "Manchester City — 3–2 win and the five goals",
+        "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"
+      }
+    ],
+    "final_score": {
+      "home": 3,
+      "away": 2
+    },
+    "halftime_score": {
+      "home": 2,
+      "away": 1
+    },
+    "goals": [
+      {
+        "minute": 19,
+        "period": 1,
+        "scorer": "Phil Foden",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 21,
+        "period": 1,
+        "scorer": "Daizen Maeda",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 1
+        }
+      },
+      {
+        "minute": 34,
+        "period": 1,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 1
+        }
+      },
+      {
+        "minute": 69,
+        "period": 2,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 1
+        }
+      },
+      {
+        "minute": 90,
+        "period": 2,
+        "scorer": "Zian Flemming",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645261-recap-summary-en.svg",
+      "alt": "3–2の統計、得点時刻、前後半ゴール、スコア推移を示す英語図。",
+      "caption": "実際の得点とスコアで、xGや保持率モデルではありません。全言語で英語図を共有します。"
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "試合全体・観測回数と計算率",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "sources": [
+      {
+        "id": "stats",
+        "title": "ESPN — Manchester City v Ipswich match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "シュート",
+        "unit": "回",
+        "home": 19.0,
+        "away": 8.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "枠内シュート",
+        "unit": "回",
+        "home": 6.0,
+        "away": 3.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "保持率",
+        "unit": "%",
+        "home": 69.8,
+        "away": 30.2,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "成功パス",
+        "unit": "回",
+        "home": 674.0,
+        "away": 253.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "試行パス",
+        "unit": "回",
+        "home": 745.0,
+        "away": 313.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "インターセプト",
+        "unit": "回",
+        "home": 5.0,
+        "away": 12.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "fouls",
+        "name": "ファウル",
+        "unit": "回",
+        "home": 8.0,
+        "away": 16.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "警告",
+        "unit": "回",
+        "home": 1.0,
+        "away": 2.0,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "パス成功率",
+        "unit": "%",
+        "home": 90.47,
+        "away": 80.83,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 accuratePasses/totalPasses × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "成功タックル / 試行",
+        "unit": "%",
+        "home": 62.5,
+        "away": 39.29,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 effectiveTackles/totalTackles × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "defensive",
+        "source_id": "stats"
+      }
+    ]
+  }
+}

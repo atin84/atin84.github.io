@@ -1,0 +1,355 @@
+{
+  "id": "epl-2645273-preview-ko",
+  "slug": "epl-2645273-preview-ko",
+  "platform": "github",
+  "status": "ready",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645273",
+  "article_kind": "preview",
+  "translation_group": "epl-2645273-preview",
+  "canonical_group": "EPL:2026-27:league:2645273:preview",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "맨유–본머스 프리뷰: 무승부의 고리를 끊을 팀은",
+  "description": "올드 트래퍼드 맞대결의 시간·장소를 먼저 보고, 리그 전적과 시즌 7경기 기록을 비교합니다.",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "이 경기를 봐야 하는 이유",
+      "paragraphs": [
+        "최근 리그 세 경기를 모두 1–1로 마친 맨유가 직전 경기에서 2–0으로 이긴 본머스를 만납니다. 팽팽한 흐름을 승점 3으로 바꿀 팀이 누구일지가 관전 포인트입니다."
+      ]
+    },
+    {
+      "heading": "승점 차이는 한 점, 압도적 우세로 읽지 않는다",
+      "paragraphs": [
+        "7경기 시점에서 양팀의 승점 차이는 한 점입니다. 맨유는 10득점·10실점, 본머스는 9득점·13실점입니다. 본머스의 실점이 더 많다는 점은 비교할 가치가 있지만, 상대 수준·홈과 원정·찬스의 질까지 보정한 전력 수치는 아닙니다."
+      ]
+    },
+    {
+      "heading": "최근 승률은 무승부와 함께 읽어야 한다",
+      "paragraphs": [
+        "맨유의 최근 리그 5경기는 0승 4무 1패, 본머스는 1승 2무 2패입니다. 표의 승률 0%와 20%는 이 표본에서 이긴 비율입니다. 맨유가 이번 경기에 이길 가능성이 0%라는 뜻이 아닙니다."
+      ]
+    },
+    {
+      "heading": "맞대결 네 경기 중 세 경기가 무승부",
+      "paragraphs": [
+        "확인된 최근 리그 맞대결 4경기는 무승부 3회와 본머스 승리 1회입니다. 맨유가 4–1로 이긴 여름 친선경기는 제외했습니다. 여러 시즌의 작은 표본에서 나온 무승부 비율 75%를 일요일 경기의 예측 확률로 사용하지 않습니다."
+      ]
+    },
+    {
+      "heading": "숫자 다음에 볼 장면",
+      "paragraphs": [
+        "공을 소유하는 시간이 실제 득점 기회로 이어지는지, 앞서 나간 팀이 이후 흐름을 어떻게 관리하는지 보세요. 반복된 1–1 결과는 맨유의 리드 유지나 추가 득점을 관찰할 이유지만, 기록만으로 특정 전술을 원인이라고 단정할 수는 없습니다."
+      ]
+    },
+    {
+      "heading": "확인하지 못한 정보",
+      "paragraphs": [
+        "확정 선발·완전한 최신 부상 명단·보정된 예측 모델은 확보하지 않았습니다. 임의의 배당이나 예상 스코어는 넣지 않았습니다. 시간표에는 한국어판 대표 시간과 경기 현지시간·UTC를 구분해 표시합니다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fixture",
+      "title": "Premier League — Manchester United v Bournemouth",
+      "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth",
+      "provider": "Premier League"
+    },
+    {
+      "id": "schedule",
+      "title": "Premier League — confirmed October fixture amendments",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "provider": "Premier League"
+    },
+    {
+      "id": "venue",
+      "title": "Manchester United — match date at Old Trafford",
+      "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "season",
+      "title": "ESPN — Manchester United v Bournemouth season and recent records",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+      "provider": "ESPN"
+    },
+    {
+      "id": "everton",
+      "title": "Manchester United — Everton 2 United 2, 6 September 2026",
+      "url": "https://www.manutd.com/en/news/report-everton-v-united-6-sep-2026",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "derby",
+      "title": "Manchester City — United 0 City 1, 13 September 2026",
+      "url": "https://www.mancity.com/citytv/mens/manchester-united-premier-league-2-minute-highlights-september-2026-63924902",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "brentford",
+      "title": "Brentford — Bournemouth 2 Brentford 2, 12 September 2026",
+      "url": "https://www.brentfordfc.com/en/matches/mens/bournemouth-v-brentford-premier-league-20260912",
+      "provider": "Brentford FC"
+    },
+    {
+      "id": "newcastle",
+      "title": "Bournemouth — Newcastle 2 Bournemouth 2, 5 September 2026",
+      "url": "https://www.afcb.co.uk/news/2026/september/05/match-report-v-newcastle/",
+      "provider": "AFC Bournemouth"
+    },
+    {
+      "id": "h2h",
+      "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+      "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version",
+      "provider": "Premier League"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645273",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "scheduled",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "venue": "Old Trafford",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-25T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester United v Bournemouth",
+        "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth"
+      },
+      {
+        "title": "Premier League — confirmed October fixture amendments",
+        "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+      },
+      {
+        "title": "Manchester United — match date at Old Trafford",
+        "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645273-preview-summary-en.svg",
+      "alt": "맨체스터 유나이티드와 본머스의 승점·득실점·경기당 수치를 비교한 공통 영어 이미지.",
+      "caption": "양팀 리그 7경기의 실제 기록과 평균이며 승리 예측 확률이 아닙니다. 모든 언어가 영어 이미지 하나를 공유합니다."
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "리그 최근 5경기 · 검증된 리그 맞대결 4경기",
+    "sources": {
+      "recent": {
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united"
+      },
+      "head_to_head": {
+        "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+        "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version"
+      }
+    },
+    "home": {
+      "name": "Manchester United",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Leeds United",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Tottenham Hotspur",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Fulham",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Manchester City",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-06",
+          "opponent": "Everton",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "away": {
+      "name": "AFC Bournemouth",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Sunderland",
+          "for": 2,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Chelsea",
+          "for": 1,
+          "against": 5
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Liverpool",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 2
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Newcastle United",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-03-20",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 2,
+        "away_score": 2
+      },
+      {
+        "date": "2025-12-15",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 4,
+        "away_score": 4
+      },
+      {
+        "date": "2025-04-27",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 1
+      },
+      {
+        "date": "2024-12-22",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 0,
+        "away_score": 3
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "2026/27 프리미어리그 · 양팀 각 7경기",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "sources": [
+      {
+        "id": "season",
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "경기 수",
+        "unit": "경기",
+        "home": 7,
+        "away": 7,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "rank",
+        "name": "리그 순위",
+        "unit": "위",
+        "home": 13,
+        "away": 15,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "points",
+        "name": "승점",
+        "unit": "점",
+        "home": 7,
+        "away": 6,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_for",
+        "name": "득점",
+        "unit": "골",
+        "home": 10,
+        "away": 9,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_against",
+        "name": "실점",
+        "unit": "골",
+        "home": 10,
+        "away": 13,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "경기당 득점",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.29,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "경기당 실점",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.86,
+        "period": "2026/27 프리미어리그 · 양팀 각 7경기",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      }
+    ]
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "id": "epl-2645261-recap-hi",
+  "slug": "epl-2645261-recap-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645261",
+  "article_kind": "recap",
+  "translation_group": "epl-2645261-recap",
+  "canonical_group": "EPL:2026-27:league:2645261:recap",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "मैनचेस्टर सिटी 3–2 इप्सविच: हालांड के दो गोल, अंत में फिर करीबी मुकाबला",
+  "description": "अंतिम स्कोर, पाँच गोलों की समयरेखा और तुलनात्मक आँकड़े, हर भाषा संस्करण के प्रतिनिधि समय के साथ।",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "नतीजा एक वाक्य में",
+      "paragraphs": [
+        "हालांड के दो गोलों ने सिटी की पूरी जीत वाली लीग शुरुआत बनाए रखी, लेकिन इप्सविच की देर की पेनल्टी से अंतिम अंतर एक गोल रह गया।"
+      ]
+    },
+    {
+      "heading": "अंतिम स्कोर के पीछे अलग चरण",
+      "paragraphs": [
+        "फोडेन के पहले गोल के दो मिनट बाद इप्सविच ने बराबरी की, इसलिए सिटी को फिर बढ़त बनानी पड़ी। हालांड के दूसरे गोल ने दो गोल का अंतर बनाया; फ्लेमिंग की पेनल्टी ने अंत में उसे घटाया। 3–2 न आसान जीत का पूरा प्रमाण है, न पूरे मैच की बराबरी का।"
+      ]
+    },
+    {
+      "heading": "कब्ज़ा और शॉट मौके की पूरी गुणवत्ता नहीं",
+      "paragraphs": [
+        "सिटी के 69.8% कब्ज़े और 19 शॉट के सामने इप्सविच के 30.2% और आठ थे। निशाने पर शॉट छह बनाम तीन थे। ये अधिक गेंद चलाने और प्रयास दिखाते हैं, लेकिन मॉडल बिना हर मौके की गोल संभावना नहीं देते।"
+      ]
+    },
+    {
+      "heading": "पास दर वास्तविक हर से",
+      "paragraphs": [
+        "सिटी के 745 में 674 पास और इप्सविच के 313 में 253 सफल हुए। तालिका मोटे राउंड अनुपात की जगह 90.47% और 80.83% निकालती है। केवल सटीकता नहीं बताती कि पास ने रक्षात्मक लाइन तोड़ी या नहीं।"
+      ]
+    },
+    {
+      "heading": "नतीजे से क्या बदला",
+      "paragraphs": [
+        "इस मैच के बाद सिटी की सात लीग मैचों में सात जीत थीं। जल्दी बराबरी और देर की पेनल्टी बढ़त संभालने की अहमियत दिखाती हैं, लेकिन सत्यापित रिकॉर्ड से बाहर फॉर्मेशन या प्रेसिंग का कारण गढ़ने की अनुमति नहीं देतीं।"
+      ]
+    },
+    {
+      "heading": "जानबूझकर छोड़े आँकड़े",
+      "paragraphs": [
+        "सत्यापित इनपुट में भरोसेमंद xG, xT, PPDA या PSxG तुलना नहीं थी। कुछ गोलकीपर और पेनल्टी कुल पुष्टि किए घटनाक्रम से पूरी तरह नहीं मिले, इसलिए उनके निकले प्रतिशत अनुमान से सुधारने के बजाय छोड़े गए। गोल क्रम क्लब रिपोर्टों से मिलाया गया है।"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "title": "Premier League — Manchester City v Ipswich Town",
+      "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town",
+      "provider": "Premier League"
+    },
+    {
+      "id": "city-report",
+      "title": "Manchester City — 3–2 win and the five goals",
+      "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "town-report",
+      "title": "Ipswich Town — Manchester City 3 Town 2",
+      "url": "https://www.itfc.co.uk/news/2026/october/17/manchester-city-v-Ipswich-town-match-report/",
+      "provider": "Ipswich Town"
+    },
+    {
+      "id": "stats",
+      "title": "ESPN — Manchester City v Ipswich match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+      "provider": "ESPN"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645261",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "venue": "Etihad Stadium",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-17T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester City v Ipswich Town",
+        "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town"
+      },
+      {
+        "title": "Manchester City — 3–2 win and the five goals",
+        "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"
+      }
+    ],
+    "final_score": {
+      "home": 3,
+      "away": 2
+    },
+    "halftime_score": {
+      "home": 2,
+      "away": 1
+    },
+    "goals": [
+      {
+        "minute": 19,
+        "period": 1,
+        "scorer": "Phil Foden",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 21,
+        "period": 1,
+        "scorer": "Daizen Maeda",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 1
+        }
+      },
+      {
+        "minute": 34,
+        "period": 1,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 1
+        }
+      },
+      {
+        "minute": 69,
+        "period": 2,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 1
+        }
+      },
+      {
+        "minute": 90,
+        "period": 2,
+        "scorer": "Zian Flemming",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645261-recap-summary-en.svg",
+      "alt": "3–2 के आँकड़े, गोल, हाफ और स्कोर क्रम का साझा अंग्रेज़ी चित्र।",
+      "caption": "वास्तविक गोल और स्कोर पड़ाव; xG या कब्ज़े का मॉडल नहीं। सभी भाषाओं के लिए एक चित्र।"
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "पूरा मैच · वास्तविक गिनती और गणना दर",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "sources": [
+      {
+        "id": "stats",
+        "title": "ESPN — Manchester City v Ipswich match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "शॉट",
+        "unit": "count",
+        "home": 19.0,
+        "away": 8.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "निशाने पर शॉट",
+        "unit": "count",
+        "home": 6.0,
+        "away": 3.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "कब्ज़ा",
+        "unit": "%",
+        "home": 69.8,
+        "away": 30.2,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "सफल पास",
+        "unit": "count",
+        "home": 674.0,
+        "away": 253.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "कुल पास",
+        "unit": "count",
+        "home": 745.0,
+        "away": 313.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "इंटरसेप्शन",
+        "unit": "count",
+        "home": 5.0,
+        "away": 12.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "fouls",
+        "name": "फाउल",
+        "unit": "count",
+        "home": 8.0,
+        "away": 16.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "पीले कार्ड",
+        "unit": "count",
+        "home": 1.0,
+        "away": 2.0,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "पास सफलता",
+        "unit": "%",
+        "home": 90.47,
+        "away": 80.83,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। accuratePasses/totalPasses × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "सफल टैकल / प्रयास",
+        "unit": "%",
+        "home": 62.5,
+        "away": 39.29,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। effectiveTackles/totalTackles × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "defensive",
+        "source_id": "stats"
+      }
+    ]
+  }
+}

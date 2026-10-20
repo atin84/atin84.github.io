@@ -1,0 +1,305 @@
+{
+  "id": "epl-2645261-recap-fr",
+  "slug": "epl-2645261-recap-fr",
+  "platform": "github",
+  "status": "ready",
+  "language": "fr",
+  "league": "EPL",
+  "match_id": "2645261",
+  "article_kind": "recap",
+  "translation_group": "epl-2645261-recap",
+  "canonical_group": "EPL:2026-27:league:2645261:recap",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "Manchester City 3–2 Ipswich : le doublé de Haaland résiste au retour final",
+  "description": "Score final, chronologie de cinq buts et statistiques comparées, avec l’heure adaptée à chaque édition.",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "Le résultat en une phrase",
+      "paragraphs": [
+        "Deux buts de Haaland ont préservé le départ parfait de City en championnat, mais un penalty tardif d’Ipswich a réduit l’écart final à un but."
+      ]
+    },
+    {
+      "heading": "Le score recouvre plusieurs phases",
+      "paragraphs": [
+        "Ipswich a égalisé deux minutes après l’ouverture de Foden : City a dû reprendre l’avantage. Le deuxième but de Haaland a créé deux buts de marge ; le penalty de Flemming en a effacé un à la fin. Le 3–2 ne signifie ni promenade ni égalité pendant tout le match."
+      ]
+    },
+    {
+      "heading": "Possession et tirs ne suffisent pas à mesurer les occasions",
+      "paragraphs": [
+        "City a enregistré 69.8% de possession et 19 tirs, contre 30.2% et huit. Les cadrés sont de six à trois. Ces valeurs étayent plus de circulation et de tentatives, mais pas la probabilité de réussite de chaque occasion sans modèle adapté."
+      ]
+    },
+    {
+      "heading": "Des passes avec leur vrai dénominateur",
+      "paragraphs": [
+        "City a réussi 674 passes sur 745, Ipswich 253 sur 313. Le tableau calcule 90.47% et 80.83% plutôt que reprendre les ratios arrondis du flux. La précision ne dit pas, à elle seule, si les passes ont cassé des lignes."
+      ]
+    },
+    {
+      "heading": "Ce que le résultat change",
+      "paragraphs": [
+        "À la fin de cette rencontre, City comptait sept victoires en sept journées. L’égalisation rapide et le penalty final rappellent la gestion de l’avance, sans autoriser une explication de formation ou de pressing non étayée par le dossier vérifié."
+      ]
+    },
+    {
+      "heading": "Ce qui a été volontairement omis",
+      "paragraphs": [
+        "Aucune comparaison fiable de xG, xT, PPDA ou PSxG n’était disponible. Certains agrégats des gardiens et penalties ne concordaient pas entièrement avec les événements confirmés : leurs pourcentages dérivés sont omis plutôt que corrigés au hasard. Les buts ont été recoupés avec les rapports des clubs."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "title": "Premier League — Manchester City v Ipswich Town",
+      "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town",
+      "provider": "Premier League"
+    },
+    {
+      "id": "city-report",
+      "title": "Manchester City — 3–2 win and the five goals",
+      "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "town-report",
+      "title": "Ipswich Town — Manchester City 3 Town 2",
+      "url": "https://www.itfc.co.uk/news/2026/october/17/manchester-city-v-Ipswich-town-match-report/",
+      "provider": "Ipswich Town"
+    },
+    {
+      "id": "stats",
+      "title": "ESPN — Manchester City v Ipswich match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+      "provider": "ESPN"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645261",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "venue": "Etihad Stadium",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-17T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester City v Ipswich Town",
+        "url": "https://www.premierleague.com/en/match/2645261/manchester-city-vs-ipswich-town"
+      },
+      {
+        "title": "Manchester City — 3–2 win and the five goals",
+        "url": "https://www.mancity.com/news/mens/man-city-ipswich-premier-league-match-report-october-2026-63927840"
+      }
+    ],
+    "final_score": {
+      "home": 3,
+      "away": 2
+    },
+    "halftime_score": {
+      "home": 2,
+      "away": 1
+    },
+    "goals": [
+      {
+        "minute": 19,
+        "period": 1,
+        "scorer": "Phil Foden",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 21,
+        "period": 1,
+        "scorer": "Daizen Maeda",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 1,
+          "away": 1
+        }
+      },
+      {
+        "minute": 34,
+        "period": 1,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 1
+        }
+      },
+      {
+        "minute": 69,
+        "period": 2,
+        "scorer": "Erling Haaland",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 1
+        }
+      },
+      {
+        "minute": 90,
+        "period": 2,
+        "scorer": "Zian Flemming",
+        "team": "away",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 2
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645261-recap-summary-en.svg",
+      "alt": "Graphique anglais du 3–2 : statistiques, buts, mi-temps et évolution du score.",
+      "caption": "Buts et étapes de score observés, pas de modèle xG ou de possession. Image anglaise commune."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "Match entier · décomptes et taux calculés",
+    "home": "Manchester City",
+    "away": "Ipswich Town",
+    "sources": [
+      {
+        "id": "stats",
+        "title": "ESPN — Manchester City v Ipswich match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879259",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "Tirs",
+        "unit": "count",
+        "home": 19.0,
+        "away": 8.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "Tirs cadrés",
+        "unit": "count",
+        "home": 6.0,
+        "away": 3.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "creation",
+        "source_id": "stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "Possession",
+        "unit": "%",
+        "home": 69.8,
+        "away": 30.2,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "Passes réussies",
+        "unit": "count",
+        "home": 674.0,
+        "away": 253.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "Passes tentées",
+        "unit": "count",
+        "home": 745.0,
+        "away": 313.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "Interceptions",
+        "unit": "count",
+        "home": 5.0,
+        "away": 12.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "fouls",
+        "name": "Fautes",
+        "unit": "count",
+        "home": 8.0,
+        "away": 16.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "yellow_cards",
+        "name": "Cartons jaunes",
+        "unit": "count",
+        "home": 1.0,
+        "away": 2.0,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. Provider-observed same-match values; not an inference from the score.",
+        "category": "defensive",
+        "source_id": "stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "Réussite des passes",
+        "unit": "%",
+        "home": 90.47,
+        "away": 80.83,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. accuratePasses/totalPasses × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "passing",
+        "source_id": "stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "Tacles réussis / tentés",
+        "unit": "%",
+        "home": 62.5,
+        "away": 39.29,
+        "period": "Match entier · décomptes et taux calculés",
+        "definition": "Définition du fournisseur ; taux calculés, pas de prédictions. effectiveTackles/totalTackles × 100 from observed counts; rounded. Provider definitions apply.",
+        "category": "defensive",
+        "source_id": "stats"
+      }
+    ]
+  }
+}

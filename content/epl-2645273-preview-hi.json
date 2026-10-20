@@ -1,0 +1,355 @@
+{
+  "id": "epl-2645273-preview-hi",
+  "slug": "epl-2645273-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645273",
+  "article_kind": "preview",
+  "translation_group": "epl-2645273-preview",
+  "canonical_group": "EPL:2026-27:league:2645273:preview",
+  "quickiris_revision": "877301b0704446f47e4cfd53859a17774c5f9fd69dc9e7cb1df02686036de4c1",
+  "title": "मैनचेस्टर यूनाइटेड बनाम बोर्नमथ: ड्रॉ को जीत में कौन बदलेगा?",
+  "description": "नामित क्षेत्र के समय, केवल लीग के हालिया नतीजे और ओल्ड ट्रैफर्ड मैच से पहले सात मुकाबलों की तुलना।",
+  "published_at": "2026-10-20T23:43:16.378944+00:00",
+  "updated_at": "2026-10-20T23:43:16.378944+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "यह मुकाबला क्यों देखें",
+      "paragraphs": [
+        "यूनाइटेड के पिछले तीन लीग मैच 1–1 ड्रॉ हुए, जबकि बोर्नमथ 2–0 जीतकर आ रहा है। सवाल है कि करीबी मुकाबले को तीन अंकों में कौन बदलेगा।"
+      ]
+    },
+    {
+      "heading": "एक अंक का अंतर भारी बढ़त नहीं",
+      "paragraphs": [
+        "सात मैचों के बाद दोनों के बीच एक अंक है। यूनाइटेड ने दस गोल किए और दस खाए; बोर्नमथ ने नौ किए और तेरह खाए। मेहमानों के अधिक खाए गोल तुलना योग्य हैं, लेकिन इन औसतों में विरोधी, मैदान और मौकों की गुणवत्ता का समायोजन नहीं है।"
+      ]
+    },
+    {
+      "heading": "फ़ॉर्म में ड्रॉ भी पढ़ें",
+      "paragraphs": [
+        "पिछले पाँच लीग मैचों में यूनाइटेड की शून्य जीत, चार ड्रॉ और एक हार है। बोर्नमथ की एक जीत, दो ड्रॉ और दो हार हैं। 0% और 20% पुराने नमूने की जीत दर हैं; इसका अर्थ इस मैच में यूनाइटेड की जीत की संभावना शून्य नहीं है।"
+      ]
+    },
+    {
+      "heading": "चार लीग मुकाबलों में तीन ड्रॉ",
+      "paragraphs": [
+        "चार सत्यापित मुकाबलों में तीन ड्रॉ और बोर्नमथ की एक जीत है। गर्मियों के फ्रेंडली में यूनाइटेड की 4–1 जीत शामिल नहीं है। कई सीज़न के छोटे नमूने की 75% ड्रॉ दर रविवार की भविष्यवाणी नहीं है।"
+      ]
+    },
+    {
+      "heading": "आँकड़ों से आगे क्या देखें",
+      "paragraphs": [
+        "क्या कब्ज़ा साफ मौकों में बदलता है, और बढ़त लेने वाली टीम अगला चरण कैसे संभालती है? बार-बार 1–1 होना बढ़त बचाने या बढ़ाने का सवाल उठाता है, लेकिन केवल स्कोर किसी रणनीति को कारण साबित नहीं करता।"
+      ]
+    },
+    {
+      "heading": "अभी अज्ञात जानकारी",
+      "paragraphs": [
+        "पक्की शुरुआती टीम, पूरी ताज़ा चोट सूची और कैलिब्रेटेड मॉडल सत्यापित नहीं हैं। काल्पनिक ऑड्स या स्कोर नहीं दिया गया है। तालिका इस संस्करण के लिए भारत का समय दिखाती है, साथ में मैदान का स्थानीय समय और UTC भी।"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fixture",
+      "title": "Premier League — Manchester United v Bournemouth",
+      "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth",
+      "provider": "Premier League"
+    },
+    {
+      "id": "schedule",
+      "title": "Premier League — confirmed October fixture amendments",
+      "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november",
+      "provider": "Premier League"
+    },
+    {
+      "id": "venue",
+      "title": "Manchester United — match date at Old Trafford",
+      "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "season",
+      "title": "ESPN — Manchester United v Bournemouth season and recent records",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+      "provider": "ESPN"
+    },
+    {
+      "id": "everton",
+      "title": "Manchester United — Everton 2 United 2, 6 September 2026",
+      "url": "https://www.manutd.com/en/news/report-everton-v-united-6-sep-2026",
+      "provider": "Manchester United"
+    },
+    {
+      "id": "derby",
+      "title": "Manchester City — United 0 City 1, 13 September 2026",
+      "url": "https://www.mancity.com/citytv/mens/manchester-united-premier-league-2-minute-highlights-september-2026-63924902",
+      "provider": "Manchester City"
+    },
+    {
+      "id": "brentford",
+      "title": "Brentford — Bournemouth 2 Brentford 2, 12 September 2026",
+      "url": "https://www.brentfordfc.com/en/matches/mens/bournemouth-v-brentford-premier-league-20260912",
+      "provider": "Brentford FC"
+    },
+    {
+      "id": "newcastle",
+      "title": "Bournemouth — Newcastle 2 Bournemouth 2, 5 September 2026",
+      "url": "https://www.afcb.co.uk/news/2026/september/05/match-report-v-newcastle/",
+      "provider": "AFC Bournemouth"
+    },
+    {
+      "id": "h2h",
+      "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+      "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version",
+      "provider": "Premier League"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645273",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "scheduled",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "venue": "Old Trafford",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-25T14:00:00Z",
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Manchester United v Bournemouth",
+        "url": "https://www.premierleague.com/en/match/2645273/manchester-united-vs-bournemouth"
+      },
+      {
+        "title": "Premier League — confirmed October fixture amendments",
+        "url": "https://www.premierleague.com/en/news/4688862/fixture-amendments-for-premier-league-matches-in-october-and-november"
+      },
+      {
+        "title": "Manchester United — match date at Old Trafford",
+        "url": "https://hospitality.manutd.com/manutd_v_bournemouth_pl_26_27"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645273-preview-summary-en.svg",
+      "alt": "यूनाइटेड और बोर्नमथ के अंक, गोल और प्रति मैच औसत का अंग्रेज़ी चित्र।",
+      "caption": "प्रत्येक टीम के सात लीग मैच; वास्तविक औसत, जीत की संभावना नहीं। एक साझा अंग्रेज़ी चित्र।"
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "पिछले 5 लीग मैच · 4 सत्यापित लीग मुकाबले",
+    "sources": {
+      "recent": {
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united"
+      },
+      "head_to_head": {
+        "title": "Premier League — Bournemouth 2 United 2, 20 March 2026",
+        "url": "https://www.premierleague.com/en/news/4618398/bournemouth-v-manchester-united-20-march-2026-match-report-app-version"
+      }
+    },
+    "home": {
+      "name": "Manchester United",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Leeds United",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Tottenham Hotspur",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Fulham",
+          "for": 1,
+          "against": 1
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Manchester City",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-06",
+          "opponent": "Everton",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "away": {
+      "name": "AFC Bournemouth",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Sunderland",
+          "for": 2,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Chelsea",
+          "for": 1,
+          "against": 5
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "Liverpool",
+          "for": 0,
+          "against": 1
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 2
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Newcastle United",
+          "for": 2,
+          "against": 2
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-03-20",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 2,
+        "away_score": 2
+      },
+      {
+        "date": "2025-12-15",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 4,
+        "away_score": 4
+      },
+      {
+        "date": "2025-04-27",
+        "home_team": "AFC Bournemouth",
+        "away_team": "Manchester United",
+        "home_score": 1,
+        "away_score": 1
+      },
+      {
+        "date": "2024-12-22",
+        "home_team": "Manchester United",
+        "away_team": "AFC Bournemouth",
+        "home_score": 0,
+        "away_score": 3
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T23:22:33.107676+00:00",
+    "scope": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+    "home": "Manchester United",
+    "away": "AFC Bournemouth",
+    "sources": [
+      {
+        "id": "season",
+        "title": "ESPN — Manchester United v Bournemouth season and recent records",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401879252/afc-bournemouth-manchester-united",
+        "provider": "ESPN"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "मैच",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "rank",
+        "name": "स्थान",
+        "unit": "rank",
+        "home": 13,
+        "away": 15,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "points",
+        "name": "अंक",
+        "unit": "points",
+        "home": 7,
+        "away": 6,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_for",
+        "name": "किए गोल",
+        "unit": "goals",
+        "home": 10,
+        "away": 9,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_against",
+        "name": "खाए गोल",
+        "unit": "goals",
+        "home": 10,
+        "away": 13,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "गोल प्रति मैच",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.29,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "खाए गोल प्रति मैच",
+        "unit": "/match",
+        "home": 1.43,
+        "away": 1.86,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Observed seven-game record; per-match rows are total/7, rounded to two decimals. Not opponent-adjusted ratings.",
+        "category": "strength",
+        "source_id": "season"
+      }
+    ]
+  }
+}
