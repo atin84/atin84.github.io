@@ -1,0 +1,69 @@
+--- a/build.py
++++ b/build.py
+@@ -203,6 +203,9 @@
+ _tables_spec = _importlib.spec_from_file_location('qi_comparison_tables', Path(__file__).resolve().parent / 'scripts' / 'comparison_tables.py')
+ _tables = _importlib.module_from_spec(_tables_spec)
+ _tables_spec.loader.exec_module(_tables)
++_match_spec = _importlib.spec_from_file_location('qi_match_summary', Path(__file__).resolve().parent / 'scripts' / 'match_summary.py')
++_match = _importlib.module_from_spec(_match_spec)
++_match_spec.loader.exec_module(_match)
+ 
+ 
+ def normalize_preview_comparison(value, league, kind):
+@@ -432,6 +435,7 @@
+         **metadata,
+         "figures": clean_figures,
+         "preview_comparison": comparison,
++        "match_summary": _match.normalize(raw.get("match_summary"), metadata["league"], metadata["article_kind"], metadata["match_id"]),
+         "official_comparison": _tables.normalize(raw.get("official_comparison"), metadata["league"], metadata["article_kind"], "official_comparison"),
+         "football_statistics": _tables.normalize(raw.get("football_statistics"), metadata["league"], metadata["article_kind"], "football_statistics"),
+         "blogger_url": blogger_url,
+@@ -629,6 +633,8 @@
+         blocks.append("<!-- quickiris-content-revision:" + esc(article["quickiris_revision"]) + " -->")
+     if article["description"]:
+         blocks.append(f'<p class="article-summary">{esc(article["description"])}</p>')
++    if article.get("match_summary"):
++        blocks.append(_match.render(article["match_summary"], config["language"]))
+     pictures = []
+     for figure in article.get("figures", []):
+         caption = f'<figcaption>{esc(figure["caption"])}</figcaption>' if figure["caption"] else ""
+@@ -882,7 +888,7 @@
+     config = localized_config(config, article)
+     navigation = language_navigation(config, article.get("translations", []), current=config["language"])
+     widget_style = ""
+-    if any(article.get(k) for k in ("preview_comparison", "official_comparison", "football_statistics")):
++    if any(article.get(k) for k in ("match_summary", "preview_comparison", "official_comparison", "football_statistics")):
+         style = (ROOT / "assets" / "style.css").read_text(encoding="utf-8")
+         widget_style = "<style>" + style.split("/* QI_WIDGET_START */", 1)[1].split("/* QI_WIDGET_END */", 1)[0] + "</style>"
+     content = f'<div class="quickiris-article" lang="{esc(config["language"])}">{widget_style}{navigation}{article_body(article, config)}</div>'
+--- a/assets/style.css
++++ b/assets/style.css
+@@ -176,4 +176,28 @@
+ .qi-statistics { margin:2rem 0; padding:1rem; background:#fff; border:1px solid #d6e2e8; border-radius:14px; }
+ @media (max-width:620px) { .qi-data-table {font-size:.8rem;} .qi-data-table th,.qi-data-table td {padding:.65rem .7rem;} }
+ 
++
++.qi-match-summary { margin:1.3rem 0 1.6rem; padding:clamp(1rem,3vw,1.7rem); border:1px solid #d6e2e8; border-top:4px solid #087d85; border-radius:14px; background:#fff; color:#172f40; }
++.qi-match-eyebrow { display:flex; align-items:center; justify-content:space-between; gap:1rem; font-size:.78rem; color:#536c7b; }
++.qi-match-status { padding:.2rem .65rem; border-radius:99px; color:#075b60; background:#e3f4f2; white-space:nowrap; }
++.qi-scoreboard { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:.7rem; align-items:center; text-align:center; margin:1.4rem 0 .8rem; }
++.qi-score-team { font-size:clamp(1rem,2.4vw,1.35rem); line-height:1.4; font-weight:750; overflow-wrap:anywhere; }
++.qi-score-home { color:#087d85; } .qi-score-away { color:#3762b4; }
++.qi-score-main { font-size:clamp(1.6rem,4vw,2.65rem); line-height:1.1; font-weight:800; white-space:nowrap; font-variant-numeric:tabular-nums; }
++.qi-period-score { display:flex; flex-wrap:wrap; justify-content:center; gap:.6rem 1.5rem; margin:.7rem 0 1.2rem; font-size:.84rem; color:#536c7b; }
++.qi-match-facts { width:100%; border-collapse:collapse; font-size:.88rem; }
++.qi-match-facts caption { text-align:left; font-weight:700; padding:.55rem 0; }
++.qi-match-facts th,.qi-match-facts td { padding:.7rem .6rem; border-top:1px solid #e3eaee; text-align:left; vertical-align:top; }
++.qi-match-facts th { width:25%; min-width:85px; color:#536c7b; font-weight:650; }
++.qi-match-facts td { font-variant-numeric:tabular-nums; }
++.qi-match-facts tr:nth-child(odd) { background:#f6f9fb; }
++.qi-zone { color:#536c7b; font-size:.78rem; white-space:nowrap; }
++.qi-match-source { margin:.85rem 0 0; font-size:.75rem; color:#536c7b; }
++.qi-match-source summary { cursor:pointer; } .qi-match-source p { margin:.5rem 0; }
++.qi-match-source a { display:block; margin:.4rem 0; }
++.qi-match-goals { margin:1.5rem 0; } .qi-match-goals h2 { font-size:1.2rem; }
++.qi-match-goals .qi-data-table { min-width:540px; }
++.qi-own-goal { display:inline-block; padding:.1rem .35rem; margin-left:.3rem; border-radius:4px; background:#fff0e0; color:#805323; white-space:nowrap; }
++@media(max-width:420px) { .qi-match-summary { padding:1rem .8rem; } .qi-scoreboard { gap:.45rem; } .qi-match-facts { font-size:.8rem; } .qi-match-facts th,.qi-match-facts td { padding:.6rem .35rem; } .qi-match-facts time b { display:block; } }
++
+ /* QI_WIDGET_END */
