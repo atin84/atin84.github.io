@@ -1,0 +1,153 @@
+name: Reviewed EPL publication trial
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/reviewed/epl-trial-2026-10-20-*.json'
+      - 'scripts/import_reviewed_stories.py'
+      - '.github/workflows/reviewed-epl-release.yml'
+permissions:
+  contents: read
+concurrency:
+  group: reviewed-epl-publication-trial
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install existing deterministic renderer dependencies
+        run: python -m pip install 'Pillow>=11,<13' 'fonttools>=4.60,<5'
+      - name: Refresh fixture status, prevent duplicates, render tables and shared images
+        run: python scripts/import_reviewed_stories.py --out reports --refresh
+      - name: Validate all existing and new public content
+        run: |
+          python -m unittest discover -s tests -v
+          python build.py --out /tmp/quickiris-site --blogger-out /tmp/quickiris-blogger
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          assert len(r['articles'])==16 and len(r['images'])==2
+          for name in r['articles']:
+              a=json.loads(Path(name).read_text())
+              page=Path('/tmp/quickiris-site/posts')/a['slug']/'index.html'
+              body=page.read_text()
+              assert a['quickiris_revision'] in body and 'qi-data-table' in body
+              assert '<html lang="'+a['language']+'"' in body
+              assert a['figures'][0]['src'] in body
+          PY
+      - name: Prepare private-to-review artifact of public output only
+        run: |
+          mkdir -p reports/site
+          cp -r /tmp/quickiris-site/assets reports/site/
+          python - <<'PY'
+          import json,shutil
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          for item in r['articles']:
+              a=json.loads(Path(item).read_text())
+              src=Path('/tmp/quickiris-site/posts')/a['slug']
+              dst=Path('reports/site/posts')/a['slug']
+              shutil.copytree(src,dst,dirs_exist_ok=True)
+          PY
+          cp -r data/reviewed reports/input
+          cp scripts/import_reviewed_stories.py reports/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reviewed-epl-preview-recap
+          path: reports/
+          retention-days: 3
+      - name: Check explicit content-revision release decision
+        id: approval
+        run: |
+          python - <<'PY'
+          import json,os
+          from pathlib import Path
+          report=json.loads(Path('reports/release-report.json').read_text())
+          p=Path('data/reviewed/epl-trial-2026-10-20-release.json')
+          approved=False
+          if p.exists():
+              decision=json.loads(p.read_text())
+              assert decision['revision']==report['revision'], 'Release revision differs from inspected output'
+              assert decision['operation']=='publish-two-reviewed-stories'
+              assert decision['mode']=='supervised-publication-trial'
+              approved=True
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:f.write('publish='+str(approved).lower()+'\n')
+          print('Publish requested:',approved)
+          PY
+      - name: Commit native article JSON and exactly two shared SVGs
+        if: steps.approval.outputs.publish == 'true'
+        run: |
+          python - <<'PY'
+          import json,subprocess
+          from pathlib import Path
+          r=json.loads(Path('reports/release-report.json').read_text())
+          subprocess.run(['git','add','--',*r['articles'],*r['images']],check=True)
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if ! git diff --cached --quiet; then
+            git commit -m 'content: publish reviewed Villa-City preview and Spurs-Coventry recap in eight languages'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD | tee reports/published-commit.txt
+      - name: Configure Pages for the explicit release
+        if: steps.approval.outputs.publish == 'true'
+        uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.approval.outputs.publish == 'true'
+        with:
+          path: /tmp/quickiris-site
+      - uses: actions/deploy-pages@v4
+        id: deploy
+        if: steps.approval.outputs.publish == 'true'
+      - name: Verify all live language URLs and shared image hashes
+        if: steps.approval.outputs.publish == 'true'
+        run: |
+          python - <<'PY'
+          import hashlib,json,time
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          r=json.loads(Path('reports/release-report.json').read_text())
+          checks=[]
+          for attempt in range(4):
+              checks=[]
+              try:
+                  for src,url in zip(r['articles'],r['urls']):
+                      a=json.loads(Path(src).read_text())
+                      with urlopen(Request(url,headers={'User-Agent':'QuickIris-Release-Verification/1'}),timeout=15) as response:
+                          body=response.read().decode()
+                      assert r['revision'] in body and a['figures'][0]['src'] in body
+                      assert '<html lang="'+a['language']+'"' in body
+                      checks.append({'url':url,'language':a['language'],'verified':True})
+                  for path,expected in r['image_hashes'].items():
+                      with urlopen('https://atin84.github.io/'+path,timeout=15) as response:data=response.read()
+                      assert hashlib.sha256(data).hexdigest()==expected
+                  break
+              except Exception:
+                  if attempt==3:raise
+                  time.sleep(10)
+          Path('reports/live-checks.json').write_text(json.dumps({'articles':checks,'images_verified':2,'model_api_calls':0,'mode':'supervised-publication-trial'},ensure_ascii=False,indent=2))
+          print('Verified',len(checks),'live article URLs and 2 shared images')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.approval.outputs.publish == 'true'
+        with:
+          name: reviewed-epl-live-verification
+          path: |
+            reports/live-checks.json
+            reports/published-commit.txt
+            reports/release-report.json
+          retention-days: 7
