@@ -1,0 +1,95 @@
+diff --git a/scripts/match_overview.py b/scripts/match_overview.py
+index c9563c8..9071d6e 100644
+--- a/scripts/match_overview.py
++++ b/scripts/match_overview.py
+@@ -4,17 +4,23 @@ from datetime import datetime, timezone
+ from html import escape
+ from urllib.parse import urlsplit
+ from zoneinfo import ZoneInfo
++from pathlib import Path
++import importlib.util
+ 
+-KEYS = ('heading','status','scheduled','final','competition','season','venue','local_time','utc_time','kst_time','halftime','goals','minute','scorer','team','score','own_goal','as_of','source','home','away')
++_reader_spec = importlib.util.spec_from_file_location("qi_reader_timezones", Path(__file__).with_name("reader_timezones.py"))
++_reader = importlib.util.module_from_spec(_reader_spec)
++_reader_spec.loader.exec_module(_reader)
++
++KEYS = ('heading','status','scheduled','final','competition','season','venue','local_time','utc_time','reader_time','halftime','goals','minute','scorer','team','score','own_goal','as_of','source','home','away')
+ LABELS = {
+- 'en': ('Match at a glance','Status','Scheduled','Final','Competition','Season','Venue','Local kick-off','UTC kick-off','Korea kick-off','Half-time','Goal timeline','Minute','Scorer','Scoring team','Score','own goal','Checked','Source','Home','Away'),
+- 'ko': ('경기 한눈에 보기','상태','경기 예정','경기 종료','대회','시즌','경기장','영국·현지 시작','UTC 시작','한국시간 시작','전반','득점 타임라인','시간','득점자','득점 팀','스코어','자책골','확인 시각','출처','홈','원정'),
+- 'es': ('El partido de un vistazo','Estado','Programado','Final','Competición','Temporada','Estadio','Inicio local','Inicio UTC','Inicio en Corea','Descanso','Cronología de goles','Minuto','Goleador','Equipo','Marcador','autogol','Verificado','Fuente','Local','Visitante'),
+- 'ja': ('試合情報一覧','状態','試合予定','試合終了','大会','シーズン','会場','現地開始時刻','UTC開始','韓国時間開始','前半','得点経過','時間','得点者','得点チーム','スコア','オウンゴール','確認時刻','出典','ホーム','アウェー'),
+- 'pt-BR': ('O jogo em resumo','Status','Agendado','Final','Competição','Temporada','Estádio','Início local','Início UTC','Início na Coreia','Intervalo','Linha do tempo dos gols','Minuto','Artilheiro','Equipe','Placar','gol contra','Verificado','Fonte','Mandante','Visitante'),
+- 'fr': ('Le match en bref','Statut','À venir','Terminé','Compétition','Saison','Stade','Coup d’envoi local','Coup d’envoi UTC','Horaire coréen','Mi-temps','Chronologie des buts','Minute','Buteur','Équipe','Score','contre son camp','Vérifié','Source','Domicile','Extérieur'),
+- 'de': ('Das Spiel im Überblick','Status','Angesetzt','Beendet','Wettbewerb','Saison','Stadion','Anstoß Ortszeit','Anstoß UTC','Anstoß Korea','Halbzeit','Torverlauf','Minute','Torschütze','Team','Spielstand','Eigentor','Geprüft','Quelle','Heim','Auswärts'),
+- 'hi': ('मैच एक नज़र में','स्थिति','निर्धारित','समाप्त','प्रतियोगिता','सीज़न','स्टेडियम','स्थानीय शुरुआत','UTC शुरुआत','कोरिया शुरुआत','हाफ-टाइम','गोल क्रम','मिनट','गोलकर्ता','टीम','स्कोर','आत्मघाती गोल','जाँच समय','स्रोत','घरेलू','बाहरी'),
++ 'en': ('Match at a glance','Status','Scheduled','Final','Competition','Season','Venue','Venue-local kick-off','UTC kick-off','Edition time','Half-time','Goal timeline','Minute','Scorer','Scoring team','Score','own goal','Checked','Source','Home','Away'),
++ 'ko': ('경기 한눈에 보기','상태','경기 예정','경기 종료','대회','시즌','경기장','경기 현지 시작','UTC 시작','언어판 기준 시간','전반','득점 타임라인','시간','득점자','득점 팀','스코어','자책골','확인 시각','출처','홈','원정'),
++ 'es': ('El partido de un vistazo','Estado','Programado','Final','Competición','Temporada','Estadio','Inicio local','Inicio UTC','Hora de la edición','Descanso','Cronología de goles','Minuto','Goleador','Equipo','Marcador','autogol','Verificado','Fuente','Local','Visitante'),
++ 'ja': ('試合情報一覧','状態','試合予定','試合終了','大会','シーズン','会場','現地開始時刻','UTC開始','言語版の時刻','前半','得点経過','時間','得点者','得点チーム','スコア','オウンゴール','確認時刻','出典','ホーム','アウェー'),
++ 'pt-BR': ('O jogo em resumo','Status','Agendado','Final','Competição','Temporada','Estádio','Início local','Início UTC','Horário desta edição','Intervalo','Linha do tempo dos gols','Minuto','Artilheiro','Equipe','Placar','gol contra','Verificado','Fonte','Mandante','Visitante'),
++ 'fr': ('Le match en bref','Statut','À venir','Terminé','Compétition','Saison','Stade','Coup d’envoi local','Coup d’envoi UTC','Heure de cette édition','Mi-temps','Chronologie des buts','Minute','Buteur','Équipe','Score','contre son camp','Vérifié','Source','Domicile','Extérieur'),
++ 'de': ('Das Spiel im Überblick','Status','Angesetzt','Beendet','Wettbewerb','Saison','Stadion','Anstoß Ortszeit','Anstoß UTC','Zeit dieser Ausgabe','Halbzeit','Torverlauf','Minute','Torschütze','Team','Spielstand','Eigentor','Geprüft','Quelle','Heim','Auswärts'),
++ 'hi': ('मैच एक नज़र में','स्थिति','निर्धारित','समाप्त','प्रतियोगिता','सीज़न','स्टेडियम','स्थानीय शुरुआत','UTC शुरुआत','इस संस्करण का समय','हाफ-टाइम','गोल क्रम','मिनट','गोलकर्ता','टीम','स्कोर','आत्मघाती गोल','जाँच समय','स्रोत','घरेलू','बाहरी'),
+ }
+ DAYS = {
+  'en': ('Mon','Tue','Wed','Thu','Fri','Sat','Sun'), 'ko': ('월','화','수','목','금','토','일'),
+@@ -109,15 +115,18 @@ def normalize(raw, league, kind, match_id=''):
+     return out
+ 
+ 
+-def time_html(raw, zone, language):
++def time_html(raw, zone, language, *, show_offset=False):
+     t=instant(raw).astimezone(ZoneInfo(zone))
+     day=DAYS.get(language,DAYS['en'])[t.weekday()]
+     value=f'{t:%Y-%m-%d} ({day}) {t:%H:%M} {t.tzname()}'
+-    return '<time datetime="'+escape(t.isoformat(),quote=True)+'">'+escape(value)+'</time>'
++    if show_offset:
++        value += ' (' + _reader.offset_label(t) + ')'
++    return '<time datetime="'+escape(t.isoformat(),quote=True)+'" data-timezone="'+escape(zone,quote=True)+'">'+escape(value)+'</time>'
+ 
+ 
+ def render(data, locale):
+-    u=dict(zip(KEYS,LABELS.get(locale,LABELS['en'])));esc=escape
++    audience = _reader.profile(locale)
++    u=dict(zip(KEYS,LABELS[locale]));esc=escape
+     out=['<section class="qi-match-overview"><div class="qi-match-heading"><h2>'+u['heading']+'</h2>',
+          '<span class="qi-match-status">'+u[data['status']]+'</span></div>']
+     if data['status']=='final':
+@@ -132,11 +141,12 @@ def render(data, locale):
+         out.append('<p class="qi-fixture-pair"><strong>'+esc(data['home'])+'</strong><span>vs</span><strong>'+esc(data['away'])+'</strong></p>')
+     rows=[(u['competition'],esc(data['competition']+' · '+data['season'])),(u['venue'],esc(data['venue'])),
+           (u['local_time'],time_html(data['start_utc'],data['venue_timezone'],locale)),
+-          (u['kst_time'],time_html(data['start_utc'],'Asia/Seoul',locale)),
++          (esc(audience['label']),time_html(data['start_utc'],audience['zone'],locale,show_offset=True)),
+           (u['utc_time'],time_html(data['start_utc'],'UTC',locale))]
+     out.append('<table class="qi-match-facts"><caption class="qi-visually-hidden">'+u['heading']+'</caption><tbody>')
+     out.extend('<tr><th scope="row">'+k+'</th><td>'+v+'</td></tr>' for k,v in rows)
+     out.append('</tbody></table>')
++    out.append('<p class="qi-match-source qi-reader-time-note">'+esc(audience['note'])+'</p>')
+     if data.get('goals'):
+         out.append('<div class="qi-table-scroll" tabindex="0" role="region" aria-label="'+u['goals']+'"><table class="qi-data-table qi-goal-table"><caption>'+u['goals']+'</caption><thead><tr>'+''.join('<th scope="col">'+u[k]+'</th>' for k in ('minute','scorer','score'))+'</tr></thead><tbody>')
+         for g in data['goals']:
+diff --git a/scripts/render_reviewed_batch.py b/scripts/render_reviewed_batch.py
+index c867494..b93b2c1 100644
+--- a/scripts/render_reviewed_batch.py
++++ b/scripts/render_reviewed_batch.py
+@@ -49,7 +49,7 @@ def fetch(url):
+ 
+ def revision(input_path):
+     paths=[Path(input_path),Path(__file__),ROOT/'build.py',ROOT/'assets/style.css',
+-           ROOT/'scripts/match_overview.py',ROOT/'scripts/comparison_tables.py',
++           ROOT/'scripts/match_overview.py',ROOT/'scripts/reader_timezones.py',ROOT/'scripts/comparison_tables.py',
+            ROOT/'scripts/render_summary_image.py',ROOT/'scripts/import_reviewed_stories.py']
+     return digest(b''.join(p.read_bytes() for p in paths))
+ 
+@@ -91,7 +91,7 @@ def localize_tables(g,locale):
+         c=copy.deepcopy(g['preview_comparison'])
+         samples=[len(c[side]['recent']) for side in ('home','away')]
+         scope=SCOPES['recent'][idx].replace('5',str(samples[0]) if samples[0]==samples[1] else str(samples[0])+'/'+str(samples[1])).replace('4',str(len(c['head_to_head'])))
+-        c['scope']=scope;out['preview_comparison']=c
++        c['scope']=g.get('recent_scope',{}).get(locale,scope);out['preview_comparison']=c
+     for field in ('official_comparison','football_statistics'):
+         if field not in g:continue
+         c=copy.deepcopy(g[field]);c['scope']=SCOPES['season' if field=='official_comparison' else 'match'][idx]

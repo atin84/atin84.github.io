@@ -1,0 +1,9 @@
+{
+  "version":1,
+  "mode":"supervised-reviewed-publication",
+  "facts_path":"data/reviewed/epl-reader-timezones-facts.json",
+  "copy_path":"data/reviewed/epl-reader-timezones-copy.json",
+  "approved_revision":null,
+  "expected_articles":16,
+  "expected_images":2
+}
