@@ -304,9 +304,12 @@ def preview_comparison_html(c, language):
         percent = round(wins * 100 / n, 2) if n else 0
         out.append('<div class="qi-compare-card qi-' + side + '"><h3>' + esc(club["name"]) + '</h3>' +
                    '<div class="qi-big-rate">' + rate(wins, n) + '</div><small>' + esc(rate_title) +
-                   ' · ' + str(n) + '</small><div class="qi-rate-track" role="meter" aria-label="' +
-                   esc(club["name"] + " " + rate_title) + '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
-                   str(percent) + '"><span style="width:' + str(percent) + '%"></span></div>')
+                   ' · ' + str(n) + '</small>')
+        if n:
+            out.append('<div class="qi-rate-track" role="meter" aria-label="' +
+                       esc(club["name"] + " " + rate_title) +
+                       '" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' +
+                       str(percent) + '"><span style="width:' + str(percent) + '%"></span></div>')
         out.append('<p class="qi-form-record">' + (str(wins) + esc(w_label) + " · " + str(draws) +
                    esc(d_label) + " · " + str(losses) + esc(l_label) if n else esc(missing)) + '</p>')
         if n:
