@@ -1,0 +1,198 @@
+{
+ "preview":{
+  "en":{
+   "title":"Liverpool vs Brighton: Anfield tests a four-match clean-sheet run",
+   "description":"Brighton's league momentum meets Liverpool's home response: the key question is whether recent attacking output travels to Anfield.",
+   "alt":"Shared English graphic comparing Liverpool and Brighton's seven-match league records and goals per game.",
+   "caption":"Seven league matches per team. These are observed totals and simple averages, not a calibrated power ranking or win-probability model.",
+   "sections":[
+    {"heading":"What to watch","paragraphs":["Brighton arrive with four consecutive league wins without conceding. Liverpool's latest victory at Brentford offers a response to the home defeat by Manchester City, but this is a different test: can they disrupt an opponent producing both goals and clean sheets?"],"bullets":["Liverpool: create sustained chances, rather than relying on isolated finishes.","Brighton: carry the recent attacking threat into a tougher away setting without sacrificing defensive control."]},
+    {"heading":"Reading the team comparison","paragraphs":["Brighton lead the seven-match sample in scoring and have conceded fewer. The per-game rows use the same denominator, making the raw output comparable; they do not adjust for opponent strength, home advantage or game state.","Liverpool's stronger historical head-to-head win share and Brighton's stronger recent form answer different questions. Neither should be relabelled as the probability of winning this fixture."]},
+    {"heading":"Sample and availability checks","paragraphs":[],"bullets":["Recent form: latest five completed Premier League games for each team; cup and European matches excluded.","Head-to-head: latest five league meetings. The February 2026 FA Cup result is excluded.","Confirmed line-ups and a complete current injury list: not verified in this snapshot.","Calibrated match probabilities: unavailable; no invented forecast or score prediction."]},
+    {"heading":"Before kick-off","paragraphs":["The schedule card uses the venue's IANA timezone, so this Sunday is shown in GMT rather than BST. Recheck the official fixture and selection news close to kick-off. The record comparison is a dated snapshot, not a promise that conditions will remain unchanged."]}
+   ]
+  },
+  "ko":{
+   "title":"리버풀–브라이턴 프리뷰: 안필드가 무실점 행진을 멈출까",
+   "description":"브라이턴의 리그 상승세와 리버풀의 홈 반등이 만납니다. 최근의 공격 성과가 안필드에서도 이어질지가 핵심입니다.",
+   "alt":"리버풀과 브라이턴의 리그 7경기 승점·득실점·도움 및 경기당 득실점을 비교한 공통 영어 이미지.",
+   "caption":"양팀 모두 리그 7경기 기준입니다. 실제 기록과 단순 평균이며, 보정된 전력 등급이나 이번 경기의 승리 확률이 아닙니다.",
+   "sections":[
+    {"heading":"관전 포인트","paragraphs":["브라이턴은 최근 리그 4경기를 모두 무실점으로 이겼습니다. 리버풀은 맨시티전 홈 패배 뒤 브렌트퍼드 원정 승리로 반응했지만, 이번에는 득점과 무실점을 함께 쌓는 상대의 흐름을 끊어야 합니다."],"bullets":["리버풀: 단발성 결정력에 기대기보다 득점 기회를 반복해서 만들 수 있는가.","브라이턴: 원정에서도 공격 위협을 유지하면서 수비 균형을 지킬 수 있는가."]},
+    {"heading":"전력 비교는 이렇게 읽으세요","paragraphs":["시즌 표본에서는 브라이턴이 더 많이 넣고 더 적게 실점했습니다. 경기당 수치는 같은 경기 수로 나눴지만, 상대 수준·홈 이점·당시 스코어까지 보정한 전력 지수는 아닙니다.","리버풀의 맞대결 우세와 브라이턴의 최근 흐름은 서로 다른 정보입니다. 과거 승률을 이번 경기의 승리 확률로 바꾸어 읽으면 안 됩니다."]},
+    {"heading":"자료 확인 상태","paragraphs":[],"bullets":["최근 전적: 양팀의 최신 종료 리그 5경기. 컵대회·유럽대항전 제외.","맞대결: 최근 리그 5경기. 2026년 2월 FA컵 경기는 제외.","확정 선발·완전한 최신 부상 명단: 이번 자료에서 미확인.","보정된 승리 예측 확률: 미제공. 임의의 확률·예상 스코어는 만들지 않음."]},
+    {"heading":"경기 직전 확인할 것","paragraphs":["상단 시간표는 경기장 시간대를 기준으로 계산해 이번 일요일을 BST가 아닌 GMT로 표시했습니다. 관람 직전에는 공식 일정과 선수 선발 정보를 다시 확인해야 합니다. 전력 비교는 확인 시점의 기록이지 이후 상황까지 확정한 정보는 아닙니다."]}
+   ]
+  },
+  "es":{
+   "title":"Liverpool–Brighton: Anfield pone a prueba cuatro victorias sin encajar",
+   "description":"El buen momento liguero del Brighton se enfrenta a la reacción del Liverpool: la cuestión es si su producción ofensiva también viajará a Anfield.",
+   "alt":"Gráfico inglés compartido con los registros de siete partidos de Liverpool y Brighton y sus promedios de goles.",
+   "caption":"Siete partidos de liga por equipo. Totales observados y promedios simples, no una clasificación de fuerza calibrada ni probabilidades de victoria.",
+   "sections":[
+    {"heading":"Qué observar","paragraphs":["Brighton llega con cuatro victorias ligueras consecutivas sin recibir goles. Liverpool respondió a la derrota en casa ante Manchester City ganando en Brentford, pero ahora debe frenar a un rival que combina goles y porterías a cero."],"bullets":["Liverpool: generar ocasiones de forma sostenida, no depender solo de definiciones aisladas.","Brighton: mantener la amenaza ofensiva como visitante sin perder el control defensivo."]},
+    {"heading":"Cómo interpretar la comparación","paragraphs":["Brighton marca más y encaja menos en la muestra de siete partidos. Las medias comparten denominador, pero no corrigen la fuerza del rival, la localía ni el estado del marcador.","La mayor tasa histórica del Liverpool en los duelos directos y la mejor forma reciente del Brighton responden a preguntas distintas. Ninguna equivale a la probabilidad de ganar este encuentro."]},
+    {"heading":"Muestra y datos pendientes","paragraphs":[],"bullets":["Forma: cinco últimos partidos completados de Premier League por equipo; copas y Europa excluidas.","Enfrentamientos: cinco últimos duelos ligueros; se excluye la FA Cup de febrero de 2026.","Alineaciones definitivas y lista completa de lesiones: no verificadas en esta consulta.","Probabilidades calibradas: no disponibles; no se inventa un pronóstico ni marcador."]},
+    {"heading":"Antes del inicio","paragraphs":["La ficha convierte la hora con la zona oficial del estadio: este domingo corresponde a GMT, no BST. Conviene revisar el horario oficial y las novedades de la plantilla cerca del partido. Los datos son una instantánea fechada, no una garantía de condiciones futuras."]}
+   ]
+  },
+  "ja":{
+   "title":"リヴァプール対ブライトン：アンフィールドが無失点の連勝を試す",
+   "description":"ブライトンのリーグでの勢いとリヴァプールのホームでの反発。最近の攻撃成果がアンフィールドでも続くかが焦点です。",
+   "alt":"リヴァプールとブライトンのリーグ7試合の記録と平均得失点を比較する共通英語図。",
+   "caption":"両チームともリーグ7試合。実際の合計値と単純平均であり、補正済みの戦力順位や勝利予測確率ではありません。",
+   "sections":[
+    {"heading":"注目点","paragraphs":["ブライトンは直近リーグ4試合をすべて無失点で勝利。リヴァプールはマンチェスター・シティにホームで敗れた後、ブレントフォードで勝ちましたが、今回は得点と無失点を両立する相手の流れを止める必要があります。"],"bullets":["リヴァプール：単発の決定力だけでなく、繰り返し得点機会を作れるか。","ブライトン：アウェーでも攻撃の脅威と守備の安定を両立できるか。"]},
+    {"heading":"戦力比較の読み方","paragraphs":["7試合の標本ではブライトンがより多く得点し、失点も少なくなっています。同じ試合数で平均化していますが、相手の強さ、ホーム効果、途中のスコアを補正した指標ではありません。","直接対決でのリヴァプールの過去の優位と、ブライトンの最近の好調さは別の情報です。どちらも今回の勝利確率に置き換えられません。"]},
+    {"heading":"資料の確認状況","paragraphs":[],"bullets":["最近の成績：終了済みの最新リーグ5試合。カップ戦と欧州大会は除外。","直接対決：最新のリーグ5試合。2026年2月のFAカップは除外。","確定先発と完全な最新負傷者リスト：今回は未確認。","校正済み予測確率：未提供。架空の予想スコアは作成しません。"]},
+    {"heading":"試合直前の確認","paragraphs":["上の時間表は会場の時間帯から変換し、この日曜日をBSTではなくGMTと表示しています。開始前に公式日程と選手情報を再確認してください。比較値は確認時点の記録であり、その後の状況を保証するものではありません。"]}
+   ]
+  },
+  "pt-BR":{
+   "title":"Liverpool x Brighton: Anfield testa uma série de quatro vitórias sem sofrer gols",
+   "description":"A boa fase do Brighton encontra a reação do Liverpool: a questão é se o ataque recente também funcionará em Anfield.",
+   "alt":"Gráfico inglês compartilhado com os sete jogos de Liverpool e Brighton e suas médias de gols.",
+   "caption":"Sete partidas de liga por equipe. Totais observados e médias simples, não um ranking calibrado de força ou probabilidades de vitória.",
+   "sections":[
+    {"heading":"O que observar","paragraphs":["O Brighton chega com quatro vitórias seguidas na liga sem sofrer gols. O Liverpool reagiu à derrota em casa para o City vencendo no campo do Brentford, mas agora precisa frear um adversário que combina gols e segurança defensiva."],"bullets":["Liverpool: criar chances de forma constante, não depender apenas de lances isolados.","Brighton: levar a ameaça ofensiva ao jogo fora sem comprometer o equilíbrio defensivo."]},
+    {"heading":"Como ler a comparação","paragraphs":["Na amostra de sete partidas, o Brighton marcou mais e sofreu menos. As médias usam o mesmo denominador, mas não ajustam a força dos adversários, o mando ou a situação do placar.","A vantagem histórica do Liverpool nos confrontos e a melhor fase recente do Brighton respondem a perguntas diferentes. Nenhuma deve ser tratada como probabilidade de vencer esta partida."]},
+    {"heading":"Amostra e informações pendentes","paragraphs":[],"bullets":["Forma: cinco últimos jogos completos de Premier League por equipe; copas e Europa excluídas.","Confrontos: cinco últimos duelos de liga; excluído o jogo de FA Cup de fevereiro de 2026.","Escalações confirmadas e lista completa de lesões: não verificadas neste levantamento.","Probabilidades calibradas: indisponíveis; nenhum placar ou previsão foi inventado."]},
+    {"heading":"Antes do apito inicial","paragraphs":["A ficha converte o horário pela zona do estádio: neste domingo vale GMT, não BST. Confira novamente a programação oficial e as notícias do elenco perto do jogo. O comparativo é um retrato datado, não uma garantia de que as condições permanecerão iguais."]}
+   ]
+  },
+  "fr":{
+   "title":"Liverpool–Brighton : Anfield à l'épreuve de quatre victoires sans encaisser",
+   "description":"La dynamique de Brighton rencontre la réaction de Liverpool : sa production offensive récente peut-elle se prolonger à Anfield ?",
+   "alt":"Graphique anglais partagé comparant les sept matches de Liverpool et Brighton et leurs moyennes de buts.",
+   "caption":"Sept matches de championnat par équipe. Totaux observés et moyennes simples, pas un classement de force calibré ni des probabilités de victoire.",
+   "sections":[
+    {"heading":"Les points à suivre","paragraphs":["Brighton arrive avec quatre victoires consécutives en championnat sans encaisser. Liverpool a réagi à sa défaite à domicile contre City en gagnant à Brentford ; il doit maintenant déranger un adversaire qui conjugue buts et solidité."],"bullets":["Liverpool : créer régulièrement des occasions, sans dépendre uniquement d'actions isolées.","Brighton : conserver sa menace offensive à l'extérieur sans perdre son équilibre défensif."]},
+    {"heading":"Lire la comparaison","paragraphs":["Brighton a davantage marqué et moins encaissé dans l'échantillon de sept matches. Le dénominateur est commun, mais les moyennes ne corrigent ni la force adverse, ni l'avantage du terrain, ni l'état du score.","L'avantage historique de Liverpool dans les duels et la meilleure forme récente de Brighton décrivent deux choses différentes. Aucun des deux n'est une probabilité de gagner cette rencontre."]},
+    {"heading":"Échantillon et vérifications","paragraphs":[],"bullets":["Forme : cinq derniers matches terminés de Premier League ; coupes et Europe exclues.","Confrontations : cinq derniers duels de championnat ; la FA Cup de février 2026 est exclue.","Compositions confirmées et liste complète des blessures : non vérifiées ici.","Probabilités calibrées : indisponibles ; aucun score prévu n'est inventé."]},
+    {"heading":"Avant le coup d'envoi","paragraphs":["La fiche utilise le fuseau du stade : ce dimanche est en GMT et non en BST. Revérifiez l'horaire officiel et les informations d'effectif avant le match. La comparaison est une photographie datée, pas une garantie des conditions futures."]}
+   ]
+  },
+  "de":{
+   "title":"Liverpool gegen Brighton: Anfield prüft vier Siege ohne Gegentor",
+   "description":"Brightons Ligaform trifft auf Liverpools Reaktion: Entscheidend ist, ob die jüngste Offensivleistung auch an der Anfield Road trägt.",
+   "alt":"Gemeinsame englische Grafik mit sieben Ligaspielen von Liverpool und Brighton sowie Toren pro Spiel.",
+   "caption":"Je sieben Ligaspiele. Beobachtete Summen und einfache Mittelwerte, kein kalibriertes Stärkeranking und keine Siegprognose.",
+   "sections":[
+    {"heading":"Worauf es ankommt","paragraphs":["Brighton hat vier Ligaspiele hintereinander ohne Gegentor gewonnen. Liverpool reagierte auf die Heimniederlage gegen City mit einem Sieg in Brentford. Nun gilt es, einen Gegner zu stören, der Tore und defensive Stabilität verbindet."],"bullets":["Liverpool: kontinuierlich Chancen erspielen statt nur auf einzelne Abschlüsse zu vertrauen.","Brighton: auswärts gefährlich bleiben, ohne die defensive Kontrolle zu verlieren."]},
+    {"heading":"Den Vergleich richtig lesen","paragraphs":["Brighton hat in der Sieben-Spiele-Stichprobe mehr Tore erzielt und weniger zugelassen. Die Mittelwerte verwenden denselben Nenner, berücksichtigen aber weder Gegnerstärke noch Heimvorteil oder Spielstand.","Liverpools historische Duellquote und Brightons bessere jüngste Form beantworten unterschiedliche Fragen. Beides darf nicht als Wahrscheinlichkeit für einen Sieg in diesem Spiel ausgegeben werden."]},
+    {"heading":"Stichprobe und offene Informationen","paragraphs":[],"bullets":["Form: die letzten fünf abgeschlossenen Premier-League-Spiele; Pokal und Europa ausgeschlossen.","Direkte Duelle: die letzten fünf Ligapartien; das FA-Cup-Spiel vom Februar 2026 bleibt außen vor.","Bestätigte Aufstellungen und vollständige Verletztenliste: hier nicht verifiziert.","Kalibrierte Wahrscheinlichkeiten: nicht verfügbar; kein erfundener Ergebnis-Tipp."]},
+    {"heading":"Vor dem Anpfiff","paragraphs":["Die Zeitkarte rechnet mit der Stadion-Zeitzone: Für diesen Sonntag gilt GMT statt BST. Offiziellen Termin und Personalnachrichten kurz vor Spielbeginn erneut prüfen. Die Zahlen sind eine datierte Momentaufnahme, keine Zusage unveränderter Bedingungen."]}
+   ]
+  },
+  "hi":{
+   "title":"लिवरपूल बनाम ब्राइटन: एनफील्ड में बिना गोल खाए चार जीत की परीक्षा",
+   "description":"ब्राइटन की लीग फॉर्म और लिवरपूल की वापसी आमने-सामने हैं: सवाल है कि हालिया आक्रमण एनफील्ड में भी चलेगा या नहीं।",
+   "alt":"लिवरपूल और ब्राइटन के सात लीग मैचों तथा प्रति मैच गोल की साझा अंग्रेज़ी तुलना।",
+   "caption":"प्रत्येक टीम के सात लीग मैच। वास्तविक कुल और साधारण औसत; कैलिब्रेटेड ताकत रैंकिंग या जीत की संभावना नहीं।",
+   "sections":[
+    {"heading":"क्या देखें","paragraphs":["ब्राइटन ने लगातार चार लीग मैच बिना गोल खाए जीते हैं। लिवरपूल ने सिटी से घरेलू हार के बाद ब्रेंटफोर्ड में जीत से जवाब दिया, लेकिन अब उसे ऐसे प्रतिद्वंद्वी को रोकना है जो गोल और क्लीन शीट दोनों जुटा रहा है।"],"bullets":["लिवरपूल: केवल अलग-अलग निर्णायक शॉट पर निर्भर रहने के बजाय लगातार मौके बनाए।","ब्राइटन: बाहर खेलते हुए आक्रमण का खतरा और रक्षा का संतुलन साथ रखे।"]},
+    {"heading":"तुलना कैसे पढ़ें","paragraphs":["सात मैचों के नमूने में ब्राइटन ने अधिक गोल किए और कम खाए हैं। औसत का हर समान है, लेकिन विरोधी की ताकत, घरेलू लाभ और मैच के स्कोर की स्थिति का समायोजन नहीं हुआ है।","आमने-सामने लिवरपूल का पुराना लाभ और ब्राइटन की बेहतर हालिया फॉर्म अलग सवालों का जवाब हैं। इनमें से कोई भी इस मैच की जीत की संभावना नहीं है।"]},
+    {"heading":"नमूना और पुष्टि की स्थिति","paragraphs":[],"bullets":["फॉर्म: प्रत्येक टीम के पिछले पाँच पूरे हुए लीग मैच; कप और यूरोपीय मैच बाहर।","आमने-सामने: पिछले पाँच लीग मुकाबले; फरवरी 2026 का FA Cup मैच बाहर।","पक्की शुरुआती टीम और पूरी ताज़ा चोट सूची: यहाँ सत्यापित नहीं।","कैलिब्रेटेड संभावना: उपलब्ध नहीं; कोई काल्पनिक स्कोर अनुमान नहीं।"]},
+    {"heading":"किक-ऑफ से पहले","paragraphs":["समय की तालिका मैदान के समय क्षेत्र से बनती है: इस रविवार GMT लागू है, BST नहीं। मैच से पहले आधिकारिक समय और टीम समाचार दोबारा देखें। यह तुलना जाँच के समय का रिकॉर्ड है, भविष्य की स्थितियों की गारंटी नहीं।"]}
+   ]
+  }
+ },
+ "recap":{
+  "en":{
+   "title":"Brighton 5–0 Crystal Palace: the derby turned inside ten minutes",
+   "description":"Three early goals transformed the contest; the final margin combines sustained pressure with a remarkable long-range strike and an own goal.",
+   "alt":"Shared English recap graphic with paired match statistics, five goal events, goals by half, score progression and scorers.",
+   "caption":"Actual goals and verified score checkpoints—not xG or a momentum model. Canvot's opener is marked as an own goal, not credited to a Brighton player.",
+   "sections":[
+    {"heading":"Where the match turned","paragraphs":["An own goal, Gómez's strike from near halfway and Ayari's finish left Palace chasing the match almost immediately. The key was not merely reaching a large final score: Brighton established the difficult game state before the visitors could settle."],"bullets":["The early lead changed the risks Palace had to take for the rest of the match.","Kostoulas struck soon after the restart, limiting the opportunity for a second-half recovery."]},
+    {"heading":"What the numbers do—and do not—show","paragraphs":["Brighton led in shots, shots on target and completed passes. That supports a clear advantage in attacking output, but these are whole-match totals shaped partly by the early lead, not proof that possession itself caused the opening goals.","Palace's report records Mateta hitting the crossbar. A chance like that also illustrates why shots on target alone are not a complete measure of danger. Without a verified xG model, we do not turn the scoreline into a claim about expected finishing."]},
+    {"heading":"Player and data notes","paragraphs":[],"bullets":["Canvot: own goal; explicitly distinguished in the scoring table.","Gómez: the exceptional long-range goal is a match event, not a repeatable scoring-rate forecast.","Goalkeeper saves: compare workload and shot difficulty before judging ability; no PSxG assessment here.","xG, PPDA and PSxG: not supplied in the verified input. Missing metrics are not replaced with zeros."]},
+    {"heading":"The next test","paragraphs":["Brighton's next league fixture is at Liverpool. The clean-sheet run and this dominant result are relevant context, but Anfield is a new opponent and setting, not a continuation of the same match. The separate preview compares those conditions without inventing win probabilities."]}
+   ]
+  },
+  "ko":{
+   "title":"브라이턴 5–0 팰리스: 10분 만에 기운 더비",
+   "description":"초반 세 골이 경기의 조건을 바꿨습니다. 지속적인 공격 우세에 장거리 골과 자책골이 더해진 승리입니다.",
+   "alt":"브라이턴–팰리스 경기 지표, 다섯 차례 득점, 전후반 골과 스코어 흐름을 정리한 공통 영어 리캡 이미지.",
+   "caption":"실제 골과 확인된 스코어 시점입니다. xG나 주도권 모델이 아닙니다. 캉보의 선제 자책골은 브라이턴 선수의 득점과 구분합니다.",
+   "sections":[
+    {"heading":"승부가 갈린 지점","paragraphs":["자책골, 고메스의 하프라인 부근 장거리 슛, 아야리의 마무리로 팰리스는 경기 초반부터 추격해야 했습니다. 단순히 최종 점수 차가 컸다는 것보다, 상대가 경기에 적응하기 전에 어려운 스코어 상황을 만들었다는 점이 중요합니다."],"bullets":["초반 리드는 팰리스가 남은 시간 동안 감수해야 할 공격·수비 위험을 바꿨습니다.","코스툴라스의 후반 시작 직후 득점은 팰리스의 반격 여지를 더 줄였습니다."]},
+    {"heading":"통계가 보여주는 것과 한계","paragraphs":["브라이턴은 슈팅·유효슈팅·성공 패스에서 앞섰습니다. 공격 생산성 우세를 뒷받침하지만, 모두 초반 리드 이후의 상황까지 합쳐진 전체 경기 기록입니다. 점유율 자체가 선제 득점의 원인이었다고 단정할 수는 없습니다.","팰리스의 구단 보고서에는 마테타의 슛이 크로스바를 맞힌 장면도 나옵니다. 유효슈팅 수만으로 위험한 기회를 모두 설명할 수 없는 이유입니다. 검증된 기대득점 모델 없이 스코어를 찬스의 질이나 결정력 기대치로 바꾸지 않았습니다."]},
+    {"heading":"선수·지표 확인 메모","paragraphs":[],"bullets":["캉보: 자책골. 득점 표에서 일반 득점과 구분.","고메스: 인상적인 장거리 골은 실제 사건이지만, 같은 성공률이 반복된다는 예측은 아님.","골키퍼 선방 횟수: 슈팅 난도와 업무량을 함께 봐야 함. PSxG 평가는 하지 않음.","xG·PPDA·PSxG: 검증한 입력에 미제공. 없는 값을 0으로 채우지 않음."]},
+    {"heading":"다음 리그 경기로 이어지는 질문","paragraphs":["브라이턴의 다음 리그 상대는 리버풀입니다. 무실점 행진과 이번 대승은 의미 있는 배경이지만, 안필드 원정은 상대와 환경이 달라지는 새로운 시험입니다. 별도의 프리뷰에서 그 조건을 비교하며 임의의 승리 확률은 만들지 않았습니다."]}
+   ]
+  },
+  "es":{
+   "title":"Brighton 5–0 Crystal Palace: el derbi cambió en diez minutos",
+   "description":"Tres goles tempranos transformaron el duelo; el margen combina presión sostenida, un remate lejano extraordinario y un autogol.",
+   "alt":"Resumen inglés con estadísticas comparadas, cinco goles, distribución por mitades, evolución del marcador y goleadores.",
+   "caption":"Goles reales y marcadores verificados, no xG ni un modelo de dominio. El primer gol de Canvot está identificado como autogol.",
+   "sections":[
+    {"heading":"Dónde cambió el partido","paragraphs":["Un autogol, el disparo de Gómez desde cerca del centro del campo y el remate de Ayari obligaron al Palace a perseguir el resultado casi desde el inicio. No fue solo una diferencia final amplia: Brighton creó una situación difícil antes de que el rival pudiera asentarse."],"bullets":["La ventaja temprana cambió los riesgos que Palace debía asumir.","El gol de Kostoulas tras el descanso redujo el margen para una reacción."]},
+    {"heading":"Lo que dicen las cifras","paragraphs":["Brighton lideró los remates, los disparos a puerta y los pases completados. Eso respalda más producción ofensiva, pero son totales condicionados en parte por la ventaja inicial, no prueba de que la posesión causara los primeros goles.","El informe del Palace recoge un remate de Mateta al larguero: los tiros a puerta no miden todo el peligro. Sin xG verificado, no convertimos el marcador en una valoración de calidad esperada de las ocasiones."]},
+    {"heading":"Notas de jugadores y datos","paragraphs":[],"bullets":["Canvot: autogol, distinguido en la tabla.","Gómez: su extraordinario tiro lejano es un hecho, no una tasa repetible prevista.","Paradas: requieren contexto de carga y dificultad; no hay evaluación PSxG.","xG, PPDA y PSxG: ausentes del conjunto verificado; no se sustituyen por ceros."]},
+    {"heading":"La próxima prueba","paragraphs":["La siguiente cita liguera del Brighton es ante Liverpool. La racha sin encajar y esta goleada aportan contexto, pero Anfield implica otro rival y escenario. La previa separada compara esas condiciones sin inventar probabilidades."]}
+   ]
+  },
+  "ja":{
+   "title":"ブライトン5–0パレス：10分で傾いたダービー",
+   "description":"序盤の3得点が試合の条件を変えました。継続的な攻撃優位に長距離シュートとオウンゴールが重なった勝利です。",
+   "alt":"比較統計、5得点、前後半のゴール、スコア推移、得点者を示す共通英語リキャップ図。",
+   "caption":"実得点と確認済みスコアであり、xGや勢いのモデルではありません。カンボの先制点はオウンゴールとして区別。",
+   "sections":[
+    {"heading":"勝負が動いた場面","paragraphs":["オウンゴール、ゴメスのハーフウェー付近からの一撃、アヤリの得点で、パレスは早くから追う展開になりました。重要なのは最終点差だけでなく、相手が落ち着く前に難しいスコア状況を作ったことです。"],"bullets":["早いリードがパレスの取るべきリスクを変えました。","後半開始直後のコストゥラスの得点が反撃の余地を狭めました。"]},
+    {"heading":"数字が示す範囲","paragraphs":["ブライトンはシュート、枠内、成功パスで上回りました。ただし早いリードの影響も含む試合全体の数字であり、保持率自体が序盤の得点原因だとは証明できません。","パレスの報告にはマテタがバーに当てた場面もあります。枠内本数だけで危険性全体は表せません。検証済みxGがないため、スコアから期待される決定機の質を推測しません。"]},
+    {"heading":"選手と指標の注意点","paragraphs":[],"bullets":["カンボ：オウンゴール。得点表で明示。","ゴメス：見事な長距離弾は事実ですが、同じ成功率の再現予測ではありません。","セーブ数：仕事量と難度の文脈が必要。PSxG評価なし。","xG・PPDA・PSxG：確認入力に未提供。欠測をゼロにしません。"]},
+    {"heading":"次のリーグ戦へ","paragraphs":["次のリーグ相手はリヴァプールです。無失点の連勝と大勝は背景になりますが、アンフィールドは別の相手と環境での試験です。別のプレビューで条件を比較し、架空の勝率は提示しません。"]}
+   ]
+  },
+  "pt-BR":{
+   "title":"Brighton 5–0 Crystal Palace: o dérbi mudou em dez minutos",
+   "description":"Três gols no início transformaram o duelo: pressão constante, um chute longo excepcional e um gol contra construíram a diferença.",
+   "alt":"Resumo inglês com estatísticas, cinco gols, divisão por tempos, evolução do placar e goleadores.",
+   "caption":"Gols reais e placares verificados, não xG ou modelo de domínio. O gol inicial de Canvot é identificado como gol contra.",
+   "sections":[
+    {"heading":"Onde o jogo mudou","paragraphs":["O gol contra, o chute de Gómez perto do meio-campo e a finalização de Ayari obrigaram o Palace a correr atrás quase imediatamente. O ponto não é só o placar final: o Brighton criou uma situação difícil antes de o rival se estabilizar."],"bullets":["A vantagem cedo mudou os riscos que o Palace precisava assumir.","O gol de Kostoulas após o intervalo reduziu a chance de reação."]},
+    {"heading":"O alcance dos números","paragraphs":["O Brighton liderou em finalizações, chutes no alvo e passes certos. Isso sustenta superioridade ofensiva, mas os totais também foram moldados pela vantagem inicial; não provam que a posse causou os primeiros gols.","O relatório do Palace registra uma bola de Mateta no travessão. Chutes no alvo não medem todo o perigo. Sem xG verificado, o placar não vira uma avaliação de qualidade esperada das chances."]},
+    {"heading":"Notas de jogadores e dados","paragraphs":[],"bullets":["Canvot: gol contra, separado na tabela.","Gómez: o chute extraordinário é um fato, não previsão de repetição da taxa de acerto.","Defesas dos goleiros: exigem contexto de volume e dificuldade; sem avaliação PSxG.","xG, PPDA e PSxG: ausentes dos dados verificados; não foram substituídos por zeros."]},
+    {"heading":"O próximo teste","paragraphs":["O próximo compromisso de liga do Brighton é contra o Liverpool. A série sem sofrer gols e a goleada importam, mas Anfield traz outro adversário e ambiente. A prévia separada compara esse cenário sem inventar probabilidades."]}
+   ]
+  },
+  "fr":{
+   "title":"Brighton 5–0 Crystal Palace : le derby a basculé en dix minutes",
+   "description":"Trois buts précoces ont changé le match : domination offensive, frappe lointaine exceptionnelle et but contre son camp ont construit l'écart.",
+   "alt":"Résumé anglais : statistiques comparées, cinq buts, répartition par mi-temps, évolution du score et buteurs.",
+   "caption":"Buts réels et scores vérifiés, pas des xG ou un modèle de domination. L'ouverture du score par Canvot est indiquée comme but contre son camp.",
+   "sections":[
+    {"heading":"Le moment de bascule","paragraphs":["Un but contre son camp, la frappe de Gómez depuis les abords de la ligne médiane et la finition d'Ayari ont immédiatement forcé Palace à poursuivre le score. Brighton a créé une situation difficile avant que son adversaire puisse s'installer, bien au-delà de la seule marge finale."],"bullets":["L'avance rapide a modifié les risques que Palace devait prendre.","Le but de Kostoulas après la pause a réduit l'espace pour une réaction."]},
+    {"heading":"Ce que les chiffres établissent","paragraphs":["Brighton mène aux tirs, tirs cadrés et passes réussies. Cela soutient une supériorité de production, mais ce sont des totaux influencés par l'avance précoce, pas la preuve que la possession a causé les premiers buts.","Le rapport de Palace mentionne un tir de Mateta sur la barre. Les tirs cadrés ne décrivent donc pas tout le danger. Sans xG vérifié, le score ne devient pas une estimation de la qualité attendue des occasions."]},
+    {"heading":"Notes sur les joueurs et données","paragraphs":[],"bullets":["Canvot : but contre son camp, explicitement distingué.","Gómez : une frappe exceptionnelle observée, pas un rendement futur garanti.","Arrêts : charge de travail et difficulté des tirs comptent ; aucune évaluation PSxG.","xG, PPDA et PSxG : non fournis dans l'entrée vérifiée ; pas de zéros inventés."]},
+    {"heading":"La prochaine épreuve","paragraphs":["Le prochain adversaire de championnat de Brighton est Liverpool. La série sans encaisser et cette large victoire comptent, mais Anfield représente un nouvel environnement. L'avant-match séparé compare ces conditions sans fabriquer de probabilités."]}
+   ]
+  },
+  "de":{
+   "title":"Brighton 5–0 Crystal Palace: nach zehn Minuten war das Derby gekippt",
+   "description":"Drei frühe Tore veränderten das Spiel: anhaltender Angriffsdruck, ein außergewöhnlicher Distanztreffer und ein Eigentor prägten den Sieg.",
+   "alt":"Gemeinsame englische Grafik mit Vergleichswerten, fünf Toren, Halbzeitwerten, Spielstandverlauf und Torschützen.",
+   "caption":"Echte Tore und geprüfte Spielstände, kein xG- oder Dominanzmodell. Canvots Auftakt wird ausdrücklich als Eigentor markiert.",
+   "sections":[
+    {"heading":"Wo die Partie kippte","paragraphs":["Eigentor, Gómez' Schuss nahe der Mittellinie und Ayaris Abschluss zwangen Palace fast sofort zur Aufholjagd. Entscheidend war nicht nur der große Endabstand: Brighton stellte den Gegner vor eine schwierige Spielsituation, bevor er sich ordnen konnte."],"bullets":["Die frühe Führung änderte die Risiken, die Palace eingehen musste.","Kostoulas' Treffer kurz nach der Pause begrenzte die Chance auf eine Reaktion."]},
+    {"heading":"Was die Zahlen belegen","paragraphs":["Brighton führte bei Schüssen, Torschüssen und angekommenen Pässen. Das spricht für mehr Offensivproduktion; die Gesamtsummen sind aber auch von der frühen Führung geprägt und beweisen nicht, dass Ballbesitz die ersten Tore verursachte.","Palaces Bericht nennt Matetas Lattentreffer. Torschüsse bilden nicht jede Gefahr ab. Ohne geprüfte xG wird der Spielstand nicht als Maß der erwarteten Chancenqualität ausgegeben."]},
+    {"heading":"Spieler- und Datenhinweise","paragraphs":[],"bullets":["Canvot: Eigentor, in der Tabelle gesondert bezeichnet.","Gómez: der außergewöhnliche Distanztreffer ist ein Ereignis, keine wiederholbare Erfolgsprognose.","Paraden: Arbeitslast und Schussschwierigkeit beachten; keine PSxG-Bewertung.","xG, PPDA und PSxG: im geprüften Input nicht vorhanden; fehlend bedeutet nicht null."]},
+    {"heading":"Der nächste Test","paragraphs":["Brightons nächster Ligagegner ist Liverpool. Die Serie ohne Gegentor und dieser klare Sieg liefern Kontext, doch Anfield bedeutet einen anderen Gegner und ein neues Umfeld. Die separate Vorschau vergleicht diese Bedingungen ohne erfundene Siegchancen."]}
+   ]
+  },
+  "hi":{
+   "title":"ब्राइटन 5–0 क्रिस्टल पैलेस: दस मिनट में बदला डर्बी का रुख",
+   "description":"शुरुआती तीन गोलों ने मैच बदल दिया: लगातार आक्रमण, असाधारण दूर का शॉट और आत्मघाती गोल ने अंतर बनाया।",
+   "alt":"तुलनात्मक आँकड़े, पाँच गोल, हाफ का विभाजन, स्कोर क्रम और गोलकर्ताओं की साझा अंग्रेज़ी रिपोर्ट।",
+   "caption":"वास्तविक गोल और सत्यापित स्कोर, xG या दबदबे का मॉडल नहीं। कैनवोट का पहला गोल आत्मघाती गोल के रूप में दिखाया गया है।",
+   "sections":[
+    {"heading":"मैच कहाँ बदला","paragraphs":["आत्मघाती गोल, आधे मैदान के पास से गोमेज़ का शॉट और अयारी की फिनिश ने पैलेस को शुरुआत से ही पीछा करने पर मजबूर किया। बात केवल बड़े अंतिम अंतर की नहीं थी: ब्राइटन ने प्रतिद्वंद्वी को जमने से पहले मुश्किल स्कोर स्थिति में डाल दिया।"],"bullets":["जल्दी बढ़त ने पैलेस के आगे लेने वाले जोखिम बदल दिए।","हाफ के बाद कोस्तूलास के गोल ने वापसी की गुंजाइश कम की।"]},
+    {"heading":"आँकड़े क्या बताते हैं","paragraphs":["ब्राइटन शॉट, निशाने पर शॉट और सफल पास में आगे था। इससे अधिक आक्रमण दिखता है, लेकिन पूरे मैच के आँकड़ों पर शुरुआती बढ़त का भी असर है; कब्ज़ा ही पहले गोलों का कारण था, यह सिद्ध नहीं होता।","पैलेस की रिपोर्ट में मतेता का शॉट क्रॉसबार से लगना दर्ज है। निशाने पर शॉट हर खतरे को नहीं मापते। सत्यापित xG के बिना स्कोर को मौके की अपेक्षित गुणवत्ता नहीं बनाया गया है।"]},
+    {"heading":"खिलाड़ी और डेटा नोट","paragraphs":[],"bullets":["कैनवोट: आत्मघाती गोल, तालिका में अलग चिह्नित।","गोमेज़: असाधारण दूर का गोल एक घटना है, दोहराई जाने वाली सफलता की भविष्यवाणी नहीं।","गोलकीपर सेव: काम की मात्रा और शॉट कठिनाई का संदर्भ ज़रूरी; PSxG आकलन नहीं।","xG, PPDA और PSxG: सत्यापित इनपुट में नहीं; अनुपलब्ध को शून्य नहीं बनाया गया।"]},
+    {"heading":"अगली परीक्षा","paragraphs":["ब्राइटन का अगला लीग प्रतिद्वंद्वी लिवरपूल है। बिना गोल खाए जीतों और इस बड़े नतीजे का महत्व है, लेकिन एनफील्ड नया प्रतिद्वंद्वी और वातावरण है। अलग प्रीव्यू इन परिस्थितियों की तुलना करता है, काल्पनिक जीत संभावना नहीं देता।"]}
+   ]
+  }
+ }
+}
