@@ -1,0 +1,345 @@
+{
+  "id": "epl-2645272-preview-es",
+  "slug": "epl-2645272-preview-es",
+  "platform": "github",
+  "status": "ready",
+  "language": "es",
+  "league": "EPL",
+  "match_id": "2645272",
+  "article_kind": "preview",
+  "translation_group": "epl-2645272-preview",
+  "canonical_group": "EPL:2026-27:league:2645272:preview",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "Liverpool–Brighton: cuatro victorias sin encajar ponen a prueba Anfield",
+  "description": "Horario, estadio y zonas horarias en una tabla; forma liguera, enfrentamientos y comparación de siete jornadas a continuación.",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "Por qué verlo",
+      "paragraphs": [
+        "Brighton llega con cuatro victorias ligueras consecutivas sin encajar: su visita exige a Liverpool mucho más que confiar en jugar en casa."
+      ]
+    },
+    {
+      "heading": "Qué indica la comparación de temporada",
+      "paragraphs": [
+        "Brighton ha marcado 23 goles y Liverpool nueve en el mismo tramo de siete partidos. La diferencia observada es grande, pero no ajusta rivales, localía ni calidad de las ocasiones. Los promedios describen lo ocurrido; no son un modelo predictivo."
+      ]
+    },
+    {
+      "heading": "Forma reciente sin mezclar competiciones",
+      "paragraphs": [
+        "Las tablas incluyen solo Premier League. Las tres victorias, un empate y una derrota de Liverpool producen 60%; las cuatro victorias y un empate de Brighton, 80%. Los cuatro últimos partidos ligueros del visitante suman 15 goles a favor y ninguno en contra. Se excluyen copas y torneos europeos."
+      ]
+    },
+    {
+      "heading": "Duelo liguero equilibrado en la muestra",
+      "paragraphs": [
+        "Los cuatro enfrentamientos ligueros verificados se reparten dos victorias por equipo: 50% cada uno. Se excluyó un partido de copa de la lista de cinco del proveedor. Abarcan temporadas diferentes: ese reparto no equivale a una probabilidad del 50% para cada equipo este domingo."
+      ]
+    },
+    {
+      "heading": "La pregunta decisiva",
+      "paragraphs": [
+        "Conviene observar si Liverpool convierte sus ataques en oportunidades antes de que Brighton se acomode. ¿Puede el visitante sostener su control defensivo ante otro rival? El primer gol puede modificar los riesgos, pero los totales no revelan la presión ni la formación inicial de ninguno."
+      ]
+    },
+    {
+      "heading": "Límites del pronóstico",
+      "paragraphs": [
+        "No se verificaron un modelo calibrado, una lista completa y actual de lesiones ni los onces definitivos. No se inventan cuotas ni un marcador esperado. La tabla utiliza Europe/London: este domingo corresponde a GMT, no BST. Revise el calendario oficial antes del partido."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "preview-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Liverpool v Brighton, match 2645272",
+      "url": "https://www.premierleague.com/en/match/2645272/liverpool-vs-brighton-and-hove-albion"
+    },
+    {
+      "id": "preview-time",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — confirmed fixture at Anfield",
+      "url": "https://www.liverpoolfc.com/tickets/match/liverpool-v-brighton-and-hove-albion-english-premier-league-20261025"
+    },
+    {
+      "id": "preview-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Liverpool v Brighton: season records and match history",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+    },
+    {
+      "id": "lfc-results",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — league results 2026/27",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league"
+    },
+    {
+      "id": "lfc-ipswich",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — Ipswich 0–2 Liverpool, 4 September",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/ipswich-town-v-liverpool-english-premier-league-20260904"
+    },
+    {
+      "id": "bha-results",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — first-team results (league games selected)",
+      "url": "https://www.brightonandhovealbion.com/results-first-team-men"
+    },
+    {
+      "id": "lfc-history",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — 2025/26 results",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2025"
+    },
+    {
+      "id": "lfc-history24",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — 2024/25 results",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2024"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645272",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "scheduled",
+    "home": "Liverpool",
+    "away": "Brighton & Hove Albion",
+    "venue": "Anfield",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-25T14:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Liverpool v Brighton, match 2645272",
+        "url": "https://www.premierleague.com/en/match/2645272/liverpool-vs-brighton-and-hove-albion"
+      },
+      {
+        "title": "Liverpool FC — confirmed fixture at Anfield",
+        "url": "https://www.liverpoolfc.com/tickets/match/liverpool-v-brighton-and-hove-albion-english-premier-league-20261025"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645272-preview-summary-en.svg",
+      "alt": "Gráfico inglés de puntos, goles y promedios de Liverpool y Brighton.",
+      "caption": "Siete partidos por equipo; promedios reales, no probabilidades. Historial completo en HTML."
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "Últimos 5 de liga · 4 duelos ligueros verificados",
+    "sources": {
+      "recent": {
+        "title": "Liverpool FC — league results 2026/27; Brighton results linked in article sources",
+        "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league"
+      },
+      "head_to_head": {
+        "title": "ESPN — league meetings cross-checked against Liverpool historical results",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+      }
+    },
+    "home": {
+      "name": "Liverpool",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 1
+        },
+        {
+          "date": "2026-10-11",
+          "opponent": "Manchester City",
+          "for": 0,
+          "against": 3
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "AFC Bournemouth",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Fulham",
+          "for": 0,
+          "against": 0
+        },
+        {
+          "date": "2026-09-04",
+          "opponent": "Ipswich Town",
+          "for": 2,
+          "against": 0
+        }
+      ]
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Crystal Palace",
+          "for": 5,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Sunderland",
+          "for": 2,
+          "against": 0
+        },
+        {
+          "date": "2026-09-19",
+          "opponent": "Arsenal",
+          "for": 3,
+          "against": 0
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Coventry City",
+          "for": 5,
+          "against": 0
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Leeds United",
+          "for": 1,
+          "against": 1
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-03-21",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Liverpool",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2025-12-13",
+        "home_team": "Liverpool",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 0
+      },
+      {
+        "date": "2025-05-19",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Liverpool",
+        "home_score": 3,
+        "away_score": 2
+      },
+      {
+        "date": "2024-11-02",
+        "home_team": "Liverpool",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 1
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "Premier League 2026/27 · 7 partidos por equipo",
+    "home": "Liverpool",
+    "away": "Brighton & Hove Albion",
+    "sources": [
+      {
+        "id": "preview-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Liverpool v Brighton: season records and match history",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "Partidos",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. ESPN observed league record; same league and period.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "rank",
+        "name": "Posición",
+        "unit": "rank",
+        "home": 5,
+        "away": 3,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. ESPN league table at source snapshot; not opponent-adjusted strength.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "points",
+        "name": "Puntos",
+        "unit": "points",
+        "home": 12,
+        "away": 16,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. ESPN observed league points.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_for",
+        "name": "Goles a favor",
+        "unit": "goals",
+        "home": 9,
+        "away": 23,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. Actual goals scored; not expected goals.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_against",
+        "name": "Goles en contra",
+        "unit": "goals",
+        "home": 8,
+        "away": 5,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. Actual goals conceded; lower is better, not xGA.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "Goles por partido",
+        "unit": "/match",
+        "home": 1.29,
+        "away": 3.29,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. 9/7 and 23/7, rounded to two decimals; not a prediction.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "Encajados por partido",
+        "unit": "/match",
+        "home": 1.14,
+        "away": 0.71,
+        "period": "Premier League 2026/27 · 7 partidos por equipo",
+        "definition": "Se aplica la definición del proveedor; las tasas no son pronósticos. 8/7 and 5/7, rounded to two decimals; lower is better.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      }
+    ]
+  }
+}

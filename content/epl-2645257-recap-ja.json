@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-ja",
+  "slug": "epl-2645257-recap-ja",
+  "platform": "github",
+  "status": "ready",
+  "language": "ja",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "ブライトン5–0クリスタル・パレス：開始10分の3得点が勝負を決めた",
+  "description": "最終・前半スコア、5ゴールの時刻表、両チームの統計を先に提示。試合情報の繰り返しではなく意味を分析します。",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "結果を一文で",
+      "paragraphs": [
+        "ブライトンは開始10分で3点差とし、後半にも2得点を加えてパレスに5–0で勝利しました。"
+      ]
+    },
+    {
+      "heading": "得点表から読む決定的な時間帯",
+      "paragraphs": [
+        "表はキャンボットのオウンゴールとブライトン選手4人の得点を区別します。ゴメスの長距離弾とアヤリのゴールが続き、最後の1点より序盤の崩れが重要でした。パレス公式報告には後半のマテタのクロスバー直撃もあり、逃した好機と枠内シュートは同じ集計ではありません。"
+      ]
+    },
+    {
+      "heading": "保持率以上に開いたシュート差",
+      "paragraphs": [
+        "保持率57.2%–42.8%に対して、シュートは17–5、枠内は9–1。ブライトンの優位はボール保持だけではありません。ただし回数は難度を測らず、確認済みxGがなければ個別機会の得点確率までは示しません。"
+      ]
+    },
+    {
+      "heading": "パスとセーブは分母も確認",
+      "paragraphs": [
+        "パス成功率は丸められた比率ではなく実際の成功数と試行数から算出。ブライトンは相手枠内1本に1セーブ、パレスは9本に5セーブです。オウンゴールがあるため、枠内9本から失点5を単純に引いてセーブ数を求めると誤ります。"
+      ]
+    },
+    {
+      "heading": "大勝1試合では証明できないこと",
+      "paragraphs": [
+        "スコアと得点順は明確な勝利を裏付けますが、特定のプレス機構までは証明しません。インターセプトとタックル率は提供元の定義や試合展開に左右されます。守備力全体の順位ではなく、観測値として読むべきです。"
+      ]
+    },
+    {
+      "heading": "出典と未取得指標",
+      "paragraphs": [
+        "リーグページ、両クラブ報告、ESPN記録を照合しました。確認入力にないxG、npxG、xA/xAG、PSxG、xT、PPDAは推測で埋めていません。図は実際の前後半ゴールと最後の得点までのスコアで、期待得点や保持率の曲線ではありません。"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "5–0の比較統計、5得点、前後半ゴール、スコア推移を示す共通英語図。",
+      "caption": "実際のゴールと最後の得点までの推移で、xG曲線ではありません。全言語で英語図を共有。"
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "試合全体・観測回数と計算率",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "シュート",
+        "unit": "回",
+        "home": 17,
+        "away": 5,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "枠内シュート",
+        "unit": "回",
+        "home": 9,
+        "away": 1,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "コーナー",
+        "unit": "回",
+        "home": 8,
+        "away": 5,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "成功パス",
+        "unit": "回",
+        "home": 440,
+        "away": 301,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "試行パス",
+        "unit": "回",
+        "home": 516,
+        "away": 384,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "インターセプト",
+        "unit": "回",
+        "home": 10,
+        "away": 9,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "ファウル",
+        "unit": "回",
+        "home": 13,
+        "away": 11,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "セーブ",
+        "unit": "回",
+        "home": 1,
+        "away": 5,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "保持率",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "パス成功率",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "成功タックル / 試行",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "セーブ率",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "試合全体・観測回数と計算率",
+        "definition": "提供元の定義に従います。計算率は予測ではありません。 Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}

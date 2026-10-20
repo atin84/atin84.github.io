@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-de",
+  "slug": "epl-2645257-recap-de",
+  "platform": "github",
+  "status": "ready",
+  "language": "de",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "Brighton 5–0 Crystal Palace: drei Tore in zehn Minuten gaben die Richtung vor",
+  "description": "End- und Halbzeitstand, Torzeitleiste und Statistikvergleich zuerst; danach Analyse statt erneut ausformulierter Spielinformationen.",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "Das Ergebnis in einer Zeile",
+      "paragraphs": [
+        "Brighton lag nach zehn Minuten mit drei Toren vorn und legte nach der Pause zweimal zum 5–0 gegen Palace nach."
+      ]
+    },
+    {
+      "heading": "Der Wendepunkt steht in der Zeitleiste",
+      "paragraphs": [
+        "Die Tabelle trennt Canvots Eigentor von den vier Brighton-Torschützen. Gómez’ Distanztreffer und Ayaris Tor folgten rasch: Der frühe Einbruch war bedeutsamer als das letzte Tor allein. Palace berichtet zudem von Matetas Lattentreffer nach der Pause; eine verpasste Chance ist nicht automatisch ein Torschuss."
+      ]
+    },
+    {
+      "heading": "Die Schussdifferenz war größer als die Ballbesitzdifferenz",
+      "paragraphs": [
+        "57.2%–42.8% Ballbesitz standen 17–5 Schüssen und 9–1 Abschlüssen aufs Tor gegenüber. Brighton war also nicht nur beim Ballhalten überlegen. Diese Zählwerte messen aber keine Schussschwierigkeit; ohne bestätigte xG lässt sich die Torwahrscheinlichkeit einzelner Chancen nicht bestimmen."
+      ]
+    },
+    {
+      "heading": "Pässe und Paraden brauchen ihren Nenner",
+      "paragraphs": [
+        "Die Passquote wird aus tatsächlichen Erfolgen und Versuchen statt gerundeten Anzeigequoten berechnet. Brighton hatte eine Parade bei einem gegnerischen Torschuss, Palace fünf bei neun. Wegen des Eigentors wäre es falsch, einfach fünf Gegentore von neun Torschüssen abzuziehen und daraus die Paraden zu bestimmen."
+      ]
+    },
+    {
+      "heading": "Was ein deutlicher Sieg nicht beweist",
+      "paragraphs": [
+        "Spielstand und Torfolge belegen einen überzeugenden Erfolg, nicht aber einen bestimmten Pressingmechanismus. Interceptions und Tacklingquoten hängen von Anbieterdefinitionen und Spielsituation ab. Sie beschreiben Messungen und sind keine Gesamtrangliste defensiver Qualität."
+      ]
+    },
+    {
+      "heading": "Quellen und fehlende Kennzahlen",
+      "paragraphs": [
+        "Ligaseite, beide Clubberichte und ESPN-Beobachtungen wurden abgeglichen. xG, npxG, xA/xAG, PSxG, xT und PPDA lagen im geprüften Datensatz nicht vor und wurden nicht erfunden. Die Grafik zeigt echte Halbzeittore und Spielstandpunkte bis zum letzten Tor, keine xG- oder Ballbesitzkurve."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "Englische Grafik zum 5–0: Statistiken, fünf Tore, Halbzeiten und Spielstandverlauf.",
+      "caption": "Echte Tore und Spielstand bis zum letzten Treffer, keine xG-Kurve. Ein englisches Bild für alle Sprachen."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "Schüsse",
+        "unit": "count",
+        "home": 17,
+        "away": 5,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "Torschüsse",
+        "unit": "count",
+        "home": 9,
+        "away": 1,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "Ecken",
+        "unit": "count",
+        "home": 8,
+        "away": 5,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "Angekommene Pässe",
+        "unit": "count",
+        "home": 440,
+        "away": 301,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "Passversuche",
+        "unit": "count",
+        "home": 516,
+        "away": 384,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "Abgefangene Bälle",
+        "unit": "count",
+        "home": 10,
+        "away": 9,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "Fouls",
+        "unit": "count",
+        "home": 13,
+        "away": 11,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "Paraden",
+        "unit": "count",
+        "home": 1,
+        "away": 5,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "Ballbesitz",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "Passquote",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "Erfolgreiche Tacklings / Versuche",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "Paradenquote",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "Gesamtes Spiel · Zählwerte und berechnete Quoten",
+        "definition": "Anbieterdefinition; berechnete Quoten sind keine Prognosen. Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}

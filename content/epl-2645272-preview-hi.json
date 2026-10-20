@@ -1,0 +1,345 @@
+{
+  "id": "epl-2645272-preview-hi",
+  "slug": "epl-2645272-preview-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645272",
+  "article_kind": "preview",
+  "translation_group": "epl-2645272-preview",
+  "canonical_group": "EPL:2026-27:league:2645272:preview",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "लिवरपूल बनाम ब्राइटन: लगातार चार क्लीन-शीट जीत की एनफ़ील्ड में परीक्षा",
+  "description": "समय, मैदान और समय क्षेत्र तालिका में; उसके बाद लीग फ़ॉर्म, आमने-सामने परिणाम और सात मैचों की तुलना।",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "preview"
+  ],
+  "sections": [
+    {
+      "heading": "यह मैच क्यों देखें",
+      "paragraphs": [
+        "ब्राइटन लगातार चार लीग मैच बिना गोल खाए जीतकर आ रहा है: लिवरपूल के लिए केवल घरेलू मैदान होना इस प्रतिद्वंद्वी को आसान नहीं बनाता।"
+      ]
+    },
+    {
+      "heading": "सीज़न तुलना क्या कहती है",
+      "paragraphs": [
+        "समान सात लीग मैचों में ब्राइटन ने 23 और लिवरपूल ने नौ गोल किए हैं। अंतर बड़ा है, लेकिन इसे विरोधियों, मैदान या मौकों की गुणवत्ता के अनुसार समायोजित नहीं किया गया है। प्रति मैच औसत पिछले प्रदर्शन का वर्णन है, भविष्यवाणी मॉडल नहीं।"
+      ]
+    },
+    {
+      "heading": "हालिया फ़ॉर्म में केवल लीग मैच",
+      "paragraphs": [
+        "पाँच मैचों की तालिकाएँ केवल प्रीमियर लीग की हैं। लिवरपूल की तीन जीत, एक ड्रॉ और एक हार से 60%; ब्राइटन की चार जीत और एक ड्रॉ से 80% बनता है। ब्राइटन के पिछले चार लीग मैचों में कुल 15 गोल किए और शून्य खाए गए। कप और यूरोपीय मैच शामिल नहीं हैं।"
+      ]
+    },
+    {
+      "heading": "आमने-सामने लीग रिकॉर्ड बराबर",
+      "paragraphs": [
+        "चार सत्यापित लीग मुकाबलों में दोनों की दो जीत हैं, यानी 50% प्रत्येक। प्रदाता की पाँच मैचों की सूची का एक कप मुकाबला हटाया गया है। अलग सीज़न के इस रिकॉर्ड का अर्थ रविवार को दोनों के जीतने की संभावना 50% होना नहीं है।"
+      ]
+    },
+    {
+      "heading": "देखने लायक निर्णायक सवाल",
+      "paragraphs": [
+        "क्या ब्राइटन के जमने से पहले लिवरपूल अपने हमलों को असली मौकों में बदल सकेगा? क्या मेहमान दूसरे प्रतिद्वंद्वी के खिलाफ हाल की रक्षात्मक स्थिरता रख पाएँगे? पहला गोल जोखिम बदल सकता है, लेकिन कुल आँकड़े प्रेसिंग ढाँचा या शुरुआती फॉर्मेशन नहीं बताते।"
+      ]
+    },
+    {
+      "heading": "भविष्यवाणी और चयन की सीमाएँ",
+      "paragraphs": [
+        "कैलिब्रेटेड मॉडल, पूरी ताज़ा चोट सूची और पक्की शुरुआती टीम सत्यापित नहीं हुई है। इसलिए काल्पनिक ऑड्स या अनुमानित स्कोर नहीं दिया गया है। तालिका Europe/London का उपयोग करती है: इस रविवार GMT लागू है, BST नहीं। मैच से पहले आधिकारिक समय दोबारा जाँचें।"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "preview-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Liverpool v Brighton, match 2645272",
+      "url": "https://www.premierleague.com/en/match/2645272/liverpool-vs-brighton-and-hove-albion"
+    },
+    {
+      "id": "preview-time",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — confirmed fixture at Anfield",
+      "url": "https://www.liverpoolfc.com/tickets/match/liverpool-v-brighton-and-hove-albion-english-premier-league-20261025"
+    },
+    {
+      "id": "preview-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Liverpool v Brighton: season records and match history",
+      "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+    },
+    {
+      "id": "lfc-results",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — league results 2026/27",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league"
+    },
+    {
+      "id": "lfc-ipswich",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — Ipswich 0–2 Liverpool, 4 September",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/ipswich-town-v-liverpool-english-premier-league-20260904"
+    },
+    {
+      "id": "bha-results",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — first-team results (league games selected)",
+      "url": "https://www.brightonandhovealbion.com/results-first-team-men"
+    },
+    {
+      "id": "lfc-history",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — 2025/26 results",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2025"
+    },
+    {
+      "id": "lfc-history24",
+      "provider": "Liverpool FC",
+      "title": "Liverpool FC — 2024/25 results",
+      "url": "https://www.liverpoolfc.com/matches/mens-team/results/2024"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645272",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "scheduled",
+    "home": "Liverpool",
+    "away": "Brighton & Hove Albion",
+    "venue": "Anfield",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-25T14:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Liverpool v Brighton, match 2645272",
+        "url": "https://www.premierleague.com/en/match/2645272/liverpool-vs-brighton-and-hove-albion"
+      },
+      {
+        "title": "Liverpool FC — confirmed fixture at Anfield",
+        "url": "https://www.liverpoolfc.com/tickets/match/liverpool-v-brighton-and-hove-albion-english-premier-league-20261025"
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645272-preview-summary-en.svg",
+      "alt": "लिवरपूल और ब्राइटन के अंक, गोल और औसत का अंग्रेज़ी चित्र।",
+      "caption": "प्रत्येक टीम के सात लीग मैच; साधारण औसत, भविष्यवाणी नहीं। पूरा रिकॉर्ड HTML में।"
+    }
+  ],
+  "preview_comparison": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "पिछले 5 लीग मैच · 4 सत्यापित लीग मुकाबले",
+    "sources": {
+      "recent": {
+        "title": "Liverpool FC — league results 2026/27; Brighton results linked in article sources",
+        "url": "https://www.liverpoolfc.com/matches/mens-team/results/2026/premier-league"
+      },
+      "head_to_head": {
+        "title": "ESPN — league meetings cross-checked against Liverpool historical results",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+      }
+    },
+    "home": {
+      "name": "Liverpool",
+      "recent": [
+        {
+          "date": "2026-10-17",
+          "opponent": "Brentford",
+          "for": 2,
+          "against": 1
+        },
+        {
+          "date": "2026-10-11",
+          "opponent": "Manchester City",
+          "for": 0,
+          "against": 3
+        },
+        {
+          "date": "2026-09-20",
+          "opponent": "AFC Bournemouth",
+          "for": 1,
+          "against": 0
+        },
+        {
+          "date": "2026-09-12",
+          "opponent": "Fulham",
+          "for": 0,
+          "against": 0
+        },
+        {
+          "date": "2026-09-04",
+          "opponent": "Ipswich Town",
+          "for": 2,
+          "against": 0
+        }
+      ]
+    },
+    "away": {
+      "name": "Brighton & Hove Albion",
+      "recent": [
+        {
+          "date": "2026-10-18",
+          "opponent": "Crystal Palace",
+          "for": 5,
+          "against": 0
+        },
+        {
+          "date": "2026-10-10",
+          "opponent": "Sunderland",
+          "for": 2,
+          "against": 0
+        },
+        {
+          "date": "2026-09-19",
+          "opponent": "Arsenal",
+          "for": 3,
+          "against": 0
+        },
+        {
+          "date": "2026-09-13",
+          "opponent": "Coventry City",
+          "for": 5,
+          "against": 0
+        },
+        {
+          "date": "2026-09-05",
+          "opponent": "Leeds United",
+          "for": 1,
+          "against": 1
+        }
+      ]
+    },
+    "head_to_head": [
+      {
+        "date": "2026-03-21",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Liverpool",
+        "home_score": 2,
+        "away_score": 1
+      },
+      {
+        "date": "2025-12-13",
+        "home_team": "Liverpool",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 0
+      },
+      {
+        "date": "2025-05-19",
+        "home_team": "Brighton & Hove Albion",
+        "away_team": "Liverpool",
+        "home_score": 3,
+        "away_score": 2
+      },
+      {
+        "date": "2024-11-02",
+        "home_team": "Liverpool",
+        "away_team": "Brighton & Hove Albion",
+        "home_score": 2,
+        "away_score": 1
+      }
+    ]
+  },
+  "official_comparison": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+    "home": "Liverpool",
+    "away": "Brighton & Hove Albion",
+    "sources": [
+      {
+        "id": "preview-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Liverpool v Brighton: season records and match history",
+        "url": "https://www.espn.com/soccer/match/_/gameId/401878765/brighton-hove-albion-liverpool"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "games_played",
+        "name": "मैच",
+        "unit": "games",
+        "home": 7,
+        "away": 7,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। ESPN observed league record; same league and period.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "rank",
+        "name": "स्थान",
+        "unit": "rank",
+        "home": 5,
+        "away": 3,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। ESPN league table at source snapshot; not opponent-adjusted strength.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "points",
+        "name": "अंक",
+        "unit": "points",
+        "home": 12,
+        "away": 16,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। ESPN observed league points.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_for",
+        "name": "किए गोल",
+        "unit": "goals",
+        "home": 9,
+        "away": 23,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Actual goals scored; not expected goals.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_against",
+        "name": "खाए गोल",
+        "unit": "goals",
+        "home": 8,
+        "away": 5,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Actual goals conceded; lower is better, not xGA.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "goals_per_game",
+        "name": "गोल प्रति मैच",
+        "unit": "/match",
+        "home": 1.29,
+        "away": 3.29,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। 9/7 and 23/7, rounded to two decimals; not a prediction.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      },
+      {
+        "id": "conceded_per_game",
+        "name": "खाए गोल प्रति मैच",
+        "unit": "/match",
+        "home": 1.14,
+        "away": 0.71,
+        "period": "2026/27 लीग · प्रत्येक टीम के 7 मैच",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। 8/7 and 5/7, rounded to two decimals; lower is better.",
+        "category": "strength",
+        "source_id": "preview-stats"
+      }
+    ]
+  }
+}

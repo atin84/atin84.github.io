@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-hi",
+  "slug": "epl-2645257-recap-hi",
+  "platform": "github",
+  "status": "ready",
+  "language": "hi",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "ब्राइटन 5–0 क्रिस्टल पैलेस: शुरुआती दस मिनट के तीन गोल निर्णायक बने",
+  "description": "अंतिम और हाफ-टाइम स्कोर, पाँच गोलों की समयरेखा और तुलनात्मक आँकड़े पहले; फिर विश्लेषण, न कि मैच विवरण की पुनरावृत्ति।",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "नतीजा एक पंक्ति में",
+      "paragraphs": [
+        "ब्राइटन ने पहले दस मिनट में तीन गोल की बढ़त बनाई और हाफ-टाइम के बाद दो और गोल जोड़कर पैलेस को 5–0 हराया।"
+      ]
+    },
+    {
+      "heading": "निर्णायक मोड़ समयरेखा में देखें",
+      "paragraphs": [
+        "तालिका कैनवोट के आत्मघाती गोल को ब्राइटन के चार गोलकर्ताओं से अलग दिखाती है। गोमेज़ का दूर से गोल और अयारी का गोल जल्दी आए; शुरुआती गिरावट अकेले आखिरी गोल से अधिक निर्णायक थी। पैलेस की आधिकारिक रिपोर्ट माटेटा का दूसरे हाफ में क्रॉसबार लगना भी दर्ज करती है: चूका मौका और निशाने पर शॉट एक ही गिनती नहीं हैं।"
+      ]
+    },
+    {
+      "heading": "कब्ज़े से अधिक बड़ा शॉट अंतर",
+      "paragraphs": [
+        "कब्ज़ा 57.2%–42.8% था, जबकि शॉट 17–5 और निशाने पर शॉट 9–1 थे। ब्राइटन का फायदा केवल गेंद रखने तक सीमित नहीं था। ये गिनतियाँ शॉट की कठिनाई नहीं मापतीं; सत्यापित xG बिना हर मौके के गोल बनने की संभावना नहीं बतातीं।"
+      ]
+    },
+    {
+      "heading": "पासिंग और सेव में हर का महत्व",
+      "paragraphs": [
+        "पास सफलता वास्तविक सफल और कुल प्रयासों से निकाली गई है, राउंड किए प्रदाता अनुपात से नहीं। ब्राइटन के लिए एक विरोधी निशाने वाले शॉट पर एक सेव और पैलेस के लिए नौ पर पाँच सेव हैं। आत्मघाती गोल के कारण नौ निशाने वाले शॉट से पाँच खाए गोल सीधे घटाकर सेव गिनना गलत होगा।"
+      ]
+    },
+    {
+      "heading": "एक बड़ी जीत से क्या सिद्ध नहीं होता",
+      "paragraphs": [
+        "स्कोर और गोल क्रम स्पष्ट जीत का समर्थन करते हैं, किसी खास प्रेसिंग तकनीक का प्रमाण नहीं हैं। इंटरसेप्शन और टैकल दर प्रदाता की परिभाषा और खेल की स्थिति पर निर्भर हैं। इन्हें कुल रक्षात्मक गुणवत्ता की रैंकिंग के बजाय देखे गए आँकड़े समझें।"
+      ]
+    },
+    {
+      "heading": "स्रोत और अनुपलब्ध आँकड़े",
+      "paragraphs": [
+        "लीग पेज, दोनों क्लबों की रिपोर्ट और ESPN रिकॉर्ड मिलाए गए। सत्यापित इनपुट में xG, npxG, xA/xAG, PSxG, xT और PPDA नहीं थे और उन्हें गढ़ा नहीं गया। चित्र असली हाफ के गोल और आखिरी गोल तक स्कोर दिखाता है, अपेक्षित गोल या कब्ज़े की वक्ररेखा नहीं।"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "5–0 के आँकड़े, पाँच गोल, हाफ के गोल और स्कोर क्रम का अंग्रेज़ी चित्र।",
+      "caption": "असली गोल और अंतिम गोल तक स्कोर; xG वक्र नहीं। हर भाषा एक अंग्रेज़ी चित्र साझा करती है।"
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "पूरा मैच · वास्तविक गिनती और गणना दर",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "शॉट",
+        "unit": "count",
+        "home": 17,
+        "away": 5,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "निशाने पर शॉट",
+        "unit": "count",
+        "home": 9,
+        "away": 1,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "कॉर्नर",
+        "unit": "count",
+        "home": 8,
+        "away": 5,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "सफल पास",
+        "unit": "count",
+        "home": 440,
+        "away": 301,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "कुल पास",
+        "unit": "count",
+        "home": 516,
+        "away": 384,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "इंटरसेप्शन",
+        "unit": "count",
+        "home": 10,
+        "away": 9,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "फाउल",
+        "unit": "count",
+        "home": 13,
+        "away": 11,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "सेव",
+        "unit": "count",
+        "home": 1,
+        "away": 5,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "कब्ज़ा",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "पास सफलता",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "सफल टैकल / प्रयास",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "सेव प्रतिशत",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "पूरा मैच · वास्तविक गिनती और गणना दर",
+        "definition": "प्रदाता की परिभाषा लागू; गणना दर भविष्यवाणी नहीं है। Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}

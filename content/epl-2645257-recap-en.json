@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-en",
+  "slug": "epl-2645257-recap-en",
+  "platform": "github",
+  "status": "ready",
+  "language": "en",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "Brighton 5–0 Crystal Palace: three goals in ten minutes set the result",
+  "description": "Final and half-time scores, the five-goal timeline and comparative match data first; analysis follows without repeating the logistics.",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "The result in one line",
+      "paragraphs": [
+        "Brighton led by three inside ten minutes and added two after the break to beat Palace 5–0."
+      ]
+    },
+    {
+      "heading": "The decisive phase is visible in the timeline",
+      "paragraphs": [
+        "The table separates Canvot’s own goal from Brighton’s four scorers. Gómez’s long-range goal and Ayari’s finish followed quickly: the early collapse mattered more than the final goal alone. Palace’s official report also records Mateta hitting the crossbar after the break; a missed chance is not necessarily a shot on target."
+      ]
+    },
+    {
+      "heading": "The shooting gap exceeded the possession gap",
+      "paragraphs": [
+        "Possession was 57.2%–42.8%, while shots were 17–5 and shots on target 9–1. Brighton’s advantage extended beyond keeping the ball. Counts still do not measure shot difficulty, so without verified xG they cannot establish the scoring probability of each chance."
+      ]
+    },
+    {
+      "heading": "Passing and saves need their denominators",
+      "paragraphs": [
+        "Pass completion is calculated from actual completed and attempted passes, rather than a rounded provider ratio. Brighton made one save from one opposing shot on target; Palace made five from nine. The own goal explains why simply subtracting five goals conceded from nine shots on target would produce the wrong save count."
+      ]
+    },
+    {
+      "heading": "What one emphatic win does not prove",
+      "paragraphs": [
+        "The score and sequence support a convincing victory, but not a particular pressing mechanism. Interceptions and tackle rates depend on provider definitions and game state. Read them as observed match descriptions rather than a ranking of overall defensive quality."
+      ]
+    },
+    {
+      "heading": "Sources and unavailable metrics",
+      "paragraphs": [
+        "The league page, both club reports and ESPN observations were cross-checked. xG, npxG, xA/xAG, PSxG, xT and PPDA were absent from the verified input and were not invented. The image shows actual half-by-half goals and score checkpoints through the last goal, not expected-goals or possession-flow curves."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "English graphic of Brighton’s 5–0 win: paired statistics, five goals, half breakdown and score progression.",
+      "caption": "Actual goals and score checkpoints through the last goal, not an xG curve. One English image is shared by every language."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "Full match · observed counts and calculated rates",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "Shots",
+        "unit": "count",
+        "home": 17,
+        "away": 5,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "Shots on target",
+        "unit": "count",
+        "home": 9,
+        "away": 1,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "Corners",
+        "unit": "count",
+        "home": 8,
+        "away": 5,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "Completed passes",
+        "unit": "count",
+        "home": 440,
+        "away": 301,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "Attempted passes",
+        "unit": "count",
+        "home": 516,
+        "away": 384,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "Interceptions",
+        "unit": "count",
+        "home": 10,
+        "away": 9,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "Fouls",
+        "unit": "count",
+        "home": 13,
+        "away": 11,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "Saves",
+        "unit": "count",
+        "home": 1,
+        "away": 5,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "Possession",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "Pass completion",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "Successful tackles / attempts",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "Save percentage",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "match",
+        "definition": "Provider definitions apply; calculated rates are not model predictions. Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-pt-br",
+  "slug": "epl-2645257-recap-pt-br",
+  "platform": "github",
+  "status": "ready",
+  "language": "pt-BR",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "Brighton 5–0 Crystal Palace: três gols em dez minutos definiram o tom",
+  "description": "Placar final e do intervalo, linha do tempo dos cinco gols e estatísticas comparadas antes da análise, sem repetir os dados básicos.",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "O resultado em uma linha",
+      "paragraphs": [
+        "O Brighton abriu três gols de vantagem em dez minutos e acrescentou dois depois do intervalo para vencer o Palace por 5–0."
+      ]
+    },
+    {
+      "heading": "O momento decisivo está na linha do tempo",
+      "paragraphs": [
+        "A tabela separa o gol contra de Canvot dos quatro artilheiros do Brighton. O chute de longe de Gómez e o gol de Ayari vieram rapidamente: o colapso inicial importou mais que o último gol isolado. O relato oficial do Palace também registra a bola de Mateta no travessão no segundo tempo; uma chance perdida não é necessariamente um chute no alvo."
+      ]
+    },
+    {
+      "heading": "A diferença nos chutes superou a da posse",
+      "paragraphs": [
+        "A posse foi 57.2%–42.8%, os chutes 17–5 e os no alvo 9–1. A vantagem do Brighton foi além de segurar a bola. As contagens não medem a dificuldade dos chutes; sem xG verificado, não determinam a probabilidade de gol de cada chance."
+      ]
+    },
+    {
+      "heading": "Passes e defesas precisam de denominadores",
+      "paragraphs": [
+        "A precisão dos passes vem das contagens reais, não de proporções arredondadas. O Brighton teve uma defesa em um chute adversário no alvo; o Palace, cinco em nove. O gol contra explica por que subtrair simplesmente os cinco gols sofridos de nove chutes no alvo daria um total errado de defesas."
+      ]
+    },
+    {
+      "heading": "O que uma goleada não prova",
+      "paragraphs": [
+        "O placar e a sequência sustentam uma vitória convincente, mas não comprovam um mecanismo específico de pressão. Interceptações e taxa de desarmes dependem da definição do fornecedor e do estado do jogo. São descrições do observado, não uma classificação geral da defesa."
+      ]
+    },
+    {
+      "heading": "Fontes e métricas ausentes",
+      "paragraphs": [
+        "Foram comparados a página da liga, os relatos dos dois clubes e as observações da ESPN. xG, npxG, xA/xAG, PSxG, xT e PPDA não estavam disponíveis no conjunto verificado e não foram inventados. A imagem mostra gols por tempo e o placar até o último gol, não curvas de gols esperados ou posse."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "Gráfico inglês do 5–0 com estatísticas, cinco gols, tempos e evolução do placar.",
+      "caption": "Gols reais e placar até o último gol, não uma curva xG. Todas as línguas compartilham uma imagem inglesa."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "Jogo completo · contagens e taxas calculadas",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "Finalizações",
+        "unit": "count",
+        "home": 17,
+        "away": 5,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "No alvo",
+        "unit": "count",
+        "home": 9,
+        "away": 1,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "Escanteios",
+        "unit": "count",
+        "home": 8,
+        "away": 5,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "Passes certos",
+        "unit": "count",
+        "home": 440,
+        "away": 301,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "Passes tentados",
+        "unit": "count",
+        "home": 516,
+        "away": 384,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "Interceptações",
+        "unit": "count",
+        "home": 10,
+        "away": 9,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "Faltas",
+        "unit": "count",
+        "home": 13,
+        "away": 11,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "Defesas",
+        "unit": "count",
+        "home": 1,
+        "away": 5,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "Posse",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "Acerto de passe",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "Desarmes certos / tentativas",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "Taxa de defesas",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "Jogo completo · contagens e taxas calculadas",
+        "definition": "Vale a definição do fornecedor; taxas não são previsões. Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}

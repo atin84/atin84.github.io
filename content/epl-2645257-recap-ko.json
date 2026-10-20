@@ -1,0 +1,333 @@
+{
+  "id": "epl-2645257-recap-ko",
+  "slug": "epl-2645257-recap-ko",
+  "platform": "github",
+  "status": "ready",
+  "language": "ko",
+  "league": "EPL",
+  "match_id": "2645257",
+  "article_kind": "recap",
+  "translation_group": "epl-2645257-recap",
+  "canonical_group": "EPL:2026-27:league:2645257:recap",
+  "quickiris_revision": "623b2c7a699b27ed822308a1c4fe4bb261d8cfeb7c161de79138d714b2e825d6",
+  "title": "브라이턴 5–0 팰리스: 시작 10분의 세 골이 만든 완승",
+  "description": "최종·전반 스코어와 다섯 골의 시간표, 양팀 경기 지표를 표로 정리했습니다. 경기 정보의 반복 설명 대신 승부의 의미를 분석합니다.",
+  "published_at": "2026-10-20T23:00:33.745625+00:00",
+  "updated_at": "2026-10-20T23:00:33.745625+00:00",
+  "labels": [
+    "EPL",
+    "recap"
+  ],
+  "sections": [
+    {
+      "heading": "한 줄 결과",
+      "paragraphs": [
+        "브라이턴은 시작 10분 만에 세 골 차를 만들고 후반 두 골을 더해 팰리스에 5–0으로 승리했습니다."
+      ]
+    },
+    {
+      "heading": "득점표에서 먼저 읽을 승부처",
+      "paragraphs": [
+        "타임라인은 캉보의 자책골과 브라이턴 선수들의 네 골을 구분합니다. 고메스의 장거리 골과 아야리의 골이 빠르게 이어진 초반 붕괴가 마지막 쐐기골보다 더 중요한 장면입니다. 팰리스 공식 보고서에는 후반 마테타의 크로스바 슈팅도 나옵니다. 골대를 맞힌 기회와 유효슈팅은 같은 집계가 아닙니다."
+      ]
+    },
+    {
+      "heading": "점유율보다 크게 벌어진 슈팅 격차",
+      "paragraphs": [
+        "점유율은 57.2%–42.8%였지만 슈팅은 17–5, 유효슈팅은 9–1이었습니다. 브라이턴의 우위가 공을 오래 소유한 데 그치지 않았다는 근거입니다. 다만 횟수만으로 슈팅 난도나 개별 기회의 득점 가능성까지 알 수는 없어, 확인하지 못한 xG 대신 해석하지 않습니다."
+      ]
+    },
+    {
+      "heading": "패스와 선방률은 분모까지 확인",
+      "paragraphs": [
+        "패스 성공률은 공급자가 반올림해 보여준 비율 대신 실제 성공·시도 횟수로 계산했습니다. 골키퍼 수치는 브라이턴이 상대 유효슈팅 1회에서 선방 1회, 팰리스가 9회에서 5회입니다. 실점 다섯 골 중 하나가 자책골이므로, 유효슈팅 9에서 실점 5를 단순히 빼면 팰리스의 선방 수를 잘못 계산하게 됩니다."
+      ]
+    },
+    {
+      "heading": "대승 한 번으로 단정하지 않을 것",
+      "paragraphs": [
+        "스코어와 득점 순서는 브라이턴의 분명한 승리를 보여주지만 특정 압박 방식의 효과까지 증명하지는 않습니다. 인터셉트와 태클 성공률도 공급자의 정의와 경기 상황에 영향을 받습니다. 전체 수비력의 순위표보다는 이번 경기에서 관측된 수치로 읽는 편이 정확합니다."
+      ]
+    },
+    {
+      "heading": "출처와 확보하지 못한 지표",
+      "paragraphs": [
+        "리그 공식 경기 페이지, 양 구단 보고서, ESPN 경기 기록을 대조했습니다. 확인한 입력에 없던 xG·npxG·xA/xAG·PSxG·xT·PPDA는 임의로 채우지 않았습니다. 이미지는 실제 전후반 골 수와 마지막 득점까지의 스코어 변화이며, 기대득점 곡선이나 점유 주도권 그래프가 아닙니다."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "recap-fixture",
+      "provider": "Premier League",
+      "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+      "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+    },
+    {
+      "id": "recap-report",
+      "provider": "Brighton & Hove Albion",
+      "title": "Brighton — Albion 5 Crystal Palace 0",
+      "url": "https://www.brightonandhovealbion.com/media-article/mft-match-report-premier-league-albion-v-crystal-palace"
+    },
+    {
+      "id": "palace-report",
+      "provider": "Crystal Palace",
+      "title": "Crystal Palace — match report and goal timeline",
+      "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+    },
+    {
+      "id": "recap-stats",
+      "provider": "ESPN",
+      "title": "ESPN — Brighton v Crystal Palace match statistics",
+      "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+    },
+    {
+      "id": "old-preview",
+      "provider": "QuickIris",
+      "title": "QuickIris — earlier Brighton–Palace preview",
+      "url": "https://atin84.github.io/posts/epl-2645257-preview-en/"
+    }
+  ],
+  "match_overview": {
+    "match_id": "2645257",
+    "competition": "Premier League",
+    "season": "2026/27",
+    "status": "final",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "venue": "American Express Stadium (Amex)",
+    "venue_timezone": "Europe/London",
+    "start_utc": "2026-10-18T13:00:00Z",
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "sources": [
+      {
+        "title": "Premier League — Brighton v Crystal Palace, match 2645257",
+        "url": "https://www.premierleague.com/en/match/2645257/brighton-and-hove-albion-vs-crystal-palace"
+      },
+      {
+        "title": "Crystal Palace — match report and goal timeline",
+        "url": "https://www.cpfc.co.uk/news/match-reports/match-report-highlights-palace-beaten-by-brighton/"
+      }
+    ],
+    "final_score": {
+      "home": 5,
+      "away": 0
+    },
+    "halftime_score": {
+      "home": 3,
+      "away": 0
+    },
+    "goals": [
+      {
+        "minute": 4,
+        "period": 1,
+        "scorer": "Jaydee Canvot",
+        "team": "home",
+        "own_goal": true,
+        "score": {
+          "home": 1,
+          "away": 0
+        }
+      },
+      {
+        "minute": 7,
+        "period": 1,
+        "scorer": "Diego Gómez",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 2,
+          "away": 0
+        }
+      },
+      {
+        "minute": 10,
+        "period": 1,
+        "scorer": "Yasin Ayari",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 3,
+          "away": 0
+        }
+      },
+      {
+        "minute": 49,
+        "period": 2,
+        "scorer": "Charalambos Kostoulas",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 4,
+          "away": 0
+        }
+      },
+      {
+        "minute": 84,
+        "period": 2,
+        "scorer": "Jack Hinshelwood",
+        "team": "home",
+        "own_goal": false,
+        "score": {
+          "home": 5,
+          "away": 0
+        }
+      }
+    ]
+  },
+  "figures": [
+    {
+      "src": "https://atin84.github.io/assets/charts/epl-2645257-recap-summary-en.svg",
+      "alt": "브라이턴의 5–0 승리 지표, 다섯 득점, 전후반 골과 스코어 변화를 보여주는 공통 영어 이미지.",
+      "caption": "전후반 실제 골과 마지막 득점까지의 스코어 변화입니다. xG 곡선이 아니며 모든 언어가 같은 영어 이미지를 공유합니다."
+    }
+  ],
+  "football_statistics": {
+    "as_of": "2026-10-20T22:29:50.420888+00:00",
+    "scope": "전체 경기 · 관측 횟수와 계산한 비율",
+    "home": "Brighton & Hove Albion",
+    "away": "Crystal Palace",
+    "sources": [
+      {
+        "id": "recap-stats",
+        "provider": "ESPN",
+        "title": "ESPN — Brighton v Crystal Palace match statistics",
+        "url": "https://www.espn.com/soccer/matchstats/_/gameId/401879261"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "shots",
+        "name": "슈팅",
+        "unit": "회",
+        "home": 17,
+        "away": 5,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "shots_on_target",
+        "name": "유효슈팅",
+        "unit": "회",
+        "home": 9,
+        "away": 1,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "corners",
+        "name": "코너킥",
+        "unit": "회",
+        "home": 8,
+        "away": 5,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "creation",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_completed",
+        "name": "성공 패스",
+        "unit": "회",
+        "home": 440,
+        "away": 301,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "passes_attempted",
+        "name": "시도 패스",
+        "unit": "회",
+        "home": 516,
+        "away": 384,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "interceptions",
+        "name": "인터셉트",
+        "unit": "회",
+        "home": 10,
+        "away": 9,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "fouls",
+        "name": "파울",
+        "unit": "회",
+        "home": 13,
+        "away": 11,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "saves",
+        "name": "선방",
+        "unit": "회",
+        "home": 1,
+        "away": 5,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported match count; same-match comparison.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "possession_pct",
+        "name": "점유율",
+        "unit": "%",
+        "home": 57.2,
+        "away": 42.8,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider-reported possession share, not field tilt.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "pass_completion_pct",
+        "name": "패스 성공률",
+        "unit": "%",
+        "home": 85.27,
+        "away": 78.39,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Completed/attempted passes × 100: 440/516 and 301/384; rounded to two decimals.",
+        "category": "passing",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "tackles_won_pct",
+        "name": "성공 태클 / 시도",
+        "unit": "%",
+        "home": 41.67,
+        "away": 50,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider effectiveTackles/totalTackles: 5/12 and 6/12. Definitions may differ between providers.",
+        "category": "defensive",
+        "source_id": "recap-stats"
+      },
+      {
+        "id": "save_pct",
+        "name": "선방률",
+        "unit": "%",
+        "home": 100,
+        "away": 55.56,
+        "period": "전체 경기 · 관측 횟수와 계산한 비율",
+        "definition": "공급자 정의를 따릅니다. 계산한 비율은 예측 모델이 아닙니다. Provider saves/opposing shots on target: 1/1 and 5/9. Own goal is not a goal from a credited shot on target; no PSxG inference.",
+        "category": "goalkeeping",
+        "source_id": "recap-stats"
+      }
+    ]
+  }
+}
