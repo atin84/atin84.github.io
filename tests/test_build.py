@@ -359,7 +359,8 @@ class MultilingualBuildTests(unittest.TestCase):
         n = builder.normalize_article(raw, Path("test.json"))
         html = builder.preview_comparison_html(n["preview_comparison"], "en")
         self.assertIn("No verified games", html)
-        self.assertNotIn("0%", html)
+        self.assertNotIn('class="qi-big-rate">0%', html)
+        self.assertNotIn('aria-label="Blue Win rate"', html)
 
 
 
