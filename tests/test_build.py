@@ -312,6 +312,8 @@ class MultilingualBuildTests(unittest.TestCase):
         self.assertNotIn("Rival <A>", page)
         self.assertIn('role="meter"', page)
         self.assertIn("Historical rates, not predictions", page)
+        self.assertLess(page.index("Verified nba-preview text in en."), page.index('class="qi-comparison"'))
+        self.assertIn('class="qi-result-score">102–99', page)
 
     def test_preview_comparison_checks_phase_restricted_article_and_score(self):
         raw = self.raw()
