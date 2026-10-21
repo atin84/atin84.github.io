@@ -163,6 +163,11 @@ class NoRedirects(urllib.request.HTTPRedirectHandler):
 class RemotePost:
     post_id: str
     status: str
+    url: str = ""
+    title: str = ""
+    content: str = ""
+    labels: tuple[str, ...] = ()
+    published: str | None = None
 
 
 class BloggerClient:
@@ -312,12 +317,26 @@ class BloggerClient:
         checked_id(post_id, "Post ID")
         return self._call("GET", f"/{post_id}", query={"view": "AUTHOR"}, operation="Read existing post")
 
-    def patch(self, post_id: str, post: PreparedPost, expected_hash: str) -> RemotePost:
-        """Explicit correction only; preserve post ID. Caller keeps one persistent writer.
+    @staticmethod
+    def _remote_post(result: dict, post_id: str, expected_status: str, *, expected=None) -> RemotePost:
+        status = result.get("status", expected_status.upper())
+        if result.get("id") != post_id or not isinstance(status, str) or status.lower() != expected_status:
+            raise PublisherError("Mutation response could not be verified; outcome is uncertain.", uncertain=True)
+        if expected is not None:
+            body = expected.body()
+            if any(result.get(k) != body[k] for k in ("title", "content", "labels")):
+                raise PublisherError("Mutation response body was not preserved; outcome is uncertain.", uncertain=True)
+        url = result.get("url", "")
+        if not isinstance(url, str):
+            url = ""
+        labels = result.get("labels", [])
+        if not isinstance(labels, list) or any(not isinstance(x, str) for x in labels):
+            labels = []
+        return RemotePost(post_id, expected_status, url, str(result.get("title", "")),
+                          str(result.get("content", "")), tuple(labels), result.get("published"))
 
-        Compare the live body before the write; never reinterpret a failed PATCH as
-        authorization to insert. The pipeline also binds this action to release SHA.
-        """
+    def patch(self, post_id: str, post: PreparedPost, expected_hash: str) -> RemotePost:
+        """Explicit correction only; preserve post ID with one CAS read before PATCH."""
         current = self.get_post(post_id)
         material = {k: current.get(k) for k in ("title", "content", "labels")}
         digest = hashlib.sha256(json.dumps(material, ensure_ascii=False, sort_keys=True,
@@ -325,9 +344,9 @@ class BloggerClient:
         if digest != expected_hash:
             raise PublisherError("Existing post changed since preflight; correction held")
         result = self._call("PATCH", f"/{post_id}", body=post.body(), operation="Update existing post")
-        if result.get("id") != post_id or set(MARKER_RE.findall(result.get("content", ""))) != {post.key}:
+        if set(MARKER_RE.findall(result.get("content", ""))) != {post.key}:
             raise PublisherError("Correction response uncertain; do not insert another post", uncertain=True)
-        return RemotePost(post_id, str(result.get("status", "LIVE")).lower())
+        return self._remote_post(result, post_id, str(result.get("status", "LIVE")).lower(), expected=post)
 
     def insert_draft(self, post: PreparedPost) -> RemotePost:
         result = self._call("POST", "", query={"isDraft": "true"}, body=post.body(), operation="Insert draft")
@@ -336,20 +355,16 @@ class BloggerClient:
         except PublisherError:
             raise PublisherError("Draft creation returned no valid ID; outcome is uncertain.", uncertain=True) from None
         content = result.get("content")
-        status = result.get("status", "DRAFT")
-        if (not isinstance(content, str) or set(MARKER_RE.findall(content)) != {post.key}
-                or not isinstance(status, str) or status.upper() != "DRAFT"):
+        if not isinstance(content, str) or set(MARKER_RE.findall(content)) != {post.key}:
             raise PublisherError("Draft identity could not be verified; do not recreate the post.", uncertain=True)
-        return RemotePost(post_id, "draft")
+        return self._remote_post(result, post_id, "draft", expected=post)
 
     def publish(self, post_id: str) -> RemotePost:
         checked_id(post_id, "Post ID")
-        # posts.publish requires an empty body, not a JSON object.
+        # posts.publish requires an empty body, not a JSON object. The returned
+        # resource is authoritative enough to reuse its permalink without a GET.
         result = self._call("POST", f"/{post_id}/publish", operation="Publish draft")
-        status = result.get("status", "LIVE")
-        if result.get("id") != post_id or not isinstance(status, str) or status.upper() != "LIVE":
-            raise PublisherError("Publish response could not be verified; outcome is uncertain.", uncertain=True)
-        return RemotePost(post_id, "live")
+        return self._remote_post(result, post_id, "live")
 
 
 def _private_directory(path: Path) -> Path:
