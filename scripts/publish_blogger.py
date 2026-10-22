@@ -359,6 +359,25 @@ class BloggerClient:
             raise PublisherError("Draft identity could not be verified; do not recreate the post.", uncertain=True)
         return self._remote_post(result, post_id, "draft", expected=post)
 
+    def insert_live(self, post: PreparedPost) -> RemotePost:
+        """Insert a new live post in one mutation and verify the returned resource.
+
+        Blogger posts.insert defaults isDraft=false; pass it explicitly so new
+        reviewed posts do not require a second posts.publish mutation.
+        """
+        result = self._call("POST", "", query={"isDraft": "false"}, body=post.body(),
+                            operation="Insert live post")
+        try:
+            post_id = checked_id(result.get("id"), "Created post ID")
+        except PublisherError:
+            raise PublisherError("Live creation returned no valid ID; outcome is uncertain.",
+                                 uncertain=True) from None
+        content = result.get("content")
+        if not isinstance(content, str) or set(MARKER_RE.findall(content)) != {post.key}:
+            raise PublisherError("Live post identity could not be verified; do not recreate the post.",
+                                 uncertain=True)
+        return self._remote_post(result, post_id, "live", expected=post)
+
     def publish(self, post_id: str) -> RemotePost:
         checked_id(post_id, "Post ID")
         # posts.publish requires an empty body, not a JSON object. The returned
