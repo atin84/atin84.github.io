@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="839" viewBox="0 0 960 839" role="img" aria-labelledby="chart-title chart-description" lang="en" xml:lang="en">
+<title id="chart-title">Ipswich Town — Nottingham Forest</title>
+<desc id="chart-description">Verified match data summary </desc>
+<metadata>{"translation_group":"EPL:2026-27:league:2645271:preview","chart":null,"source_urls":["https://www.premierleague.com/en/match/2645271/ipswich-town-vs-nottingham-forest/overview","https://www.premierleague.com/en/matches/premier-league/2026-27/matchweek-7","https://www.premierleague.com/es/match/2645271/ipswich-town-vs-nottingham-forest/table","https://raw.githubusercontent.com/openfootball/england/master/2026-27/1-premierleague.txt"]}</metadata>
+<defs><style>text{font-family:"DejaVu Sans",Arial,sans-serif}</style></defs>
+<rect width="960" height="839" fill="#FFFFFF"/>
+<text id="t1" x="64" y="48" font-size="22" font-weight="700" fill="#087D85" text-anchor="start">QUICKIRIS  /  EPL</text>
+<text id="t2" x="64" y="114" font-size="42" font-weight="700" fill="#172F40" text-anchor="start">Ipswich Town — Nottingham Forest</text>
+<text id="t3" x="64" y="172.44" font-size="27" font-weight="400" fill="#536C7B" text-anchor="start">2026-10-23 19:00 UTC</text>
+<text id="t4" x="64" y="214.59" font-size="24" font-weight="700" fill="#087D85" text-anchor="start">Ipswich Town</text>
+<text id="t5" x="896" y="214.59" font-size="24" font-weight="700" fill="#3762B4" text-anchor="end">Nottingham Forest</text>
+<rect x="40" y="269.59" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t6" x="58" y="299.59" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Comparable team metrics</text>
+<text id="t7" x="64" y="342.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">League goals scored</text>
+<text id="t8" x="64" y="366.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">(goals)</text>
+<rect x="320" y="347.59" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t9" x="780" y="362.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">11</text>
+<rect x="320" y="372.59" width="193.182" height="16" rx="3" fill="#3762B4"/>
+<text id="t10" x="780" y="387.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">5</text>
+<text id="t11" x="64" y="427.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">League goals</text>
+<text id="t12" x="64" y="451.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">conceded (goals)</text>
+<rect x="320" y="432.59" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t13" x="780" y="447.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">15</text>
+<rect x="320" y="457.59" width="255" height="16" rx="3" fill="#3762B4"/>
+<text id="t14" x="780" y="472.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">9</text>
+<rect x="40" y="511.59" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t15" x="58" y="541.59" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Strength profile</text>
+<text id="t16" x="64" y="584.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Season goals scored</text>
+<text id="t17" x="64" y="608.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">(goals)</text>
+<rect x="320" y="589.59" width="292.188" height="16" rx="3" fill="#087D85"/>
+<text id="t18" x="780" y="604.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">11</text>
+<rect x="320" y="614.59" width="132.812" height="16" rx="3" fill="#3762B4"/>
+<text id="t19" x="780" y="629.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">5</text>
+<text id="t20" x="64" y="669.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Season goals</text>
+<text id="t21" x="64" y="693.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">allowed (goals)</text>
+<rect x="320" y="674.59" width="398.438" height="16" rx="3" fill="#087D85"/>
+<text id="t22" x="780" y="689.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">15</text>
+<rect x="320" y="699.59" width="239.062" height="16" rx="3" fill="#3762B4"/>
+<text id="t23" x="780" y="714.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">9</text>
+<line x1="64" y1="753.59" x2="896" y2="753.59" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t24" x="64" y="788.59" font-size="20" font-weight="400" fill="#536C7B" text-anchor="start">QuickIris · verified source snapshot</text>
+</svg>
