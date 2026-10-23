@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="839" viewBox="0 0 960 839" role="img" aria-labelledby="chart-title chart-description" lang="en" xml:lang="en">
+<title id="chart-title">Boston Celtics — New York Knicks</title>
+<desc id="chart-description">Verified match data summary </desc>
+<metadata>{"translation_group":"NBA:2026-27:regular:0022600008:preview","chart":null,"source_urls":["https://www.nba.com/game/nyk-vs-bos-0022600008","https://www.nba.com/game/bos-vs-det-0022600001","https://www.nba.com/game/phi-vs-nyk-0022600002"]}</metadata>
+<defs><style>text{font-family:"DejaVu Sans",Arial,sans-serif}</style></defs>
+<rect width="960" height="839" fill="#FFFFFF"/>
+<text id="t1" x="64" y="48" font-size="22" font-weight="700" fill="#087D85" text-anchor="start">QUICKIRIS  /  NBA</text>
+<text id="t2" x="64" y="114" font-size="42" font-weight="700" fill="#172F40" text-anchor="start">Boston Celtics — New York Knicks</text>
+<text id="t3" x="64" y="172.44" font-size="27" font-weight="400" fill="#536C7B" text-anchor="start">2026-10-23 23:00 UTC</text>
+<text id="t4" x="64" y="214.59" font-size="24" font-weight="700" fill="#087D85" text-anchor="start">Boston Celtics</text>
+<text id="t5" x="896" y="214.59" font-size="24" font-weight="700" fill="#3762B4" text-anchor="end">New York Knicks</text>
+<rect x="40" y="269.59" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t6" x="58" y="299.59" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Comparable team metrics</text>
+<text id="t7" x="64" y="342.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Points scored in</text>
+<text id="t8" x="64" y="366.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">opener (points)</text>
+<rect x="320" y="347.59" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t9" x="780" y="362.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">113</text>
+<rect x="320" y="372.59" width="376.106" height="16" rx="3" fill="#3762B4"/>
+<text id="t10" x="780" y="387.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">100</text>
+<text id="t11" x="64" y="427.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Points conceded in</text>
+<text id="t12" x="64" y="451.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">opener (points)</text>
+<rect x="320" y="432.59" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t13" x="780" y="447.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">121</text>
+<rect x="320" y="457.59" width="372.314" height="16" rx="3" fill="#3762B4"/>
+<text id="t14" x="780" y="472.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">106</text>
+<rect x="40" y="511.59" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t15" x="58" y="541.59" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Strength profile</text>
+<text id="t16" x="64" y="584.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Opener points</text>
+<text id="t17" x="64" y="608.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">scored (points)</text>
+<rect x="320" y="589.59" width="369.423" height="16" rx="3" fill="#087D85"/>
+<text id="t18" x="780" y="604.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">113</text>
+<rect x="320" y="614.59" width="326.923" height="16" rx="3" fill="#3762B4"/>
+<text id="t19" x="780" y="629.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">100</text>
+<text id="t20" x="64" y="669.59" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Opener points</text>
+<text id="t21" x="64" y="693.74" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">allowed (points)</text>
+<rect x="320" y="674.59" width="395.577" height="16" rx="3" fill="#087D85"/>
+<text id="t22" x="780" y="689.59" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">121</text>
+<rect x="320" y="699.59" width="346.538" height="16" rx="3" fill="#3762B4"/>
+<text id="t23" x="780" y="714.59" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">106</text>
+<line x1="64" y1="753.59" x2="896" y2="753.59" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t24" x="64" y="788.59" font-size="20" font-weight="400" fill="#536C7B" text-anchor="start">QuickIris · verified source snapshot</text>
+</svg>
