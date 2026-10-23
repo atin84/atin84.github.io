@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="2093" viewBox="0 0 960 2093" role="img" aria-labelledby="chart-title chart-description" lang="en" xml:lang="en">
+<title id="chart-title">Washington Wizards — Milwaukee Bucks</title>
+<desc id="chart-description">Verified match data summary </desc>
+<metadata>{"translation_group":"NBA:2026-27:regular:0022600086:recap","chart":null,"source_urls":["https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261021&amp;limit=300","https://www.nba.com/game/mil-vs-was-0022600086"]}</metadata>
+<defs><style>text{font-family:"DejaVu Sans",Arial,sans-serif}</style></defs>
+<rect width="960" height="2093" fill="#FFFFFF"/>
+<text id="t1" x="64" y="48" font-size="22" font-weight="700" fill="#087D85" text-anchor="start">QUICKIRIS  /  NBA</text>
+<text id="t2" x="64" y="114" font-size="42" font-weight="700" fill="#172F40" text-anchor="start">Washington Wizards — Milwaukee</text>
+<text id="t3" x="64" y="169.44" font-size="42" font-weight="700" fill="#172F40" text-anchor="start">Bucks</text>
+<text id="t4" x="64" y="227.88" font-size="27" font-weight="400" fill="#536C7B" text-anchor="start">2026-10-21 23:00 UTC</text>
+<text id="t5" x="64" y="270.03" font-size="24" font-weight="700" fill="#087D85" text-anchor="start">Washington Wizards</text>
+<text id="t6" x="896" y="270.03" font-size="24" font-weight="700" fill="#3762B4" text-anchor="end">Milwaukee Bucks</text>
+<text id="t7" x="480" y="335.03" font-size="52" font-weight="700" fill="#172F40" text-anchor="middle">128 — 116</text>
+<rect x="40" y="390.03" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t8" x="58" y="420.03" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Match statistics</text>
+<text id="t9" x="64" y="463.03" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">3-point makes</text>
+<text id="t10" x="64" y="487.18" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">(count)</text>
+<rect x="320" y="468.03" width="170" height="16" rx="3" fill="#087D85"/>
+<text id="t11" x="780" y="483.03" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">6</text>
+<rect x="320" y="493.03" width="425" height="16" rx="3" fill="#3762B4"/>
+<text id="t12" x="780" y="508.03" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">15</text>
+<text id="t13" x="64" y="548.03" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Rebounds (count)</text>
+<rect x="320" y="553.03" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t14" x="780" y="568.03" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">44</text>
+<rect x="320" y="578.03" width="396.023" height="16" rx="3" fill="#3762B4"/>
+<text id="t15" x="780" y="593.03" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">41</text>
+<text id="t16" x="64" y="633.03" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Assists (count)</text>
+<rect x="320" y="638.03" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t17" x="780" y="653.03" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">28</text>
+<rect x="320" y="663.03" width="425" height="16" rx="3" fill="#3762B4"/>
+<text id="t18" x="780" y="678.03" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">28</text>
+<text id="t19" x="64" y="718.03" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Turnovers (count)</text>
+<rect x="320" y="723.03" width="292.188" height="16" rx="3" fill="#087D85"/>
+<text id="t20" x="780" y="738.03" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">11</text>
+<rect x="320" y="748.03" width="425" height="16" rx="3" fill="#3762B4"/>
+<text id="t21" x="780" y="763.03" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">16</text>
+<rect x="40" y="802.03" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t22" x="58" y="832.03" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Key incidents</text>
+<text id="t23" x="64" y="874.03" font-size="23" font-weight="400" fill="#087D85" text-anchor="start">12 min</text>
+<text id="t24" x="210" y="875.03" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Quarter 1 end (score checkpoint)</text>
+<text id="t25" x="64" y="906.23" font-size="23" font-weight="400" fill="#087D85" text-anchor="start">24 min</text>
+<text id="t26" x="210" y="907.23" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Quarter 2 end (score checkpoint)</text>
+<text id="t27" x="64" y="938.43" font-size="23" font-weight="400" fill="#087D85" text-anchor="start">36 min</text>
+<text id="t28" x="210" y="939.43" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Quarter 3 end (score checkpoint)</text>
+<text id="t29" x="64" y="970.63" font-size="23" font-weight="400" fill="#087D85" text-anchor="start">48 min</text>
+<text id="t30" x="210" y="971.63" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Quarter 4 end (score checkpoint)</text>
+<rect x="40" y="1002.83" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t31" x="58" y="1032.83" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Quarter / overtime scoring</text>
+<text id="t32" x="64" y="1075.83" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Quarter 1 (points)</text>
+<rect x="320" y="1080.83" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t33" x="780" y="1095.83" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">25</text>
+<rect x="320" y="1105.83" width="391" height="16" rx="3" fill="#3762B4"/>
+<text id="t34" x="780" y="1120.83" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">23</text>
+<text id="t35" x="64" y="1160.83" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Quarter 2 (points)</text>
+<rect x="320" y="1165.83" width="334.848" height="16" rx="3" fill="#087D85"/>
+<text id="t36" x="780" y="1180.83" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">26</text>
+<rect x="320" y="1190.83" width="425" height="16" rx="3" fill="#3762B4"/>
+<text id="t37" x="780" y="1205.83" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">33</text>
+<text id="t38" x="64" y="1245.83" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Quarter 3 (points)</text>
+<rect x="320" y="1250.83" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t39" x="780" y="1265.83" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">39</text>
+<rect x="320" y="1275.83" width="403.205" height="16" rx="3" fill="#3762B4"/>
+<text id="t40" x="780" y="1290.83" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">37</text>
+<text id="t41" x="64" y="1330.83" font-size="21" font-weight="400" fill="#172F40" text-anchor="start">Quarter 4 (points)</text>
+<rect x="320" y="1335.83" width="425" height="16" rx="3" fill="#087D85"/>
+<text id="t42" x="780" y="1350.83" font-size="21" font-weight="400" fill="#087D85" text-anchor="start">38</text>
+<rect x="320" y="1360.83" width="257.237" height="16" rx="3" fill="#3762B4"/>
+<text id="t43" x="780" y="1375.83" font-size="21" font-weight="400" fill="#3762B4" text-anchor="start">23</text>
+<rect x="40" y="1414.83" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t44" x="58" y="1444.83" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Score progression · checkpoints</text>
+<line x1="105" y1="1666.83" x2="875" y2="1666.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t45" x="80" y="1672.83" font-size="18" font-weight="400" fill="#172F40" text-anchor="end">0</text>
+<line x1="105" y1="1621.83" x2="875" y2="1621.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t46" x="80" y="1627.83" font-size="18" font-weight="400" fill="#172F40" text-anchor="end">32</text>
+<line x1="105" y1="1576.83" x2="875" y2="1576.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t47" x="80" y="1582.83" font-size="18" font-weight="400" fill="#172F40" text-anchor="end">64</text>
+<line x1="105" y1="1531.83" x2="875" y2="1531.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t48" x="80" y="1537.83" font-size="18" font-weight="400" fill="#172F40" text-anchor="end">96</text>
+<line x1="105" y1="1486.83" x2="875" y2="1486.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t49" x="80" y="1492.83" font-size="18" font-weight="400" fill="#172F40" text-anchor="end">128</text>
+<polyline points="105,1666.83 105,1666.83 297.5,1666.83 297.5,1631.67 490,1631.67 490,1595.11 682.5,1595.11 682.5,1540.27 875,1540.27 875,1486.83" fill="none" stroke="#087D85" stroke-width="4"/>
+<polyline points="105,1666.83 105,1666.83 297.5,1666.83 297.5,1634.49 490,1634.49 490,1588.08 682.5,1588.08 682.5,1536.05 875,1536.05 875,1503.71" fill="none" stroke="#3762B4" stroke-width="4"/>
+<text id="t50" x="105" y="1696.83" font-size="19" font-weight="400" fill="#172F40" text-anchor="middle">0</text>
+<text id="t51" x="490" y="1696.83" font-size="19" font-weight="400" fill="#172F40" text-anchor="middle">24</text>
+<text id="t52" x="875" y="1696.83" font-size="19" font-weight="400" fill="#172F40" text-anchor="middle">48</text>
+<rect x="40" y="1751.83" width="880" height="42" rx="8" fill="#EAF2F6"/>
+<text id="t53" x="58" y="1781.83" font-size="24" font-weight="700" fill="#172F40" text-anchor="start">Scoring and key performers</text>
+<text id="t54" x="64" y="1823.83" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Anthony Davis</text>
+<text id="t55" x="780" y="1823.83" font-size="23" font-weight="400" fill="#087D85" text-anchor="end">34 points</text>
+<text id="t56" x="64" y="1869.83" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Trae Young</text>
+<text id="t57" x="780" y="1869.83" font-size="23" font-weight="400" fill="#087D85" text-anchor="end">20 points</text>
+<text id="t58" x="64" y="1915.83" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Tyler Herro</text>
+<text id="t59" x="780" y="1915.83" font-size="23" font-weight="400" fill="#3762B4" text-anchor="end">24 points</text>
+<text id="t60" x="64" y="1961.83" font-size="24" font-weight="400" fill="#172F40" text-anchor="start">Jaime Jaquez Jr.</text>
+<text id="t61" x="780" y="1961.83" font-size="23" font-weight="400" fill="#3762B4" text-anchor="end">22 points</text>
+<line x1="64" y1="2007.83" x2="896" y2="2007.83" stroke="#D6E2E8" stroke-width="2"/>
+<text id="t62" x="64" y="2042.83" font-size="20" font-weight="400" fill="#536C7B" text-anchor="start">QuickIris · verified source snapshot</text>
+</svg>
